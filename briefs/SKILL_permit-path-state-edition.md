@@ -51,4 +51,4 @@ Concise and direct; no em or en dashes anywhere; verify on the web; report only 
 
 ## App URL and owner reminders
 - The app URL is final: https://permit-path-practice.lovable.app (`app_url_final: true`). Every build must pass QA with no exceptions. Never change the URL without rebuilding every finished state.
-- When the last of the owner's planned state editions is done, remind the owner to upload all EPUBs to the app's `ebooks` bucket (`XX.epub`), and list them. Until then, list the pending EPUBs in each state report and do not nag.
+- When the last of the owner's planned state editions is done, remind the owner to upload all EPUBs to the app's `ebooks` bucket (`XX.epub`), listing every EPUB with its target file name. Do not raise it in earlier state reports.
