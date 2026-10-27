@@ -58,7 +58,8 @@ section.chapter h2[id$="-quiz"] { break-before: page; }
 h3[id$="-quiz-answers"] { break-before: page; }
 
 .fig { margin: 1em auto; text-align: center; break-inside: avoid; }
-.fig svg { width: 3.6in; height: auto; max-width: 100%; }
+.fig svg { width: 100%; max-width: 4.6in; height: auto; display: block; margin: 0 auto; }
+.fig-cap { font-family: "Inter"; font-weight: 500; font-size: 8.4pt; line-height: 1.4; color: #333; margin-top: 5px; text-align: center; }
 .url { white-space: nowrap; hyphens: none; font-weight: 700; }
 
 .practice-card, .app-box { border: 1.8pt solid #000; margin: 1.6em 0 0.4em; break-inside: avoid; font-family: "Inter"; }

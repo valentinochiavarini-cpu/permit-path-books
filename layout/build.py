@@ -25,7 +25,10 @@ def md_to_html(md):
     out = re.sub(r"<blockquote>(.*?)</blockquote>", callout, out, flags=re.S)
 
     def fig(m):
-        return f'<div class="fig">{(HERE / "fig" / m.group(1)).read_text()}</div>'
+        cap = m.group(2) if m.lastindex and m.lastindex >= 2 and m.group(2) else ""
+        cap_html = f'<div class="fig-cap">{cap}</div>' if cap.strip() else ""
+        return f'<div class="fig">{(HERE / "fig" / m.group(1)).read_text()}{cap_html}</div>'
+    out = re.sub(r'<figure>\s*<img src="fig/([a-z0-9_]+\.svg)"[^>]*>\s*<figcaption[^>]*>(.*?)</figcaption>\s*</figure>', fig, out, flags=re.S)
     out = re.sub(r'<p>\s*<img src="fig/([a-z0-9_]+\.svg)"[^>]*>\s*</p>', fig, out)
 
     hm = re.search(r'<h1 id="[^"]*">\s*Chapter\s+(\d+):', out)

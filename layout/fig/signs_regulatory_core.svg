@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 330" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure style: real MUTCD colors (they print as distinct grays), black outlines, labels in Inter 11px below each sign -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+
+  <!-- 1 Stop: red octagon, white border, white letters -->
+  <g transform="translate(77,70)">
+    <polygon points="-24.9,-60 24.9,-60 60,-24.9 60,24.9 24.9,60 -24.9,60 -60,24.9 -60,-24.9" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+    <polygon points="-22.8,-55 22.8,-55 55,-22.8 55,22.8 22.8,55 -22.8,55 -55,22.8 -55,-22.8" fill="#C8102E"/>
+    <text x="0" y="10" font-size="30" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="1">STOP</text>
+  </g>
+  <text class="lbl" x="77" y="150">Stop</text>
+  <text class="sub" x="77" y="163">Red octagon</text>
+
+  <!-- 2 Yield: downward triangle, red border, white center -->
+  <g transform="translate(230,62)">
+    <polygon points="-62,-48 62,-48 0,58" fill="#C8102E" stroke="#1c1c1c" stroke-width="1"/>
+    <polygon points="-38,-34 38,-34 0,32" fill="#fff"/>
+    <text x="0" y="-12" font-size="13" font-weight="800" fill="#C8102E" text-anchor="middle">YIELD</text>
+  </g>
+  <text class="lbl" x="230" y="150">Yield</text>
+  <text class="sub" x="230" y="163">Red and white triangle, point down</text>
+
+  <!-- 3 Speed limit: white vertical rectangle -->
+  <g transform="translate(383,70)">
+    <rect x="-40" y="-55" width="80" height="110" rx="6" fill="#fff" stroke="#1c1c1c" stroke-width="3"/>
+    <text x="0" y="-27" font-size="15" font-weight="800" fill="#1c1c1c" text-anchor="middle">SPEED</text>
+    <text x="0" y="-9" font-size="15" font-weight="800" fill="#1c1c1c" text-anchor="middle">LIMIT</text>
+    <text x="0" y="40" font-size="44" font-weight="800" fill="#1c1c1c" text-anchor="middle">35</text>
+  </g>
+  <text class="lbl" x="383" y="150">Speed Limit</text>
+  <text class="sub" x="383" y="163">White rectangle, black letters</text>
+
+  <!-- 4 Do Not Enter: red circle with white bar on white square -->
+  <g transform="translate(77,240)">
+    <rect x="-52" y="-52" width="104" height="104" rx="5" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+    <circle r="46" fill="#C8102E"/>
+    <rect x="-36" y="-8" width="72" height="16" fill="#fff"/>
+    <text x="0" y="-18" font-size="11" font-weight="800" fill="#fff" text-anchor="middle">DO NOT</text>
+    <text x="0" y="28" font-size="11" font-weight="800" fill="#fff" text-anchor="middle">ENTER</text>
+  </g>
+  <text class="lbl" x="77" y="310">Do Not Enter</text>
+  <text class="sub" x="77" y="323">Red circle, white bar</text>
+
+  <!-- 5 Wrong Way: red horizontal rectangle -->
+  <g transform="translate(230,240)">
+    <rect x="-62" y="-36" width="124" height="72" rx="5" fill="#C8102E" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-57" y="-31" width="114" height="62" rx="3" fill="none" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="-3" font-size="19" font-weight="800" fill="#fff" text-anchor="middle">WRONG</text>
+    <text x="0" y="20" font-size="19" font-weight="800" fill="#fff" text-anchor="middle">WAY</text>
+  </g>
+  <text class="lbl" x="230" y="310">Wrong Way</text>
+  <text class="sub" x="230" y="323">Red rectangle, white letters</text>
+
+  <!-- 6 One Way: black rectangle with white arrow -->
+  <g transform="translate(383,240)">
+    <rect x="-66" y="-24" width="132" height="48" rx="4" fill="#1c1c1c"/>
+    <polygon points="-58,-8 26,-8 26,-17 58,0 26,17 26,8 -58,8" fill="#fff"/>
+    <text x="-14" y="4" font-size="11" font-weight="800" fill="#1c1c1c" text-anchor="middle">ONE WAY</text>
+  </g>
+  <text class="lbl" x="383" y="310">One Way</text>
+  <text class="sub" x="383" y="323">Black rectangle, white arrow</text>
+</svg>
