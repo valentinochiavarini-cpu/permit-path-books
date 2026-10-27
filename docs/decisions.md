@@ -54,9 +54,12 @@ Skipped on purpose (Daniel Hart already leads, a new brand would cannibalize it)
 - EPUB: same text, links instead of QR codes, must parse cleanly.
 
 ## App
-- New app, copied from The Driving School Lovable project and rebranded Permit Path. Not built yet.
-- App base URL: TBD. `layout/config.json` holds it; QR codes are generated from it. Final URL must be set before the first upload to KDP.
+- Lovable project `5aba30bf-4b8e-4041-b0c3-080168980b32` ("Permit Path"), remixed 2026-10-27 from The Driving School (`c427a0c1-...`, never write to it). Free, no login.
+- Data goes in through SQL (no Lovable credits): `questions` (core rows have state null; category "Chapter N: Title"), `states` (only states with a Permit Path book), `flashcards` (115, descriptions rewritten, see `app/flashcards.json`; images still load from the old project's storage, so keep that project).
+- Routes: `/ch/:n` (chapter practice, the book QR codes), `/chapters`, `/ebook` (EPUB from public bucket `ebooks/XX.epub`, uploaded by the owner), `/flashcards`, the timed exam and practice mode.
+- App base URL: placeholder `permit-path.lovable.app` in `layout/config.json`. Set the real domain and `app_url_final: true`, then rebuild every state, before the first KDP upload.
 
 ## Open items for the owner
-- App domain and Lovable remix approval.
+- Real app domain (then rebuild all states).
+- Spot-check flashcard images whose names look mislabeled (Railroad Crossing, Roundabout, Right Turn, duplicate pairs).
 - Cover design.
