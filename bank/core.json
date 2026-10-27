@@ -504,7 +504,7 @@
   "d": "Go through without stopping if you are on the busier road",
   "correct": "A",
   "exp": "A dark signal is handled like an all way stop: stop, take turns, and go when it is safe.",
-  "src": "New York State Driver's Manual, Chapter 4 (traffic signals); California Driver Handbook, Traffic Control"
+  "src": "New York State Driver's Manual, Chapter 4 (traffic signals); California Driver Handbook, Laws and Rules of the Road (traffic signals)"
  },
  {
   "id": "C03-010",
@@ -543,7 +543,7 @@
   "d": "Leave the lane soon, it is closing",
   "correct": "B",
   "exp": "A steady red X is a lane control signal that closes the lane to you.",
-  "src": "MUTCD 2009 ed., Section 4M.02; New York State Driver's Manual, Chapter 4"
+  "src": "MUTCD 11th ed., Section 4T.02 (lane-use control signals); MUTCD 2009 ed., Section 4M.02"
  },
  {
   "id": "C03-013",
@@ -556,7 +556,7 @@
   "d": "Stay in the lane, it is now reserved for you",
   "correct": "C",
   "exp": "A steady yellow X warns that the lane is about to close and will change to a red X.",
-  "src": "MUTCD 2009 ed., Section 4M.02; New York State Driver's Manual, Chapter 4"
+  "src": "MUTCD 11th ed., Section 4T.02 (lane-use control signals); MUTCD 2009 ed., Section 4M.02"
  },
  {
   "id": "C03-014",
@@ -569,7 +569,7 @@
   "d": "You may drive in that lane",
   "correct": "D",
   "exp": "A downward green arrow over a lane is the lane control signal that opens the lane.",
-  "src": "MUTCD 2009 ed., Section 4M.02"
+  "src": "MUTCD 11th ed., Section 4T.02 (lane-use control signals); MUTCD 2009 ed., Section 4M.02"
  },
  {
   "id": "C03-015",
@@ -582,7 +582,7 @@
   "d": "To close the ramp at night",
   "correct": "B",
   "exp": "A ramp meter spaces out cars entering the freeway. Stop on red and go on green.",
-  "src": "MUTCD 11th ed., Section 4A.01 (freeway entrance ramp control signals)"
+  "src": "MUTCD 11th ed., Chapter 4P (traffic control signals for freeway entrance ramps)"
  },
  {
   "id": "C03-016",
@@ -621,7 +621,7 @@
   "d": "The speed limit for the crosswalk",
   "correct": "A",
   "exp": "The countdown shows how much crossing time remains while the hand flashes.",
-  "src": "California Driver Handbook, Traffic Control (pedestrian signals)"
+  "src": "MUTCD 11th ed., Section 4I.04 (pedestrian countdown); California Driver Handbook, Laws and Rules of the Road (pedestrian signals)"
  },
  {
   "id": "C03-019",
@@ -683,7 +683,7 @@
   "a": "To turn left into or out of a driveway or side road",
   "b": "Whenever no oncoming traffic is in sight",
   "c": "To pass a slow vehicle",
-  "d": "To pass a bicycle on a hill",
+  "d": "To pass a line of cars on a hill",
   "correct": "A",
   "exp": "You may not cross a double solid yellow line to pass, but you may cross it to make a left turn into or out of a driveway or road.",
   "src": "New York State Driver's Manual, Chapter 4 (pavement markings)"
@@ -1059,10 +1059,10 @@
   "q": "A school bus is stopped with red lights flashing and its stop arm out. When may you go?",
   "a": "When you see no children near the bus",
   "b": "As soon as the doors close",
-  "c": "When the red lights stop, the arm folds in and the bus moves, or the driver signals you on",
+  "c": "When the red lights stop, the arm folds in and the bus starts moving",
   "d": "After you have stopped for 10 seconds",
   "correct": "C",
-  "exp": "Stay stopped until the red lights go off, the stop arm is drawn back and the bus moves, or the driver or an officer signals you.",
+  "exp": "Stay stopped until the red lights stop flashing, the stop arm is drawn back and the bus begins moving. A police officer may also wave you on.",
   "src": "NHTSA, School Bus Safety, https://www.nhtsa.gov/road-safety/school-bus-safety"
  },
  {
@@ -1089,7 +1089,7 @@
   "d": "A white rectangle on the roof",
   "correct": "B",
   "exp": "The stop arm is a red, eight sided sign that extends from the driver's side when the bus stops.",
-  "src": "NHTSA, School Bus Safety, https://www.nhtsa.gov/road-safety/school-bus-safety"
+  "src": "49 CFR 571.131 (FMVSS 131, school bus stop signal arm); NHTSA, School Bus Safety, https://www.nhtsa.gov/road-safety/school-bus-safety"
  },
  {
   "id": "C04-025",
@@ -1147,14 +1147,14 @@
   "id": "C04-029",
   "ch": 4,
   "quiz": false,
-  "q": "On a one way street, an ambulance with its siren on comes up behind you. Which way should you pull over?",
+  "q": "An ambulance with its siren on comes up behind you on a one way street. Where should you pull over?",
   "a": "Always to the left edge",
   "b": "Into the middle of the street",
   "c": "Nowhere; keep driving",
-  "d": "To the nearest edge of the street",
+  "d": "To the right edge, or to the nearest edge where your state allows it",
   "correct": "D",
-  "exp": "On a one way street, pull to the closest edge and stop so the ambulance can pass.",
-  "src": "Official state driver manuals (emergency vehicles)"
+  "exp": "Pull over and stop so the ambulance can pass. The usual rule is the right edge; some states let you use the nearest edge of a one way street.",
+  "src": "New York Vehicle and Traffic Law 1144; Minnesota Statutes 169.20 subd. 5 (one way roadways)"
  },
  {
   "id": "C04-030",
@@ -1297,7 +1297,7 @@
   "d": "In the matching inner lane on the new road",
   "correct": "D",
   "exp": "In a multi-lane turn, each lane turns into its matching lane. Stay in your lane through the turn.",
-  "src": "MUTCD 11th ed., Section 3B.23 (mandatory turn lanes)"
+  "src": "Pennsylvania Driver's Manual (PUB 95), Chapter 3 (dual left turn lanes); MUTCD 11th ed., Section 3B.23 (lane-use arrows)"
  },
  {
   "id": "C05-011",
@@ -1453,7 +1453,7 @@
   "d": "Trucks cannot see the yield signs",
   "correct": "C",
   "exp": "Large vehicles may use the truck apron and more than one lane, so give them room.",
-  "src": "Official state driver manuals (roundabouts, large vehicles)"
+  "src": "Minnesota DOT, Roundabouts: large trucks; Wisconsin DOT roundabout brochure; FHWA-SA-14-098"
  },
  {
   "id": "C05-023",
@@ -1466,7 +1466,7 @@
   "d": "The driver is slowing down or stopping",
   "correct": "D",
   "exp": "Arm bent down means slow or stop.",
-  "src": "Official state driver manuals (hand signals)"
+  "src": "New York State Driver's Manual, Chapter 5 (hand signals); Pennsylvania Driver's Manual (PUB 95), Chapter 3 (hand signals)"
  },
  {
   "id": "C05-024",
@@ -1479,7 +1479,7 @@
   "d": "A right turn",
   "correct": "C",
   "exp": "Arm straight out means a left turn.",
-  "src": "Official state driver manuals (hand signals)"
+  "src": "New York State Driver's Manual, Chapter 5 (hand signals); Pennsylvania Driver's Manual (PUB 95), Chapter 3 (hand signals)"
  },
  {
   "id": "C05-025",
@@ -1492,7 +1492,7 @@
   "d": "A right turn",
   "correct": "D",
   "exp": "Arm bent up means a right turn.",
-  "src": "Official state driver manuals (hand signals)"
+  "src": "New York State Driver's Manual, Chapter 5 (hand signals); Pennsylvania Driver's Manual (PUB 95), Chapter 3 (hand signals)"
  },
  {
   "id": "C05-026",
@@ -1505,7 +1505,7 @@
   "d": "At least 15 feet from the nearest rail",
   "correct": "D",
   "exp": "Stop no closer than 15 feet from the nearest rail, because the train overhangs the rails.",
-  "src": "MUTCD 11th ed., Section 8C.03; official state driver manuals"
+  "src": "MUTCD 11th ed., Section 8C.03; 49 CFR 392.10; official state driver manuals"
  },
  {
   "id": "C05-027",
@@ -1544,7 +1544,7 @@
   "d": "Showing where to park near the tracks",
   "correct": "B",
   "exp": "The Emergency Notification System sign shows a phone number and crossing ID number.",
-  "src": "MUTCD 11th ed., Sections 8B.27 and 8C.03"
+  "src": "MUTCD 11th ed., Section 8B.27"
  },
  {
   "id": "C05-030",
@@ -1557,7 +1557,7 @@
   "d": "Go if you cannot see another train",
   "correct": "A",
   "exp": "A second train can be hidden by the first. Wait until the gates rise and the lights stop.",
-  "src": "Operation Lifesaver, safety tips for drivers, https://oli.org/site/nc/safety-tips"
+  "src": "Pennsylvania Driver's Manual (PUB 95), Chapter 3 (railroad crossings); Operation Lifesaver, safety tips for drivers, https://oli.org/site/nc/safety-tips"
  },
  {
   "id": "C06-001",
