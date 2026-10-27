@@ -102,3 +102,5 @@ section.part { break-before: page; }
 section.part h1 { font-family: "Inter"; font-weight: 800; font-size: 19pt; line-height: 1.15; margin: 0.2in 0 0.2in; padding-bottom: 0.12in; border-bottom: 2.5pt solid #000; }
 .log table { font-size: 8pt; }
 .log tbody td { height: 0.28in; }
+section.part { page: back; }
+@page back:right { @top-right { content: "PERMIT PATH"; letter-spacing: 0.16em; } }
