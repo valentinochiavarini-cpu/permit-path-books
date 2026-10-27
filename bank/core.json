@@ -231,7 +231,7 @@
   "d": "The road splits into two lanes going your way",
   "correct": "B",
   "exp": "The Two Way Traffic sign warns that you are leaving a one way or divided road and oncoming traffic is ahead.",
-  "src": "MUTCD 11th ed., Section 2C.21"
+  "src": "MUTCD 11th ed., Section 2C.51"
  },
  {
   "id": "C02-019",
@@ -295,7 +295,7 @@
   "c": "When you pass the End School Zone sign",
   "d": "As soon as no children are in sight",
   "correct": "C",
-  "exp": "An End School Zone sign marks the downstream end of the zone. Keep the school limit until you pass it.",
+  "exp": "Where one is posted, an End School Zone sign marks the downstream end of the zone. Keep the school limit until you pass it.",
   "src": "MUTCD 11th ed., Section 7B.02"
  },
  {
@@ -361,7 +361,7 @@
   "d": "It runs mostly east and west",
   "correct": "D",
   "exp": "Interstates with even numbers run mostly east and west; odd numbers run mostly north and south.",
-  "src": "FHWA Interstate System numbering (fhwa.dot.gov/interstate/faq.cfm); MUTCD 11th ed., Section 2D.11"
+  "src": "FHWA, Interstate route numbering, https://www.fhwa.dot.gov/highwayhistory/data/page07.cfm"
  },
  {
   "id": "C02-029",
@@ -1843,7 +1843,7 @@
   "d": "About 10 to 15 seconds ahead",
   "correct": "D",
   "exp": "Looking 10 to 15 seconds ahead, about a block in the city or a quarter mile on the highway, lets you find problems early.",
-  "src": "PennDOT Driver's Manual, Managing Space, https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-space"
+  "src": "PennDOT Driver's Manual, Managing Space, https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-space; California Driver Handbook, Safe Driving, https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/safe-driving/"
  },
  {
   "id": "C06-023",
@@ -2285,7 +2285,7 @@
   "d": "It is a high occupancy vehicle (HOV) lane",
   "correct": "D",
   "exp": "The diamond symbol is used only for HOV preferential lanes.",
-  "src": "MUTCD 11th ed., Chapter 2G, Sections 2G.03 and 2G.10; California Driver Handbook, Navigating the Roads, https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/"
+  "src": "MUTCD 11th ed., Sections 2G.03, 2G.10 and 3E.03; California Driver Handbook, Navigating the Roads, https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/navigating-the-roads/"
  },
  {
   "id": "C07-027",
@@ -2499,7 +2499,7 @@
   "id": "C08-013",
   "ch": 8,
   "quiz": false,
-  "q": "Which of these places is off limits for parking in every state?",
+  "q": "Which of these places is off limits for parking in almost every state?",
   "a": "Beside a green curb",
   "b": "In a marked parallel space",
   "c": "In a parking garage",
@@ -2532,7 +2532,7 @@
   "d": "Park for up to 10 minutes",
   "correct": "A",
   "exp": "No Stopping is the strictest of these signs. You may not stop at all except to obey traffic control or avoid a crash.",
-  "src": "State driver manuals, parking and backing"
+  "src": "New York State Driver's Manual, Chapter 7, https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests/chapter-7-parallel-parking"
  },
  {
   "id": "C08-016",
@@ -2544,8 +2544,8 @@
   "c": "No Standing",
   "d": "Do Not Enter",
   "correct": "B",
-  "exp": "No Parking forbids leaving the car, but a brief stop to load or unload is allowed.",
-  "src": "State driver manuals, parking and backing"
+  "exp": "A No Parking sign still lets you stop while you load or unload people or things. No Standing allows only picking up or dropping off people, and No Stopping allows neither.",
+  "src": "New York State Driver's Manual, Chapter 7, https://dmv.ny.gov/new-york-state-drivers-manual-practice-tests/chapter-7-parallel-parking"
  },
  {
   "id": "C08-017",
