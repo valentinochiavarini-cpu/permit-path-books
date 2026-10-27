@@ -70,7 +70,7 @@ def fill_inserts(t):
         if body.strip() == "OMIT":
             return ""
         lines = [f"**{state} rule:**", ""] + body.splitlines()
-        return "\n".join("> " + l if l.strip() else ">" for l in lines)
+        return "\n".join("> " + l if l.strip() else ">" for l in lines) + "\n\n<!-- end insert -->\n"
     return re.sub(r"(?m)^\{\{INSERT:([a-z_]+)\}\}\s*$", rep, t)
 
 # ---------- mocks ----------
