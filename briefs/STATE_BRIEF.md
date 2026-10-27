@@ -21,7 +21,7 @@ Never paraphrase the manual's sentences; teach the facts in Permit Path's own wo
    - Foreign license holders and, only where a test applies, new residents. Use the facts in `docs/states.md`.
    - Where to find the official manual and agency.
    Then `## Quick Review`, `## Chapter 1 Quiz` with `{{QUIZ}}`, and the practice line with `[APP-LINK:1]`.
-2. `state/XX/inserts.md`: every key listed in `CORE_SPEC.md`, each 30 to 150 words, exact state figures with the rule stated plainly. Use `OMIT` only when the state truly has no rule beyond the national one. `supervised_hours`: total, night, and any other category. `dui_penalties` must also state the open container rule (core Chapter 11 points there).
+2. `state/XX/inserts.md`: every key listed in `CORE_SPEC.md`, each 30 to 150 words, exact state figures with the rule stated plainly. Use `OMIT` only when the state truly has no rule beyond the national one. `supervised_hours`: total, night, and any other category. `dui_penalties` must also state the open container rule (core Chapter 11 points there). `turn_on_red` must cover right on red, turning on a red arrow, and left on red from one-way to one-way. `school_bus` must cover divided highways and the minimum stopping distance.
 3. `bank/XX.json`: 130 to 160 questions, IDs `XX-001` upward. About 40 on Chapter 1 topics (`ch: 1`, exactly 10 with `quiz: true`), the rest on insert topics, tagged with the core chapter number where the insert appears (`quiz: false`). Format and rules in `CORE_SPEC.md`. Run `python3 tools/check_bank.py bank/XX.json`.
 4. `state/XX/sources.md`: table of claim, source (URL or manual page), date checked, for every number, fee, deadline and rule.
 
