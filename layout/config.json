@@ -42,5 +42,24 @@
     "supervised_hours",
     "signal_distance",
     "headlight_dimming"
-  ]
+  ],
+  "state_names": {
+    "AL": "Alabama",
+    "CA": "California",
+    "FL": "Florida",
+    "GA": "Georgia",
+    "IL": "Illinois",
+    "MI": "Michigan",
+    "MO": "Missouri",
+    "NC": "North Carolina",
+    "NJ": "New Jersey",
+    "NY": "New York",
+    "OH": "Ohio",
+    "PA": "Pennsylvania",
+    "SC": "South Carolina",
+    "TX": "Texas",
+    "VA": "Virginia",
+    "MD": "Maryland",
+    "TN": "Tennessee"
+  }
 }
