@@ -8,3 +8,4 @@ out/*/*.md
 __pycache__/
 *.png
 out/core/
+out/
