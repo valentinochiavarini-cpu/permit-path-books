@@ -57,9 +57,10 @@ Skipped on purpose (Daniel Hart already leads, a new brand would cannibalize it)
 - Lovable project `5aba30bf-4b8e-4041-b0c3-080168980b32` ("Permit Path"), remixed 2026-10-27 from The Driving School (`c427a0c1-...`, never write to it). Free, no login.
 - Data goes in through SQL (no Lovable credits): `questions` (core rows have state null; category "Chapter N: Title"), `states` (only states with a Permit Path book), `flashcards` (115, descriptions rewritten, see `app/flashcards.json`; images still load from the old project's storage, so keep that project).
 - Routes: `/ch/:n` (chapter practice, the book QR codes), `/chapters`, `/ebook` (EPUB from public bucket `ebooks/XX.epub`, uploaded by the owner), `/flashcards`, the timed exam and practice mode.
-- App base URL: placeholder `permit-path.lovable.app` in `layout/config.json`. Set the real domain and `app_url_final: true`, then rebuild every state, before the first KDP upload.
+- App URL (final, set 2026-10-27): https://permit-path-practice.lovable.app (`layout/config.json`, `app_url_final: true`). Published from the Lovable project with slug `permit-path-practice`. Every QR code and link in the books points here.
 
 ## Open items for the owner
-- Real app domain (then rebuild all states).
+- REMINDER when all state editions are finished: upload every EPUB (`out/XX/Permit_Path_NAME.epub` saved as `XX.epub`) to the app's public `ebooks` storage bucket. The /ebook page shows "coming soon" until then.
+- Next Lovable batch (small, not urgent): sitemap.xml still uses the preview host instead of permit-path-practice.lovable.app; the page title contains an em dash.
 - Spot-check flashcard images whose names look mislabeled (Railroad Crossing, Roundabout, Right Turn, duplicate pairs).
 - Cover design.

@@ -1,8 +1,8 @@
 {
   "brand": "Permit Path",
-  "app_base": "https://permit-path.lovable.app",
-  "app_short": "permit-path.lovable.app",
-  "app_url_final": false,
+  "app_base": "https://permit-path-practice.lovable.app",
+  "app_short": "permit-path-practice.lovable.app",
+  "app_url_final": true,
   "default_mock_size": 25,
   "core_chapters": [
     2,

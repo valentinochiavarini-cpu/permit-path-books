@@ -30,24 +30,25 @@ Tell both: re-read bank/XX.json right before each write and change only their ID
 `python3 tools/make_mocks.py XX SIZE "PASS TEXT"` where SIZE is the real test's question count (25 if the state publishes none; for split tests such as GA or VA, size to the total and say so in Ch 1). It never reuses quiz questions and draws about 40 percent state, 60 percent core.
 
 ## 5. Build and QA
-`python3 layout/build_book.py --state "NAME" --code XX`. It must pass everything except, until the owner sets the real domain, the `app_url_final` line. It runs the originality check on the whole book: fix any 12-word run it reports (usually stock phrases in question explanations) by rewording in the bank or text, then rebuild. Render and look at 4 pages (contents, Ch 1 opener, a page with a state rule box, a quiz page). Check the page count stays under 300 (KDP margins are set for 151 to 300 pages).
+`python3 layout/build_book.py --state "NAME" --code XX`. It must print QA PASSED and ORIGINALITY PASSED. It runs the originality check on the whole book: fix any 12-word run it reports (usually stock phrases in question explanations) by rewording in the bank or text, then rebuild. Render and look at 4 pages (contents, Ch 1 opener, a page with a state rule box, a quiz page). Check the page count stays under 300 (KDP margins are set for 151 to 300 pages).
 
 ## 6. App load (no Lovable credits)
 Permit Path app: Lovable project `5aba30bf-4b8e-4041-b0c3-080168980b32` (never the old The Driving School project `c427a0c1-...`, which is read-only for us).
 1. If the state is not in the `states` table, insert it (code, name, mock_exam_question_count = SIZE, mock_exam_time_limit, pass_score from the verified test).
 2. `python3 tools/export_app_sql.py --state XX OUT_DIR`, then delegate to an agent: run `delete from questions where state = 'XX'` (only on a rebuild) and each SQL file verbatim with `mcp__Lovable__query_database`, then verify counts by state and category.
 3. If core questions changed during the run, reload the core the same way (`--core`, after `delete from questions where state is null`).
-4. Ebook: the owner uploads `out/XX/Permit_Path_NAME.epub` as `XX.epub` to the app's public `ebooks` bucket (the upload host is blocked from this workspace).
+4. Ebook: the EPUB upload is batched at the end of all states (see App URL and owner reminders); the upload host is blocked from this workspace, so the owner does it.
 No code changes are needed per state; only send a Lovable message for real app bugs or features, batched, with the owner's OK.
 
 ## 7. Commit and report
 1. Commit on `main` with the session attribution lines, fetch, push. Never commit a file an agent is still editing.
 2. Update the state's row in `docs/states.md` (verified test format, status Done).
 3. Send the PDF and EPUB from `out/XX/` with SendUserFile.
-4. Report briefly: page count; verified test format and any mismatch; wrong keys or legal errors the fact check fixed; facts most likely to change; open items for the owner; the EPUB to upload.
+4. Report briefly: page count; verified test format and any mismatch; wrong keys or legal errors the fact check fixed; facts most likely to change; open items for the owner.
 
 ## Owner preferences
 Concise and direct; no em or en dashes anywhere; verify on the web; report only issues that affect product quality; do not lecture about risks already addressed. Use as few Lovable credits as possible: data goes in through SQL.
 
-## Before the first KDP upload (remind the owner)
-Set the real app domain in `layout/config.json` (`app_base`, `app_short`), set `app_url_final: true`, rebuild every finished state (QR codes change), and publish the app on that domain.
+## App URL and owner reminders
+- The app URL is final: https://permit-path-practice.lovable.app (`app_url_final: true`). Every build must pass QA with no exceptions. Never change the URL without rebuilding every finished state.
+- When the last of the owner's planned state editions is done, remind the owner to upload all EPUBs to the app's `ebooks` bucket (`XX.epub`), and list them. Until then, list the pending EPUBs in each state report and do not nag.
