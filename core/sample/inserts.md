@@ -83,3 +83,11 @@ Sample text: each state edition prints its own rule for road test here, checked 
 ## supervised_hours
 
 Sample text: each state edition prints its own rule for supervised hours here, checked against the official manual.
+
+## signal_distance
+
+Sample text: each state edition prints its own rule for signal distance here, checked against the official manual.
+
+## headlight_dimming
+
+Sample text: each state edition prints its own rule for headlight dimming here, checked against the official manual.

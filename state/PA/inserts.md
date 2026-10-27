@@ -144,3 +144,12 @@ The {{STATE}} road test begins with a car check and a vehicle controls check, th
 | In bad weather | At least 5 |
 
 Night and bad weather hours count toward the 65. A parent or guardian signs form DL-180C to certify the hours. The supervisor must be a licensed driver 21 or older, or a licensed parent, guardian or adult spouse, riding in the front passenger seat. You must also hold the permit for six months.
+
+## signal_distance
+
+{{STATE}} law sets a minimum distance for your turn signal. Below 35 mph, signal for at least the **last 100 feet** before you turn. Above 35 mph, signal for at least the **last 300 feet**.
+
+## headlight_dimming
+
+In {{STATE}}, switch to low beams when an oncoming vehicle is within **500 feet**, and when you come up behind another vehicle within **300 feet**.
+

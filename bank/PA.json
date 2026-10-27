@@ -1792,5 +1792,57 @@
     "correct": "C",
     "exp": "Young drivers may schedule the skills test up to six months in advance.",
     "src": "PA Driver's Manual (PUB 95), Ch. 1, Tests, pp. 5 to 6"
+  },
+  {
+    "id": "PA-140",
+    "ch": 5,
+    "quiz": false,
+    "q": "In Pennsylvania you are driving 30 mph and plan to turn right. How far before the turn must your signal be on?",
+    "a": "At least 50 feet",
+    "b": "At least 100 feet",
+    "c": "At least 300 feet",
+    "d": "At least 500 feet",
+    "correct": "B",
+    "exp": "Below 35 mph, Pennsylvania requires the signal for at least the last 100 feet before the turn.",
+    "src": "75 Pa.C.S. 3334(b)"
+  },
+  {
+    "id": "PA-141",
+    "ch": 5,
+    "quiz": false,
+    "q": "On a Pennsylvania road you are going 45 mph and want to turn left. What is the minimum signaling distance?",
+    "a": "300 feet",
+    "b": "100 feet",
+    "c": "200 feet",
+    "d": "500 feet",
+    "correct": "A",
+    "exp": "Above 35 mph, Pennsylvania requires the signal for at least the last 300 feet before the turn.",
+    "src": "75 Pa.C.S. 3334(b)"
+  },
+  {
+    "id": "PA-142",
+    "ch": 10,
+    "quiz": false,
+    "q": "In Pennsylvania, an oncoming car is approaching at night. Within what distance must you switch to low beams?",
+    "a": "300 feet",
+    "b": "200 feet",
+    "c": "1,000 feet",
+    "d": "500 feet",
+    "correct": "D",
+    "exp": "Pennsylvania requires low beams when an oncoming vehicle is within 500 feet.",
+    "src": "75 Pa.C.S. 4306(a)"
+  },
+  {
+    "id": "PA-143",
+    "ch": 10,
+    "quiz": false,
+    "q": "You are following another vehicle at night in Pennsylvania. Within what distance of it must you use low beams?",
+    "a": "100 feet",
+    "b": "300 feet",
+    "c": "500 feet",
+    "d": "1,000 feet",
+    "correct": "B",
+    "exp": "Pennsylvania requires low beams within 300 feet of a vehicle you are following.",
+    "src": "75 Pa.C.S. 4306(b)"
   }
 ]

@@ -2766,7 +2766,7 @@
   "d": "Pull into the crosswalk to show you are waiting",
   "correct": "A",
   "exp": "White cane laws in every state require drivers to yield to a blind pedestrian, even on a green light.",
-  "src": "State white cane laws; American Council of the Blind, acb.org/whitecane"
+  "src": "National Federation of the Blind, Braille Monitor, April 2025 (white cane laws in all 50 states); American Council of the Blind state white cane law compilation, acb.org/whitecane"
  },
  {
   "id": "C09-004",
@@ -2883,7 +2883,7 @@
   "d": "Expect cyclists to share that lane",
   "correct": "D",
   "exp": "A sharrow, a bicycle symbol with two arrowheads, marks a lane shared by cars and bikes.",
-  "src": "MUTCD 11th ed., Part 9, Chapter 9E (shared lane marking)"
+  "src": "MUTCD 11th ed., Section 9E.09 (shared lane marking)"
  },
  {
   "id": "C09-013",
@@ -3104,7 +3104,7 @@
   "d": "Brake firmly and stay in your lane",
   "correct": "D",
   "exp": "Swerving can send you into oncoming traffic, a tree or a ditch, which is often worse than hitting the animal.",
-  "src": "IIHS animal crash research; state driver manuals, animals"
+  "src": "Missouri Driver Guide, Chapter 8 (animals); state driver manuals, animals"
  },
  {
   "id": "C09-030",
@@ -3129,7 +3129,7 @@
   "c": "Switch to low beams well before it gets close",
   "d": "Turn off your headlights for a moment",
   "correct": "C",
-  "exp": "Low beams keep from blinding the other driver. Most states set the distance at 500 feet for oncoming traffic.",
+  "exp": "Low beams keep from blinding the other driver. Your state sets the exact distance; see the box in Chapter 10.",
   "src": "State driver manuals, headlight use; state headlight laws"
  },
  {
@@ -3390,7 +3390,7 @@
   "d": "Press hard, keep pressing and steer if needed",
   "correct": "D",
   "exp": "With ABS, press firmly and hold. The pulsing you feel is normal, and you can still steer.",
-  "src": "NHTSA, antilock brake systems; state driver manuals"
+  "src": "Missouri Driver Guide, Chapter 9 (ABS: do not pump, keep your foot on the brake, steer)"
  },
  {
   "id": "C10-022",
@@ -3468,7 +3468,7 @@
   "d": "Get everyone out and away from the car, then call 911",
   "correct": "D",
   "exp": "Opening the hood lets in fresh air that can feed a fire. Move well away and call for help.",
-  "src": "State driver manuals, vehicle fire"
+  "src": "Texas Department of Insurance, Car Fire Safety (stay at least 100 feet away, do not open the hood); state driver manuals, vehicle fire"
  },
  {
   "id": "C10-028",
@@ -4196,7 +4196,7 @@
   "d": "About level with the tops of your ears",
   "correct": "D",
   "exp": "A head restraint set too low cannot stop your head snapping back in a rear end crash.",
-  "src": "IIHS head restraint guidance; State driver manuals, vehicle equipment and pre-drive checks"
+  "src": "Vehicle owner's manuals (for example Mazda: center of the head restraint even with the top of the ears); State driver manuals, vehicle equipment and pre-drive checks"
  },
  {
   "id": "C12-024",
@@ -4384,14 +4384,14 @@
   "id": "C13-008",
   "ch": 13,
   "quiz": false,
-  "q": "Your knowledge test screen stops before you reach the last question. What does that usually mean?",
-  "a": "The computer has crashed and you must restart",
-  "b": "You were caught cheating",
-  "c": "You ran out of time on every question",
-  "d": "Your state may end the test early once you pass or once you cannot pass; read the result",
+  "q": "Your test lets you skip a question and come back to it. A question has you stuck. What is the best move?",
+  "a": "Pick any answer and never look at it again",
+  "b": "Leave it blank for good",
+  "c": "Ask the person next to you",
+  "d": "Skip it, finish the questions you know, then return to it",
   "correct": "D",
-  "exp": "Some states stop the test as soon as the result is certain.",
-  "src": "Permit Path test tactics; state testing pages"
+  "exp": "Skipping a hard question saves time for the ones you know; come back to it before you finish, and never leave it blank.",
+  "src": "core/ch13.md section 13.2"
  },
  {
   "id": "C13-009",
@@ -4521,7 +4521,7 @@
   "d": "Enough to see its rear tires touching the road",
   "correct": "D",
   "exp": "That gap gives you room to steer around the car if it stalls.",
-  "src": "Permit Path road test guidance; California DMV, Driving Test Criteria (DL 955) (spacing at stops)"
+  "src": "California DMV, Driving Test Criteria (DL 955), stop criteria: able to see the rear wheels of the vehicle in front"
  },
  {
   "id": "C13-019",
@@ -4618,7 +4618,7 @@
   "id": "C13-026",
   "ch": 13,
   "quiz": true,
-  "q": "Which of these is an automatic fail on nearly every state's road test?",
+  "q": "Which of these is an automatic fail on many states' road tests?",
   "a": "Hitting the curb hard and driving up onto the sidewalk",
   "b": "Asking the examiner to repeat a direction",
   "c": "Turning off your turn signal after a lane change",
