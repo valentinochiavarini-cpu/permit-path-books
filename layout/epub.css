@@ -1,0 +1,5 @@
+body { font-family: serif; line-height: 1.5; }
+h1, h2, h3 { font-family: sans-serif; }
+blockquote { margin: 1em 0; padding: 0.5em 0.8em; border: 1px solid #444; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border-bottom: 1px solid #999; padding: 4px; text-align: left; vertical-align: top; }

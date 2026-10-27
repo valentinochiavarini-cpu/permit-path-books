@@ -1,0 +1,62 @@
+# Decisions log (owner-approved)
+
+Everything here was agreed with the owner. Change it only with the owner's approval and record the change with a date.
+
+## Brand and account
+- Brand: **Permit Path**. The brand is the author name on Amazon and the only name in the book. No pen name, no company name, no year in the book.
+- Publishing account: the owner's LTD KDP account. Must not resemble the Daniel Hart DMV series (same niche, same owner). The core text is written from scratch; `tools/originality_check.py` enforces it (see Originality).
+- Copyright line: "© Permit Path. All rights reserved."
+- Scope: car (Class C/D/E) permit and license only. English only for now (Spanish is the largest unexploited pocket in the market data; parked).
+
+## Product
+- Format: 6 x 9 in, black and white paperback, plus EPUB (Kindle). No hardcover for now.
+- Structure: state chapter (Ch 1, fully state-specific) + universal core (Ch 2 to 13) with state inserts + 2 full mock exams sized to the state's real test + answer key + supervised driving log appendix.
+- Every content chapter ends with a 10-question chapter quiz (questions in context, the top complaint about the market leader). Quiz answers with explanations follow the quiz.
+- Book teaches, app drills: about 150 questions in the book (quizzes + mocks), 500+ per state online. Color sign flashcards and a downloadable ebook live online to compensate for B&W print. Say so on the title page, in How to Use This Book and in every chapter practice card.
+- Every printed question comes from the question bank in `bank/`, verbatim. The bank is the source of truth; the app imports it. Never edit a question only in the book.
+
+## Title (KDP)
+Standard (max 200 characters; the longest state name gives 192):
+`[State] Drivers Ed Book: Driver's License Handbook and Permit Practice Test Book for Teens and First-Time Drivers | Chapter Quizzes, 2 Full Mock Exams and 500+ Online Practice Questions`
+
+California only (new residents must take the knowledge test there):
+`California Drivers Ed Book: Driver's License Handbook and Permit Practice Test Book for Teens, First-Time Drivers and New Residents | Chapter Quizzes, 2 Mock Exams and 500+ Online Practice Questions`
+
+- Do not put "flashcards" in the subtitle (KDP issues in the past).
+- Year phrases ("[state] drivers handbook 2026") go only in the 7 backend keyword slots; refresh every January.
+- Price: $17.99 to $18.99 paperback (market leader Easy Route Test Prep: $18.99).
+
+## Positioning (from market research, 2026-10-27)
+- Audience: teens (about 50 percent of knowledge test takers) and first-time adult drivers (about 30 percent). Lead all copy with these two.
+- Do not target seniors (no age-based knowledge retest in the 15 states) or new residents (14 of 15 states waive the test for a valid out-of-state license; California is the exception; Missouri and North Carolina give new residents a road sign test).
+- Foreign license holders must test in every state: strongest angle in CA, NY, IL, NJ, VA (licenses regardless of immigration status).
+- Beat the market leader on: coverage (chapter quizzes + mocks + 500+ online), questions in context, accuracy (two-pass fact check, every question cited to the official manual), readable type (11 pt body minimum), teen focus, supervised driving log.
+
+## Target states (15) and pilot
+Florida, Texas, California, Pennsylvania, New York, Illinois, Ohio, Missouri, North Carolina, South Carolina, Georgia, New Jersey, Virginia, Alabama, Michigan. Spares with handbooks on file: Maryland, Tennessee. Pilot: **Pennsylvania**.
+
+Skipped on purpose (Daniel Hart already leads, a new brand would cannibalize it): WA, IN, MS, KY, OK, LA, OR, CO.
+
+## Writing rules
+- No em or en dashes anywhere (book, app text, listings, messages).
+- Voice: a calm, direct driving instructor talking to a teen or a nervous first-time adult. Second person, short sentences, plain words, no hype, no jokes at the reader's expense.
+- Colors are always named in words next to the sign or marking ("a red octagon"), because the print is B&W.
+- Core chapters are state-neutral. Where states differ, use an insert marker (`{{INSERT:key}}`) and fill it per state, or state the common national rule and say "your state may differ; see the box below".
+- Verify every legal or numeric fact on primary sources (state manual, statute, state agency site, FHWA MUTCD 11th edition, NHTSA). Invented names in examples.
+
+## Originality
+- `tools/originality_check.py` compares the book text with hashed 8-word sequences of the Daniel Hart master template and the Daniel Hart Pennsylvania edition (`ref/*.hashes`; raw text is not stored in the repo). The build fails if any 12-word run matches or overall 8-word overlap exceeds 1 percent. Shared legal facts are fine; shared sentences are not.
+
+## Layout (paperback)
+- Trim 6 x 9 in, B&W, no bleed. Body Literata 11 pt, headings and tables Inter.
+- Margins: inside 0.75 in, outside 0.5 in, top 0.6 in, bottom 0.65 in (KDP minimum inside 0.375 in up to 150 pages, 0.5 in for 151 to 300).
+- Chapter practice card at the end of every chapter: QR + short URL to that chapter's online practice.
+- EPUB: same text, links instead of QR codes, must parse cleanly.
+
+## App
+- New app, copied from The Driving School Lovable project and rebranded Permit Path. Not built yet.
+- App base URL: TBD. `layout/config.json` holds it; QR codes are generated from it. Final URL must be set before the first upload to KDP.
+
+## Open items for the owner
+- App domain and Lovable remix approval.
+- Cover design.

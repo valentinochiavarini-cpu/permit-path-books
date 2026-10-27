@@ -1,0 +1,104 @@
+/* Permit Path: B&W print interior, 6 x 9 in. Calm, readable, teen-friendly. */
+@font-face { font-family: "Inter"; font-weight: 500; src: url("node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2"); }
+@font-face { font-family: "Inter"; font-weight: 600; src: url("node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2"); }
+@font-face { font-family: "Inter"; font-weight: 700; src: url("node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2"); }
+@font-face { font-family: "Inter"; font-weight: 800; src: url("node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2"); }
+@font-face { font-family: "Literata"; font-weight: 400; src: url("node_modules/@fontsource/literata/files/literata-latin-400-normal.woff2"); }
+@font-face { font-family: "Literata"; font-weight: 400; font-style: italic; src: url("node_modules/@fontsource/literata/files/literata-latin-400-italic.woff2"); }
+@font-face { font-family: "Literata"; font-weight: 600; src: url("node_modules/@fontsource/literata/files/literata-latin-600-normal.woff2"); }
+@font-face { font-family: "Literata"; font-weight: 700; src: url("node_modules/@fontsource/literata/files/literata-latin-700-normal.woff2"); }
+
+:root { --ink: #1c1c1c; --strong: #000; --muted: #6b6b6b; --tint: #ededed; --tint-2: #f5f5f5; --rule: #c4c4c4; }
+
+/* KDP 6 x 9, 151 to 300 pages: inside margin at least 0.5 in. We use 0.75 in inside, 0.5 in outside. */
+@page { size: 6in 9in; margin: 0.6in 0.5in 0.65in 0.5in;
+  @bottom-center { content: counter(page); font-family: "Inter"; font-weight: 600; font-size: 8pt; color: var(--muted); } }
+@page :left  { margin-left: 0.5in; margin-right: 0.75in;
+  @top-left { content: "PERMIT PATH"; font-family: "Inter"; font-weight: 700; font-size: 6.8pt; letter-spacing: 0.16em; color: var(--muted); } }
+@page :right { margin-left: 0.75in; margin-right: 0.5in;
+  @top-right { font-family: "Inter"; font-weight: 700; font-size: 6.8pt; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; } }
+
+html { font-family: "Literata", Georgia, serif; font-size: 11pt; line-height: 1.55; color: var(--ink); hyphens: auto; font-variant-numeric: lining-nums; }
+body { margin: 0; }
+p { margin: 0 0 0.7em; orphans: 3; widows: 3; }
+strong { font-weight: 700; color: var(--strong); }
+
+section.chapter { break-before: right; }
+.chapter-head { margin: 0.55in 0 0.3in; }
+.chapter-head .num { display: inline-block; font-family: "Inter"; font-weight: 800; font-size: 8.5pt; letter-spacing: 0.22em; text-transform: uppercase; background: #000; color: #fff; padding: 4px 10px; }
+.chapter-head h1 { font-family: "Inter"; font-weight: 800; font-size: 22pt; line-height: 1.12; margin: 0.35em 0 0; padding-bottom: 0.18in; border-bottom: 2.5pt solid #000; color: #000; letter-spacing: -0.01em; }
+
+h2 { font-family: "Inter"; font-weight: 800; font-size: 13pt; line-height: 1.25; color: #000; margin: 1.5em 0 0.5em; break-after: avoid; }
+h3 { font-family: "Inter"; font-weight: 700; font-size: 10.8pt; color: #000; margin: 1.2em 0 0.3em; break-after: avoid; }
+h2 + p, h3 + p { break-before: avoid; }
+ul, ol { margin: 0 0 0.8em; padding-left: 1.2em; }
+li { margin-bottom: 0.28em; }
+
+table { width: 100%; border-collapse: collapse; margin: 0.9em 0 1.1em; font-family: "Inter"; font-weight: 500; font-size: 8.8pt; line-height: 1.4; border-top: 1.2pt solid #000; border-bottom: 1.2pt solid #000; }
+thead th { text-align: left; font-weight: 800; font-size: 7.8pt; letter-spacing: 0.05em; text-transform: uppercase; padding: 5px 6px; border-bottom: 0.8pt solid #000; background: var(--tint); }
+tbody td { padding: 5px 6px; border-bottom: 0.5pt solid var(--rule); vertical-align: top; }
+tbody tr:last-child td { border-bottom: none; }
+tbody td:first-child { font-weight: 700; color: #000; }
+tr { break-inside: avoid; }
+
+/* Callouts: told apart by label and border, never by color */
+.callout { padding: 0.65em 0.85em 0.55em; margin: 1em 0 1.1em; break-inside: avoid; font-size: 10.2pt; line-height: 1.5; }
+.callout .label { display: block; font-family: "Inter"; font-weight: 800; font-size: 7.4pt; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.35em; color: #000; }
+.callout p:last-child, .callout ul:last-child { margin-bottom: 0; }
+.callout.tests { background: var(--tint); border-top: 2.5pt solid #000; }
+.callout.trap { border: 1.5pt solid #000; }
+.callout.trap .label::before { content: "!\00a0\00a0"; }
+.callout.tip { border-left: 3.5pt solid #000; background: var(--tint-2); }
+.callout.memory { border: 1pt dashed #000; }
+.callout.state { border: 1.5pt solid #000; background: var(--tint-2); }
+.callout.state .label { background: #000; color: #fff; display: inline-block; padding: 2px 7px; }
+
+/* Quizzes: questions in two-line blocks, answers smaller */
+section.chapter h2[id$="-quiz"] { break-before: page; }
+h3[id$="-quiz-answers"] { break-before: page; }
+
+.fig { margin: 1em auto; text-align: center; break-inside: avoid; }
+.fig svg { width: 3.6in; height: auto; max-width: 100%; }
+.url { white-space: nowrap; hyphens: none; font-weight: 700; }
+
+.practice-card, .app-box { border: 1.8pt solid #000; margin: 1.6em 0 0.4em; break-inside: avoid; font-family: "Inter"; }
+.pc-band { background: #000; color: #fff; font-weight: 800; font-size: 7.6pt; letter-spacing: 0.16em; text-transform: uppercase; padding: 5px 10px; display: flex; justify-content: space-between; }
+.pc-main { display: flex; gap: 12px; align-items: center; padding: 10px 11px; }
+.pc-qr { flex: none; text-align: center; }
+.pc-qr img { width: 0.9in; height: 0.9in; display: block; }
+.pc-qr span { display: block; font-weight: 800; font-size: 6.5pt; letter-spacing: 0.2em; text-transform: uppercase; margin-top: 2px; }
+.pc-head { font-weight: 800; font-size: 11pt; line-height: 1.2; color: #000; margin-bottom: 4px; }
+.pc-list { margin: 0 0 5px; padding-left: 1em; font-weight: 500; font-size: 8.4pt; line-height: 1.4; }
+.pc-list li { margin: 0; }
+.pc-url { font-size: 8pt; }
+
+.app-box { display: flex; gap: 12px; align-items: center; padding: 11px 12px; }
+.app-box img { width: 1.1in; height: 1.1in; flex: none; }
+.app-kicker { display: inline-block; background: #000; color: #fff; font-weight: 800; font-size: 7pt; letter-spacing: 0.16em; text-transform: uppercase; padding: 2px 7px; margin-bottom: 4px; }
+.app-head { font-weight: 800; font-size: 12.5pt; line-height: 1.15; color: #000; margin-bottom: 4px; }
+.app-list { margin: 0 0 5px; padding-left: 1em; font-weight: 500; font-size: 8.8pt; line-height: 1.4; }
+.app-foot { font-size: 8.2pt; }
+
+/* Title page, contents, log */
+@page title { @top-left { content: none; } @top-right { content: none; } @bottom-center { content: none; } }
+@page toc { @top-left { content: none; } @top-right { content: none; } }
+section.titlepage { page: title; height: 7.7in; display: flex; flex-direction: column; justify-content: space-between; font-family: "Inter"; }
+.tp-brand { font-weight: 800; font-size: 11pt; letter-spacing: 0.24em; text-transform: uppercase; border-bottom: 2.5pt solid #000; padding-bottom: 6px; }
+.tp-state { font-weight: 800; font-size: 34pt; line-height: 1; color: #000; }
+.tp-title { font-weight: 800; font-size: 20pt; line-height: 1.1; margin-top: 8px; color: #000; }
+.tp-sub { font-weight: 600; font-size: 11.5pt; margin-top: 12px; color: #333; line-height: 1.35; }
+.tp-tag { font-weight: 500; font-size: 9.5pt; margin-top: 18px; color: #444; line-height: 1.5; }
+.tp-foot { border-top: 1pt solid #000; padding-top: 7px; font-weight: 600; font-size: 8.5pt; display: flex; justify-content: space-between; color: #333; }
+section.toc { page: toc; break-before: page; }
+section.toc h1 { font-family: "Inter"; font-weight: 800; font-size: 19pt; margin: 0.1in 0 0.18in; padding-bottom: 0.1in; border-bottom: 2.5pt solid #000; }
+.toc-part { font-family: "Inter"; font-weight: 800; font-size: 7.6pt; letter-spacing: 0.16em; text-transform: uppercase; margin: 12px 0 4px; }
+.toc-row { display: flex; align-items: baseline; font-family: "Inter"; font-weight: 500; font-size: 9pt; line-height: 1.55; }
+.toc-row .n { width: 0.32in; font-weight: 800; flex: none; }
+.toc-row .t { flex: none; max-width: 3.9in; }
+.toc-row .dots { flex: 1; border-bottom: 1px dotted #888; margin: 0 5px; transform: translateY(-3px); }
+.toc-row .p { font-weight: 700; flex: none; }
+.tocm { font-size: 1pt; color: #fff; }
+section.part { break-before: page; }
+section.part h1 { font-family: "Inter"; font-weight: 800; font-size: 19pt; line-height: 1.15; margin: 0.2in 0 0.2in; padding-bottom: 0.12in; border-bottom: 2.5pt solid #000; }
+.log table { font-size: 8pt; }
+.log tbody td { height: 0.28in; }
