@@ -1,0 +1,692 @@
+[
+ {
+  "name": "Detour Ahead",
+  "category": "construction",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Detour Ahead.avif",
+  "description": "Your normal route is closed ahead and traffic is being sent another way. Slow down and follow the orange detour signs until they lead you back."
+ },
+ {
+  "name": "Flag Person Ahead",
+  "category": "construction",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Flag Person Ahead.avif",
+  "description": "A worker with a sign or flag is controlling traffic ahead. Slow down, be ready to stop, and do exactly what the flagger signals."
+ },
+ {
+  "name": "Road Closure Ahead",
+  "category": "construction",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Road Closure Ahead.avif",
+  "description": "The road is closed to through traffic ahead. Start looking now for the detour or another route so you are not forced into a last second turn."
+ },
+ {
+  "name": "Road Crew at Work Ahead",
+  "category": "construction",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Road Crew at Work Ahead.avif",
+  "description": "People are working on or beside the road ahead. Ease off the gas, give them as much room as you safely can, and stay alert."
+ },
+ {
+  "name": "Work Zone Ahead",
+  "category": "construction",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Work Zone Ahead.avif",
+  "description": "You are coming into a construction or maintenance area. Slow down, put the phone away, and watch for workers, equipment and lane shifts."
+ },
+ {
+  "name": "Airport Ahead",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Airport Ahead.avif",
+  "description": "An airport is reachable from this road. Follow the airplane signs to find the right exit or turn."
+ },
+ {
+  "name": "Dynamic Message Sign",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Dynamic Message Sign.avif",
+  "description": "This electronic sign shows live messages about crashes, closures, travel times or weather. Read it quickly, then adjust your speed or route if it asks you to."
+ },
+ {
+  "name": "Exit Number",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Exit Number.avif",
+  "description": "This number identifies the upcoming highway exit. Know your exit number before you leave so you can move into the correct lane early."
+ },
+ {
+  "name": "Food",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Food.avif",
+  "description": "Places to eat can be found at or near the next exit. Use it to plan a stop when you need a break."
+ },
+ {
+  "name": "Gas Station",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Gas Station.avif",
+  "description": "Fuel is available at or near the next exit. Check your gauge and plan to fill up before you run low."
+ },
+ {
+  "name": "Hospital",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Hospital.avif",
+  "description": "A hospital with emergency care can be reached by following this sign. Remember it in case you or someone else needs help."
+ },
+ {
+  "name": "Interstate Highway Number",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Interstate Highway Number.avif",
+  "description": "This red, white and blue shield shows the number of the interstate you are on or heading toward. Use it to confirm you are on the right route."
+ },
+ {
+  "name": "Lodging",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Lodging.avif",
+  "description": "Hotels or motels are available at or near the next exit. Plan a stop here if you are getting tired."
+ },
+ {
+  "name": "Rest Area",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Rest Area.avif",
+  "description": "A rest area with parking and restrooms is coming up. If you feel drowsy, pull in and take a break."
+ },
+ {
+  "name": "Rest Area Ahead",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Rest Area Ahead.avif",
+  "description": "A rest area is coming up at the distance shown. Plan your stop now and move toward the exit lane in good time."
+ },
+ {
+  "name": "Telephone",
+  "category": "guide",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Telephone.avif",
+  "description": "A public phone is available at or near this location. It can matter on remote roads where cell service is weak."
+ },
+ {
+  "name": "Bicycles Not Allowed",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Bicycles Not Allowed.avif",
+  "description": "Bicycles may not use this road. As a driver you should not expect cyclists here, but stay alert anyway."
+ },
+ {
+  "name": "Bike Lane",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Bike Lane.avif",
+  "description": "This lane is set aside for people on bikes. Do not drive or park in it, and check it carefully before you turn across it."
+ },
+ {
+  "name": "Do Not Enter",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Do Not Enter.avif",
+  "description": "You may not drive past this sign, usually because traffic is coming toward you on a one way road or ramp. Turn around safely."
+ },
+ {
+  "name": "Drive Straight Through the Intersection",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Drive Straight Through the Intersection.avif",
+  "description": "From this lane you must go straight. Turning left or right here is not allowed."
+ },
+ {
+  "name": "Fines Double in Work Zones",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Fines Double in Work Zones.avif",
+  "description": "Traffic fines are higher in this work zone. Slow down and drive carefully to protect the workers and yourself."
+ },
+ {
+  "name": "Handicapped Parking Zone",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Handicapped Parking Zone.avif",
+  "description": "This space is only for vehicles showing a valid disability placard or plate. Do not park here without one, even for a minute."
+ },
+ {
+  "name": "High-Occupancy Vehicle (HOV) Lane",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/High-Occupancy Vehicle (HOV) Lane.avif",
+  "description": "This lane is only for vehicles carrying the minimum number of people shown, plus any other users the sign lists. If you do not qualify, stay out."
+ },
+ {
+  "name": "Keep to the Left of the Traffic Island",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Keep to the Left of the Traffic Island.avif",
+  "description": "Pass the island or obstacle on its left side. Steer left of it, not right."
+ },
+ {
+  "name": "Keep to the Right of the Traffic Island",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Keep to the Right of the Traffic Island.avif",
+  "description": "Pass the island or obstacle on its right side. Stay to the right of it as you drive by."
+ },
+ {
+  "name": "Left Turn Only",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Left Turn Only.avif",
+  "description": "Vehicles in this lane must turn left. If you want to go another way, move to a different lane before you get here."
+ },
+ {
+  "name": "Minimum Speed Limit",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Minimum Speed Limit.avif",
+  "description": "You must not drive slower than this speed when conditions are good. Driving too slowly on a fast road can be as dangerous as speeding."
+ },
+ {
+  "name": "Move Only in the Directions Indicated",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Move Only in the Directions Indicated.avif",
+  "description": "Each lane must move only the way its arrows point. Pick the lane that matches where you want to go before the intersection."
+ },
+ {
+  "name": "Nighttime Speed Limit",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Nighttime Speed Limit.avif",
+  "description": "This is the top legal speed from sunset to sunrise. After dark, slow to this limit or lower."
+ },
+ {
+  "name": "No Driving on Railroad Tracks",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Driving on Railroad Tracks.avif",
+  "description": "Never drive along the rails. Cross railroad tracks only at a marked crossing, and never turn onto them."
+ },
+ {
+  "name": "No Hitchhiking",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Hitchhiking.avif",
+  "description": "Standing on the road to ask for a ride is not allowed here. As a driver, do not stop to pick up people on this road."
+ },
+ {
+  "name": "No Left Turn",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Left Turn.avif",
+  "description": "You may not turn left here. Go straight or turn right, then find a legal place to change direction."
+ },
+ {
+  "name": "No Parking",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Parking.avif",
+  "description": "You may not park here. You can stop briefly to load or unload people if no other signs forbid it."
+ },
+ {
+  "name": "No Parking Between Posted Times",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Parking Between Posted Times.avif",
+  "description": "Parking is not allowed here during the hours shown. Read the times and days carefully before you leave your vehicle."
+ },
+ {
+  "name": "No Right Turn",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Right Turn.avif",
+  "description": "You may not turn right here. Go straight or turn left if that is allowed."
+ },
+ {
+  "name": "No Standing",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Standing.avif",
+  "description": "You may stop here only long enough to pick up or drop off passengers. Do not wait or load goods."
+ },
+ {
+  "name": "No Stopping",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Stopping.avif",
+  "description": "You may not stop here at all, even briefly, unless traffic or police make you. Keep moving."
+ },
+ {
+  "name": "No Turn on Red",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No Turn on Red.avif",
+  "description": "You may not turn while the signal is red. Wait for the green light, then turn when the way is clear."
+ },
+ {
+  "name": "No-Passing Zone for All Vehicles",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/No-Passing Zone for All Vehicles.avif",
+  "description": "This yellow pennant marks where a no passing zone begins. Finish any pass now and do not start a new one."
+ },
+ {
+  "name": "One Way",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/One Way.avif",
+  "description": "Traffic on this street moves only in the direction of the arrow. Turn so you travel the same way."
+ },
+ {
+  "name": "Only Buses or Carpool Vehicles",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Only Buses or Carpool Vehicles.avif",
+  "description": "This lane is reserved for buses and carpools during the times shown. If you do not qualify, keep out of it."
+ },
+ {
+  "name": "Pedestrians Not Allowed",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Pedestrians Not Allowed.avif",
+  "description": "People may not walk along or cross the road here. Drivers should still watch for anyone who ignores the sign."
+ },
+ {
+  "name": "Railroad Crossing",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Railroad Crossing.avif",
+  "description": "This white X sign marks the exact spot where the road crosses train tracks. Treat it like a yield sign: slow down, look both ways, and stop if a train is coming."
+ },
+ {
+  "name": "Right Turn",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Right Turn.avif",
+  "description": "This arrow tells you the road or route turns right here. Get into the right position early, signal, and make the turn."
+ },
+ {
+  "name": "Roundabout",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Roundabout.avif",
+  "description": "You are entering a roundabout. Travel counterclockwise to the right, yield to vehicles already circling, and use your signal to exit."
+ },
+ {
+  "name": "Slower Traffic Keep Right",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Slower Traffic Keep Right.avif",
+  "description": "If you are driving slower than the traffic around you, use the right lane. Leave the left lane for passing."
+ },
+ {
+  "name": "Speed Limit",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Speed Limit.avif",
+  "description": "This is the fastest you may legally drive here in good conditions. In rain, fog or heavy traffic, go slower."
+ },
+ {
+  "name": "Speed Limit Near School",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Speed Limit Near School.avif",
+  "description": "A lower speed limit applies in this school zone. Slow down and watch for children walking, biking or crossing."
+ },
+ {
+  "name": "Speed Limit When Children Are Present",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Speed Limit When Children Are Present.avif",
+  "description": "This lower speed applies whenever children are near the road. Slow down and be ready to stop for a child who darts out."
+ },
+ {
+  "name": "Stop",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Stop.avif",
+  "description": "You must come to a full stop at the line, crosswalk or corner. Yield to cross traffic and pedestrians, then go when it is safe."
+ },
+ {
+  "name": "Trucks Not Allowed",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Trucks Not Allowed.avif",
+  "description": "Trucks may not use this road. Other vehicles may continue normally."
+ },
+ {
+  "name": "Turn Left or Go Straight",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Turn Left or Go Straight.avif",
+  "description": "From this lane you may turn left or go straight. Turning right is not allowed."
+ },
+ {
+  "name": "Turn Right or Go Straight",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Turn Right or Go Straight.avif",
+  "description": "From this lane you may turn right or go straight. Turning left is not allowed."
+ },
+ {
+  "name": "U-Turn Not Allowed",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/U-Turn Not Allowed.avif",
+  "description": "You may not turn around here. Keep going until you find a place where turning around is legal and safe."
+ },
+ {
+  "name": "U-Turn Only",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/U-Turn Only.avif",
+  "description": "Vehicles in this lane must make a U turn. Move out of the lane early if you plan to go another way."
+ },
+ {
+  "name": "Wear Seat Belt",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Wear Seat Belt.avif",
+  "description": "Wearing a seat belt is required by law. Buckle up and make sure every passenger does too."
+ },
+ {
+  "name": "Yield",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Yield.avif",
+  "description": "Slow down and give the right of way to traffic and pedestrians. Stop if needed, and go only when it is safe."
+ },
+ {
+  "name": "Yield the Right-of-Way or Stop",
+  "category": "regulatory",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Yield the Right-of-Way or Stop.avif",
+  "description": "You must let crossing traffic and pedestrians go first. Slow down, stop if anyone is coming, and continue only when the way is clear."
+ },
+ {
+  "name": "270-Degree Loop Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/270-Degree Loop Ahead.avif",
+  "description": "The road ahead turns in a tight loop, often on a ramp, almost circling back on itself. Slow down before you enter and keep your speed low."
+ },
+ {
+  "name": "Advisory Speed Limit",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Advisory Speed Limit.avif",
+  "description": "This plaque shows the safest speed for the curve or hazard just ahead. Slow to this speed before you reach it."
+ },
+ {
+  "name": "Bicycle Crossing",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Bicycle Crossing.avif",
+  "description": "Bike riders may cross or enter the road ahead. Slow down, look carefully, and give them room."
+ },
+ {
+  "name": "Blind Person Area",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Blind Person Area.avif",
+  "description": "People who are blind or have low vision may be crossing here. Slow down and be ready to stop for anyone using a white cane or guide dog."
+ },
+ {
+  "name": "Bump on the Road Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Bump on the Road Ahead.avif",
+  "description": "There is a sharp rise in the road surface ahead. Slow down so the bump does not jolt your car or make you lose control."
+ },
+ {
+  "name": "Cattle Crossing Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Cattle Crossing Ahead.avif",
+  "description": "Cattle may be on or crossing the road ahead. Slow down and be ready to stop."
+ },
+ {
+  "name": "Circular Intersection Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Circular Intersection Ahead.avif",
+  "description": "A roundabout is coming up. Slow down, get ready to yield to vehicles already circling, and pick your lane early."
+ },
+ {
+  "name": "Cross Traffic Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Cross Traffic Ahead.avif",
+  "description": "Another road crosses yours ahead. Slow down and watch for vehicles coming from the left and right."
+ },
+ {
+  "name": "Curve to the Left Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Curve to the Left Ahead.avif",
+  "description": "The road bends to the left ahead. Slow down before the curve and keep your car in your lane."
+ },
+ {
+  "name": "Curve to the Right Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Curve to the Right Ahead.avif",
+  "description": "The road bends to the right ahead. Slow down before the curve and keep your car in your lane."
+ },
+ {
+  "name": "Deer Crossing Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Deer Crossing Ahead.avif",
+  "description": "Deer often cross here, especially at dawn and dusk. Slow down, scan the roadsides, and expect more than one."
+ },
+ {
+  "name": "Dip on the Road Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Dip on the Road Ahead.avif",
+  "description": "The road drops into a low spot ahead. Slow down, and watch for water collecting there or for traffic hidden in the dip."
+ },
+ {
+  "name": "Directional Arrow Sign",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Directional Arrow Sign.avif",
+  "description": "This large arrow warns that the road turns sharply in the direction it points. Slow down and steer through the turn."
+ },
+ {
+  "name": "Divided Highway Ends Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Divided highway ends ahead.avif",
+  "description": "The center divider ends ahead and traffic will soon travel both ways on the same road. Keep right and watch for oncoming vehicles."
+ },
+ {
+  "name": "Fire Station Nearby",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Fire Station Nearby.avif",
+  "description": "Fire trucks may pull out ahead. Watch for flashing lights and be ready to stop and let them go."
+ },
+ {
+  "name": "Freeway Exit Ramp",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Freeway Exit Ramp.avif",
+  "description": "This shows the safe speed for the exit ramp ahead. Slow down on the ramp itself, not on the main road."
+ },
+ {
+  "name": "Hairpin Curve Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Hairpin Curve Ahead.avif",
+  "description": "A very sharp curve turns the road back on itself ahead. Slow way down before you reach it and stay in your lane."
+ },
+ {
+  "name": "Handicapped Crossing",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Handicapped Crossing.avif",
+  "description": "People with disabilities often cross here. Slow down and be ready to stop and wait while they cross."
+ },
+ {
+  "name": "Low Ground Clearance Railroad Crossing",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Low Ground Clearance Railroad Crossing.avif",
+  "description": "The railroad crossing ahead is raised and a low vehicle or trailer could get stuck on the tracks. If you are low to the ground, take another route."
+ },
+ {
+  "name": "Main Road Curves to the Left Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Main Road Curves to the Left Ahead.avif",
+  "description": "The road curves left ahead and a side road joins at the curve. Slow down and watch for vehicles entering."
+ },
+ {
+  "name": "Maximum Recommended Safe Speed",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Maximum Recommended Safe Speed.avif",
+  "description": "This is the top safe speed for the ramp or section ahead. Slow to it before you reach that point."
+ },
+ {
+  "name": "Median Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Median ahead.avif",
+  "description": "A divided highway begins ahead, with a median separating the two directions. Keep right of the divider."
+ },
+ {
+  "name": "Multi-Use Path Crossing Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Multi-Use Path Crossing Ahead.avif",
+  "description": "A path used by both walkers and bike riders crosses the road ahead. Slow down and be ready to yield."
+ },
+ {
+  "name": "Narrow Bridge Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Narrow Bridge Ahead.avif",
+  "description": "The bridge ahead is narrower than the road. Slow down, stay in your lane, and watch for oncoming vehicles."
+ },
+ {
+  "name": "Object Marker Sign",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Object Marker Sign.avif",
+  "description": "This striped marker shows an object in or right next to the road, such as a pier or the end of a barrier. Steer clear of it."
+ },
+ {
+  "name": "Overpass Clearance",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Overpass Clearance.avif",
+  "description": "This shows the height under the bridge or structure ahead. If your vehicle or load is taller, find another route."
+ },
+ {
+  "name": "Paved Surface Ends Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Paved Surface Ends Ahead.avif",
+  "description": "The pavement ends and the road becomes gravel or dirt ahead. Slow down before the change, since stopping and steering get harder."
+ },
+ {
+  "name": "Pedestrian Crossing Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Pedestrian Crossing Ahead.avif",
+  "description": "People may be crossing the road ahead. Slow down, watch the roadsides, and be ready to stop for them."
+ },
+ {
+  "name": "Playground Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Playground Ahead.avif",
+  "description": "A playground is near the road ahead. Slow down and watch for children who may run into the street."
+ },
+ {
+  "name": "Railroad Crossing Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Railroad Crossing Ahead.avif",
+  "description": "Train tracks cross the road ahead. Slow down, look and listen both ways, and be ready to stop."
+ },
+ {
+  "name": "Railroad Crossing Ahead (Alternate)",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Railroad Crossing Ahead (repeated).avif",
+  "description": "You are getting close to train tracks. Ease off the gas, turn down distractions, and look and listen both ways so you can stop if a train is near."
+ },
+ {
+  "name": "Right and Left Curves Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Right and Left Curves Ahead.avif",
+  "description": "The road curves right, then left ahead. Slow down before the first curve and keep steady through both."
+ },
+ {
+  "name": "Right Lane Ends Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Right Lane Ends Ahead.avif",
+  "description": "The right lane is ending soon. If you are in it, merge left when there is a safe gap; if you are on the left, let others merge in."
+ },
+ {
+  "name": "Road Shoulder Much Lower Than Road Surface",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Road shoulder much lower than road surface (1).avif",
+  "description": "The shoulder drops off well below the pavement. Stay on the road, and if a wheel slips off, slow down gently before steering back."
+ },
+ {
+  "name": "Road Slopes Downhill Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Road Slopes Downhill Ahead.avif",
+  "description": "A steep downhill grade is ahead. Slow down before the hill and use a lower gear so you do not ride your brakes."
+ },
+ {
+  "name": "Road Turn Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Road Turn Ahead.avif",
+  "description": "The road makes a sharp turn ahead. Slow down well before the turn."
+ },
+ {
+  "name": "School Zone Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/School Zone Ahead.avif",
+  "description": "You are near a school. Slow down and watch for children walking, biking or crossing."
+ },
+ {
+  "name": "Sharp Right Turn Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Sharp Right Turn Ahead.avif",
+  "description": "The road turns sharply to the right ahead. Slow down well before you reach the turn."
+ },
+ {
+  "name": "Side Road Near a Crossing Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Side Road Near a Crossing Ahead.avif",
+  "description": "A side road meets your road near a railroad crossing. If you turn onto it, watch for trains and do not stop on the tracks."
+ },
+ {
+  "name": "Slippery Road Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Slippery Road Ahead.avif",
+  "description": "The road can be slippery when wet. In rain, slow down, leave more space, and avoid sudden braking or steering."
+ },
+ {
+  "name": "Slow-Moving Equipment",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Slow-Moving Equipment.avif",
+  "description": "Tractors and other slow farm vehicles use this road. Be ready to slow down and pass only when it is legal and safe."
+ },
+ {
+  "name": "Soft Shoulder",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Soft Shoulder.avif",
+  "description": "The ground beside the road is soft and may not hold your vehicle. Stay on the pavement unless it is an emergency."
+ },
+ {
+  "name": "Speed Advisory at Roundabout",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Speed Advisory at Roundabout.avif",
+  "description": "This shows the safe speed for the roundabout ahead. Slow to it before you enter."
+ },
+ {
+  "name": "Speed Change Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Speed Change Ahead.avif",
+  "description": "A lower speed limit starts ahead. Begin slowing now so you are at the new limit when you reach it."
+ },
+ {
+  "name": "Speed Zone Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Speed Zone Ahead.avif",
+  "description": "A reduced speed zone is coming up. Ease off and be at the new limit by the time you enter it."
+ },
+ {
+  "name": "Stop Sign Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Stop Sign Ahead.avif",
+  "description": "There is a stop sign ahead that you may not see yet. Get ready to come to a full stop."
+ },
+ {
+  "name": "T-Intersection Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/T-Intersection Ahead.avif",
+  "description": "Your road ends ahead at a crossroad. Slow down and get ready to turn left or right."
+ },
+ {
+  "name": "Traffic Control Signal Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Traffic Control Signal Ahead.avif",
+  "description": "A traffic light is ahead, possibly around a curve. Slow down and be ready to stop."
+ },
+ {
+  "name": "Traffic May Flow on Both Sides",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Traffic May Flow on Both Sides.avif",
+  "description": "You may pass this island or obstacle on either side. Choose the side that fits your route."
+ },
+ {
+  "name": "Traffic Merging Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Traffic Merging Ahead.avif",
+  "description": "Another lane of traffic joins yours ahead. Watch for merging vehicles and adjust your speed to let them in smoothly."
+ },
+ {
+  "name": "Trucks Entering Highway Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Trucks Entering Highway Ahead.avif",
+  "description": "Large trucks may enter or cross the road ahead. Slow down and give them room."
+ },
+ {
+  "name": "Two-Way Traffic Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Two-Way Traffic Ahead.avif",
+  "description": "You are leaving a one way road and traffic will soon come toward you. Keep right."
+ },
+ {
+  "name": "Upcoming Side Road",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Upcoming Side Road.avif",
+  "description": "A side road joins your road ahead. Watch for vehicles entering or turning."
+ },
+ {
+  "name": "Watch for Ice",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Watch for Ice.avif",
+  "description": "Ice can form on this road, often before you can see it. In cold weather slow down and brake gently."
+ },
+ {
+  "name": "Winding Road",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Winding Road.avif",
+  "description": "Several curves are ahead. Slow down, keep right, and stay in your lane."
+ },
+ {
+  "name": "Y-Intersection Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Y-Intersection Ahead.avif",
+  "description": "The road splits into two directions ahead. Slow down and pick the branch you need."
+ },
+ {
+  "name": "Yield Sign Ahead",
+  "category": "warning",
+  "image_url": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Yield Sign Ahead.avif",
+  "description": "A yield sign is ahead. Slow down and get ready to let other traffic go first."
+ }
+]
