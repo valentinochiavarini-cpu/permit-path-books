@@ -6,7 +6,7 @@ In a {{STATE}} school zone the speed limit is **15 mph** whenever the yellow bea
 
 ## work_zone
 
-In {{STATE}} your **headlights** (real headlights; daytime running lights do not count) must be on in every posted work zone, whether or not workers are there. An **active work zone** (workers present, marked by a flashing "Active Work Zone When Flashing" sign) brings **double fines** for speeding and certain other violations. Going **11 mph or more over the limit** in an active work zone means a **15-day license suspension**. Automated speed cameras also run in some work zones: at 11 mph or more over the limit, the owner gets a written warning the first time, then a $75 fine, then $150. Camera fines add no points. Injuring a worker can bring a suspension of six months; killing one, a year.
+In {{STATE}} your **headlights** (real headlights; daytime running lights do not count) must be on in every posted work zone, whether or not workers are there. An **active work zone** (workers present, marked by a flashing "Active Work Zone When Flashing" sign) brings **double fines** for speeding and certain other violations. Going **11 mph or more over the limit** in an active work zone means a **15-day license suspension**. Automated speed cameras also run in some work zones: at 11 mph or more over the limit, the owner gets a written warning the first time, then a $75 fine, then $150. Camera fines add no points. Seriously injuring a worker can bring a suspension of six months; killing one, a year.
 
 ## turn_on_red
 
@@ -18,11 +18,11 @@ A **steady red arrow** means stop and do not start the turn on the arrow itself.
 
 ## move_over
 
-{{STATE}}'s Move Over law covers an **emergency response area** (police, fire, ambulance, tow trucks, road crews and similar responders working with lights or signals on) and a **disabled vehicle** marked with at least two warnings such as hazard lights, flares or signs. Change lanes so that a full lane separates you from the scene. When a lane change is not possible or not safe, drive **20 mph or more under the posted limit** as you pass. The maximum fine is $500 the first time, $1,000 the second time and $2,000 after that, plus 2 points. Injuring or killing someone can bring a suspension of 90 days to one year and fines up to $10,000.
+{{STATE}}'s Move Over law covers an **emergency response area** (police, fire, ambulance, tow trucks, road crews and similar responders working with lights or signals on) and a **disabled vehicle** marked with at least two warnings such as hazard lights, flares or signs. Change lanes so that a full lane separates you from the scene. When a lane change is not possible or not safe, drive **20 mph or more under the posted limit** as you pass. The maximum fine is $500 the first time, $1,000 the second time and $2,000 after that, plus 2 points. Seriously injuring or killing someone can bring a suspension of 90 days to one year and fines up to $10,000.
 
 ## school_bus
 
-A stopped {{STATE}} school bus with **flashing red lights and an extended stop arm** means every driver stops, and the stop must be at least **10 feet** short of the bus. That covers traffic following the bus, oncoming traffic, and drivers arriving at an intersection where the bus sits. Stay stopped until the red lights go off, the arm is pulled in and the children are safe. There is one exception. If a physical median (a barrier, guide rail, or strip of grass, trees or water) separates your roadway from the bus's roadway on a **divided highway**, you need not stop; slow down and pass with care. Flashing yellow lights mean the bus is about to stop: slow down and get ready. Failing to stop costs **5 points**, a **60-day suspension** and a $250 fine.
+A stopped {{STATE}} school bus with **flashing red lights and an extended stop arm** means every driver stops, and the stop must be at least **10 feet** short of the bus. That covers traffic following the bus, oncoming traffic, and drivers arriving at an intersection where the bus sits. Stay stopped until the red lights go off, the arm is pulled in and the children are safe. A wave from the bus driver does not let you go while the red lights still flash. There is one exception. If a physical median (a barrier, guide rail, or strip of grass, trees or water) separates your roadway from the bus's roadway on a **divided highway**, you need not stop; slow down and pass with care. Flashing yellow lights mean the bus is about to stop: slow down and get ready. Failing to stop costs **5 points**, a **60-day suspension** and a $250 fine.
 
 ## u_turn
 
@@ -41,6 +41,8 @@ A stopped {{STATE}} school bus with **flashing red lights and an extended stop a
 | Posted freeways | 65 or 70 mph |
 
 **70 mph** is the highest limit in the state. You can still be ticketed for going too fast for conditions while under the limit.
+
+Speeding adds points: 2 for 6 to 10 mph over the limit, 3 for 11 to 15 over, 4 for 16 to 25 over, and 5 for 26 or more over.
 
 ## following_distance
 
@@ -62,7 +64,7 @@ Unless a police officer tells you otherwise, {{STATE}} bans stopping or parking:
 | Stop sign, yield sign or signal at the roadside | 30 feet |
 | Nearest rail of a railroad crossing | 50 feet |
 
-Also never park on a sidewalk, crosswalk, bridge, in a tunnel, inside an intersection, across a driveway, or double parked. When you park at a curb, your wheels must be **no more than 12 inches** from it.
+Also never park on a sidewalk, crosswalk, bridge, in a tunnel, inside an intersection, across a driveway, or double parked. When you park at a curb, your wheels must be **no more than 12 inches** from it. Parking in a disability space without the right plate or placard brings a $50 to $200 fine, and the car may be towed.
 
 ## bicycle_passing
 
@@ -125,11 +127,11 @@ The fine for a child restraint violation is $75.
 
 ## vehicle_rules
 
-Every {{STATE}} car needs a **safety inspection every 12 months**, and many counties also require an **emissions inspection**. You may have it done up to 90 days before the sticker expires. You must carry proof of **liability insurance** at all times; if a registered car goes uninsured for 31 days or more, the registration is suspended for 3 months, and so is the license of anyone who drove it. You must turn on your **headlights whenever your wipers are on** because of weather, as well as in work zones. Report a name or address change to PennDOT within **15 days**.
+Every {{STATE}} car needs a **safety inspection every 12 months**, and many counties also require an **emissions inspection**. You may have it done up to 90 days before the sticker expires. You must carry proof of **liability insurance** at all times; if a registered car goes uninsured for 31 days or more, the registration is suspended for 3 months, and so is your license if you drove the car or let someone else drive it. You must turn on your **headlights whenever your wipers are on** because of weather, as well as in work zones. Report a name or address change to PennDOT within **15 days**.
 
 ## road_test
 
-The {{STATE}} road test begins with a car check and a vehicle controls check, then **parallel parking** between upright poles, in a box **24 by 8 feet**. You get one attempt and up to three adjustments; touching a pole or the curb or crossing the line is a fail. If you are under 18 and fail, you must wait **7 days** to retest. You get **three tries** per permit.
+The {{STATE}} road test begins with a car check and a vehicle controls check, then **parallel parking** between upright poles, in a box **24 by 8 feet**. You get one attempt and up to three adjustments; touching a pole, crossing the line or going up onto the curb is a fail. The examiner is your only passenger, and any self-parking feature must be turned off. If you pass at a PennDOT Driver License Center, you get your license that day. If you are under 18 and fail, you must wait **7 days** to retest. You get **three tries** per permit.
 
 ## supervised_hours
 

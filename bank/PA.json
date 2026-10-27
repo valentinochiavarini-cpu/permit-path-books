@@ -1209,19 +1209,6 @@
     "src": "PUB 95, Ch. 3, Sharing the Road, p. 45"
   },
   {
-    "id": "PA-094",
-    "ch": 9,
-    "quiz": false,
-    "q": "How fast may an open-bed pickup go in Pennsylvania when someone rides in the bed?",
-    "a": "No more than 25 mph",
-    "b": "No more than 35 mph",
-    "c": "No more than 45 mph",
-    "d": "The posted limit",
-    "correct": "B",
-    "exp": "An open-bed truck with a person in the bed is limited to 35 mph, and children under 18 generally may not ride there.",
-    "src": "PA Driver's Manual (PUB 95), Ch. 3, Special Circumstances and Emergencies, pp. 54 to 59"
-  },
-  {
     "id": "PA-095",
     "ch": 10,
     "quiz": false,
@@ -1275,7 +1262,7 @@
   },
   {
     "id": "PA-099",
-    "ch": 10,
+    "ch": 12,
     "quiz": false,
     "q": "In Pennsylvania, when must your headlights be on during the day?",
     "a": "Only on Interstates",
@@ -1782,7 +1769,7 @@
   },
   {
     "id": "PA-138",
-    "ch": 13,
+    "ch": 1,
     "quiz": false,
     "q": "If you have not passed the road test within three years of your physical exam date, what must you do?",
     "a": "Pay a late fee",
@@ -1795,7 +1782,7 @@
   },
   {
     "id": "PA-139",
-    "ch": 13,
+    "ch": 1,
     "quiz": false,
     "q": "Under 18, how far ahead may you schedule your Pennsylvania road test?",
     "a": "Up to one week",
