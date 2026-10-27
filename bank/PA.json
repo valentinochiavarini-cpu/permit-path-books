@@ -656,7 +656,7 @@
     "q": "In Pennsylvania, when is a left turn on a steady red light allowed?",
     "a": "From any street when no traffic is coming",
     "b": "From a two-way street onto a one-way street",
-    "c": "From a one-way street onto another one-way street, after stopping",
+    "c": "After a full stop, but only when both streets are one-way",
     "d": "Never",
     "correct": "C",
     "exp": "A left on red is legal only from one one-way street onto another, after a full stop and with no sign forbidding it.",

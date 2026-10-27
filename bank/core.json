@@ -789,7 +789,7 @@
   "c": "You, because you are on the left",
   "d": "Whichever car is larger",
   "correct": "B",
-  "exp": "When two cars at right angles stop together, the driver on the left yields to the driver on the right.",
+  "exp": "When two cars at right angles stop at the same time, the car on the right goes first.",
   "src": "California Driver Handbook, Laws and Rules of the Road (right of way)"
  },
  {
@@ -854,7 +854,7 @@
   "c": "You, because the other car is on your left",
   "d": "Whichever car is going faster",
   "correct": "A",
-  "exp": "At an uncontrolled intersection, the driver on the left yields to the driver on the right.",
+  "exp": "At an uncontrolled intersection, when two cars arrive together, you let the car on your right go first.",
   "src": "New York State Driver's Manual, Chapter 5 (right of way)"
  },
  {
