@@ -53,7 +53,7 @@ Short names:
 | No driving for pay or vehicles needing a commercial license | HB Section 2 | 2026-10-28 |
 | Exceptions: medical, school, work, family member, each with a signed note | HB Section 2; VC 12814.6(b)(2) | 2026-10-28 |
 | Minors may not use any wireless device, even hands-free, except emergencies | VC 23124; HB Section 8 | 2026-10-28 |
-| Provisional actions: 2 = 30 days with adult 25+; 3 = 6-month suspension and 1-year probation; alcohol or drug conviction at 15 to 20 = 1 year suspension or delay; turning 18 does not end them | HB Section 7 | 2026-10-28 |
+| Provisional actions: 2 = 30 days with adult 25+; 3 = 6-month suspension and 1-year probation; alcohol or drug conviction at 13 to 20 (VC 13202.5) = 1 year suspension or delay; turning 18 does not end them | HB Section 7 | 2026-10-28 |
 | Drive test: schedule online or 1-800-777-0133; bring permit, licensed companion, safe car, insurance and registration; rental contract rule | HB Sections 3 and iv | 2026-10-28 |
 | Pre-drive check items; donut tire not allowed; failing car rescheduled | HB Section 3 | 2026-10-28 |
 | Only examiner rides; ADAS off; backup camera allowed with visual checks; recording devices banned | HB Section 3 | 2026-10-28 |

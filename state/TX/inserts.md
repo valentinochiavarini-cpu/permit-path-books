@@ -20,7 +20,7 @@ For an emergency vehicle using its siren or lights, {{STATE}} law says pull to t
 
 ## move_over
 
-{{STATE}}'s Slow Down or Move Over law covers stopped police, fire and ambulance vehicles, tow trucks, utility vehicles and TxDOT or other road work vehicles with their lights on. On a road with two or more lanes your way, **leave the lane next to them**. If you cannot, **slow to 20 mph below the limit**. Where the limit is under 25 mph, slow to **5 mph**. A first offense costs **$500 to $1,250**. A repeat within five years costs $1,000 to $2,000 and can bring a suspension.
+{{STATE}}'s Slow Down or Move Over law covers stopped police, fire and ambulance vehicles, tow trucks, utility vehicles and TxDOT or other road work vehicles with their lights on. You may **leave the lane next to them**, on a road with two or more lanes your way, or **slow to 20 mph below the limit**. Where the limit is under 25 mph, slow to **5 mph**. A first offense costs **$500 to $1,250**. A repeat within five years costs $1,000 to $2,000 and can bring a suspension.
 
 ## school_bus
 
@@ -106,7 +106,7 @@ In {{STATE}}, a person under 21 may not buy or try to buy alcohol, drink it or h
 
 ## phone_laws
 
-{{STATE}} bans every driver from **reading, writing or sending text messages** on a handheld device while driving. The fine is up to **$99** the first time and up to **$200** after that. You may text when stopped, use voice (hands-free) features, use navigation and call in an emergency. In a **school crossing zone**, no handheld phone use at all. Drivers **under 18** may not use any wireless device, even hands-free, except in an emergency. School bus drivers carrying children may not use a phone unless stopped.
+{{STATE}} bans every driver from **reading, writing or sending electronic messages**, such as texts, on a handheld device while driving. The fine is up to **$99** the first time and up to **$200** after that. You may text when stopped, use voice (hands-free) features, use navigation and call in an emergency. In a **school crossing zone**, no handheld phone use at all. Drivers **under 18** may not use any wireless device, even hands-free, except in an emergency. School bus drivers carrying children may not use a phone unless stopped.
 
 ## seat_belts
 

@@ -111,7 +111,7 @@ A court may also order an ignition interlock device. The conviction stays on you
 
 ## underage_alcohol
 
-In {{STATE}}, a driver under 21 may not carry alcohol unless a parent, guardian, adult relative or an adult the parent named is along. The penalty is up to **$1,000** and **6 months** in jail, and your own car may be impounded up to **30 days**. Having alcohol in public, or using a **fake ID** to buy it, costs at least **$250** or **24 to 32 hours** of community service. At 13 to 20, a DUI conviction, even on a **bicycle**, means a **one-year** license suspension or delay.
+In {{STATE}}, a driver under 21 may not carry alcohol unless a parent, guardian, adult relative or parent-approved adult is along. The penalty is up to **$1,000**, **6 months** in jail, or both, and your own car can be impounded up to **30 days**. Having alcohol in public, or using a **fake ID** to buy it, costs at least **$250** or **24 to 32 hours** of community service. At 13 to 20, a DUI conviction means a **one-year** license suspension or delay. A **bicycle** DUI can bring the same.
 
 ## phone_laws
 
@@ -167,7 +167,7 @@ In {{STATE}}, headlights must be on from **30 minutes after sunset** to **30 min
 
 ## police_stop
 
-The {{STATE}} handbook adds a few steps. Move completely onto the right shoulder, even if you were in the carpool lane, and stop in a well-lit area if you can. Roll your window down before the officer reaches you. You and every passenger keep your hands in clear view. The officer must tell you why you were stopped before asking questions. You must show your **license, proof of insurance and registration**. You may say no to a search, but never resist.
+The {{STATE}} handbook adds a few steps. Move completely onto the right shoulder, even if you were in the carpool lane, and stop in a well-lit area if you can. Roll your window down before the officer reaches you. You and every passenger keep your hands in clear view. Except in an emergency, the officer must tell you why you were stopped before asking questions. You must show your **license, proof of insurance and registration**. You may say no to a search, but never resist.
 
 ## driver_record
 
