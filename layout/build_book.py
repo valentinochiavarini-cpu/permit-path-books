@@ -46,13 +46,15 @@ def q_md(n, r):
 def a_md(n, r):
     return f"**{n}. {r['correct']}.** {r['exp'].strip()}\n"
 
+QUIZ_ANS = []
+
 def quiz(ch):
     rows = [r for r in bank if r["ch"] == ch and r.get("quiz")]
     if len(rows) != 10:
         errors.append(f"Chapter {ch}: {len(rows)} quiz questions in the bank, expected 10")
     qs = "\n".join(q_md(i + 1, r) for i, r in enumerate(rows))
-    ans = "\n".join(a_md(i + 1, r) for i, r in enumerate(rows))
-    return f"{qs}\n### Chapter {ch} Quiz Answers\n\n{ans}"
+    QUIZ_ANS.append((ch, "\n".join(a_md(i + 1, r) for i, r in enumerate(rows))))
+    return f"::: quiz\n{qs}\n:::\n\nAnswers and explanations are in the Answer Key at the back of the book."
 
 # ---------- inserts ----------
 ins_text = (sdir / "inserts.md").read_text() if (sdir / "inserts.md").exists() else ""
@@ -89,9 +91,10 @@ def mocks_md():
     for k, s in enumerate(sets, 1):
         if mock_cfg and len(s) != size:
             errors.append(f"Mock {k}: {len(s)} questions, expected {size}")
-        out.append(f"# Mock Exam {k}\n\n" + "\n".join(q_md(i + 1, r) for i, r in enumerate(s)))
-    out.append("# Mock Exam Answer Key\n\n" + "\n\n".join(
-        f"## Mock Exam {k}\n\n" + "\n".join(a_md(i + 1, r).rstrip() + f" (Chapter {r['ch']})\n" for i, r in enumerate(s)) for k, s in enumerate(sets, 1)))
+        out.append(f"# Mock Exam {k}\n\n::: quiz\n" + "\n".join(q_md(i + 1, r) for i, r in enumerate(s)) + "\n:::")
+    out.append("# Answer Key\n\nEach answer has a short explanation. Mock exam answers also show the chapter to review.\n\n" + "\n\n".join(
+        f"## Chapter {ch} Quiz\n\n::: answers\n{a}\n:::" for ch, a in sorted(QUIZ_ANS)) + "\n\n" + "\n\n".join(
+        f"## Mock Exam {k}\n\n::: answers\n" + "\n".join(a_md(i + 1, r).rstrip() + f" (Chapter {r['ch']})\n" for i, r in enumerate(s)) + "\n:::" for k, s in enumerate(sets, 1)))
     used_quiz = [r["id"] for s in sets for r in s if r.get("quiz")]
     if mock_cfg and used_quiz:
         errors.append(f"mocks reuse chapter quiz questions: {used_quiz[:5]}")

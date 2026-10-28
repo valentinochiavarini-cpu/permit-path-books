@@ -18,12 +18,12 @@
 @page :right { margin-left: 0.75in; margin-right: 0.5in;
   @top-right { font-family: "Inter"; font-weight: 700; font-size: 6.8pt; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; } }
 
-html { font-family: "Literata", Georgia, serif; font-size: 11pt; line-height: 1.55; color: var(--ink); hyphens: auto; font-variant-numeric: lining-nums; }
+html { font-family: "Literata", Georgia, serif; font-size: 10.5pt; line-height: 1.45; color: var(--ink); hyphens: auto; font-variant-numeric: lining-nums; }
 body { margin: 0; }
 p { margin: 0 0 0.7em; orphans: 3; widows: 3; }
 strong { font-weight: 700; color: var(--strong); }
 
-section.chapter { break-before: right; }
+section.chapter { break-before: page; }
 .chapter-head { margin: 0.55in 0 0.3in; }
 .chapter-head .num { display: inline-block; font-family: "Inter"; font-weight: 800; font-size: 8.5pt; letter-spacing: 0.22em; text-transform: uppercase; background: #000; color: #fff; padding: 4px 10px; }
 .chapter-head h1 { font-family: "Inter"; font-weight: 800; font-size: 22pt; line-height: 1.12; margin: 0.35em 0 0; padding-bottom: 0.18in; border-bottom: 2.5pt solid #000; color: #000; letter-spacing: -0.01em; }
@@ -54,8 +54,14 @@ tr { break-inside: avoid; }
 .callout.state .label { background: #000; color: #fff; display: inline-block; padding: 2px 7px; }
 
 /* Quizzes: questions in two-line blocks, answers smaller */
-section.chapter h2[id$="-quiz"] { break-before: page; }
-h3[id$="-quiz-answers"] { break-before: page; }
+section.chapter h2[id$="-quiz"] { break-before: auto; }
+h3[id$="-quiz-answers"] { break-before: auto; margin-top: 1.2em; }
+.quiz p { font-size: 9.8pt; line-height: 1.38; margin: 0 0 0.25em; }
+.quiz p strong { font-weight: 600; }
+.quiz p + p strong { }
+.quiz p:has(strong) { margin-top: 0.7em; break-after: avoid; }
+.answers { columns: 2; column-gap: 0.25in; }
+.answers p { font-size: 8.6pt; line-height: 1.35; margin: 0 0 0.45em; break-inside: avoid; }
 
 .fig { margin: 1em auto; text-align: center; break-inside: avoid; }
 .fig svg { width: 100%; max-width: 4.6in; height: auto; display: block; margin: 0 auto; }
