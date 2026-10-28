@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 242" font-family="Inter, Arial, sans-serif">
+  <!-- Warning signs for curves and lanes: all yellow, black symbols -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <!-- Curve with advisory speed plaque -->
+  <g transform="translate(57.5,34)">
+    <polygon points="0,-30 30,0 0,30 -30,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-26 26,0 0,26 -26,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-6,19 L-6,2 C-6,-8 -1,-12 6,-14" fill="none" stroke="#1c1c1c" stroke-width="4.5"/>
+    <polygon points="13.0,-16.5 8.2,-9.3 4.6,-18.4" fill="#1c1c1c"/>
+    <g transform="translate(0,47)">
+    <rect x="-19" y="-15" width="38" height="30" rx="3" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-16.5" y="-12.5" width="33" height="25" rx="2" fill="none" stroke="#1c1c1c" stroke-width="1.6"/>
+    <text x="0" y="1" font-size="11" font-weight="800" fill="#1c1c1c" text-anchor="middle">25</text>
+    <text x="0" y="11" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">MPH</text>
+    </g>
+  </g>
+  <text class="lbl" x="57.5" y="110">Curve, 25 MPH plaque</text>
+  <text class="sub" x="57.5" y="123">Yellow; plaque is advice</text>
+  <!-- Sharp turn -->
+  <g transform="translate(172.5,48)">
+    <polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-6,21 L-6,-6 L6,-6" fill="none" stroke="#1c1c1c" stroke-width="5"/>
+    <polygon points="16.0,-6.0 8.3,-0.8 8.3,-11.2" fill="#1c1c1c"/>
+  </g>
+  <text class="lbl" x="172.5" y="110">Sharp Turn</text>
+  <text class="sub" x="172.5" y="123">Yellow diamond</text>
+  <!-- Winding road -->
+  <g transform="translate(287.5,48)">
+    <polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M2,22 C-10,14 10,6 -1,-2 C-10,-8 2,-12 2,-14" fill="none" stroke="#1c1c1c" stroke-width="4.5"/>
+    <polygon points="2.0,-22.0 6.9,-14.8 -2.9,-14.8" fill="#1c1c1c"/>
+  </g>
+  <text class="lbl" x="287.5" y="110">Winding Road</text>
+  <text class="sub" x="287.5" y="123">Yellow diamond</text>
+  <!-- Chevron alignment: points the way the road bends -->
+  <g transform="translate(402.5,48)">
+    <rect x="-24" y="-32" width="48" height="64" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/>
+    <polygon points="-14,-20 0,-20 16,0 0,20 -14,20 2,0" fill="#1c1c1c"/>
+  </g>
+  <text class="lbl" x="402.5" y="110">Chevron</text>
+  <text class="sub" x="402.5" y="123">Yellow, on outside of curve</text>
+  <!-- Merge: traffic joins from the right -->
+  <g transform="translate(57.5,172)">
+    <polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-5,22 L-5,-12" fill="none" stroke="#1c1c1c" stroke-width="4.5"/>
+    <polygon points="-5.0,-22.0 0.2,-14.3 -10.2,-14.3" fill="#1c1c1c"/>
+    <path d="M14,22 Q14,8 -4,2" fill="none" stroke="#1c1c1c" stroke-width="4"/>
+  </g>
+  <text class="lbl" x="57.5" y="222">Merge</text>
+  <text class="sub" x="57.5" y="235">Traffic joins your road</text>
+  <!-- Lane Ends: right lane ends -->
+  <g transform="translate(172.5,172)">
+    <polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-11,23 L-11,-23" fill="none" stroke="#1c1c1c" stroke-width="4.5"/>
+    <path d="M11,23 L11,2 L-1,-10 L-1,-23" fill="none" stroke="#1c1c1c" stroke-width="4.5"/>
+    <line x1="0" y1="23" x2="0" y2="4" stroke="#1c1c1c" stroke-width="2" stroke-dasharray="3 3"/>
+  </g>
+  <text class="lbl" x="172.5" y="222">Lane Ends</text>
+  <text class="sub" x="172.5" y="235">Your road loses a lane</text>
+  <!-- Divided Highway: median begins ahead -->
+  <g transform="translate(287.5,172)">
+    <polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-6,-24 L-6,-6 Q0,2 6,-6 L6,-24 Z" fill="#1c1c1c"/>
+    <path d="M-15,-17 L-15,-6 Q-15,2 -6,6 L-6,13" fill="none" stroke="#1c1c1c" stroke-width="4"/>
+    <polygon points="-6.0,22.0 -10.9,14.8 -1.1,14.8" fill="#1c1c1c"/>
+    <path d="M6,22 L6,6 Q15,2 15,-6 L15,-8" fill="none" stroke="#1c1c1c" stroke-width="4"/>
+    <polygon points="15.0,-18.0 19.9,-10.8 10.1,-10.8" fill="#1c1c1c"/>
+  </g>
+  <text class="lbl" x="287.5" y="222">Divided Highway</text>
+  <text class="sub" x="287.5" y="235">Median begins</text>
+  <!-- Divided Highway Ends: median ends, two way traffic -->
+  <g transform="translate(402.5,172)">
+    <polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-6,24 L-6,6 Q0,-2 6,6 L6,24 Z" fill="#1c1c1c"/>
+    <path d="M-6,-22 L-6,-6 Q-15,-2 -15,6 L-15,8" fill="none" stroke="#1c1c1c" stroke-width="4"/>
+    <polygon points="-15.0,18.0 -19.9,10.8 -10.1,10.8" fill="#1c1c1c"/>
+    <path d="M15,17 L15,6 Q15,-2 6,-6 L6,-13" fill="none" stroke="#1c1c1c" stroke-width="4"/>
+    <polygon points="6.0,-22.0 10.9,-14.8 1.1,-14.8" fill="#1c1c1c"/>
+  </g>
+  <text class="lbl" x="402.5" y="222">Divided Highway Ends</text>
+  <text class="sub" x="402.5" y="235">Oncoming traffic, no median</text>
+</svg>

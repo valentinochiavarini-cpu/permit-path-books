@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: entering a freeway. On-ramp, acceleration lane (reach the speed of traffic), merge area (join a gap in the right lane). Traffic moves left to right. -->
+  <style>
+    .fm_lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: start; }
+    .fm_sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: start; }
+    .fm_num { font-size: 10px; font-weight: 700; fill: #fff; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="ah_fm" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+    <g id="fm_car"><rect x="-15" y="-8" width="30" height="16" rx="3" fill="#f2f2f2" stroke="#1c1c1c" stroke-width="1"/><rect x="4" y="-6" width="5" height="12" fill="#1c1c1c"/></g>
+    <g id="fm_you"><rect x="-15" y="-8" width="30" height="16" rx="3" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/><rect x="4" y="-6" width="5" height="12" fill="#1c1c1c"/></g>
+  </defs>
+
+  <text class="fm_lbl" x="0" y="11">Traffic moves this way</text>
+  <path d="M132,7 H168" stroke="#1c1c1c" stroke-width="2" marker-end="url(#ah_fm)"/>
+
+  <!-- freeway: two lanes (y 20 to 76) -->
+  <rect x="0" y="20" width="460" height="56" fill="#d9d9d9"/>
+  <!-- acceleration lane (y 76 to 102), parallel from x 150 to 320, taper to x 390 -->
+  <polygon points="110,76 390,76 320,102 150,102" fill="#d9d9d9"/>
+  <!-- on-ramp from the lower left -->
+  <polygon points="0,150 110,76 150,102 34,180 0,180" fill="#d9d9d9"/>
+
+  <!-- markings -->
+  <line x1="0" y1="22" x2="460" y2="22" stroke="#888" stroke-width="3.5"/><line x1="0" y1="22" x2="460" y2="22" stroke="#FFCD00" stroke-width="2"/>
+  <line x1="0" y1="48" x2="460" y2="48" stroke="#888" stroke-width="3.5" stroke-dasharray="14 10"/><line x1="0" y1="48" x2="460" y2="48" stroke="#fff" stroke-width="2" stroke-dasharray="14 10"/>
+  <line x1="0" y1="76" x2="110" y2="76" stroke="#888" stroke-width="3.5"/><line x1="0" y1="76" x2="110" y2="76" stroke="#fff" stroke-width="2"/>
+  <line x1="150" y1="76" x2="320" y2="76" stroke="#888" stroke-width="3.5" stroke-dasharray="4 6"/><line x1="150" y1="76" x2="320" y2="76" stroke="#fff" stroke-width="2" stroke-dasharray="4 6"/>
+  <line x1="390" y1="76" x2="460" y2="76" stroke="#888" stroke-width="3.5"/><line x1="390" y1="76" x2="460" y2="76" stroke="#fff" stroke-width="2"/>
+  <polyline points="34,180 150,102 320,102 390,76" fill="none" stroke="#888" stroke-width="3.5"/><polyline points="34,180 150,102 320,102 390,76" fill="none" stroke="#fff" stroke-width="2"/>
+  <line x1="0" y1="150" x2="110" y2="76" stroke="#888" stroke-width="3.5"/><line x1="0" y1="150" x2="110" y2="76" stroke="#fff" stroke-width="2"/>
+
+  <!-- freeway traffic: a gap in the right lane between two cars -->
+  <use href="#fm_car" x="200" y="62"/>
+  <use href="#fm_car" x="430" y="62"/>
+  <use href="#fm_car" x="90" y="35"/>
+  <use href="#fm_car" x="320" y="35"/>
+
+  <!-- your path -->
+  <path d="M58,145 L140,90 L280,89 C310,89 320,62 350,62 L388,62" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#ah_fm)"/>
+  <g transform="translate(46,153) rotate(-34)"><use href="#fm_you"/></g>
+  <text x="66" y="172" font-size="11" font-weight="600" fill="#1c1c1c">You</text>
+
+  <!-- step labels -->
+  <circle cx="108" cy="137" r="8" fill="#1c1c1c"/><text class="fm_num" x="108" y="141">1</text>
+  <text class="fm_lbl" x="120" y="134">On-ramp</text>
+  <text class="fm_sub" x="120" y="146">Look for a gap, signal</text>
+
+  <circle cx="200" cy="124" r="8" fill="#1c1c1c"/><text class="fm_num" x="200" y="128">2</text>
+  <text class="fm_lbl" x="212" y="121">Acceleration lane</text>
+  <text class="fm_sub" x="212" y="133">Speed up to match traffic</text>
+
+  <circle cx="354" cy="124" r="8" fill="#1c1c1c"/><text class="fm_num" x="354" y="128">3</text>
+  <text class="fm_lbl" x="366" y="121">Merge area</text>
+  <text class="fm_sub" x="366" y="133">Head check, then</text>
+  <text class="fm_sub" x="366" y="145">move into the gap</text>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 240" font-family="Inter, Arial, sans-serif">
+  <!-- Work zone signs and devices: orange signs, flagger paddle, channeling devices, arrow board modes, pink incident sign -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <!-- Road Work Ahead -->
+  <g transform="translate(57.5,48)">
+    <polygon points="0,-38 38,0 0,38 -38,0" fill="#F47920" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-34 34,0 0,34 -34,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <text x="0" y="-8" font-size="10.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">ROAD</text>
+    <text x="0" y="4" font-size="10.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">WORK</text>
+    <text x="0" y="16" font-size="10.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">AHEAD</text>
+  </g>
+  <text class="lbl" x="57.5" y="104">Road Work Ahead</text>
+  <text class="sub" x="57.5" y="117">Orange diamond</text>
+  <!-- Flagger paddle: both faces -->
+  <g transform="translate(172.5,44)">
+    <rect x="-28.5" y="20" width="3" height="20" fill="#888"/>
+    <rect x="25.5" y="20" width="3" height="20" fill="#888"/>
+    <g transform="translate(-27,0)">
+    <polygon points="-9.9,-24.0 9.9,-24.0 24.0,-9.9 24.0,9.9 9.9,24.0 -9.9,24.0 -24.0,9.9 -24.0,-9.9" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+    <polygon points="-9.1,-22.1 9.1,-22.1 22.1,-9.1 22.1,9.1 9.1,22.1 -9.1,22.1 -22.1,9.1 -22.1,-9.1" fill="#C8102E"/>
+    <text x="0" y="4" font-size="10" font-weight="800" fill="#fff" text-anchor="middle">STOP</text>
+    </g>
+    <g transform="translate(27,0)">
+    <polygon points="-9.9,-24.0 9.9,-24.0 24.0,-9.9 24.0,9.9 9.9,24.0 -9.9,24.0 -24.0,9.9 -24.0,-9.9" fill="#1c1c1c" stroke="#1c1c1c" stroke-width="1"/>
+    <polygon points="-9.1,-22.1 9.1,-22.1 22.1,-9.1 22.1,9.1 9.1,22.1 -9.1,22.1 -22.1,9.1 -22.1,-9.1" fill="#F47920"/>
+    <text x="0" y="4" font-size="10" font-weight="800" fill="#1c1c1c" text-anchor="middle">SLOW</text>
+    </g>
+  </g>
+  <text class="lbl" x="172.5" y="104">Flagger Paddle</text>
+  <text class="sub" x="172.5" y="117">STOP red, SLOW orange</text>
+  <!-- Cone and drum -->
+  <g transform="translate(287.5,46)">
+    <g transform="translate(-22,0)">
+    <polygon points="-6,-26 6,-26 15,20 -15,20" fill="#F47920" stroke="#1c1c1c" stroke-width="1"/>
+    <polygon points="-8.6,-13 8.6,-13 10.4,-4 -10.4,-4" fill="#fff"/>
+    <rect x="-20" y="20" width="40" height="6" fill="#1c1c1c"/>
+    </g><g transform="translate(22,0)">
+    <rect x="-15" y="-28" width="30" height="54" rx="4" fill="#F47920" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-15" y="-17" width="30" height="7" fill="#fff"/>
+    <rect x="-15" y="-3" width="30" height="7" fill="#fff"/>
+    <rect x="-15" y="11" width="30" height="7" fill="#fff"/>
+    <rect x="-15" y="-28" width="30" height="54" rx="4" fill="none" stroke="#1c1c1c" stroke-width="1"/>
+    </g>
+  </g>
+  <text class="lbl" x="287.5" y="104">Cone and Drum</text>
+  <text class="sub" x="287.5" y="117">Orange and white</text>
+  <!-- Vertical panel: stripes slope down to the right, so pass on the right -->
+  <g transform="translate(402.5,46)">
+    <defs><clipPath id="vp_clip"><rect x="-8" y="-30" width="16" height="56"/></clipPath></defs>
+    <rect x="-8" y="-30" width="16" height="56" fill="#fff"/>
+    <g clip-path="url(#vp_clip)"><polygon points="-8,-54 8,-38 8,-30 -8,-46" fill="#F47920"/><polygon points="-8,-38 8,-22 8,-14 -8,-30" fill="#F47920"/><polygon points="-8,-22 8,-6 8,2 -8,-14" fill="#F47920"/><polygon points="-8,-6 8,10 8,18 -8,2" fill="#F47920"/><polygon points="-8,10 8,26 8,34 -8,18" fill="#F47920"/><polygon points="-8,26 8,42 8,50 -8,34" fill="#F47920"/></g>
+    <rect x="-8" y="-30" width="16" height="56" fill="none" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-1.5" y="26" width="3" height="10" fill="#888"/>
+    <path d="M18,8 L18,-10" fill="none" stroke="#1c1c1c" stroke-width="2.5"/>
+    <polygon points="18.0,-18.0 22.1,-11.9 13.9,-11.9" fill="#1c1c1c"/>
+  </g>
+  <text class="lbl" x="402.5" y="104">Vertical Panel</text>
+  <text class="sub" x="402.5" y="117">Pass on the low side</text>
+  <!-- Barricade with ROAD CLOSED -->
+  <g transform="translate(57.5,164)">
+    <rect x="-38" y="-12" width="3" height="42" fill="#888"/>
+    <rect x="35" y="-12" width="3" height="42" fill="#888"/>
+    <clipPath id="bc-8"><rect x="-44" y="-8" width="88" height="9"/></clipPath><rect x="-44" y="-8" width="88" height="9" fill="#fff"/><g clip-path="url(#bc-8)"><polygon points="-62,-8 -54,-8 -45,1 -53,1" fill="#F47920"/><polygon points="-46,-8 -38,-8 -29,1 -37,1" fill="#F47920"/><polygon points="-30,-8 -22,-8 -13,1 -21,1" fill="#F47920"/><polygon points="-14,-8 -6,-8 3,1 -5,1" fill="#F47920"/><polygon points="62,-8 54,-8 45,1 53,1" fill="#F47920"/><polygon points="46,-8 38,-8 29,1 37,1" fill="#F47920"/><polygon points="30,-8 22,-8 13,1 21,1" fill="#F47920"/><polygon points="14,-8 6,-8 -3,1 5,1" fill="#F47920"/></g><rect x="-44" y="-8" width="88" height="9" fill="none" stroke="#1c1c1c" stroke-width="1"/>
+    <clipPath id="bc6"><rect x="-44" y="6" width="88" height="9"/></clipPath><rect x="-44" y="6" width="88" height="9" fill="#fff"/><g clip-path="url(#bc6)"><polygon points="-62,6 -54,6 -45,15 -53,15" fill="#F47920"/><polygon points="-46,6 -38,6 -29,15 -37,15" fill="#F47920"/><polygon points="-30,6 -22,6 -13,15 -21,15" fill="#F47920"/><polygon points="-14,6 -6,6 3,15 -5,15" fill="#F47920"/><polygon points="62,6 54,6 45,15 53,15" fill="#F47920"/><polygon points="46,6 38,6 29,15 37,15" fill="#F47920"/><polygon points="30,6 22,6 13,15 21,15" fill="#F47920"/><polygon points="14,6 6,6 -3,15 5,15" fill="#F47920"/></g><rect x="-44" y="6" width="88" height="9" fill="none" stroke="#1c1c1c" stroke-width="1"/>
+    <clipPath id="bc20"><rect x="-44" y="20" width="88" height="9"/></clipPath><rect x="-44" y="20" width="88" height="9" fill="#fff"/><g clip-path="url(#bc20)"><polygon points="-62,20 -54,20 -45,29 -53,29" fill="#F47920"/><polygon points="-46,20 -38,20 -29,29 -37,29" fill="#F47920"/><polygon points="-30,20 -22,20 -13,29 -21,29" fill="#F47920"/><polygon points="-14,20 -6,20 3,29 -5,29" fill="#F47920"/><polygon points="62,20 54,20 45,29 53,29" fill="#F47920"/><polygon points="46,20 38,20 29,29 37,29" fill="#F47920"/><polygon points="30,20 22,20 13,29 21,29" fill="#F47920"/><polygon points="14,20 6,20 -3,29 5,29" fill="#F47920"/></g><rect x="-44" y="20" width="88" height="9" fill="none" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-26" y="-34" width="52" height="24" rx="2" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/>
+    <text x="0" y="-24" font-size="9.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">ROAD</text>
+    <text x="0" y="-14" font-size="9.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">CLOSED</text>
+  </g>
+  <text class="lbl" x="57.5" y="214">Barricade</text>
+  <text class="sub" x="57.5" y="227">Road closed: do not pass</text>
+  <!-- Arrow board: flashing arrow left, merge left -->
+  <g transform="translate(172.5,164)">
+    <rect x="-44" y="-24" width="88" height="44" rx="3" fill="#1c1c1c"/>
+    <rect x="-4" y="20" width="8" height="10" fill="#888"/>
+    <circle cx="-24" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="-17" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="-10" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="-3" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="4" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="11" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="18" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="25" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="32" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="-31" cy="-2" r="2.6" fill="#FFCD00"/>
+    <circle cx="-24" cy="-9" r="2.6" fill="#FFCD00"/>
+    <circle cx="-17" cy="-16" r="2.6" fill="#FFCD00"/>
+    <circle cx="-24" cy="5" r="2.6" fill="#FFCD00"/>
+    <circle cx="-17" cy="12" r="2.6" fill="#FFCD00"/>
+  </g>
+  <text class="lbl" x="172.5" y="214">Arrow Board</text>
+  <text class="sub" x="172.5" y="227">Arrow: merge left early</text>
+  <!-- Arrow board caution mode: corner lights only -->
+  <g transform="translate(287.5,164)">
+    <rect x="-44" y="-24" width="88" height="44" rx="3" fill="#1c1c1c"/>
+    <rect x="-4" y="20" width="8" height="10" fill="#888"/>
+    <circle cx="-38" cy="-18" r="2.6" fill="#FFCD00"/>
+    <circle cx="38" cy="-18" r="2.6" fill="#FFCD00"/>
+    <circle cx="-38" cy="14" r="2.6" fill="#FFCD00"/>
+    <circle cx="38" cy="14" r="2.6" fill="#FFCD00"/>
+  </g>
+  <text class="lbl" x="287.5" y="214">Caution Mode</text>
+  <text class="sub" x="287.5" y="227">Corner lights, no arrow</text>
+  <!-- Incident sign, fluorescent pink -->
+  <g transform="translate(402.5,164)">
+    <polygon points="0,-38 38,0 0,38 -38,0" fill="#E8418C" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-34 34,0 0,34 -34,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <text x="0" y="-2" font-size="9.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">INCIDENT</text>
+    <text x="0" y="10" font-size="9.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">AHEAD</text>
+  </g>
+  <text class="lbl" x="402.5" y="214">Incident Ahead</text>
+  <text class="sub" x="402.5" y="227">Fluorescent pink</text>
+</svg>

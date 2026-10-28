@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 260" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: two lane roundabout, top-down. Yield to the crosswalk, yield at the yield line to circling traffic from the left, travel counterclockwise, right lane for the first exit, left lane for a left turn. -->
+  <style>
+    .rb_lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: start; }
+    .rb_sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: start; }
+    .rb_num { font-size: 10px; font-weight: 700; fill: #fff; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="ah_rb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+    <clipPath id="rb_clip"><rect x="0" y="0" width="300" height="260"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#rb_clip)">
+    <!-- roads: four legs, 72 wide, and the circle -->
+    <rect x="114" y="0" width="72" height="260" fill="#d9d9d9"/>
+    <rect x="0" y="94" width="300" height="72" fill="#d9d9d9"/>
+    <circle cx="150" cy="130" r="75" fill="#d9d9d9"/>
+    <!-- lane line between the two circulating lanes, broken white -->
+    <circle cx="150" cy="130" r="57" fill="none" stroke="#888" stroke-width="3.5" stroke-dasharray="7 6"/>
+    <circle cx="150" cy="130" r="57" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="7 6"/>
+    <!-- truck apron and central island -->
+    <circle cx="150" cy="130" r="40" fill="#bdbdbd" stroke="#888" stroke-width="1"/>
+    <circle cx="150" cy="130" r="31" fill="#9cc58a" stroke="#1c1c1c" stroke-width="1"/>
+    <text x="150" y="128" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="middle">Island</text>
+    <text x="150" y="140" font-size="9" font-weight="500" fill="#1c1c1c" text-anchor="middle">(grass)</text>
+
+    <!-- splitter islands on each leg -->
+    <g fill="#f2f2f2" stroke="#888" stroke-width="1">
+      <rect x="146" y="203" width="8" height="60" rx="3"/>
+      <rect x="146" y="-3" width="8" height="60" rx="3"/>
+      <rect x="-3" y="126" width="60" height="8" rx="3"/>
+      <rect x="223" y="126" width="80" height="8" rx="3"/>
+    </g>
+    <!-- lane lines on the legs, broken white -->
+    <g stroke="#888" stroke-width="3.5" stroke-dasharray="7 6"><path d="M168,206 V260 M132,206 V260 M168,0 V54 M132,0 V54 M0,112 H54 M0,148 H54 M246,112 H300 M246,148 H300"/></g>
+    <g stroke="#fff" stroke-width="2" stroke-dasharray="7 6"><path d="M168,206 V260 M132,206 V260 M168,0 V54 M132,0 V54 M0,112 H54 M0,148 H54 M246,112 H300 M246,148 H300"/></g>
+
+    <!-- your approach (south leg): yield line triangles pointing toward you, then the crosswalk -->
+    <g fill="#fff" stroke="#888" stroke-width="0.8">
+      <polygon points="155,206 161,206 158,212"/><polygon points="163,206 169,206 166,212"/><polygon points="171,206 177,206 174,212"/><polygon points="179,206 185,206 182,212"/>
+    </g>
+    <g fill="#fff" stroke="#888" stroke-width="0.8">
+      <rect x="116" y="217" width="5" height="11"/><rect x="125" y="217" width="5" height="11"/><rect x="134" y="217" width="5" height="11"/><rect x="143" y="217" width="5" height="11"/>
+      <rect x="152" y="217" width="5" height="11"/><rect x="161" y="217" width="5" height="11"/><rect x="170" y="217" width="5" height="11"/><rect x="179" y="217" width="5" height="11"/>
+    </g>
+
+    <!-- counterclockwise flow arrows in the outer lane -->
+    <g fill="none" stroke="#555" stroke-width="2" marker-end="url(#ah_rb)">
+      <path d="M170,64 A66,66 0 0 0 130,64"/>
+      <path d="M84,120 A66,66 0 0 0 84,140"/>
+      <path d="M216,148 A66,66 0 0 0 216,112"/>
+    </g>
+    <!-- car circling, coming from your left -->
+    <g transform="translate(99,170) rotate(135)"><rect x="-7" y="-13" width="14" height="26" rx="3" fill="#f2f2f2" stroke="#1c1c1c" stroke-width="1"/><rect x="-6" y="-8" width="12" height="5" fill="#1c1c1c"/></g>
+
+    <!-- left lane path: all the way around to the left exit (solid) -->
+    <path d="M159,232 L159,205 Q160,183 176,173 A49,49 0 1 0 104,121 Q96,121 84,121 L6,121" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#ah_rb)"/>
+    <!-- right lane path: first exit to the right (dashed) -->
+    <path d="M177,256 L177,208 C177,182 196,157 226,157 L294,157" fill="none" stroke="#1c1c1c" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#ah_rb)"/>
+
+    <!-- your car in the left lane -->
+    <g transform="translate(159,246)"><rect x="-7" y="-13" width="14" height="26" rx="3" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/><rect x="-6" y="-8" width="12" height="5" fill="#1c1c1c"/></g>
+    <text x="146" y="250" font-size="11" font-weight="600" fill="#1c1c1c" text-anchor="end">You</text>
+
+    <!-- step markers -->
+    <g><circle cx="200" cy="225" r="8" fill="#1c1c1c"/><text class="rb_num" x="200" y="229">1</text></g>
+    <g><circle cx="200" cy="205" r="8" fill="#1c1c1c"/><text class="rb_num" x="200" y="209">2</text></g>
+    <g><circle cx="150" cy="44" r="8" fill="#1c1c1c"/><text class="rb_num" x="150" y="48">3</text></g>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(312,0)">
+    <g><circle cx="8" cy="22" r="8" fill="#1c1c1c"/><text class="rb_num" x="8" y="26">1</text></g>
+    <text class="rb_lbl" x="22" y="20">Yield to people</text>
+    <text class="rb_lbl" x="22" y="33">in the crosswalk</text>
+    <g><circle cx="8" cy="62" r="8" fill="#1c1c1c"/><text class="rb_num" x="8" y="66">2</text></g>
+    <text class="rb_lbl" x="22" y="60">Look left at the</text>
+    <text class="rb_lbl" x="22" y="73">yield line</text>
+    <text class="rb_sub" x="22" y="86">Circling traffic goes first</text>
+    <g><circle cx="8" cy="113" r="8" fill="#1c1c1c"/><text class="rb_num" x="8" y="117">3</text></g>
+    <text class="rb_lbl" x="22" y="111">Go counterclockwise</text>
+    <text class="rb_sub" x="22" y="124">Island stays on your left</text>
+    <line x1="0" y1="152" x2="20" y2="152" stroke="#1c1c1c" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <text class="rb_lbl" x="26" y="150">Right lane</text>
+    <text class="rb_sub" x="26" y="163">Right turn, first exit</text>
+    <line x1="0" y1="190" x2="20" y2="190" stroke="#1c1c1c" stroke-width="2.5"/>
+    <text class="rb_lbl" x="26" y="188">Left lane</text>
+    <text class="rb_sub" x="26" y="201">Left turn or back the</text>
+    <text class="rb_sub" x="26" y="213">way you came</text>
+    <text class="rb_sub" x="0" y="238">Straight ahead: either</text>
+    <text class="rb_sub" x="0" y="250">lane, as signs show</text>
+  </g>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 250" font-family="Inter, Arial, sans-serif">
+  <!-- Sign shapes overview: each shape with its meaning and usual color named in words -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <!-- Octagon: Stop, red -->
+  <g transform="translate(46,40)">
+    <polygon points="-12.8,-31.0 12.8,-31.0 31.0,-12.8 31.0,12.8 12.8,31.0 -12.8,31.0 -31.0,12.8 -31.0,-12.8" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+    <polygon points="-11.8,-28.5 11.8,-28.5 28.5,-11.8 28.5,11.8 11.8,28.5 -11.8,28.5 -28.5,11.8 -28.5,-11.8" fill="#C8102E"/>
+    <text x="0" y="5" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">STOP</text>
+  </g>
+  <text class="lbl" x="46" y="90">Octagon</text>
+  <text class="sub" x="46" y="103">Stop</text>
+  <text class="sub" x="46" y="115">Red</text>
+  <!-- Triangle point down: Yield -->
+  <g transform="translate(138,34)">
+    <polygon points="-38,-28 38,-28 0,38" fill="#C8102E" stroke="#1c1c1c" stroke-width="1"/>
+    <polygon points="-23,-20 23,-20 0,20" fill="#fff"/>
+    <text x="0" y="-7" font-size="9" font-weight="800" fill="#C8102E" text-anchor="middle">YIELD</text>
+  </g>
+  <text class="lbl" x="138" y="90">Triangle</text>
+  <text class="sub" x="138" y="103">Yield</text>
+  <text class="sub" x="138" y="115">Red and white</text>
+  <!-- Circle: railroad advance warning -->
+  <g transform="translate(230,40)">
+    <circle r="31" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/>
+    <circle r="27.5" fill="none" stroke="#1c1c1c" stroke-width="2.2"/>
+    <line x1="-17" y1="-17" x2="17" y2="17" stroke="#1c1c1c" stroke-width="4"/>
+    <line x1="17" y1="-17" x2="-17" y2="17" stroke="#1c1c1c" stroke-width="4"/>
+    <text x="-14" y="5" font-size="11" font-weight="800" fill="#1c1c1c" text-anchor="middle">R</text>
+    <text x="14" y="5" font-size="11" font-weight="800" fill="#1c1c1c" text-anchor="middle">R</text>
+  </g>
+  <text class="lbl" x="230" y="90">Circle</text>
+  <text class="sub" x="230" y="103">Railroad ahead</text>
+  <text class="sub" x="230" y="115">Yellow</text>
+  <!-- Pennant: No Passing Zone -->
+  <g transform="translate(322,40)">
+    <polygon points="-42,-27 42,0 -42,27" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="-38.5,-21.5 30,0 -38.5,21.5" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linejoin="round"/>
+    <text x="-17" y="-6" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">NO</text>
+    <text x="-17" y="4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">PASSING</text>
+    <text x="-17" y="14" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ZONE</text>
+  </g>
+  <text class="lbl" x="322" y="90">Pennant</text>
+  <text class="sub" x="322" y="103">No passing zone</text>
+  <text class="sub" x="322" y="115">Yellow</text>
+  <!-- Pentagon: School -->
+  <g transform="translate(414,40)">
+    <polygon points="0,-32.0 29.0,-6.399999999999999 29.0,32.0 -29.0,32.0 -29.0,-6.399999999999999" fill="#C6D52B" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-28.0 25.0,-6.399999999999999 25.0,28.0 -25.0,28.0 -25.0,-6.399999999999999" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="-9.1" cy="-6.4" r="3.8" fill="#1c1c1c"/>
+    <path d="M-8.0,-1.1 L-7.0,10.4" fill="none" stroke="#1c1c1c" stroke-width="5.25"/>
+    <path d="M-7.0,10.4 L-13.2,22.0" fill="none" stroke="#1c1c1c" stroke-width="3.57"/>
+    <path d="M-7.0,10.4 L-1.7,22.0" fill="none" stroke="#1c1c1c" stroke-width="3.57"/>
+    <path d="M-8.0,1.0 L-14.3,8.3" fill="none" stroke="#1c1c1c" stroke-width="2.94"/>
+    <path d="M-8.0,1.0 L-1.7,7.3" fill="none" stroke="#1c1c1c" stroke-width="2.94"/>
+    <circle cx="8.2" cy="-0.9" r="3.1" fill="#1c1c1c"/>
+    <path d="M9.0,3.3 L9.8,12.7" fill="none" stroke="#1c1c1c" stroke-width="4.25"/>
+    <path d="M9.8,12.7 L4.8,22.0" fill="none" stroke="#1c1c1c" stroke-width="2.8899999999999997"/>
+    <path d="M9.8,12.7 L14.1,22.0" fill="none" stroke="#1c1c1c" stroke-width="2.8899999999999997"/>
+    <path d="M9.0,5.0 L3.9,11.0" fill="none" stroke="#1c1c1c" stroke-width="2.38"/>
+    <path d="M9.0,5.0 L14.1,10.1" fill="none" stroke="#1c1c1c" stroke-width="2.38"/>
+  </g>
+  <text class="lbl" x="414" y="90">Pentagon</text>
+  <text class="sub" x="414" y="103">School</text>
+  <text class="sub" x="414" y="115">Yellow-green</text>
+  <!-- Crossbuck: white X, black letters -->
+  <g transform="translate(57.5,160)">
+    <g transform="rotate(35)"><rect x="-40" y="-7.5" width="80" height="15" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/><text x="0" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">CROSSING</text></g>
+    <g transform="rotate(-35)"><rect x="-40" y="-7.5" width="80" height="15" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/><text x="0" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">RAILROAD</text></g>
+  </g>
+  <text class="lbl" x="57.5" y="210">Crossbuck</text>
+  <text class="sub" x="57.5" y="223">Railroad crossing</text>
+  <text class="sub" x="57.5" y="235">White</text>
+  <!-- Diamond: warning (curve) -->
+  <g transform="translate(172.5,160)">
+    <polygon points="0,-31 31,0 0,31 -31,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-27 27,0 0,27 -27,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M-6,20 L-6,2 C-6,-8 -1,-12 6,-14" fill="none" stroke="#1c1c1c" stroke-width="4.5"/>
+    <polygon points="13.0,-16.5 8.2,-9.3 4.6,-18.4" fill="#1c1c1c"/>
+  </g>
+  <text class="lbl" x="172.5" y="210">Diamond</text>
+  <text class="sub" x="172.5" y="223">Warning</text>
+  <text class="sub" x="172.5" y="235">Yellow</text>
+  <!-- Vertical rectangle: regulatory -->
+  <g transform="translate(287.5,160)">
+    <rect x="-23.0" y="-30.0" width="46" height="60" rx="4" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-20.0" y="-27.0" width="40" height="54" rx="2" fill="none" stroke="#1c1c1c" stroke-width="2"/>
+    <text x="0" y="-12" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">SPEED</text>
+    <text x="0" y="-2" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">LIMIT</text>
+    <text x="0" y="23" font-size="22" font-weight="800" fill="#1c1c1c" text-anchor="middle">50</text>
+  </g>
+  <text class="lbl" x="287.5" y="210">Vertical rectangle</text>
+  <text class="sub" x="287.5" y="223">Regulatory</text>
+  <text class="sub" x="287.5" y="235">White</text>
+  <!-- Horizontal rectangle: guide -->
+  <g transform="translate(402.5,160)">
+    <rect x="-43.0" y="-23.0" width="86" height="46" rx="4" fill="#006B3F" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-40.0" y="-20.0" width="80" height="40" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="-4" font-size="11" font-weight="800" fill="#fff" text-anchor="middle">EXIT 12</text>
+    <text x="0" y="12" font-size="10" font-weight="600" fill="#fff" text-anchor="middle">Oak Street</text>
+  </g>
+  <text class="lbl" x="402.5" y="210">Horizontal rectangle</text>
+  <text class="sub" x="402.5" y="223">Mostly guide</text>
+  <text class="sub" x="402.5" y="235">Green</text>
+</svg>

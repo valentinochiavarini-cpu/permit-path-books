@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 252" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: turn paths. Start lane and end lane for a right turn, a left turn, and a left turn from a two way street onto a one way street. Top-down view, your car comes from the bottom. -->
+  <style>
+    .tlp_lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .tlp_sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="ah_turn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+  </defs>
+
+  <!-- Panel 1: right turn, two way street onto a two way street with two lanes each way -->
+  <g>
+    <rect x="0" y="55" width="146" height="80" fill="#d9d9d9"/>
+    <rect x="53" y="0" width="40" height="205" fill="#d9d9d9"/>
+    <!-- cross street double yellow center line -->
+    <g stroke-width="3.5" stroke="#888"><path d="M0,92 H53 M93,92 H146 M0,98 H53 M93,98 H146"/></g>
+    <g stroke-width="2" stroke="#FFCD00"><path d="M0,92 H53 M93,92 H146 M0,98 H53 M93,98 H146"/></g>
+    <!-- cross street lane lines, broken white -->
+    <g stroke-width="3.5" stroke="#888" stroke-dasharray="8 6"><path d="M0,75 H53 M93,75 H146 M0,115 H53 M93,115 H146"/></g>
+    <g stroke-width="2" stroke="#fff" stroke-dasharray="8 6"><path d="M0,75 H53 M93,75 H146 M0,115 H53 M93,115 H146"/></g>
+    <!-- your street double yellow -->
+    <g stroke-width="3.5" stroke="#888"><path d="M70,0 V55 M76,0 V55 M70,135 V205 M76,135 V205"/></g>
+    <g stroke-width="2" stroke="#FFCD00"><path d="M70,0 V55 M76,0 V55 M70,135 V205 M76,135 V205"/></g>
+    <path d="M84,166 L84,148 Q84,125 106,125 L141,125" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#ah_turn)"/>
+    <g transform="translate(84,182)"><rect x="-7" y="-13" width="14" height="26" rx="3" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/><rect x="-6" y="-8" width="12" height="5" fill="#1c1c1c"/></g>
+    <text x="96" y="186" font-size="11" font-weight="600" fill="#1c1c1c">You</text>
+    <text class="tlp_lbl" x="73" y="222">Right turn</text>
+    <text class="tlp_sub" x="73" y="235">Right lane into</text>
+    <text class="tlp_sub" x="73" y="247">the right lane</text>
+  </g>
+
+  <!-- Panel 2: left turn, two way street onto a two way street with two lanes each way -->
+  <g transform="translate(157,0)">
+    <rect x="0" y="55" width="146" height="80" fill="#d9d9d9"/>
+    <rect x="53" y="0" width="40" height="205" fill="#d9d9d9"/>
+    <g stroke-width="3.5" stroke="#888"><path d="M0,92 H53 M93,92 H146 M0,98 H53 M93,98 H146"/></g>
+    <g stroke-width="2" stroke="#FFCD00"><path d="M0,92 H53 M93,92 H146 M0,98 H53 M93,98 H146"/></g>
+    <g stroke-width="3.5" stroke="#888" stroke-dasharray="8 6"><path d="M0,75 H53 M93,75 H146 M0,115 H53 M93,115 H146"/></g>
+    <g stroke-width="2" stroke="#fff" stroke-dasharray="8 6"><path d="M0,75 H53 M93,75 H146 M0,115 H53 M93,115 H146"/></g>
+    <g stroke-width="3.5" stroke="#888"><path d="M70,0 V55 M76,0 V55 M70,135 V205 M76,135 V205"/></g>
+    <g stroke-width="2" stroke="#FFCD00"><path d="M70,0 V55 M76,0 V55 M70,135 V205 M76,135 V205"/></g>
+    <path d="M84,166 L84,140 C84,105 70,84 40,84 L5,84" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#ah_turn)"/>
+    <g transform="translate(84,182)"><rect x="-7" y="-13" width="14" height="26" rx="3" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/><rect x="-6" y="-8" width="12" height="5" fill="#1c1c1c"/></g>
+    <text x="96" y="186" font-size="11" font-weight="600" fill="#1c1c1c">You</text>
+    <text class="tlp_lbl" x="73" y="222">Left turn</text>
+    <text class="tlp_sub" x="73" y="235">Ends in the lane just</text>
+    <text class="tlp_sub" x="73" y="247">right of the center line</text>
+  </g>
+
+  <!-- Panel 3: left turn from a two way street onto a one way street (three lanes, all moving left) -->
+  <g transform="translate(314,0)">
+    <rect x="0" y="65" width="146" height="60" fill="#d9d9d9"/>
+    <rect x="53" y="0" width="40" height="205" fill="#d9d9d9"/>
+    <g stroke-width="3.5" stroke="#888" stroke-dasharray="8 6"><path d="M0,85 H53 M93,85 H146 M0,105 H53 M93,105 H146"/></g>
+    <g stroke-width="2" stroke="#fff" stroke-dasharray="8 6"><path d="M0,85 H53 M93,85 H146 M0,105 H53 M93,105 H146"/></g>
+    <g stroke-width="3.5" stroke="#888"><path d="M70,0 V65 M76,0 V65 M70,125 V205 M76,125 V205"/></g>
+    <g stroke-width="2" stroke="#FFCD00"><path d="M70,0 V65 M76,0 V65 M70,125 V205 M76,125 V205"/></g>
+    <!-- white pavement arrows: every lane of the one way street moves left -->
+    <g fill="#fff" stroke="#888" stroke-width="0.8">
+      <polygon points="108,75 116,70 116,73 136,73 136,77 116,77 116,80"/>
+      <polygon points="108,95 116,90 116,93 136,93 136,97 116,97 116,100"/>
+      <polygon points="108,115 116,110 116,113 136,113 136,117 116,117 116,120"/>
+    </g>
+    <path d="M84,166 L84,140 C84,124 76,115 55,115 L5,115" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#ah_turn)"/>
+    <g transform="translate(84,182)"><rect x="-7" y="-13" width="14" height="26" rx="3" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/><rect x="-6" y="-8" width="12" height="5" fill="#1c1c1c"/></g>
+    <text x="96" y="186" font-size="11" font-weight="600" fill="#1c1c1c">You</text>
+    <text x="140" y="60" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="end">ONE WAY</text>
+    <text class="tlp_lbl" x="73" y="222">Left onto a one way</text>
+    <text class="tlp_sub" x="73" y="235">Ends in the far left lane</text>
+    <text class="tlp_sub" x="73" y="247">of the one way street</text>
+  </g>
+</svg>

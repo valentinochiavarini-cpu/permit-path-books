@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 196" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: the three arm signals, given with the driver's left arm, seen from behind the car -->
+  <style>
+    .hs_lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .hs_sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <g id="hs_car">
+      <!-- rear view of a car: cabin, rear window, body, red taillights, bumper, plate, wheels -->
+      <rect x="-38" y="126" width="14" height="14" rx="2" fill="#1c1c1c"/>
+      <rect x="24" y="126" width="14" height="14" rx="2" fill="#1c1c1c"/>
+      <path d="M-34,85 L-26,50 L26,50 L34,85 Z" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/>
+      <path d="M-27,80 L-21,56 L21,56 L27,80 Z" fill="#cfe0f2" stroke="#1c1c1c" stroke-width="0.8"/>
+      <circle cx="-12" cy="68" r="7" fill="#555"/>
+      <rect x="-42" y="85" width="84" height="45" rx="6" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/>
+      <rect x="-39" y="92" width="14" height="10" rx="2" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+      <rect x="25" y="92" width="14" height="10" rx="2" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+      <rect x="-13" y="104" width="26" height="12" rx="1.5" fill="#fff" stroke="#1c1c1c" stroke-width="0.8"/>
+      <rect x="-42" y="120" width="84" height="10" rx="3" fill="#555"/>
+    </g>
+  </defs>
+
+  <!-- 1 Left turn: arm straight out -->
+  <g transform="translate(105,0)">
+    <use href="#hs_car"/>
+    <path d="M-30,70 H-93" fill="none" stroke="#1c1c1c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M-30,70 H-93" fill="none" stroke="#e8c39e" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-97" cy="70" r="5" fill="#e8c39e" stroke="#1c1c1c" stroke-width="1.5"/>
+  </g>
+  <text class="hs_lbl" x="77" y="168">Left turn</text>
+  <text class="hs_sub" x="77" y="181">Arm straight out</text>
+
+  <!-- 2 Right turn: arm out, bent up at the elbow -->
+  <g transform="translate(258,0)">
+    <use href="#hs_car"/>
+    <path d="M-30,70 H-70 V32" fill="none" stroke="#1c1c1c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-30,70 H-70 V32" fill="none" stroke="#e8c39e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-70" cy="28" r="5" fill="#e8c39e" stroke="#1c1c1c" stroke-width="1.5"/>
+  </g>
+  <text class="hs_lbl" x="230" y="168">Right turn</text>
+  <text class="hs_sub" x="230" y="181">Arm out, bent up at the elbow</text>
+
+  <!-- 3 Slow or stop: arm out, bent down at the elbow -->
+  <g transform="translate(411,0)">
+    <use href="#hs_car"/>
+    <path d="M-30,70 H-70 V108" fill="none" stroke="#1c1c1c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-30,70 H-70 V108" fill="none" stroke="#e8c39e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="-70" cy="112" r="5" fill="#e8c39e" stroke="#1c1c1c" stroke-width="1.5"/>
+  </g>
+  <text class="hs_lbl" x="383" y="168">Slow down or stop</text>
+  <text class="hs_sub" x="383" y="181">Arm out, bent down at the elbow</text>
+</svg>

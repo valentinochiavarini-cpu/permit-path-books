@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 200" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: total stopping distance = perception + reaction + braking. Relative lengths only: perception and reaction grow in step with speed, braking about four times as long at twice the speed. No feet values (they vary with driver, car and road). -->
+  <style>
+    .sd_lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: start; }
+    .sd_sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: start; }
+    .sd_in { font-size: 9.5px; font-weight: 600; text-anchor: middle; }
+  </style>
+  <defs>
+    <pattern id="sd_hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="6" height="6" fill="#C8102E"/><line x1="0" y1="0" x2="0" y2="6" stroke="#fff" stroke-width="1.6"/>
+    </pattern>
+  </defs>
+
+  <!-- legend -->
+  <rect x="0" y="4" width="16" height="12" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/>
+  <text class="sd_lbl" x="22" y="14">Perception</text>
+  <rect x="104" y="4" width="16" height="12" fill="#F47920" stroke="#1c1c1c" stroke-width="1"/>
+  <text class="sd_lbl" x="126" y="14">Reaction</text>
+  <rect x="198" y="4" width="16" height="12" fill="url(#sd_hatch)" stroke="#1c1c1c" stroke-width="1"/>
+  <text class="sd_lbl" x="220" y="14">Braking</text>
+  <text class="sd_sub" x="0" y="32">Yellow and orange: the car is still moving at full speed. Red striped: brakes on.</text>
+
+  <!-- row 1: lower speed. Scale: 1 unit = 34 px. Perception 1, reaction 1, braking 1. -->
+  <text class="sd_lbl" x="0" y="66">Lower speed</text>
+  <text class="sd_sub" x="0" y="79">(for example 30 mph)</text>
+  <g transform="translate(120,54)">
+    <rect x="0" y="0" width="34" height="24" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="34" y="0" width="34" height="24" fill="#F47920" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="68" y="0" width="34" height="24" fill="url(#sd_hatch)" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="106" y="5" width="22" height="14" rx="3" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="120" y="6" width="5" height="12" fill="#1c1c1c"/>
+  </g>
+
+  <!-- row 2: twice the speed, same scale (1 unit = 34 px). Perception 2, reaction 2, braking 4. -->
+  <text class="sd_lbl" x="0" y="118">Twice the speed</text>
+  <text class="sd_sub" x="0" y="131">(for example 60 mph)</text>
+  <g transform="translate(120,106)">
+    <rect x="0" y="0" width="68" height="24" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="68" y="0" width="68" height="24" fill="#F47920" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="136" y="0" width="136" height="24" fill="url(#sd_hatch)" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="276" y="5" width="22" height="14" rx="3" fill="#3a6db5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="290" y="6" width="5" height="12" fill="#1c1c1c"/>
+  </g>
+
+  <!-- annotations -->
+  <line x1="120" y1="150" x2="120" y2="48" stroke="#888" stroke-width="1" stroke-dasharray="3 3"/>
+  <text class="sd_sub" x="120" y="162" text-anchor="middle">Hazard</text>
+  <text class="sd_sub" x="120" y="174" text-anchor="middle">appears</text>
+  <text class="sd_lbl" x="180" y="162">Twice the speed: perception and reaction</text>
+  <text class="sd_lbl" x="180" y="176">distance double, and braking distance becomes</text>
+  <text class="sd_lbl" x="180" y="190">about four times as long.</text>
+</svg>

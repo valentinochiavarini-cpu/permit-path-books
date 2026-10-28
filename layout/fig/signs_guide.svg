@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 112" font-family="Inter, Arial, sans-serif">
+  <!-- Guide signs: route markers, exit, services, recreation and mile marker -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <!-- Interstate shield: red top, blue below, white number -->
+  <g transform="translate(38.3,40)">
+    <clipPath id="ish"><path d="M-26,-24 Q-13,-31 0,-24 Q13,-31 26,-24 C29,-4 24,14 0,30 C-24,14 -29,-4 -26,-24 Z"/></clipPath>
+    <path d="M-26,-24 Q-13,-31 0,-24 Q13,-31 26,-24 C29,-4 24,14 0,30 C-24,14 -29,-4 -26,-24 Z" fill="#003F87"/>
+    <rect x="-30" y="-32" width="60" height="18" fill="#C8102E" clip-path="url(#ish)"/>
+    <path d="M-26,-24 Q-13,-31 0,-24 Q13,-31 26,-24 C29,-4 24,14 0,30 C-24,14 -29,-4 -26,-24 Z" fill="none" stroke="#fff" stroke-width="2"/>
+    <path d="M-29,-26 Q-14,-34 0,-27 Q14,-34 29,-26 C32,-4 27,16 0,33 C-27,16 -32,-4 -29,-26 Z" fill="none" stroke="#1c1c1c" stroke-width="1"/>
+    <text x="0" y="9" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">95</text>
+  </g>
+  <text class="lbl" x="38.3" y="92">Interstate</text>
+  <text class="sub" x="38.3" y="105">Red and blue</text>
+  <!-- U.S. route marker: white shield, black numbers -->
+  <g transform="translate(115,40)">
+    <rect x="-30" y="-30" width="60" height="60" rx="3" fill="#1c1c1c"/>
+    <path d="M-22,-25 L22,-25 Q20,-18 25,-14 C28,4 18,18 0,26 C-18,18 -28,4 -25,-14 Q-20,-18 -22,-25 Z" fill="#fff"/>
+    <text x="0" y="8" font-size="20" font-weight="800" fill="#1c1c1c" text-anchor="middle">30</text>
+  </g>
+  <text class="lbl" x="115" y="92">U.S. Route</text>
+  <text class="sub" x="115" y="105">White shield</text>
+  <!-- Exit guide sign: green -->
+  <g transform="translate(191.7,40)">
+    <rect x="-6" y="-30" width="34" height="14" rx="2" fill="#006B3F" stroke="#fff" stroke-width="1.2"/>
+    <text x="11" y="-20" font-size="9" font-weight="800" fill="#fff" text-anchor="middle">EXIT 47</text>
+    <rect x="-34" y="-16" width="68" height="42" rx="3" fill="#006B3F" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-31.5" y="-13.5" width="63" height="37" rx="2" fill="none" stroke="#fff" stroke-width="1.4"/>
+    <text x="0" y="2" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">Oak Street</text>
+    <text x="0" y="17" font-size="9.5" font-weight="800" fill="#fff" text-anchor="middle">1 MILE</text>
+  </g>
+  <text class="lbl" x="191.7" y="92">Exit Sign</text>
+  <text class="sub" x="191.7" y="105">Green</text>
+  <!-- Hospital services sign: white H on blue -->
+  <g transform="translate(268.3,40)">
+    <rect x="-28.0" y="-28.0" width="56" height="56" rx="4" fill="#003F87" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-25.0" y="-25.0" width="50" height="50" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="13" font-size="36" font-weight="800" fill="#fff" text-anchor="middle">H</text>
+  </g>
+  <text class="lbl" x="268.3" y="92">Services</text>
+  <text class="sub" x="268.3" y="105">Blue</text>
+  <!-- Recreation sign: brown -->
+  <g transform="translate(345,40)">
+    <rect x="-32.0" y="-23.0" width="64" height="46" rx="4" fill="#6B4423" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-29.0" y="-20.0" width="58" height="40" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="-2" font-size="10" font-weight="800" fill="#fff" text-anchor="middle">PICNIC</text>
+    <text x="0" y="11" font-size="10" font-weight="800" fill="#fff" text-anchor="middle">AREA</text>
+  </g>
+  <text class="lbl" x="345" y="92">Recreation</text>
+  <text class="sub" x="345" y="105">Brown</text>
+  <!-- Mile marker: small green -->
+  <g transform="translate(421.7,40)">
+    <rect x="-15" y="-30" width="30" height="46" rx="3" fill="#006B3F" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-13" y="-28" width="26" height="42" rx="2" fill="none" stroke="#fff" stroke-width="1.2"/>
+    <text x="0" y="-14" font-size="9" font-weight="800" fill="#fff" text-anchor="middle">MILE</text>
+    <text x="0" y="8" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">47</text>
+    <rect x="-1.5" y="16" width="3" height="14" fill="#888"/>
+  </g>
+  <text class="lbl" x="421.7" y="92">Mile Marker</text>
+  <text class="sub" x="421.7" y="105">Green</text>
+</svg>

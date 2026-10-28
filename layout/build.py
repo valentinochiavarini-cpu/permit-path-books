@@ -6,6 +6,18 @@ CFG = json.loads((HERE / "config.json").read_text())
 LABELS = {"on the test": "tests", "test trap": "trap", "road tip": "tip", "remember it": "memory"}
 
 
+def scope_svg(fname):
+    """Inline SVGs share one stylesheet, so prefix every class name with the figure name."""
+    svg = (HERE / "fig" / fname).read_text()
+    pre = re.sub(r"[^a-z0-9]", "", fname.rsplit(".", 1)[0].lower())
+    svg = re.sub(r'class="([^"]+)"', lambda m: 'class="' + " ".join(f"{pre}-{c}" for c in m.group(1).split()) + '"', svg)
+    svg = re.sub(r"(<style[^>]*>)(.*?)(</style>)", lambda m: m.group(1) + re.sub(r"\.([A-Za-z_][\w-]*)", lambda n: f".{pre}-{n.group(1)}", m.group(2)) + m.group(3), svg, flags=re.S)
+    ids = set(re.findall(r'\bid="([^"]+)"', svg))
+    for i in ids:
+        svg = svg.replace(f'id="{i}"', f'id="{pre}-{i}"').replace(f"url(#{i})", f"url(#{pre}-{i})").replace(f'href="#{i}"', f'href="#{pre}-{i}"')
+    return svg
+
+
 def md_to_html(md):
     out = subprocess.run(["pandoc", "-f", "markdown", "-t", "html5", "--wrap=none"], input=md,
                          capture_output=True, text=True, check=True).stdout
@@ -27,7 +39,7 @@ def md_to_html(md):
     def fig(m):
         cap = m.group(2) if m.lastindex and m.lastindex >= 2 and m.group(2) else ""
         cap_html = f'<div class="fig-cap">{cap}</div>' if cap.strip() else ""
-        return f'<div class="fig">{(HERE / "fig" / m.group(1)).read_text()}{cap_html}</div>'
+        return f'<div class="fig">{scope_svg(m.group(1))}{cap_html}</div>'
     out = re.sub(r'<figure>\s*<img src="fig/([a-z0-9_]+\.svg)"[^>]*>\s*<figcaption[^>]*>(.*?)</figcaption>\s*</figure>', fig, out, flags=re.S)
     out = re.sub(r'<p>\s*<img src="fig/([a-z0-9_]+\.svg)"[^>]*>\s*</p>', fig, out)
 
