@@ -460,12 +460,12 @@
     "quiz": false,
     "q": "Who may ride in the car during a Florida driving skills test?",
     "a": "One parent",
-    "b": "No one but the examiner, unless an interpreter is needed",
+    "b": "No one but the examiner",
     "c": "The supervising driver",
     "d": "Any passenger with a license",
     "correct": "B",
-    "exp": "No other passengers are permitted during the exam unless a language interpreter is necessary.",
-    "src": "flhsmv.gov, Class E Knowledge Exam and Driving Skills Test; Official Florida Driver License Handbook (rev. 08/2023), p. 20"
+    "exp": "No other passengers are permitted during the skills test. All exams are now given in English only, and translation services and devices are not allowed.",
+    "src": "flhsmv.gov, Class E Knowledge Exam and Driving Skills Test; FLHSMV English-only exam policy (Hillsborough County Tax Collector notice)"
   },
   {
     "id": "FL-037",
