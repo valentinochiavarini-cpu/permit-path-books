@@ -20,7 +20,7 @@ Drive over rumble strips slowly. Do not swerve around them.
 
 In {{STATE}}, you may turn **right on a steady red light** after a complete stop. Yield to pedestrians and traffic first. A "No Turn on Red" sign forbids it, and so does a bike box painted at the intersection.
 
-**Left on red** is allowed only from a one-way street onto another one-way street, after a complete stop.
+**Left on red** is allowed only when both streets are one-way. Stop completely first.
 
 A **red arrow** means no turn in that direction. {{STATE}} bans turns on a red arrow unless a sign says "Right on Red Arrow After Stop" or "Left on Red Arrow After Stop."
 
@@ -32,11 +32,9 @@ Breaking this rule is **reckless driving**. Stopped cars with **hazard lights, f
 
 ## emergency_vehicles
 
-In {{STATE}}, yield to any emergency vehicle using a siren and flashing lights. Clear the intersection, then pull to the **nearest edge** of the road and stop. On an undivided road, do this for one coming toward you as well. Stay stopped until it passes, unless an officer directs you.
+In {{STATE}}, yield to any emergency vehicle using a siren and flashing lights. Clear the intersection, then pull to the right edge and stop. The law says the **nearest edge**, so on a one-way street use whichever side is closer. On an undivided road, do this for one coming toward you as well. Stay stopped until it passes, unless an officer directs you.
 
-Then follow no closer than **500 feet** behind it.
-
-Passing a moving emergency vehicle that has its siren and lights on is **reckless driving**.
+Then follow no closer than **500 feet** behind it. Passing a moving emergency vehicle that has its siren and lights on is **reckless driving**.
 
 ## school_bus
 
@@ -242,8 +240,6 @@ The 15 night hours count toward the 45. A parent, guardian or foster parent cert
 ## signal_distance
 
 {{STATE}} law sets how far ahead to signal. At **35 mph or less**, signal for at least the last **50 feet**. Above 35 mph, signal for at least the last **100 feet**.
-
-The {{STATE}} manual teaches signaling **3 to 4 seconds**, about 100 feet, before every turn.
 
 ## headlight_dimming
 
