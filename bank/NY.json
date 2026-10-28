@@ -2098,14 +2098,14 @@
     "id": "NY-162",
     "ch": 11,
     "quiz": false,
-    "q": "A 19-year-old uses a driver license to lie about their age and buy beer in New York. What happens to the license the first time?",
-    "a": "Nothing; only a fine applies",
+    "q": "A 19-year-old uses a driver license to lie about their age and buy beer in New York. What can the court do to the license the first time?",
+    "a": "Revoke it for life",
     "b": "A one-year revocation",
     "c": "A six-month suspension",
     "d": "A three-month suspension",
     "correct": "D",
-    "exp": "If a driver license was used for an illegal alcohol purchase, the license is suspended for three months for a first violation.",
-    "src": "ABC Law 65-b(6); New York State Driver's Manual (MV-21), Ch. 9"
+    "exp": "If a driver license was used for an illegal alcohol purchase, the court can suspend the license for three months for a first violation.",
+    "src": "ABC Law 65-b(6)(a)"
   },
   {
     "id": "NY-163",
@@ -2129,9 +2129,9 @@
     "b": "One year or until age 21, whichever is longer",
     "c": "30 days",
     "d": "Six months",
-    "correct": "B",
-    "exp": "A repeat violation brings a suspension of one year or until the holder turns 21, whichever is longer.",
-    "src": "ABC Law 65-b(6)"
+    "correct": "D",
+    "exp": "If a driver license was used, a second violation brings a six-month suspension; a third or later brings one year or until age 21, whichever is longer.",
+    "src": "ABC Law 65-b(6)(b), (c)"
   },
   {
     "id": "NY-165",

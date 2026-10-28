@@ -1810,14 +1810,14 @@
     "id": "FL-140",
     "ch": 13,
     "quiz": true,
-    "q": "You passed the Florida knowledge exam with a third-party administrator. FLHSMV may:",
+    "q": "You passed the Florida driving skills test with a third-party administrator. FLHSMV may:",
     "a": "Randomly retest you at an office for free",
     "b": "Cancel your learner's license",
     "c": "Require a new driver education course",
     "d": "Charge you $48 again",
     "correct": "A",
     "exp": "Third-party passers may be randomly selected for a no-fee mandatory retest without notice.",
-    "src": "flhsmv.gov, Class E Knowledge Exam and Driving Skills Test; Fla. Stat. 322.56(3)"
+    "src": "flhsmv.gov, Class E Knowledge Exam and Driving Skills Test; Fla. Stat. 322.56(3)(e)"
   },
   {
     "id": "FL-141",

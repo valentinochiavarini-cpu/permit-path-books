@@ -4,7 +4,7 @@
 
 In {{STATE}}, the school zone limit is **20 mph** or lower. It applies during the times posted on the sign or while the yellow beacons flash.
 
-Speeding fines are **doubled** in a school zone, and the court may also send you to a driving course. Holding a phone while you drive through a school zone or school crossing is a moving violation worth **3 points**.
+Speeding fines are **doubled** in a school zone, and you may also have to take a driving course. Holding a phone while you drive through a school zone or school crossing is a moving violation worth **3 points**.
 
 ## work_zone
 

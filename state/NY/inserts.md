@@ -133,7 +133,7 @@ In {{STATE}}, if you refuse a chemical test after an arrest, your license is **s
 | DWI | $500 to $1,000 | Up to 1 year | Revoked 6+ months |
 | Aggravated DWI | $1,000 to $2,500 | Up to 1 year | Revoked 1+ year |
 
-DWI adds an **ignition interlock**, usually for 12 months. With a child under 16 aboard, DWI is a felony. Under 21, any alcohol or drug driving conviction revokes your license for at least **one year**.
+DWI adds an **ignition interlock**, usually 12 months. With a child under 16 aboard, DWI is a felony. Under 21, any alcohol or drug driving conviction revokes your license at least **one year**.
 
 **Open container:** no one in the car may drink alcohol, hold an open container or use cannabis.
 
@@ -225,17 +225,17 @@ Keep your **insurance ID card** in the car as well. You must show it after any c
 
 ## underage_alcohol
 
-In {{STATE}}, a person under 21 may not have alcohol in order to drink it. The court can order up to a **$50** fine, 30 hours of community service or an alcohol awareness program.
+In {{STATE}}, no one under 21 may have alcohol in order to drink it. The court can order up to a **$50** fine, 30 hours of community service or an alcohol awareness program.
 
-Using a fake ID, or someone else's, to buy alcohol is a violation: up to **$100** and 30 hours of community service the first time. If you used a **driver license** to do it, your license is suspended for **3 months**. A repeat means **1 year** or until you turn 21, whichever is longer.
+Using a fake ID, or someone else's, to buy alcohol is a violation: up to **$100** and 30 hours of community service the first time. If you used a **driver license**, the court can suspend it: **3 months** the first time, **6 months** the second, then **1 year** or until you turn 21, whichever is longer.
 
 ## driver_record
 
-In {{STATE}}, **11 points** within **24 months** can suspend your license. Points count from the date of the violation and stop counting 24 months later.
+In {{STATE}}, **11 points** within **24 months** can suspend your license. Points count from the violation date for 24 months.
 
 Some point values: any alcohol or drug driving offense, **11**; passing a stopped school bus or speeding in a work zone, **8**; running a light, STOP or YIELD sign, **3**.
 
-A DMV-approved crash prevention course takes up to **4 points** off when DMV counts toward a suspension.
+A DMV-approved crash prevention course takes up to **4 points** off the suspension count.
 
 **6 points** within 18 months also brings a yearly Driver Responsibility Assessment for three years.
 
