@@ -45,5 +45,6 @@ All 35 figures are part of the core (`layout/fig/*.svg`, rules in `briefs/FIGURE
 - `bank/core.json`: universal questions. `bank/XX.json`: state questions (chapter 1 topics and every insert topic).
 - Record: `{"id": "C02-001", "ch": 2, "quiz": true, "q": "...", "a": "...", "b": "...", "c": "...", "d": "...", "correct": "B", "exp": "1 to 2 sentences", "src": "manual section or URL"}`. State IDs: `PA-001`.
 - Core: 30 questions per chapter (2 to 13), exactly 10 flagged `quiz: true`. State: 120 to 160 per state.
-- Correct letters spread about 25 percent each across every file. Exactly one defensible answer. No "all of the above" or "none of the above". No trick wording. Every question taught in the chapter it belongs to.
+- Correct letters spread about 25 percent each across every file.
+- Optional `"app_only": true` keeps a question out of the printed mocks (for facts the book does not teach); it still goes to the app. Exactly one defensible answer. No "all of the above" or "none of the above". No trick wording. Every question taught in the chapter it belongs to.
 - Core questions must be true in every state. Anything that varies goes in the state bank.

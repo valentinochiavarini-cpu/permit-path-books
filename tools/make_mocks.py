@@ -15,7 +15,7 @@ a = ap.parse_args()
 code = a.code.upper()
 rng = random.Random(a.seed)
 core = [r for r in json.loads((ROOT / "bank/core.json").read_text()) if not r.get("quiz")]
-st = [r for r in json.loads((ROOT / f"bank/{code}.json").read_text()) if not r.get("quiz")]
+st = [r for r in json.loads((ROOT / f"bank/{code}.json").read_text()) if not r.get("quiz") and not r.get("app_only")]
 
 parts = []
 for p in a.part:

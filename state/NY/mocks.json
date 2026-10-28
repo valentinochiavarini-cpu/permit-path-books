@@ -1,0 +1,60 @@
+{
+ "size": 20,
+ "pass": "for Road Signs, at least 2 of 4 correct; for Rules of the Road, 14 of all 20 questions correct overall",
+ "mock1": [
+  "NY-064",
+  "C02-012",
+  "NY-056",
+  "C02-005",
+  "C11-027",
+  "C07-016",
+  "NY-102",
+  "C09-011",
+  "NY-026",
+  "NY-080",
+  "NY-068",
+  "C05-030",
+  "C10-009",
+  "C08-008",
+  "NY-083",
+  "C03-030",
+  "C04-004",
+  "NY-098",
+  "C12-011",
+  "C06-025"
+ ],
+ "mock2": [
+  "NY-051",
+  "NY-057",
+  "C02-011",
+  "C02-016",
+  "C10-002",
+  "C12-018",
+  "C09-025",
+  "C03-028",
+  "C07-028",
+  "C05-011",
+  "NY-072",
+  "C08-026",
+  "C06-027",
+  "C04-020",
+  "NY-089",
+  "NY-070",
+  "NY-101",
+  "C11-017",
+  "NY-096",
+  "NY-011"
+ ],
+ "parts": [
+  {
+   "name": "Road Signs",
+   "size": 4,
+   "pass": "at least 2 of 4 correct"
+  },
+  {
+   "name": "Rules of the Road",
+   "size": 16,
+   "pass": "14 of all 20 questions correct overall"
+  }
+ ]
+}

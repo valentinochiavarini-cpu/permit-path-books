@@ -920,7 +920,8 @@
   "d": "A school bus driver with students aboard",
   "correct": "D",
   "exp": "A school bus carrying students may not turn right on any red light.",
-  "src": "NY Driver's Manual (MV-21), Ch. 4, Traffic Lights"
+  "src": "NY Driver's Manual (MV-21), Ch. 4, Traffic Lights",
+  "app_only": true
  },
  {
   "id": "NY-072",
@@ -1518,7 +1519,8 @@
   "d": "Only the driver, when recovered",
   "correct": "A",
   "exp": "A passenger or the owner may complete the report for an injured driver.",
-  "src": "NY Driver's Manual (MV-21), Ch. 12, Reports to DMV"
+  "src": "NY Driver's Manual (MV-21), Ch. 12, Reports to DMV",
+  "app_only": true
  },
  {
   "id": "NY-118",
