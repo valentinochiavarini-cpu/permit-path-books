@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" font-family="Inter, Arial, sans-serif">
+  <!-- Single sign for a picture question: workers (no label; the question names shape and color in words) -->
+  <g transform="translate(50,50) scale(1.324) translate(-0,-0)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#F47920" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><circle cx="-7" cy="-15" r="4" fill="#1c1c1c"/><path d="M-6,-10 L1,3" stroke="#1c1c1c" stroke-width="6" stroke-linecap="round"/><path d="M1,3 L-4,20 M1,3 L7,20" stroke="#1c1c1c" stroke-width="4"/><path d="M-4,-6 L-12,4 M-3,-5 L-8,6" stroke="#1c1c1c" stroke-width="2.6"/><path d="M-15,-3 L-6,15" stroke="#1c1c1c" stroke-width="2"/><polygon points="-8,13 -3,12 -2,20 -7,19" fill="#1c1c1c"/></g>
+</svg>

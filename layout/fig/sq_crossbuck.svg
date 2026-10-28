@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" font-family="Inter, Arial, sans-serif">
+  <!-- Single sign for a picture question: crossbuck (no label; the question names shape and color in words) -->
+  <g transform="translate(50,50) scale(1.125) translate(-0,-0)"><g transform="rotate(35)"><rect x="-44" y="-7.5" width="88" height="15" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/><text x="-26" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">CROSS</text><text x="26" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ING</text></g><g transform="rotate(-35)"><rect x="-44" y="-7.5" width="88" height="15" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/><text x="-26" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">RAIL</text><text x="26" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ROAD</text></g></g>
+</svg>

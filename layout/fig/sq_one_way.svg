@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" font-family="Inter, Arial, sans-serif">
+  <!-- Single sign for a picture question: one way (no label; the question names shape and color in words) -->
+  <g transform="translate(50,50) scale(1.125) translate(-0,-0)"><rect x="-40" y="-15" width="80" height="30" rx="3" fill="#1c1c1c"/><polygon points="-35,-5 15,-5 15,-11 35,0 15,11 15,5 -35,5" fill="#fff"/><text x="-9" y="3" font-size="7.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">ONE WAY</text></g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 240" font-family="Inter, Arial, sans-serif">
+  <!-- Warning signs for the shape of the road and intersections: yellow diamonds and yellow rectangles with black symbols -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <!-- Large Arrow -->
+  <g transform="translate(57.5,38) scale(0.820) translate(-0,-0)"><rect x="-38" y="-20" width="76" height="40" rx="3" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/><rect x="-35.5" y="-17.5" width="71" height="35" rx="1.5" fill="none" stroke="#1c1c1c" stroke-width="1.8"/><polygon points="-27,-5.5 7,-5.5 7,-13.5 29,0 7,13.5 7,5.5 -27,5.5" fill="#1c1c1c"/></g>
+  <text class="lbl" x="57.5" y="86">Large Arrow</text>
+  <text class="sub" x="57.5" y="99">Yellow rectangle</text>
+  <text class="sub" x="57.5" y="111">Road turns sharply</text>
+  <!-- Double Arrow -->
+  <g transform="translate(172.5,38) scale(0.820) translate(-0,-0)"><rect x="-38" y="-20" width="76" height="40" rx="3" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/><rect x="-35.5" y="-17.5" width="71" height="35" rx="1.5" fill="none" stroke="#1c1c1c" stroke-width="1.8"/><polygon points="-29,0 -10,-13.5 -10,-5.5 10,-5.5 10,-13.5 29,0 10,13.5 10,5.5 -10,5.5 -10,13.5" fill="#1c1c1c"/></g>
+  <text class="lbl" x="172.5" y="86">Double Arrow</text>
+  <text class="sub" x="172.5" y="99">Yellow rectangle</text>
+  <text class="sub" x="172.5" y="111">Turn left or right</text>
+  <!-- Reverse Curve -->
+  <g transform="translate(287.5,38) scale(0.820) translate(-0,-0)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M7,24 L7,13 C7,3 -7,3 -7,-7 L-7,-12" fill="none" stroke="#1c1c1c" stroke-width="4.5"/><polygon points="-7,-23 -0.5,-12 -13.5,-12" fill="#1c1c1c"/></g>
+  <text class="lbl" x="287.5" y="86">Reverse Curve</text>
+  <text class="sub" x="287.5" y="99">Yellow diamond</text>
+  <text class="sub" x="287.5" y="111">Left, then right</text>
+  <!-- Reverse Turn -->
+  <g transform="translate(402.5,38) scale(0.820) translate(-0,-0)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M8,24 L8,4 L-8,4 L-8,-12" fill="none" stroke="#1c1c1c" stroke-width="4.5" stroke-linejoin="miter"/><polygon points="-8,-23 -1.5,-12 -14.5,-12" fill="#1c1c1c"/></g>
+  <text class="lbl" x="402.5" y="86">Reverse Turn</text>
+  <text class="sub" x="402.5" y="99">Yellow diamond</text>
+  <text class="sub" x="402.5" y="111">Two sharp turns</text>
+  <!-- Side Road -->
+  <g transform="translate(57.5,160) scale(0.820) translate(-0,-0)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M-3,24 L-3,-24 M-3,-1 L19,-1" fill="none" stroke="#1c1c1c" stroke-width="5.5"/></g>
+  <text class="lbl" x="57.5" y="208">Side Road</text>
+  <text class="sub" x="57.5" y="221">Yellow diamond</text>
+  <text class="sub" x="57.5" y="233">Road joins from side</text>
+  <!-- Y Intersection -->
+  <g transform="translate(172.5,160) scale(0.820) translate(-0,-0)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M0,25 L0,3 L-14,-19 M0,3 L14,-19" fill="none" stroke="#1c1c1c" stroke-width="5.5" stroke-linejoin="round"/></g>
+  <text class="lbl" x="172.5" y="208">Y Intersection</text>
+  <text class="sub" x="172.5" y="221">Yellow diamond</text>
+  <text class="sub" x="172.5" y="233">Road splits in two</text>
+  <!-- Circular Intersection -->
+  <g transform="translate(287.5,160) scale(0.820) translate(-0,-0)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M-2.2,12.3 A12.5,12.5 0 0 0 11.6,4.7" fill="none" stroke="#1c1c1c" stroke-width="4"/><polygon points="14.2,-1.8 16.1,8.1 5.9,4" fill="#1c1c1c"/><path d="M-9.6,-8 A12.5,12.5 0 0 0 -9.9,7.7" fill="none" stroke="#1c1c1c" stroke-width="4"/><polygon points="-5.5,13.2 -15.1,9.9 -6.4,3.1" fill="#1c1c1c"/><path d="M11.7,-4.3 A12.5,12.5 0 0 0 -1.7,-12.4" fill="none" stroke="#1c1c1c" stroke-width="4"/><polygon points="-8.7,-11.4 -1,-18 0.5,-7.1" fill="#1c1c1c"/></g>
+  <text class="lbl" x="287.5" y="208">Circular Intersection</text>
+  <text class="sub" x="287.5" y="221">Yellow diamond</text>
+  <text class="sub" x="287.5" y="233">Roundabout ahead</text>
+  <!-- Truck Rollover -->
+  <g transform="translate(402.5,160) scale(0.820) translate(-0,-0)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M-15,-2 C-15,-20 13,-20 13,-8" fill="none" stroke="#1c1c1c" stroke-width="4"/><polygon points="13,2 7.5,-7 18.5,-7" fill="#1c1c1c"/><g transform="translate(3,12) rotate(-45) scale(0.78)"><rect x="-15" y="-11" width="19" height="13" fill="#1c1c1c"/><path d="M5,-7 L11,-7 L14,-2 L14,2 L5,2 Z" fill="#1c1c1c"/><circle cx="-10" cy="5" r="3" fill="#1c1c1c"/><circle cx="-3" cy="5" r="3" fill="#1c1c1c"/><circle cx="10" cy="5" r="3" fill="#1c1c1c"/></g></g>
+  <text class="lbl" x="402.5" y="208">Truck Rollover</text>
+  <text class="sub" x="402.5" y="221">Yellow diamond</text>
+  <text class="sub" x="402.5" y="233">Trucks: slow for curve</text>
+</svg>

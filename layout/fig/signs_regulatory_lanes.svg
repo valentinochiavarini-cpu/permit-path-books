@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 240" font-family="Inter, Arial, sans-serif">
+  <!-- Regulatory signs and plaques for crossings, turns and exit lanes -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <!-- Divided Highway Crossing -->
+  <g transform="translate(76.7,38) scale(0.820) translate(-0,-0)"><rect x="-38" y="-30" width="76" height="60" rx="3" fill="#fff" stroke="#1c1c1c" stroke-width="1"/><rect x="-35.2" y="-27.2" width="70.4" height="54.4" rx="1.5" fill="none" stroke="#1c1c1c" stroke-width="1.8"/><text x="0" y="-17" font-size="9.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">DIVIDED</text><text x="0" y="25" font-size="9.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">HIGHWAY</text><path d="M0,-12.5 L0,14.5" stroke="#1c1c1c" stroke-width="4"/><path d="M24,-6 L-17,-6" stroke="#1c1c1c" stroke-width="3.6"/><polygon points="-26,-6 -17,-11 -17,-1" fill="#1c1c1c"/><path d="M-24,7 L17,7" stroke="#1c1c1c" stroke-width="3.6"/><polygon points="26,7 17,12 17,2" fill="#1c1c1c"/></g>
+  <text class="lbl" x="76.7" y="86">Divided Highway Crossing</text>
+  <text class="sub" x="76.7" y="99">White rectangle</text>
+  <text class="sub" x="76.7" y="111">Two roadways to cross</text>
+  <!-- EXIT ONLY Lane -->
+  <g transform="translate(230,38) scale(0.820) translate(-0,-0)"><rect x="-40" y="-27" width="80" height="54" rx="4" fill="#006B3F" stroke="#1c1c1c" stroke-width="1"/><rect x="-37.5" y="-24.5" width="75" height="49" rx="2.5" fill="none" stroke="#fff" stroke-width="1.6"/><text x="0" y="-7" font-size="12" font-weight="800" fill="#fff" text-anchor="middle">Oak Road</text><rect x="-36" y="3" width="72" height="20" rx="1.5" fill="#FFCD00"/><text x="-19" y="16.5" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">EXIT</text><text x="19" y="16.5" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ONLY</text><path d="M0,5 L0,13" stroke="#1c1c1c" stroke-width="3.2"/><polygon points="0,21 -4.8,13.5 4.8,13.5" fill="#1c1c1c"/></g>
+  <text class="lbl" x="230" y="86">EXIT ONLY Lane</text>
+  <text class="sub" x="230" y="99">Yellow panel, green sign</text>
+  <text class="sub" x="230" y="111">This lane must exit</text>
+  <!-- Left Turn Yield on Green -->
+  <g transform="translate(383.3,38) scale(0.820) translate(-0,-0)"><rect x="-29" y="-34" width="58" height="68" rx="3" fill="#fff" stroke="#1c1c1c" stroke-width="1"/><rect x="-26.2" y="-31.2" width="52.4" height="62.4" rx="1.5" fill="none" stroke="#1c1c1c" stroke-width="1.8"/><text x="0" y="-20" font-size="8.2" font-weight="800" fill="#1c1c1c" text-anchor="middle">LEFT TURN</text><text x="0" y="-7" font-size="11" font-weight="800" fill="#1c1c1c" text-anchor="middle">YIELD</text><text x="0" y="6" font-size="9.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">ON</text><circle cx="0" cy="19.5" r="8" fill="#006B3F" stroke="#1c1c1c" stroke-width="1.2"/></g>
+  <text class="lbl" x="383.3" y="86">Left Turn Yield on Green</text>
+  <text class="sub" x="383.3" y="99">White rectangle</text>
+  <text class="sub" x="383.3" y="111">Green ball: yield</text>
+  <!-- Except Right Turn -->
+  <g transform="translate(76.7,160) scale(0.725) translate(-0,0.5)"><polygon points="-12.4,-46 12.4,-46 30,-28.4 30,-3.6 12.4,14 -12.4,14 -30,-3.6 -30,-28.4" fill="#fff" stroke="#1c1c1c" stroke-width="1"/><polygon points="-11.4,-43.5 11.4,-43.5 27.5,-27.4 27.5,-4.6 11.4,11.5 -11.4,11.5 -27.5,-4.6 -27.5,-27.4" fill="#C8102E"/><text x="0" y="-7.5" font-size="15" font-weight="800" fill="#fff" text-anchor="middle">STOP</text><rect x="-33" y="18" width="66" height="27" rx="2.5" fill="#fff" stroke="#1c1c1c" stroke-width="1"/><rect x="-31" y="20" width="62" height="23" rx="1.5" fill="none" stroke="#1c1c1c" stroke-width="1.4"/><text x="0" y="29.5" font-size="8" font-weight="800" fill="#1c1c1c" text-anchor="middle">EXCEPT</text><text x="0" y="38.5" font-size="8" font-weight="800" fill="#1c1c1c" text-anchor="middle">RIGHT TURN</text></g>
+  <text class="lbl" x="76.7" y="208">Except Right Turn</text>
+  <text class="sub" x="76.7" y="221">Red octagon, white plaque</text>
+  <text class="sub" x="76.7" y="233">Right turn need not stop</text>
+  <!-- To Oncoming Traffic -->
+  <g transform="translate(230,160) scale(0.742) translate(-0,-8.5)"><polygon points="-34,-36 34,-36 0,22" fill="#C8102E" stroke="#1c1c1c" stroke-width="1"/><polygon points="-21,-28.5 21,-28.5 0,8" fill="#fff"/><text x="0" y="-17" font-size="8.5" font-weight="800" fill="#C8102E" text-anchor="middle">YIELD</text><rect x="-37" y="27" width="74" height="26" rx="2.5" fill="#fff" stroke="#1c1c1c" stroke-width="1"/><rect x="-35" y="29" width="70" height="22" rx="1.5" fill="none" stroke="#1c1c1c" stroke-width="1.4"/><text x="0" y="38" font-size="7.8" font-weight="800" fill="#1c1c1c" text-anchor="middle">TO ONCOMING</text><text x="0" y="46.7" font-size="7.8" font-weight="800" fill="#1c1c1c" text-anchor="middle">TRAFFIC</text></g>
+  <text class="lbl" x="230" y="208">To Oncoming Traffic</text>
+  <text class="sub" x="230" y="221">Red triangle, white plaque</text>
+  <text class="sub" x="230" y="233">Yield to oncoming</text>
+  <!-- Center Lane Left Only -->
+  <g transform="translate(383.3,160) scale(0.820) translate(-0,-0)"><rect x="-24" y="-34" width="48" height="68" rx="3" fill="#fff" stroke="#1c1c1c" stroke-width="1"/><rect x="-21.2" y="-31.2" width="42.4" height="62.4" rx="1.5" fill="none" stroke="#1c1c1c" stroke-width="1.8"/><path d="M7,-5 L7,-16 Q7,-22 1,-22 L-5,-22" fill="none" stroke="#1c1c1c" stroke-width="4"/><polygon points="-15,-22 -5,-28 -5,-16" fill="#1c1c1c"/><path d="M-7,5 L-7,16 Q-7,22 -1,22 L5,22" fill="none" stroke="#1c1c1c" stroke-width="4"/><polygon points="15,22 5,28 5,16" fill="#1c1c1c"/><text x="0" y="3.5" font-size="10" font-weight="800" fill="#1c1c1c" text-anchor="middle">ONLY</text></g>
+  <text class="lbl" x="383.3" y="208">Center Lane Left Only</text>
+  <text class="sub" x="383.3" y="221">White rectangle</text>
+  <text class="sub" x="383.3" y="233">Left turns, both ways</text>
+</svg>
