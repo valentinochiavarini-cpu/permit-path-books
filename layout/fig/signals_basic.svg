@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 196" font-family="Inter, Arial, sans-serif">
+  <!-- Steady and flashing round signal lights, one lamp lit in each (MUTCD 11th ed. Sections 4A.03, 4A.04; vertical order red, yellow, green, 4E.04) -->
+  <style>
+    .signals_basic_lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .signals_basic_sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+
+  <rect x="27" y="10" width="38" height="112" rx="6" fill="#1c1c1c"/>
+  <circle cx="46" cy="32" r="14" fill="#C8102E"/>
+  <circle cx="46" cy="32" r="14" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <circle cx="46" cy="66" r="14" fill="#333"/>
+  <circle cx="46" cy="100" r="14" fill="#333"/>
+  <text class="signals_basic_lbl" x="46" y="140">Steady red</text>
+  <text class="signals_basic_sub" x="46" y="153">Stop</text>
+  <rect x="119" y="10" width="38" height="112" rx="6" fill="#1c1c1c"/>
+  <circle cx="138" cy="32" r="14" fill="#333"/>
+  <circle cx="138" cy="66" r="14" fill="#FFCD00"/>
+  <circle cx="138" cy="66" r="14" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <circle cx="138" cy="100" r="14" fill="#333"/>
+  <text class="signals_basic_lbl" x="138" y="140">Steady yellow</text>
+  <text class="signals_basic_sub" x="138" y="153">Red is next: stop</text>
+  <text class="signals_basic_sub" x="138" y="166">if you safely can</text>
+  <rect x="211" y="10" width="38" height="112" rx="6" fill="#1c1c1c"/>
+  <circle cx="230" cy="32" r="14" fill="#333"/>
+  <circle cx="230" cy="66" r="14" fill="#333"/>
+  <circle cx="230" cy="100" r="14" fill="#006B3F"/>
+  <circle cx="230" cy="100" r="14" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <text class="signals_basic_lbl" x="230" y="140">Steady green</text>
+  <text class="signals_basic_sub" x="230" y="153">Go, but yield to</text>
+  <text class="signals_basic_sub" x="230" y="166">anyone crossing</text>
+  <rect x="303" y="10" width="38" height="112" rx="6" fill="#1c1c1c"/>
+  <circle cx="322" cy="32" r="14" fill="#C8102E"/>
+  <circle cx="322" cy="32" r="14" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <line x1="338.9" y1="17.9" x2="344.2" y2="13.4" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="344.0" y1="32.0" x2="351.0" y2="32.0" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="338.9" y1="46.1" x2="344.2" y2="50.6" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="305.1" y1="46.1" x2="299.8" y2="50.6" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="300.0" y1="32.0" x2="293.0" y2="32.0" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="305.1" y1="17.9" x2="299.8" y2="13.4" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="322" cy="66" r="14" fill="#333"/>
+  <circle cx="322" cy="100" r="14" fill="#333"/>
+  <text class="signals_basic_lbl" x="322" y="140">Flashing red</text>
+  <text class="signals_basic_sub" x="322" y="153">Treat it like</text>
+  <text class="signals_basic_sub" x="322" y="166">a stop sign</text>
+  <rect x="395" y="10" width="38" height="112" rx="6" fill="#1c1c1c"/>
+  <circle cx="414" cy="32" r="14" fill="#333"/>
+  <circle cx="414" cy="66" r="14" fill="#FFCD00"/>
+  <circle cx="414" cy="66" r="14" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <line x1="430.9" y1="51.9" x2="436.2" y2="47.4" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="436.0" y1="66.0" x2="443.0" y2="66.0" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="430.9" y1="80.1" x2="436.2" y2="84.6" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="397.1" y1="80.1" x2="391.8" y2="84.6" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="392.0" y1="66.0" x2="385.0" y2="66.0" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="397.1" y1="51.9" x2="391.8" y2="47.4" stroke="#1c1c1c" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="414" cy="100" r="14" fill="#333"/>
+  <text class="signals_basic_lbl" x="414" y="140">Flashing yellow</text>
+  <text class="signals_basic_sub" x="414" y="153">Slow down, go</text>
+  <text class="signals_basic_sub" x="414" y="166">with caution</text>
+  <text class="signals_basic_sub" x="230" y="190">Lit lamp circled in white. Short lines mean the lamp is flashing.</text>
+</svg>
