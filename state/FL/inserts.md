@@ -2,35 +2,48 @@
 
 ## school_zone
 
-The {{STATE}} school zone limit is **20 mph** at most during the times posted or while the beacons flash. Speeding fines are **doubled** in a school zone, and you may have to take a driving course. Holding a phone while driving in a school zone or school crossing is a moving violation with **3 points**. Obey every crossing guard.
+In {{STATE}}, the school zone limit is **20 mph** or lower. It applies during the times posted on the sign or while the yellow beacons flash.
+
+Speeding fines are **doubled** in a school zone, and the court may also send you to a driving course. Holding a phone while you drive through a school zone or school crossing is a moving violation worth **3 points**.
 
 ## work_zone
 
-In a {{STATE}} construction zone with workers present, speeding fines are **doubled**, with civil penalties up to $1,000. Holding a phone while driving is banned when construction workers are present or operating equipment on or next to the road: a moving violation with **3 points**. Obey flaggers and the lane closures shown by cones, drums and arrow panels. The Move Over law also protects road and bridge crews stopped with warning lights on.
+In a {{STATE}} construction zone with workers present, speeding fines are **doubled**, up to **$1,000**.
+
+You may not hold a phone while driving where construction workers are present or operating equipment on or next to the road. Breaking this rule is a moving violation worth **3 points**.
+
+The Move Over law (Chapter 4) also protects road and bridge crews stopped with warning lights on.
 
 ## turn_on_red
 
-In {{STATE}}, after a full stop, you may turn **right on a steady red light** unless a NO TURN ON RED sign is posted, yielding to pedestrians in the crosswalk and to cross traffic. You may turn **left on red** only from a one-way street onto a one-way street whose traffic moves to the left.
+{{STATE}} follows the right on red rule above. You may also turn **left on red**, but only from a one-way street onto another one-way street whose traffic moves to the left. Stop fully first and yield, just as for a right turn on red.
 
-A **steady red arrow** allows the same two turns, under the same conditions: full stop first, no sign forbidding it, and yield before you go.
+At a **steady red arrow**, the same two turns are allowed under the same rules: a full stop, no sign forbidding the turn, and a yield to pedestrians and cross traffic.
 
 ## move_over
 
-{{STATE}}'s Move Over law covers stopped police, emergency, tow, sanitation, utility and road maintenance vehicles with warning lights on, and any disabled vehicle showing hazard lights, flares or warning signs, or with people visibly present.
+{{STATE}}'s Move Over law covers stopped police, emergency, tow, sanitation, utility and road crew vehicles with warning lights on. It also covers a disabled car showing hazard lights, flares or signs, or with people beside it.
 
-- **Multi-lane road:** leave the lane closest to the stopped vehicle, signaling first. If you cannot do it safely, slow to **20 mph under** the posted limit.
+- **Two or more lanes your way:** signal and leave the lane next to the stopped vehicle. If you cannot do it safely, slow to **20 mph under** the limit.
 - **Two-lane road:** slow to **20 mph under** the limit. Where the limit is 20 mph or less, slow to **5 mph**.
 
 ## school_bus
 
-On a two-lane road or a multi-lane road with no median, **every driver in both directions** must stop for a {{STATE}} school bus with red lights flashing and stop arm out, and wait until the arm is withdrawn. On a **divided highway** with a raised median, a physical barrier, or an unpaved space at least **5 feet** wide, oncoming traffic may proceed carefully. {{STATE}} law sets no minimum stopping distance. Passing: **4 points**, at least **$265** ($465 on the door side), and a driver improvement course.
+In {{STATE}}, on a two-lane road or a road with no median, **traffic in both directions** stops for a school bus showing red lights and its stop arm. Stay stopped until the arm folds in.
+
+Oncoming traffic may go on, with care, only on a **divided highway** with a raised median, a barrier, or an unpaved strip at least **5 feet** wide. {{STATE}} law sets no exact stopping distance.
+
+Passing a stopped bus: **4 points**, at least **$265** (**$465** on the door side), and a driver improvement course.
 
 ## u_turn
 
-In {{STATE}}, make a U-turn only when it is safe and no sign forbids it. Never make a U-turn or a three-point turn on a curve, on a hill, or on a limited access highway; if you miss your exit, go on to the next one. In a multi-lane roundabout, make a U-turn from the **left lane**.
+In {{STATE}}, never make a U-turn or a three-point turn on a curve, on a hill or on a limited access highway. If you miss your exit, go on to the next one.
+
+In a multi-lane roundabout, make a U-turn from the **left lane**.
 
 ## speed_limits
-Unless posted otherwise:
+
+Where no other limit is posted, {{STATE}} sets these:
 
 | Where | Limit |
 |---|---|
@@ -39,19 +52,25 @@ Unless posted otherwise:
 | Other streets and highways | 55 mph |
 | Limited access highways | 70 mph |
 
-**70 mph** is the {{STATE}} maximum; on 70 mph roads the minimum is **50 mph**. Points: 3 for up to 15 mph over, 4 for 16 or more. Going **50 mph or more over**, or 100 mph or more dangerously, is a crime: up to 30 days in jail and $500.
+**70 mph** is the highest limit in {{STATE}}. On a 70 mph road, the minimum is **50 mph**.
+
+Going **50 mph or more over** the limit, or **100 mph** or faster in a dangerous way, is a crime: up to **30 days** in jail and a **$500** fine for a first conviction.
 
 ## following_distance
 
-The {{STATE}} handbook teaches at least a **four-second** following distance in good weather and traffic, and the driving skills test scores it. Pick a fixed marker, count from when the car ahead passes it, and slow down if you reach it before four. Leave more room in rain, at night, behind motorcycles and when being passed. Never follow a fire truck answering an alarm closer than **500 feet**.
+The {{STATE}} handbook teaches a following distance of at least **four seconds** in good weather and traffic. Count to four. If your car reaches the marker before you finish, slow down and count again.
+
+The driving skills test scores this four-second gap (Chapter 13).
 
 ## hov
 
-{{STATE}} no longer has HOV lane rules: the state law that created them was repealed, and FLHSMV no longer issues HOV decals for hybrid or low emission vehicles. The former HOV lanes, mostly in South Florida, now run as **express lanes**, where you pay a toll that can change with traffic; signs before each entrance show the price. A buffer, often with flexible plastic posts, separates them from the regular lanes. Enter and leave only at the **marked openings**, never across the buffer.
+{{STATE}} no longer has HOV lane rules. The law that created them was repealed, and FLHSMV no longer gives HOV decals to hybrid or low emission cars.
+
+The old HOV lanes, mostly in South Florida, are now **express lanes**. You pay a toll that can change with traffic, and signs before each entrance show the price. A buffer, often lined with flexible plastic posts, separates them from the regular lanes. Enter and leave only at the **marked openings**, never across the buffer.
 
 ## parking_rules
 
-{{STATE}} bans parking within:
+In {{STATE}}, never park closer than these distances:
 
 | Place | Feet |
 |---|---|
@@ -61,79 +80,156 @@ The {{STATE}} handbook teaches at least a **four-second** following distance in 
 | Flashing signal, stop sign or traffic signal | 30 |
 | Railroad crossing | 50 |
 
-Also never park on a crosswalk, sidewalk, bike lane, bridge, overpass or in a tunnel, by a yellow curb, or double parked. Park within **12 inches** of the curb, and take your keys with you.
+Never park in a bike lane or beside a yellow curb. When you park at a curb, your wheels must be within **12 inches** of it. Take your keys with you.
 
 ## bicycle_passing
 
-In {{STATE}} you must pass a bicycle with at least **3 feet** of space, and keep 3 feet from a cyclist riding in a bike lane. If you cannot pass with 3 feet, stay behind until you can. When it is safe, you may briefly move left of the center line, even across double yellow lines, to pass a cyclist. When turning, yield to cyclists in the bike lane.
+In {{STATE}}, leave at least **3 feet** when you pass a bicycle, including a cyclist riding in a bike lane. If you cannot leave 3 feet, stay behind until you can.
+
+When it is safe, you may briefly cross the center line, even a double yellow line, to pass a cyclist. When you turn across a bike lane, yield to cyclists in it.
 
 ## crash_reporting
 
-After a {{STATE}} crash, stop at or as near the scene as you can and exchange information with the other people involved. Call police right away if anyone is hurt or killed, or if damage to vehicles or property looks like **$2,000 or more**. If only property is damaged and your car blocks traffic, make every reasonable effort to move it out of the travel lanes. If you leave an injury crash without stopping to help, your license is revoked.
+After a {{STATE}} crash, stop at the scene or as close to it as you can, and exchange information with the other people involved.
+
+Call the police right away if anyone is hurt or killed, or if the damage looks like **$2,000 or more**. If no one is hurt and your car blocks traffic, make every reasonable effort to move it out of the travel lanes.
+
+A driver who leaves an injury crash without stopping to help has the license **revoked**.
 
 ## bac_limits
 
-{{STATE}} sets these limits:
+In {{STATE}}, a driver **21 or older** is over the limit at **0.08**. A driver **under 21** is over the limit at **0.02**.
 
-| Driver | Limit (BAC) |
-|---|---|
-| Age 21 and older | 0.08 percent |
-| Under 21 | 0.02 percent |
+Under 21, a BAC of 0.02 or more means a **six-month** license suspension. At **0.05** or more, you must also complete a substance abuse course.
 
-Under 21 at **0.02 or higher**: license suspended **six months**. At **0.05 or higher** you must also complete a substance abuse course. You can be convicted of DUI below 0.08 if alcohol or drugs impair you.
+At any age, you can be convicted of DUI below 0.08 if alcohol or drugs impair your driving.
 
 ## implied_consent
 
-By driving in {{STATE}}, you have agreed to a breath, urine or blood test when an officer has reason to believe you are impaired. A first refusal suspends your license for **one year** and is a second-degree misdemeanor. A second refusal brings an **18-month** suspension and is a first-degree misdemeanor. In a crash causing death or serious injury, blood may be drawn without consent. You have **10 days** from the arrest to request a review of the suspension.
+In {{STATE}}, a **first refusal** of a breath, urine or blood test means a **one-year** license suspension and a second-degree misdemeanor. A **second refusal** means an **18-month** suspension and a first-degree misdemeanor.
+
+After a crash that kills or seriously injures someone, blood can be drawn without your consent. You have **10 days** after the arrest to ask for a review of the suspension.
 
 ## dui_penalties
-First {{STATE}} DUI: **$500 to $1,000** fine and up to **6 months** in jail (0.15+ or a minor aboard: $1,000 to $2,000, up to 9 months). License **revoked at least 180 days**, 50 hours community service, up to 1 year probation, 12-hour DUI school. The conviction stays on your record **75 years**.
 
-**Open container:** no driver or passenger may drink from or hold an open container (exceptions: passengers in a bus or hired vehicle with a commercial driver, or in a motor home over 21 feet).
+| First DUI | Fine | Jail |
+|---|---|---|
+| BAC under 0.15 | $500 to $1,000 | Up to 6 months |
+| 0.15 or more, or a minor aboard | $1,000 to $2,000 | Up to 9 months |
+
+Also: license **revoked at least 180 days**, 50 hours of community service, up to 1 year of probation, a 12-hour DUI school. The conviction stays on your record **75 years**.
+
+**Open container:** no driver or passenger may drink from or hold one, except passengers in a bus, a hired car with a commercial driver, or a motor home over 21 feet.
 
 ## phone_laws
 
-{{STATE}} bans **texting** (typing, sending or reading messages) while the car is moving; police can stop you for it alone. First offense: **$30** fine plus costs, no points. Second within five years: **$60**, **3 points**. Holding a phone at all is banned in **school zones, school crossings and active work zones** (3 points). Navigation, hands-free use and emergency calls are allowed, and none of this applies while the car is stopped.
+In {{STATE}}, you may not type, send or read texts while the car is moving, and police can stop you for that alone. A first offense costs **$30** plus court costs and no points. A second within five years costs **$60** and **3 points**.
+
+In **school zones, school crossings and active work zones**, you may not hold the phone at all: **3 points**.
+
+Navigation, hands-free calls and emergency calls are allowed. These rules do not apply while the car is stopped.
 
 ## seat_belts
 
-{{STATE}} requires seat belts for the **driver**, every **front seat passenger**, and every passenger **under 18** in any seat. The driver gets the ticket for any unbelted passenger under 18. A passenger 18 or older who is not belted where required gets the ticket personally. Wear the lap belt low across the hips and the shoulder belt across the chest, never behind your back.
+In {{STATE}}, the **driver**, every **front seat passenger** and every passenger **under 18**, in any seat, must wear a seat belt.
+
+If a passenger under 18 is not buckled, the **driver** gets the ticket. A passenger 18 or older who is not buckled where the law requires it gets the ticket.
 
 ## child_restraints
 
 {{STATE}} requires:
 
-| Age | Required |
+| Child's age | Restraint |
 |---|---|
 | Through age 3 | A crash-tested child safety seat |
-| Ages 4 and 5 | A child safety seat or a booster seat |
-| Under 18 | Seat belt in any seat |
+| 4 and 5 | A child safety seat or a booster seat |
+| 6 to 17 | A seat belt, in any seat |
 
-Never put a rear-facing seat in front of an airbag. A belt alone is allowed for a 4- or 5-year-old only when a driver outside the child's immediate family transports the child as a favor or in an emergency.
+A 4- or 5-year-old may use a belt alone only when someone outside the immediate family drives the child as a favor or in an emergency.
 
 ## vehicle_rules
 
-{{STATE}} car owners must carry **$10,000 Personal Injury Protection** and **$10,000 Property Damage Liability** insurance for the whole registration period, with proof (paper or phone) in the car. Lapsed insurance can suspend your license and plate for up to three years. Turn on **headlights whenever you use your wipers**, and in smoke, fog or rain. Update your address within **30 days**. New residents register their car within **10 days** of starting work or enrolling a child in school.
+In {{STATE}}, a police officer may stop you at any time to check your car's equipment.
+
+If your insurance lapses and you do not show new proof, your license and plate can be suspended for up to **three years**.
+
+When you move, update the address on your license within **30 days**. A new resident must register the car within **10 days** of starting a job or enrolling a child in school.
 
 ## road_test
 
-The {{STATE}} driving skills test starts with a car inspection, then scores: backing **50 feet** without mirrors or camera, a three-point turn in **20 to 40 feet**, straight-in parking, parking on a grade, a quick stop, signaling the last **100 feet**, a **four-second** following distance, stops, signals, right of way and lane use. No passengers ride along. A retest costs **$20**. Pass with a third party and you may be randomly retested at an office, free.
+The {{STATE}} driving skills test starts with an inspection of your car. Then the examiner scores:
+
+- backing up **50 feet**, looking back, without mirrors or the backup camera;
+- a three-point turn in a space **20 to 40 feet** wide;
+- straight-in parking and parking on a grade;
+- a quick stop;
+- signaling for the last **100 feet** and keeping a **four-second** following distance.
+
+No passengers ride along. A retest costs **$20**. If you passed with a third party, you may be picked for a free retest at an office.
 
 ## supervised_hours
 
-{{STATE}} drivers under 18 must complete before the Class E license:
+{{STATE}} drivers under 18 need these hours before the Class E license:
 
 | Category | Hours |
 |---|---|
 | Total | 50 |
 | At night | At least 10 |
 
-Night hours count toward the 50. A parent, legal guardian or responsible adult 21 or older certifies them on the **Certification of Minor Driving Experience**, signed before a notary or examiner. The supervisor sits in the front seat to your right and must be a licensed driver 21 or older. You must also hold the learner's license 12 months.
+Night hours count toward the 50. Your supervisor must be a licensed driver **21 or older** in the front seat to your right. A parent, legal guardian or responsible adult 21 or older signs the **Certification of Minor Driving Experience** in front of a notary or an examiner.
 
 ## signal_distance
 
-{{STATE}} law requires your turn signal for at least the **last 100 feet** before you turn, at any speed. Signal before every lane change and before pulling away from the curb. Never use your turn signal to tell the driver behind you it is safe to pass.
+In {{STATE}}, signal for at least the **last 100 feet** before you turn, at any speed. Signal before every lane change, too.
+
+Never use your turn signal to tell the driver behind you that it is safe to pass.
 
 ## headlight_dimming
 
-In {{STATE}}, switch to low beams when an oncoming vehicle comes within **500 feet**, and when you follow another vehicle within **300 feet**.
+In {{STATE}}, switch to low beams when an oncoming vehicle comes within **500 feet**. When you follow another vehicle, switch to low beams within **300 feet**.
+
+## emergency_vehicles
+
+When an emergency vehicle with a siren or flashing lights comes toward you in {{STATE}}, move over parallel to the **closest edge** of the road, clear of any intersection, and stop. On a one-way street, the closest edge may be on your left.
+
+Stay stopped until the vehicle has passed, unless a police officer directs you otherwise.
+
+Never follow a fire truck answering an alarm closer than **500 feet**.
+
+## headlight_use
+
+{{STATE}} requires headlights from **sunset to sunrise**, including twilight, and in any **rain, smoke or fog**. Turn them on **whenever your wipers are on**. Parking lights do not count.
+
+Hazard flashers are for a car that is stopped or disabled on the road. The one exception is **extremely low visibility** on a road posted at **55 mph or more**, where you may use them while driving.
+
+## police_stop
+
+In {{STATE}}, you must stop when a police officer orders you to. Refusing to stop, or speeding away after you stop, is a **felony**, and the court revokes your license for **1 to 5 years**.
+
+Have three things ready to show:
+
+- your **driver license** (a digital license is accepted, but the officer may still ask for the card);
+- the **registration** (the paper or an official copy);
+- your **proof of insurance** (the card or the copy on your phone).
+
+## underage_alcohol
+
+In {{STATE}}, it is a crime for anyone under 21 to have alcohol. A first offense is a **second-degree misdemeanor**, with up to **60 days** in jail and a **$500** fine. A repeat offense is a first-degree misdemeanor.
+
+Lying about your age to buy alcohol is also a second-degree misdemeanor. If you used a license or ID card to do it, the court can add up to **40 hours** of community service.
+
+Having or showing a fake driver license is a **third-degree felony**.
+
+## driver_record
+
+In {{STATE}}, speeding up to 15 mph over adds **3** points. Speeding 16 or more over, running a red light or passing a stopped school bus adds **4**. Speeding that causes a crash adds **6**.
+
+| Points | Suspension, up to |
+|---|---|
+| 12 in 12 months | 30 days |
+| 18 in 18 months | 3 months |
+| 24 in 36 months | 1 year |
+
+A driver improvement course can replace the points for many tickets, once a year and **five times** in a lifetime.
+
+Insurance: **$10,000** Personal Injury Protection plus **$10,000** Property Damage Liability.

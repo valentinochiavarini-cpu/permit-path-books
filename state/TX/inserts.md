@@ -151,7 +151,7 @@ In {{STATE}}, headlights must be on from **30 minutes after sunset** to **30 min
 
 ## police_stop
 
-The {{STATE}} handbook asks you to stop as far right as you can, or on a nearby well-lit side street. Set the parking brake, turn off the engine and turn on your hazard lights. Keep both hands on top of the wheel. Tell the officer if you carry any weapon, and say where your license and insurance are before you reach. The law requires you to show your license when asked. Not sure it is a real police car? Turn on your hazards, drive slowly and call **911**.
+The {{STATE}} handbook adds a few steps. Stop as far right as you can, or on a nearby well-lit side street. Set the parking brake and turn on your hazard lights. Tell the officer if you carry any weapon. The law requires you to show your driver license when an officer asks. Not sure it is a real police car? Turn on your hazards, drive slowly and call **911** while you head for a well-lit, busy place.
 
 ## driver_record
 

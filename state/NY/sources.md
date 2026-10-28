@@ -92,7 +92,7 @@ Short names:
 | school_bus | Three convictions in three years: revocation at least six months | MAN Ch. 2, Speeding and Other Violations | 2026-10-28 |
 | u_turn | Left portion of lane nearest center; 500 feet visibility; NYC business districts; limited access expressway; school zone; green arrow allows | MAN Ch. 5, U-Turns | 2026-10-28 |
 | speed_limits | 55 mph unposted; NYC 25 mph; up to 65 mph on some rural expressways | MAN Ch. 8, Speed; Ch. 10, Expressway Driving | 2026-10-28 |
-| speed_limits | Speeding points 3, 4, 6, 8, 11; 11 points in 24 months may suspend | POINTS | 2026-10-28 |
+| speed_limits | Speeding points 3, 4, 6, 8, 11 (11 points in 24 months now printed in driver_record) | POINTS | 2026-10-28 |
 | following_distance | Two-second rule; 3 to 4 seconds in bad weather and behind trucks; 2 seconds in work zones | MAN Ch. 8, Allow Yourself Space, Work Zones | 2026-10-28 |
 | following_distance | Following too closely: 4 points | POINTS | 2026-10-28 |
 | hov | Diamond symbol; occupancy rules during posted times; broken line lets drivers enter to turn right at next intersection | MAN Ch. 4, Pavement Markings | 2026-10-28 |
@@ -116,6 +116,19 @@ Short names:
 | supervised_hours | 50 total, 15 after sunset, driver ed hours count; MV-262 by parent or guardian; 10 in moderate to heavy traffic recommended | MV262; MAN Ch. 1 | 2026-10-28 |
 | signal_distance | 100 feet before turn or lane change; 100 feet before exit ramp; signal before braking | MAN Ch. 5, Turns; Ch. 6; Ch. 10, Expressway Driving | 2026-10-28 |
 | headlight_dimming | Low beams within 500 ft oncoming, 200 ft following, even in another lane | MAN Ch. 10, Night Driving | 2026-10-28 |
+| emergency_vehicles | Pull to right edge and stop for an emergency vehicle from any direction, incl. opposite lane of a two-way road; leave an intersection first; siren but unseen: pull right and stop | MAN Ch. 5, Emergency Vehicles | 2026-10-28 |
+| emergency_vehicles | Either edge of a one-way roadway three or more lanes wide; clear of intersection; stop until passed unless police direct otherwise | VTL 1144(a) (WebFetch, nysenate.gov) | 2026-10-28 |
+| emergency_vehicles | No following a fire vehicle with lights on closer than 200 ft | VTL 1217 | 2026-10-28 |
+| headlight_use | Half hour after sunset to half hour before sunrise; visibility under 1,000 ft; wipers for rain, snow, sleet or fog; DRL and parking lights not a substitute; dawn, dusk, fog (moved from vehicle_rules) | MAN Ch. 10, Night Driving; Driving in Rain, Fog, or Snow | 2026-10-28 |
+| police_stop | Manual has no police stop section. Must comply with lawful police orders | VTL 1102 | 2026-10-28 |
+| police_stop | Failure to exhibit license to police is presumptive evidence of no license | VTL 507(2) | 2026-10-28 |
+| police_stop | Police may request the registration certificate; photocopy allowed | VTL 401(4) | 2026-10-28 |
+| police_stop | Insurance card shown after a crash | VTL 600(1)(a) | 2026-10-28 |
+| underage_alcohol | Under 21 possession with intent to consume: fine up to $50, up to 30 hours community service, or alcohol awareness program; not a conviction | ABC Law 65-c | 2026-10-28 |
+| underage_alcohol | False or another's proof of age under 21: violation; first up to $100 and up to 30 hours community service; license used: 3-month suspension, repeat 1 year or until 21 | ABC Law 65-b(2), (3), (6); MAN Ch. 9, Illegal Purchase | 2026-10-28 |
+| driver_record | 11 points in 24 months may suspend; counted from violation date, stop counting after 24 months; alcohol or drug 11, due care 5, signal/STOP/YIELD 3; course subtracts 4 points for suspension purposes; 6 points in 18 months: Driver Responsibility Assessment | POINTS (both pages) | 2026-10-28 |
+| driver_record | DRA paid each year for three years | MAN Ch. 2, Driver Responsibility Assessments | 2026-10-28 |
+| driver_record | Insurance minimums 25/50 injury, 50/100 death, 10 property (moved from vehicle_rules) | MAN Ch. 3, Insurance | 2026-10-28 |
 
 ## Bank (bank/NY.json)
 

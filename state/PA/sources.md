@@ -118,3 +118,30 @@ Short names for URLs used in the table:
 - **Manual edition.** Whether pa.gov now hosts a printed PUB 95 newer than 4-21 could not be confirmed (the PDF did not download). The online manual matched on every Chapter 1 figure.
 - **Pending law.** HB 1093 (2025, seat belts for minors) is still at the bill stage; not in the book.
 - **docs/states.md "Licenses regardless of status: unverified" for PA.** Not checked in this run (not needed for the book).
+
+## State upgrade (2026-10-28)
+
+New inserts and rewritten facts. "ONLINE-4" as above. "PUB 95" page numbers from the Drive copy.
+
+| Key | Claim | Source | Checked |
+|---|---|---|---|
+| emergency_vehicles | Siren or flashing red, or red and blue, lights from any direction: pull to curb and stop; one-way street: nearest roadside; stay clear of intersections; obey uniformed police and fire police | PUB 95 p. 59 | 2026-10-28 |
+| emergency_vehicles | After it passes: check for another, keep at least 500 ft away | PUB 95 p. 60; PUB 95 Ch. 3 review question (500 ft behind) | 2026-10-28 |
+| headlight_use | Headlights: insufficient light (gray days, heavy traffic), rain, snow, sleet, hail, fog, smoke; cannot see 1,000 ft; sunset to sunrise; work zones; wipers in use for weather; DRL not enough, taillights on | PUB 95 p. 40 | 2026-10-28 |
+| headlight_use | Headlight/wiper law fine $25, about $100 with costs | PUB 95 p. 43 | 2026-10-28 |
+| work_zone | Extra $25 fine if stopped in a work zone without headlights | PUB 95 p. 18 | 2026-10-28 |
+| police_stop | Signal, pull right, engine and radio off, window down, interior light at night, hands on wheel, passengers' hands visible, stay inside, tell officer about a firearm, wait for request, license, registration and insurance, not the wallet; blue lights alone not police: drive slowly to a well lit populated area | ONLINE-4 (What To Do If You Are Stopped By Police) | 2026-10-28 |
+| police_stop | Fleeing or eluding: 1-year suspension, $500 fine, possible jail | ONLINE-4 (Fleeing or Eluding Police) | 2026-10-28 |
+| underage_alcohol | Under 21 at 0.02+ is DUI, sentenced under 3804(b) (48 hours minimum, $500 to $5,000), 12-month suspension | STAT 3802(e), 3804(b)(1), 3804(e)(2) (PDF view on palegis.us); ONLINE-4 DUI tables | 2026-10-28 |
+| underage_alcohol | Under 21 attempt to purchase, purchase, consume, possess, knowingly transport: summary offense, fine up to $500, then up to $1,000 | 18 Pa.C.S. 6308(a), (b) (palegis.us) | 2026-10-28 |
+| underage_alcohol | False ID: summary offense first, misdemeanor of the third degree after | 18 Pa.C.S. 6310.3 (palegis.us) | 2026-10-28 |
+| underage_alcohol | No automatic license suspension for these non-driving offenses: 18 Pa.C.S. 6310.4 repealed by Act 95 of 2018, effective April 22, 2019 | palegis.us 6310.4 repeal note; gambonelaw.com/?p=3363; lvpnews.com 2019-05-16 | 2026-10-28 |
+| underage_alcohol | Adults furnishing alcohol to minors: at least $1,000, then $2,500 | ONLINE-4 (Underage Drinking) | 2026-10-28 |
+| driver_record | 6 points first time: special point exam (removes 2) or driver improvement school (removes 4); second time: hearing plus school, suspension up to 15 days; 3 points off per 12 clean months | ONLINE-4 (Point System) | 2026-10-28 |
+| driver_record | 11 points: suspension 5 days per point (first), 10 (second), 15 (third), 1 year after | STAT 1539(a), (b) (palegis.us PDF) | 2026-10-28 |
+| vehicle_rules | Minimum insurance: $15,000 / $30,000 bodily injury, $5,000 property damage, $5,000 medical benefits | pa.gov Insurance Department, Learn About Insurance: Auto Insurance | 2026-10-28 |
+| dui_penalties | First offense: (a) 6 months probation, $300, no suspension; (b) 48 hours to 6 months, $500 to $5,000, 12 months; (c) 72 hours to 6 months, $1,000 to $5,000, 12 months | STAT 3804(a)(1), (b)(1), (c)(1), (e)(2) (palegis.us PDF); ONLINE-4 DUI tables (6-month maximum) | 2026-10-28 |
+| parking_rules | Parked on the roadway: four-way flashers, visible 500 ft both ways; park in the direction traffic moves | PUB 95 p. 52 | 2026-10-28 |
+| hov question | PA-080, PA-081 (I-279) and PA-048 (work zone camera) marked app_only; PA-131 (belt points, not taught) app_only | | 2026-10-28 |
+
+Fix: the old dui_penalties box said "All tiers: $300 to $5,000" and put probation under "Jail". The first-offense fine is $300 flat for general impairment; $500 to $5,000 high rate; $1,000 to $5,000 highest rate.

@@ -98,6 +98,23 @@ Short names:
 | supervised_hours | 50 total, 10 night; certifier; notarized; supervisor; 12 months | TEEN; FAQ; STAT 322.1615(2) | 2026-10-28 |
 | signal_distance | At least 100 ft; lane changes; not to signal others to pass | HB p. 69 | 2026-10-28 |
 | headlight_dimming | 500 ft oncoming; 300 ft following | STAT 316.238(1) (2022 ed.) | 2026-10-28 |
+| emergency_vehicles | Yield; move parallel to the closest edge of the road, clear of any intersection; stop until it passes unless an officer directs otherwise | STAT 316.126(1)(a) (2026, read via WebFetch) | 2026-10-28 |
+| emergency_vehicles | Fire truck answering an alarm: no closer than 500 ft (moved from following_distance) | HB p. 62 | 2026-10-28 |
+| headlight_use | Lamps sunset to sunrise incl. twilight; during any rain, smoke or fog | STAT 316.217(1) (2026) | 2026-10-28 |
+| headlight_use | Headlights with wipers; parking lights not a substitute (moved from vehicle_rules) | HB p. 71 | 2026-10-28 |
+| headlight_use | Flashing lights banned except turns, lane changes, lawfully stopped or disabled, and extremely low visibility on roads posted 55 mph or higher | STAT 316.2397(7) (2026) | 2026-10-28 |
+| police_stop | Refusing to stop or fleeing after an officer's order: third-degree felony; license revoked 1 to 5 years | STAT 316.1935(1), (5) (2026) | 2026-10-28 |
+| police_stop | License in immediate possession, shown on demand; digital license allowed, printed card if not verifiable | STAT 322.15(1) (2026) | 2026-10-28 |
+| police_stop | Registration certificate or official copy carried, shown on demand | STAT 320.0605(1)(a) (2026) | 2026-10-28 |
+| police_stop | Insurance card or electronic proof on a phone (moved from vehicle_rules) | HB p. 23 | 2026-10-28 |
+| underage_alcohol | Under 21 possession: second-degree misdemeanor; repeat: first-degree | STAT 562.111(1) (2026) | 2026-10-28 |
+| underage_alcohol | Second-degree misdemeanor: up to 60 days, $500 | STAT 775.082(4)(b), 775.083(1)(e) | 2026-10-28 |
+| underage_alcohol | Misrepresenting age to buy alcohol: second-degree misdemeanor; up to 40 hours public service if a license or ID card was used | STAT 562.11(2) (2026) | 2026-10-28 |
+| underage_alcohol | Possessing or displaying a forged or counterfeit license: third-degree felony | STAT 322.212(1)(a), (6) (2026) | 2026-10-28 |
+| driver_record | Points: 3 (15 or less over, other moving), 4 (16+ over, signal violation, school bus, reckless), 6 (speed causing crash); 12/12 up to 30 days, 18/18 up to 3 months, 24/36 up to 1 year | STAT 322.27(3) (2026); HB pp. 29 to 30 | 2026-10-28 |
+| driver_record | Basic driver improvement course in lieu of points: not if elected in preceding 12 months, max five in a lifetime | HB p. 17 | 2026-10-28 |
+| driver_record | PIP $10,000, PDL $10,000 (moved from vehicle_rules); lapse suspension up to 3 years stays in vehicle_rules | HB pp. 22 to 23 | 2026-10-28 |
+| vehicle_rules | Police may stop a car at any time to inspect equipment | HB p. 38 (Equipment Standards) | 2026-10-28 |
 
 ## Unverified or left out
 
@@ -108,4 +125,6 @@ Short names:
 - School zone speed cameras ($100) and school bus cameras ($200): listed in HB as pending bills; final status not confirmed; left out.
 - Florida minimum school zone limit (15 mph) and whether there is a periodic safety inspection: not confirmed on a primary source; left out.
 - 322.1615 and 322.16 pages on flsenate.gov did not load (permission timeout); 322.1615 read on m.flsenate.gov (2026), 322.16 on florida.public.law.
-- Handbook pages 72 to 99 missing from the Drive text.
+- Handbook pages 72 to 99 missing from the Drive text, including "Interacting with Law Enforcement" (p. 75); police_stop uses statutes only.
+- Under-21 alcohol possession and false ID: no statute read (562.111, 562.11, 322.212, 322.056) provides a license suspension for these non-driving offenses, but core Chapter 11 says they "can cost you your driver's license". Not claimed either way in the box; flagged to the core owner.
+- Texting in a school zone: handbook p. 30 says +3 points, s. 322.27(3) (2026) reads +2; not printed in a box.

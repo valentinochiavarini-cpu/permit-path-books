@@ -123,8 +123,22 @@ Short names for URLs:
 | supervised_hours | 7 observation, 7 instruction, 30 practice incl. 10 night; supervisor 21+ with 1 year; parent or guardian certifies; 6 months on learner | PROV; PTDE; 84.50; TDLR-BTW; DL-7 pp. 1 to 2 | 2026-10-28 |
 | signal_distance | Signal continuously at least 100 feet before turning | DL-7 Ch. 6 pp. 38 to 39 | 2026-10-28 |
 | headlight_dimming | Lights on 30 min after sunset to 30 min before sunrise or under 1,000 ft visibility; low beams within 500 ft oncoming, 300 ft following | DL-7 Ch. 9 p. 47 | 2026-10-28 |
+| emergency_vehicles | Pull to right-hand edge or curb, clear of intersection, stop until passed; no separate one-way rule in statute; if unable, slow and leave a clear path | Tex. Transp. Code 545.156 (texas.public.law); DL-7 Ch. 4 p. 22 | 2026-10-28 |
+| emergency_vehicles | Do not follow within 500 ft of a fire apparatus answering an alarm or an ambulance with red lights; do not drive into or park in the block where a fire apparatus stopped for an alarm | Tex. Transp. Code 545.407 (texas.public.law); DL-7 Ch. 4 p. 22 | 2026-10-28 |
+| headlight_use | Lamps on at nighttime (30 min after sunset to 30 min before sunrise) and when persons or vehicles not clearly discernible at 1,000 ft; no wipers clause in 547.302 | Tex. Transp. Code 547.302(a), 541.401 (texas.public.law); DL-7 Ch. 9 p. 47 | 2026-10-28 |
+| headlight_use | Parking lights or low beams on when parked on an unlighted highway at night | DL-7 Ch. 9 p. 47 | 2026-10-28 |
+| headlight_use | Fine up to $200 (general misdemeanor penalty, $1 to $200, where no other penalty is set) | Tex. Transp. Code 542.401 (texas.public.law) | 2026-10-28 |
+| headlight_dimming | Low beams also on lighted roads and in fog, heavy rain, sleet, snow or dust | DL-7 Ch. 9 p. 47 | 2026-10-28 |
+| police_stop | Pull right, well-lit side street; parking brake, engine off, hazards; hands on top of wheel; tell officer of any weapon; say where documents are before reaching; must display license when asked; unsure of real police: hazards, drive slowly, call 911 | DL-7 Ch. 14 pp. 65 to 66 | 2026-10-28 |
+| underage_alcohol | Minor may not purchase, attempt to purchase, consume, possess; misrepresentation of age or false document; Table 26: 1st Class C up to $500, 8 to 12 h community service, alcohol awareness course, 30-day suspension; 2nd 60 days | DL-7 Ch. 10 p. 56; Ch. 1 p. 11 (automatic suspension list) | 2026-10-28 |
+| underage_alcohol | DUI by a Minor 1st: up to $500, 20 to 40 h community service, alcohol awareness course | DL-7 Ch. 10 p. 57, Table 29 | 2026-10-28 |
+| driver_record | No point system: DPS no longer assesses DRP points; previously assessed points removed; surcharges ended (DRP repealed) | https://www.dps.texas.gov/section/driver-license/faq/driver-responsibility-program-surcharge-repeal-faqs | 2026-10-28 |
+| driver_record | Habitual violator: 4+ moving violation convictions in 12 months or 7+ in 24 months; suspension after hearing; under 18: 2+ in 12 months | Tex. Transp. Code 521.292 (texas.public.law); DL-7 Ch. 1 p. 11 | 2026-10-28 |
+| driver_record | Liability minimum 30/60/25; proof to officer on request and to others in a crash; image on wireless device accepted; no proof: 1st $175 to $350, later $350 to $1,000 plus suspension (and impoundment) | DL-7 Ch. 3 p. 18, Table 13 | 2026-10-28 |
 
 ## Bank (bank/TX.json)
+
+Upgrade 2026-10-28: TX-145 to TX-163 added (sources in each `src`); quiz flags set for chapters 2 to 13; TX-014, TX-022, TX-138 marked app_only.
 
 Every question cites its source in `src`. Sign questions (`ch: 2`) are from DL-7 Chapter 5 (signs tables, pp. 27 to 38) and match topics taught in core Chapter 2 or 3.
 

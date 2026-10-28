@@ -97,6 +97,20 @@ Short names:
 | supervised_hours: 50, 10 night, 6 training; supervisor 25+; parent certification; 6 months | VC 12814.6; TEEN | 2026-10-28 |
 | signal_distance: 100 ft; 5 seconds on freeway; exit 5 seconds about 400 ft | HB Sections 5, 6; VC 22108 | 2026-10-28 |
 | headlight_dimming: 500 ft oncoming, 300 ft following | HB Section 5 | 2026-10-28 |
+| emergency_vehicles: right-hand edge or curb, clear of intersection, stop; no one-way rule in statute; exit an exclusive or preferential (carpool) lane when safe | VC 21806 (california.public.law); HB Section 7 | 2026-10-28 |
+| emergency_vehicles: 300 ft behind emergency vehicle with siren or lights (moved here from move_over and following_distance); driving to a fire or crash scene can mean arrest | HB Section 7 | 2026-10-28 |
+| headlight_use: 30 min after sunset to 30 min before sunrise; 1,000 ft; wipers in continuous use due to rain, mist, snow, fog; parking lights only illegal; mountain roads, tunnels, signs | VC 24400 (california.public.law); HB Section 5 | 2026-10-28 |
+| police_stop: right shoulder even from HOV lane; well-lit; window down; hands in view; officer states reason before questioning (exception for imminent threat); must produce license, insurance, registration; may decline search, do not resist | HB Section 6 (Law Enforcement Stops; Your Rights During the Enforcement Stop) | 2026-10-28 |
+| underage_alcohol: driver or passenger under 21 may not knowingly carry alcohol unless with parent, guardian, responsible adult relative or designated adult (or employment); misdemeanor up to $1,000 and/or 6 months; vehicle registered to the minor impounded 1 to 30 days | VC 23224 (california.public.law) | 2026-10-28 |
+| underage_alcohol: possession in public under 21, first offense $250 or 24 to 32 h community service | B&P 25662 (california.public.law) | 2026-10-28 |
+| underage_alcohol: false ID to buy alcohol, first offense at least $250, 24 to 32 h community service, or both | B&P 25661 (california.public.law) | 2026-10-28 |
+| underage_alcohol: 13 to 20, DUI-type conviction (VC 23140, 23152, 23153): court suspends 1 year or delays licensing 1 year; bicycle DUI 13 to 20: suspension or delay 1 year | VC 13202.5 (california.public.law); HB Section 9 | 2026-10-28 |
+| driver_record: 2 points DUI, hit-and-run, reckless and other listed offenses; 1 point other moving convictions and at-fault crashes | VC 12810 (california.public.law) | 2026-10-28 |
+| driver_record: negligent operator 4 in 12, 6 in 24, 8 in 36 months; record 36 months or longer; traffic violator school for 1-point ticket, once in 18 months, not reported to insurer | HB Section 7 (Points on Your Driver's Record; Traffic Violator School) | 2026-10-28 |
+| driver_record: insurance 30/60/15 (moved here from vehicle_rules) | PERMIT; SB 1107 (see factcheck_B) | 2026-10-28 |
+
+## Bank upgrade 2026-10-28
+CA-149 to CA-164 added (sources in `src`); CA-134 moved to ch 10 (headlights now in Chapter 10 box); quiz flags set for chapters 2 to 13; CA-111 marked app_only.
 
 ## Not used or unresolved
 - Knowledge test question count: not published on any current DMV page. Secondary sources cite 46 questions (38 to pass) for minors and 36 (30 to pass) for adults; not used. A 2019 DMV fast fact (cited by passrates.uk) lets provisional applicants miss up to 8.
