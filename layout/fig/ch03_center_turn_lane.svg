@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 242" font-family="Inter, Arial, sans-serif">
+  <!-- Two way left turn lane: solid yellow outside, broken yellow inside, white two way left turn arrows (MUTCD 11th ed. Section 3B.05) -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs><marker id="ah_ch03_center_turn_lane" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker></defs>
+  <rect x="300" y="6" width="44" height="40" fill="#d9d9d9"/>
+  <text class="sub" x="350" y="24" style="text-anchor:start">Driveway</text>
+  <rect x="10" y="40" width="440" height="150" fill="#d9d9d9"/>
+  <rect x="10" y="44" width="290" height="3" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="344" y="44" width="106" height="3" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="183" width="440" height="3" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="85" width="440" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="12" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="40" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="68" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="96" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="124" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="152" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="180" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="208" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="236" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="264" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="292" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="320" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="348" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="376" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="404" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="432" y="91" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="12" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="40" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="68" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="96" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="124" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="152" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="180" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="208" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="236" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="264" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="292" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="320" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="348" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="376" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="404" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="432" y="135" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="141" width="440" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <path d="M88,127 H128 Q140,127 140,115 V108" fill="none" stroke="#888" stroke-width="6.2"/>
+  <path d="M88,127 H128 Q140,127 140,115 V108" fill="none" stroke="#fff" stroke-width="5"/>
+  <polygon points="134,109 146,109 140,99" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <path d="M220,103 H180 Q168,103 168,115 V122" fill="none" stroke="#888" stroke-width="6.2"/>
+  <path d="M220,103 H180 Q168,103 168,115 V122" fill="none" stroke="#fff" stroke-width="5"/>
+  <polygon points="162,121 174,121 168,131" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <g transform="translate(290,117) rotate(90) scale(1.15)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#fff" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text class="sub" x="290" y="162"></text>
+  <path d="M308,117 Q322,117 322,100 V22" fill="none" stroke="#1c1c1c" stroke-width="2.5" stroke-dasharray="5 3" marker-end="url(#ah_ch03_center_turn_lane)"/>
+  <text x="262" y="121" font-size="10" font-weight="700" fill="#1c1c1c" text-anchor="end">You</text>
+  <g transform="translate(410,66) rotate(270) scale(1.15)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <g transform="translate(120,163) rotate(90) scale(1.15)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text class="lbl" x="12" y="208" style="text-anchor:start">Shared center turn lane</text>
+  <text class="sub" x="12" y="221" style="text-anchor:start">Solid yellow outside, broken yellow inside, white arrows both ways</text>
+  <text class="sub" x="12" y="233" style="text-anchor:start">You: wait in the lane for a gap in oncoming traffic, then turn</text>
+</svg>

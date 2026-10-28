@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 254" font-family="Inter, Arial, sans-serif">
+  <!-- Two lane road center lines: single broken yellow, solid beside broken yellow, double solid yellow (MUTCD 11th ed. Sections 3A.04, 3B.01, 3B.02) -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs><marker id="ah_ch03_center_lines" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker></defs>
+  <rect x="10" y="12" width="290" height="68" fill="#d9d9d9"/>
+  <rect x="10" y="15" width="290" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="74.5" width="290" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="14" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="42" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="70" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="98" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="126" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="154" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="182" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="210" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="238" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="266" y="44.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="294" y="44.5" width="6" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <g transform="translate(118,63) rotate(90) scale(1.1)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text x="95" y="67" font-size="9.5" font-weight="700" fill="#1c1c1c" text-anchor="end">May pass</text>
+  <g transform="translate(210,29) rotate(270) scale(1.1)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text x="233" y="33" font-size="9.5" font-weight="700" fill="#1c1c1c">May pass</text>
+  <text class="lbl" x="312" y="40" style="text-anchor:start">Single broken yellow</text>
+  <text class="sub" x="312" y="54" style="text-anchor:start">Either side may pass</text>
+  <text class="sub" x="312" y="66" style="text-anchor:start">when it is safe</text>
+  <rect x="10" y="96" width="290" height="68" fill="#d9d9d9"/>
+  <rect x="10" y="99" width="290" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="158.5" width="290" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="125.5" width="290" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="14" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="42" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="70" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="98" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="126" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="154" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="182" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="210" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="238" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="266" y="131.5" width="16" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="294" y="131.5" width="6" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <g transform="translate(118,147) rotate(90) scale(1.1)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text x="95" y="151" font-size="9.5" font-weight="700" fill="#1c1c1c" text-anchor="end">May pass</text>
+  <g transform="translate(210,113) rotate(270) scale(1.1)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text x="233" y="117" font-size="9.5" font-weight="700" fill="#1c1c1c">No passing</text>
+  <text class="lbl" x="312" y="124" style="text-anchor:start">Solid and broken yellow</text>
+  <text class="sub" x="312" y="138" style="text-anchor:start">Pass only from the side</text>
+  <text class="sub" x="312" y="150" style="text-anchor:start">with the broken line</text>
+  <rect x="10" y="180" width="290" height="68" fill="#d9d9d9"/>
+  <rect x="10" y="183" width="290" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="242.5" width="290" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="209.5" width="290" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="215.5" width="290" height="3" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <g transform="translate(118,231) rotate(90) scale(1.1)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text x="95" y="235" font-size="9.5" font-weight="700" fill="#1c1c1c" text-anchor="end">No passing</text>
+  <g transform="translate(210,197) rotate(270) scale(1.1)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text x="233" y="201" font-size="9.5" font-weight="700" fill="#1c1c1c">No passing</text>
+  <text class="lbl" x="312" y="208" style="text-anchor:start">Double solid yellow</text>
+  <text class="sub" x="312" y="222" style="text-anchor:start">No passing from</text>
+  <text class="sub" x="312" y="234" style="text-anchor:start">either side</text>
+</svg>

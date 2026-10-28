@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 254" font-family="Inter, Arial, sans-serif">
+  <!-- Stopped school bus: on a two lane road both directions stop; on a divided highway traffic behind stops and the other side follows state law -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs><marker id="ah_ch04_school_bus" viewBox="0 0 10 10" refX="7" refY="5" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="11" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker></defs>
+  <text class="lbl" x="10" y="13" style="text-anchor:start">Two lane road: traffic in both directions stops</text>
+  <rect x="10" y="22" width="440" height="52" fill="#d9d9d9"/>
+  <rect x="10" y="24.5" width="440" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="69" width="440" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="12" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="40" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="68" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="96" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="124" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="152" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="180" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="208" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="236" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="264" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="292" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="320" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="348" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="376" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="404" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="432" y="46.75" width="16" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="218" y="49" width="64" height="20" rx="3" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="272" y="51" width="5" height="16" rx="1" fill="#1c1c1c"/>
+  <text x="245" y="62" font-size="7.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">SCHOOL BUS</text>
+  <line x1="264" y1="49" x2="264" y2="43" stroke="#1c1c1c" stroke-width="1.5"/>
+  <polygon points="270.0,40.5 266.5,44.0 261.5,44.0 258.0,40.5 258.0,35.5 261.5,32.0 266.5,32.0 270.0,35.5" fill="#C8102E" stroke="#fff" stroke-width="1"/><polygon points="270.0,40.5 266.5,44.0 261.5,44.0 258.0,40.5 258.0,35.5 261.5,32.0 266.5,32.0 270.0,35.5" fill="none" stroke="#1c1c1c" stroke-width="0.5" transform="translate(0,0)"/>
+  <circle cx="220" cy="47" r="2.6" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+  <circle cx="220" cy="71" r="2.6" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+  <circle cx="280" cy="47" r="2.6" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+  <circle cx="280" cy="71" r="2.6" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+  <g transform="translate(184,59) rotate(90) scale(1.0)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <g transform="translate(350,36) rotate(270) scale(1.0)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text class="lbl" x="150" y="63" style="text-anchor:end">Stop</text>
+  <text class="lbl" x="368" y="40" style="text-anchor:start">Stop</text>
+  <text class="sub" x="10" y="88" style="text-anchor:start">Stop arm (red octagon) out on the left side, red lights flashing</text>
+  <text class="lbl" x="10" y="114" style="text-anchor:start">Divided highway: traffic behind the bus stops</text>
+  <text class="sub" x="10" y="127" style="text-anchor:start">Traffic on the other side: state rules differ, see the box</text>
+  <rect x="10" y="134" width="440" height="46" fill="#d9d9d9"/>
+  <rect x="10" y="136" width="440" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="12" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="40" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="68" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="96" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="124" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="152" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="180" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="208" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="236" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="264" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="292" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="320" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="348" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="376" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="404" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="432" y="155.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="175" width="440" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="180" width="440" height="16" fill="#f2f2f2" stroke="#bbb" stroke-width="0.6"/>
+  <text class="sub" x="230" y="191.5">Median</text>
+  <rect x="10" y="196" width="440" height="52" fill="#d9d9d9"/>
+  <rect x="10" y="198" width="440" height="2.5" fill="#FFCD00" stroke="#888" stroke-width="0.6"/>
+  <rect x="12" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="40" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="68" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="96" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="124" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="152" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="180" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="208" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="236" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="264" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="292" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="320" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="348" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="376" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="404" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="432" y="220.75" width="16" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="10" y="245.5" width="440" height="2.5" fill="#fff" stroke="#888" stroke-width="0.6"/>
+  <rect x="218" y="223" width="64" height="20" rx="3" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="272" y="225" width="5" height="16" rx="1" fill="#1c1c1c"/>
+  <text x="245" y="236" font-size="7.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">SCHOOL BUS</text>
+  <line x1="264" y1="223" x2="264" y2="217" stroke="#1c1c1c" stroke-width="1.5"/>
+  <polygon points="270.0,214.5 266.5,218.0 261.5,218.0 258.0,214.5 258.0,209.5 261.5,206.0 266.5,206.0 270.0,209.5" fill="#C8102E" stroke="#fff" stroke-width="1"/><polygon points="270.0,214.5 266.5,218.0 261.5,218.0 258.0,214.5 258.0,209.5 261.5,206.0 266.5,206.0 270.0,209.5" fill="none" stroke="#1c1c1c" stroke-width="0.5" transform="translate(0,0)"/>
+  <circle cx="220" cy="221" r="2.6" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+  <circle cx="220" cy="245" r="2.6" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+  <circle cx="280" cy="221" r="2.6" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+  <circle cx="280" cy="245" r="2.6" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.6"/>
+  <g transform="translate(184,233) rotate(90) scale(1.0)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="#a6a6a6" stroke="#1c1c1c" stroke-width="1"/><rect x="-5.5" y="-7.5" width="11" height="4.5" rx="1" fill="#1c1c1c"/></g>
+  <text class="lbl" x="150" y="237" style="text-anchor:end">Stop</text>
+  <g transform="translate(330,166) rotate(270) scale(1.0)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="none" stroke="#1c1c1c" stroke-width="1" stroke-dasharray="3 2"/></g>
+  <g transform="translate(120,146) rotate(270) scale(1.0)"><rect x="-7" y="-12" width="14" height="24" rx="3.5" fill="none" stroke="#1c1c1c" stroke-width="1" stroke-dasharray="3 2"/></g>
+  <text class="lbl" x="352" y="170" style="text-anchor:start">See the box</text>
+</svg>
