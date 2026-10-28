@@ -43,12 +43,11 @@
   <text class="signs_colors_sub" x="230" y="220">Recreation,</text>
   <text class="signs_colors_sub" x="230" y="232">parks</text>
   <!-- Fluorescent pink -->
-  <g transform="translate(322,155)"><g transform="scale(0.88)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#E8418C" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/></g><text x="0" y="-1" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">INCIDENT</text><text x="0" y="10" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">AHEAD</text></g>
+  <g transform="translate(322,155)"><g transform="scale(0.88)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#E8418C" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/></g><text x="0" y="-0.5" font-size="7" font-weight="800" fill="#1c1c1c" text-anchor="middle">INCIDENT</text><text x="0" y="8.5" font-size="7" font-weight="800" fill="#1c1c1c" text-anchor="middle">AHEAD</text></g>
   <text class="signs_colors_lbl" x="322" y="207">Fluorescent pink</text>
   <text class="signs_colors_sub" x="322" y="220">Incident ahead</text>
   <!-- Black -->
   <g transform="translate(414,155)"><rect x="-36" y="-14" width="72" height="28" rx="3" fill="#1c1c1c"/><polygon points="-31,-5 13,-5 13,-10 31,0 13,10 13,5 -31,5" fill="#fff"/><text x="-6" y="3.3" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ONE WAY</text></g>
   <text class="signs_colors_lbl" x="414" y="207">Black</text>
-  <text class="signs_colors_sub" x="414" y="220">One way,</text>
-  <text class="signs_colors_sub" x="414" y="232">night speed</text>
+  <text class="signs_colors_sub" x="414" y="220">One Way signs</text>
 </svg>

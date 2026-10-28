@@ -48,9 +48,9 @@ Skipped on purpose (Daniel Hart already leads, a new brand would cannibalize it)
 - `tools/originality_check.py` compares the book text with hashed 8-word sequences of the Daniel Hart master template and the Daniel Hart Pennsylvania edition (`ref/*.hashes`; raw text is not stored in the repo). The build fails if any 12-word run matches or overall 8-word overlap exceeds 1 percent. Shared legal facts are fine; shared sentences are not.
 
 ## Length and figures (2026-10-28)
-- Page target 160 to 175 for a state edition (print cost about $3.00 to $3.10 per copy on KDP US). PA: 173 pages.
+- Page target 160 to 175 for a state edition (print cost about $3.00 to $3.10 per copy on KDP US). PA: 177 pages.
 - Word targets: core chapters about 2,000 words, Chapter 13 about 1,500, state Chapter 1 about 2,300, inserts 90 words max (`briefs/TRIM_BRIEF.md`).
-- 27 original figures in the core (`layout/fig/`, rules in `briefs/FIGURES_BRIEF.md`): full MUTCD colors in PDF and EPUB, Amazon prints them in B&W, every meaningful color named in a label or caption. State runs add no figures.
+- 35 original figures in the core (about 80 signs) (`layout/fig/`, rules in `briefs/FIGURES_BRIEF.md`): full MUTCD colors in PDF and EPUB, Amazon prints them in B&W, every meaningful color named in a label or caption. State runs add no figures.
 - Chapter quiz answers live in one two-column Answer Key at the back.
 
 ## Layout (paperback)
