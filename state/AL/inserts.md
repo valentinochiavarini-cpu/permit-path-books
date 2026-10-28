@@ -26,7 +26,7 @@ Yield to pedestrians and to traffic in the intersection. Treat a dark signal as 
 
 | Road | What you do |
 |---|---|
-| Two or more lanes your way | Leave the lane next to them; if you cannot, slow to **15 mph below** the limit |
+| Two or more lanes your way | Leave the next lane; if you cannot, slow to **15 mph below** the limit |
 | Two-lane road | Move away within your lane and slow to **15 mph below** the limit (limit 20 mph or less: drive **10 mph**) |
 
 Fines: **$200**, **$250**, then **$300** plus at least a **90-day** suspension.
