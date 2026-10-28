@@ -368,27 +368,27 @@
   "id": "AL-029",
   "ch": 1,
   "quiz": false,
-  "q": "Can an Alabama officer stop a Stage II driver only for having too many passengers?",
-  "a": "No, a citation needs a stop for a separate violation",
-  "b": "Yes, at any time",
-  "c": "Only at night",
-  "d": "Only on interstate highways",
+  "q": "Under current Alabama law, what must a Stage II driver do after a first conviction for breaking a restriction, besides serving the longer restricted period?",
+  "a": "Attend defensive driving school",
+  "b": "Retake the knowledge test",
+  "c": "Log 50 more supervised hours",
+  "d": "Surrender the license for one year",
   "correct": "A",
-  "exp": "No citation is issued for a restriction unless the driver is stopped and cited for a separate violation.",
-  "src": "Alabama Driver Manual (ALEA, November 2024), p. 84; ALEA, Graduated Driver License (alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license)"
+  "exp": "A first conviction for breaking a Stage II restriction requires defensive driving school, along with a fine and a six-month extension.",
+  "src": "Code of Ala. 32-6-7.2(d), (h)(1) (codes.findlaw.com, current to 2024-12-30; Act 2017-442, Deputy Hart Act)"
  },
  {
   "id": "AL-030",
   "ch": 1,
   "quiz": false,
-  "q": "How many points go on an Alabama driver's record for breaking a Stage II restriction?",
-  "a": "1",
-  "b": "None",
-  "c": "2",
-  "d": "4",
+  "q": "What happens to an Alabama Stage II driver convicted a second time of breaking a restriction?",
+  "a": "Only a written warning",
+  "b": "Stage II privileges are suspended and the driver goes back to a learner license for six months",
+  "c": "The license is revoked until age 21",
+  "d": "The driver must repeat driver education",
   "correct": "B",
-  "exp": "No points are assessed for violating the Stage II restrictions.",
-  "src": "Alabama Driver Manual (ALEA, November 2024), p. 84; ALEA, Graduated Driver License (alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license)"
+  "exp": "On a second or later offense, the Stage II privileges are suspended and the driver reverts to a Stage I learner license for six months.",
+  "src": "Code of Ala. 32-6-7.2(d), (h)(1) (codes.findlaw.com, current to 2024-12-30; Act 2017-442, Deputy Hart Act)"
  },
  {
   "id": "AL-031",
@@ -511,14 +511,14 @@
   "id": "AL-040",
   "ch": 1,
   "quiz": false,
-  "q": "A new resident holds a license from another country. What tests do they take for an Alabama license?",
+  "q": "A new resident holds a license from a country that has no license agreement with Alabama. What tests do they take for an Alabama license?",
   "a": "Only the vision screening",
   "b": "Only the road test",
   "c": "No tests if they have an International Driving Permit",
   "d": "The vision screening, the knowledge test and the road test",
   "correct": "D",
   "exp": "Foreign license holders apply as new drivers and take all tests.",
-  "src": "University of Alabama ISSS, Transportation, Driving and Driver's Licenses (international.ua.edu); Alabama Driver Manual (ALEA, November 2024), p. 5"
+  "src": "University of Alabama ISSS, Transportation, Driving and Driver's Licenses (international.ua.edu); Alabama Driver Manual (ALEA, November 2024), p. 5; ALEA news release, Alabama, Taiwan sign driver license reciprocity agreement (alea.gov/news/alabama-taiwan-sign-driver-license-reciprocity-agreement)"
  },
  {
   "id": "AL-041",
