@@ -145,3 +145,14 @@ New inserts and rewritten facts. "ONLINE-4" as above. "PUB 95" page numbers from
 | hov question | PA-080, PA-081 (I-279) and PA-048 (work zone camera) marked app_only; PA-131 (belt points, not taught) app_only | | 2026-10-28 |
 
 Fix: the old dui_penalties box said "All tiers: $300 to $5,000" and put probation under "Jail". The first-offense fine is $300 flat for general impairment; $500 to $5,000 high rate; $1,000 to $5,000 highest rate.
+
+## Polish (2026-10-28)
+
+| Key | Claim | Source | Checked |
+|---|---|---|---|
+| underage_alcohol | PennDOT's Chapter 4 practice questions still give a 90-day suspension and up to $500 for underage drinking (Q3) and false ID (Q14), and a suspension starting at the 16th birthday for under-16 false ID use (Q2); the online manual's Underage Drinking section no longer mentions it. Law repealed (see 6310.4 row above) | pa.gov "questions from chapter 4.pdf" (Q2, Q3, Q14 and key); ONLINE-4 (Underage Drinking) | 2026-10-28 |
+| underage_alcohol | Parental consent is not required for a minor's breath, blood or urine test; police notify the parents of the arrest | ONLINE-4 (Underage Drinking); pa.gov "questions from chapter 4.pdf" Q4 (key A, Not required) | 2026-10-28 |
+| signal_distance | Below 40 mph on a limited access highway, use hazard (four-way) flashers to warn drivers behind | PUB 95 p. 44 (Communicating); PUB 95 Ch. 3 review Q32 | 2026-10-28 |
+| bank | PA-165 (parental consent, ch 11), PA-166 (flashers below 40 mph, ch 5), both non-quiz | as above | 2026-10-28 |
+
+Box wording: "PennDOT's practice tests still list a 90-day suspension; that law was repealed." The printed PUB 95 Chapter 4 text could not be read (the Drive copy ends at page 76), so the box names the practice tests, which were confirmed, not the manual text.

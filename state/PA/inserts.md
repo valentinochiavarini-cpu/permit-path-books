@@ -143,11 +143,11 @@ No driver **or passenger** may drink alcohol or hold an **open container** of it
 
 ## underage_alcohol
 
-In {{STATE}}, a driver **under 21** with a BAC of **0.02** or more is guilty of DUI. A first offense brings the middle tier penalties in the table above, including a **12-month** suspension.
+A {{STATE}} driver **under 21** with a BAC of **0.02** or more is guilty of DUI. A first offense brings the middle tier penalties, including a **12-month** suspension.
 
-Off the road, buying, trying to buy, drinking, holding or carrying alcohol under 21 brings a fine of up to **$500**, then up to $1,000. Using a **false ID** is a separate offense. None of these brings an automatic license suspension.
+Off the road, buying, drinking, holding or carrying alcohol under 21 costs up to **$500**, then up to $1,000. A **false ID** is a separate offense. No license suspension follows. PennDOT's practice tests still list a **90-day** suspension; that law was repealed.
 
-Adults who give alcohol to minors pay at least **$1,000**.
+Police need no parent's consent to test a minor. Adults who give alcohol to minors pay at least **$1,000**.
 
 ## phone_laws
 
@@ -236,6 +236,8 @@ Night and bad weather hours count toward the 65. A parent or guardian signs them
 ## signal_distance
 
 {{STATE}} law sets how early to signal. Below **35 mph**, signal for at least the last **100 feet** before you turn. At 35 mph or more, signal for at least the last **300 feet**.
+
+If you must drive below **40 mph** on a limited access highway, turn on your **four-way flashers** to warn drivers behind you.
 
 ## headlight_dimming
 
