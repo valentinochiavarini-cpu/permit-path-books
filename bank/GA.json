@@ -450,9 +450,9 @@
     "a": "10 mph or more over",
     "b": "15 mph or more over",
     "c": "24 mph or more over the limit",
-    "d": "34 mph or more over",
+    "d": "20 mph or more over",
     "correct": "C",
-    "exp": "Speeding 24 mph or more over the limit is a 4-point offense, which suspends a driver under 21.",
+    "exp": "Speeding 24 to 33 mph over the limit is a 4-point offense (34 or more is 6 points). Any offense worth 4 or more points suspends a driver under 21.",
     "src": "GA DDS Drivers' Manual, Section 10, Types of Suspensions, p. 46"
   },
   {
