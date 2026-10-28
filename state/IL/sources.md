@@ -104,7 +104,7 @@ Short names:
 | implied_consent | Consent to breath, blood, urine, other tests; fail 6 months, refuse 1 year; repeat within 5 years: 1 year fail, 3 years refuse; 45-day receipt, suspension from day 46 | RR pp. 49 to 50 | 2026-10-28 |
 | dui_penalties | First DUI Class A misdemeanor | ILCS 11-501(c)(1) (P.A. 102-982) | 2026-10-28 |
 | dui_penalties | Revocation: first at least 1 year, second within 20 years at least 5 years; under 21 first at least 2 years | RR pp. 50, 52 | 2026-10-28 |
-| dui_penalties | 0.16+: minimum $500 fine and 100 hours community service; child under 16: additional minimum $1,000 fine | ILCS 11-501(c)(3), (c)(4) | 2026-10-28 |
+| dui_penalties | 0.16+: minimum $500 fine and 100 hours community service; child under 16: additional minimum $1,000 fine | ILCS 11-501(c)(4) (0.16+), (c)(3) (child under 16) | 2026-10-28 |
 | dui_penalties | Open container: no drinking in vehicle; no opened container in passenger area; passengers in limousine, chartered bus, motor home exempt | RR p. 51; ILCS 11-502 (P.A. 101-517) | 2026-10-28 |
 | phone_laws | Handheld ban; video, video conferencing, social media banned; hands-free or voice mode allowed; single-sided headset allowed | RR p. 22; ILCS 12-610.2(b), (d) (P.A. 103-310, eff. 2024-01-01) | 2026-10-28 |
 | phone_laws | Under 19 no phone use including hands-free, except emergencies | RR pp. 18 to 19, 22 | 2026-10-28 |
