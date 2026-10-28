@@ -14,7 +14,7 @@ ap.add_argument("--part", action="append", default=[]); ap.add_argument("--pass"
 a = ap.parse_args()
 code = a.code.upper()
 rng = random.Random(a.seed)
-core = [r for r in json.loads((ROOT / "bank/core.json").read_text()) if not r.get("quiz")]
+core = [r for r in json.loads((ROOT / "bank/core.json").read_text()) if not r.get("quiz") and not r.get("app_only")]
 st = [r for r in json.loads((ROOT / f"bank/{code}.json").read_text()) if not r.get("quiz") and not r.get("app_only")]
 
 parts = []

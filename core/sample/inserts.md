@@ -91,3 +91,23 @@ Sample text: each state edition prints its own rule for signal distance here, ch
 ## headlight_dimming
 
 Sample text: each state edition prints its own rule for headlight dimming here, checked against the official manual.
+
+## emergency_vehicles
+
+Sample text with invented values, not any real state's rule: in {{STATE}}, pull to the right edge and stop for an emergency vehicle using a siren or flashing lights; on a one-way road, pull to the **nearest edge**. If you are in an intersection, clear it first, then pull over. Stay at least **500 feet** behind a fire truck answering an alarm.
+
+## headlight_use
+
+Sample text with invented values, not any real state's rule: in {{STATE}}, headlights must be on from **sunset to sunrise**, whenever you cannot see people or vehicles **1,000 feet** ahead, and whenever your **wipers** are on because of the weather. Daytime running lights do not count. Fine: **$25**.
+
+## police_stop
+
+Sample text with invented values, not any real state's rule: in {{STATE}}, pull over to the right as soon as it is safe when police signal you. Keep your hands in sight, hand over your license, registration and proof of insurance when asked, and tell the officer if you are carrying a firearm. Fleeing a police officer costs your license for **1 year**.
+
+## underage_alcohol
+
+Sample text with invented values, not any real state's rule: in {{STATE}}, a person under 21 who buys, drinks, possesses or carries alcohol, or uses a **false ID**, loses the license for **90 days** on a first offense, even without driving, and pays a fine of up to **$500**. A first DUI under 21 means a **1-year** suspension.
+
+## driver_record
+
+Sample text with invented values, not any real state's rule: in {{STATE}}, speeding adds **2 to 5 points**. At **6 points** you must pass a point exam or take a driving course. At **11 points** your license is suspended. A clean **12 months** removes 3 points. Every car must carry **liability insurance**; a lapse of 31 days or more suspends the registration.
