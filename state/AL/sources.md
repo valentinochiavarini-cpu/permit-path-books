@@ -38,7 +38,7 @@ Short names:
 | Stage II prerequisites: 6 months on learner (under 18), parent/guardian/grandparent consent, 50 hours certified on DL-31 or SDE-approved driver ed; no night-hour requirement | GDL; FL 32-6-7.2(a), (b); MAN p. 10 | 2026-10-28 |
 | Learner license surrendered at road test; new license at no cost | MAN p. 10 | 2026-10-28 |
 | Stage II: midnight to 6 a.m. with 5 exceptions; max 1 non-family passenger (parent, guardian, supervising 21+ excluded); no handheld device | MAN p. 84; GDL; FL 32-6-7.2(c) | 2026-10-28 |
-| Restriction violation: traffic violation, no points, no citation unless stopped and cited for separate violation; extends period 6 months or to 18 | MAN p. 84; GDL | 2026-10-28 |
+| Restriction violation (32-6-7.2 as amended by Act 2017-442): traffic violation, 2 points, $150 to $350 fine, defensive driving school for a first offense, second offense returns driver to a learner license for 6 months; extends period 6 months or to 18. Manual p. 84 and ALEA GDL page still print the older no-points rule. | FindLaw 32-6-7.2 (current to 2024-12-30), enrolled HB29; MAN p. 84 | 2026-10-28 |
 | Second moving violation or listed offenses or 4+ point offense: automatic 60-day suspension | MAN p. 84; GDL | 2026-10-28 |
 | GDL exemptions: 18+, married and head of household, legally relieved of minority | MAN p. 84; GDL | 2026-10-28 |
 | Road test: book online up to two weeks ahead at select locations, walk-ins welcome | GDL | 2026-10-28 |
@@ -110,5 +110,5 @@ Short names:
 - School zone fines and any statutory school zone speed figure: none in MAN. Left out.
 - Reciprocity agreements with foreign countries: none found on ALEA pages. Left out.
 - HB33 (2026 session), which would change the school-enrollment age rule: passed the House 2026-02-05, last action placed on Senate calendar; outcome not confirmed (legiscan). Book keeps the current under-19 rule.
-- FindLaw summary of 32-6-7.2 mentions $150 to $350 fines, two points and defensive driving school for GDL violations (2017 Deputy Hart Act); ALEA's GDL page and MAN p. 84 say no points and no criminal penalties. Left out pending the official code text.
+- Resolved in factcheck_A: the book follows the codified 32-6-7.2 (Deputy Hart Act) rather than the manual; confirm (h) against the official code when alison.legislature.state.al.us is reachable.
 - alison.legislature.state.al.us and law.justia.com (current version) could not be fetched in this session.
