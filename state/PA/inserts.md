@@ -6,23 +6,21 @@ In a {{STATE}} school zone the speed limit is **15 mph** whenever the yellow bea
 
 ## work_zone
 
-In {{STATE}} your **headlights** (real headlights; daytime running lights do not count) must be on in every posted work zone, whether or not workers are there. An **active work zone** (workers present, marked by a flashing "Active Work Zone When Flashing" sign) brings **double fines** for speeding and certain other violations. Going **11 mph or more over the limit** in an active work zone means a **15-day license suspension**. Automated speed cameras also run in some work zones: at 11 mph or more over the limit, the owner gets a written warning the first time, then a $75 fine, then $150. Camera fines add no points. Seriously injuring a worker can bring a suspension of six months; killing one, a year.
+In {{STATE}} your **headlights** (not just daytime running lights) must be on in every posted work zone, workers or not. In an **active work zone** (workers present, flashing "Active Work Zone When Flashing" sign), fines for speeding and certain other violations are **doubled**, and **11 mph or more over** brings a **15-day suspension**. Work zone speed cameras at 11 mph or more over: owner gets a written warning, then $75, then $150, no points. Seriously injuring a worker can bring a six-month suspension; killing one, a year.
 
 ## turn_on_red
 
-In {{STATE}} you may turn **right on a steady red light** after a full stop, as long as no sign forbids the turn. Yield to pedestrians and cross traffic first.
+In {{STATE}}, after a full stop and unless a sign forbids it, you may turn **right on a steady red light**, yielding to pedestrians and cross traffic. You may turn **left on red** only from one-way onto one-way, starting from the left lane.
 
-You may also turn **left on red** after a full stop, but only when both streets are one-way, you start from the left lane, and only when no sign forbids it.
-
-A **steady red arrow** means stop and do not start the turn on the arrow itself. After that stop, {{STATE}} allows the same two red-light turns on a red arrow as on a steady red ball: right, or left from one-way onto one-way, unless a sign says no.
+A **steady red arrow** allows the same two turns, but only after a full stop and unless a sign says no.
 
 ## move_over
 
-{{STATE}}'s Move Over law covers an **emergency response area** (police, fire, ambulance, tow trucks, road crews and similar responders working with lights or signals on) and a **disabled vehicle** marked with at least two warnings such as hazard lights, flares or signs. Change lanes so that a full lane separates you from the scene. When a lane change is not possible or not safe, drive **20 mph or more under the posted limit** as you pass. The maximum fine is $500 the first time, $1,000 the second time and $2,000 after that, plus 2 points. Seriously injuring or killing someone can bring a suspension of 90 days to one year and fines up to $10,000.
+{{STATE}}'s Move Over law covers an **emergency response area** (police, fire, ambulance, tow trucks, road crews and similar responders with lights or signals on) and a **disabled vehicle** with at least two warnings such as hazard lights, flares or signs. Leave a full lane between you and the scene, or, if that is unsafe, pass **20 mph or more under the limit**. Maximum fines: $500, then $1,000, then $2,000, plus 2 points. Seriously injuring or killing someone: 90 days to one year suspension, fines up to $10,000.
 
 ## school_bus
 
-A stopped {{STATE}} school bus with **flashing red lights and an extended stop arm** means every driver stops, and the stop must be at least **10 feet** short of the bus. That covers traffic following the bus, oncoming traffic, and drivers arriving at an intersection where the bus sits. Stay stopped until the red lights go off, the arm is pulled in and the children are safe. A wave from the bus driver does not let you go while the red lights still flash. There is one exception. If a physical median (a barrier, guide rail, or strip of grass, trees or water) separates your roadway from the bus's roadway on a **divided highway**, you need not stop; slow down and pass with care. Flashing yellow lights mean the bus is about to stop: slow down and get ready. Failing to stop costs **5 points**, a **60-day suspension** and a $250 fine.
+For a {{STATE}} school bus with **flashing red lights and stop arm out**, all drivers (following, oncoming, or at an intersection where it sits) stop at least **10 feet** away. Wait until the lights stop, the arm is in and children are safe; a bus driver's wave is not enough. Exception: on a **divided highway** with a physical median (barrier, guide rail, or strip of grass, trees or water), slow and pass carefully. Flashing yellow: slow and prepare to stop. Not stopping: **5 points**, **60-day suspension**, $250 fine.
 
 ## u_turn
 
@@ -30,7 +28,7 @@ A stopped {{STATE}} school bus with **flashing red lights and an extended stop a
 
 ## speed_limits
 
-{{STATE}} law sets these maximum limits unless a sign shows otherwise:
+{{STATE}} limits unless posted otherwise:
 
 | Where | Limit |
 |---|---|
@@ -40,9 +38,7 @@ A stopped {{STATE}} school bus with **flashing red lights and an extended stop a
 | Other roads | 55 mph |
 | Posted freeways | 65 or 70 mph |
 
-**70 mph** is the highest limit in the state. You can still be ticketed for going too fast for conditions while under the limit.
-
-Speeding adds points: 2 for 6 to 10 mph over the limit, 3 for 11 to 15 over, 4 for 16 to 25 over, and 5 for 26 or more over.
+**70 mph** is the state maximum. Too fast for conditions is ticketable even under the limit. Points: 2 for 6 to 10 mph over, 3 for 11 to 15, 4 for 16 to 25, 5 for 26+.
 
 ## following_distance
 
@@ -54,17 +50,17 @@ The {{STATE}} Driver's Manual teaches a **4-second following distance** on dry p
 
 ## parking_rules
 
-Unless a police officer tells you otherwise, {{STATE}} bans stopping or parking:
+Unless police direct otherwise, {{STATE}} bans stopping or parking within:
 
-| Place | Keep away at least |
+| Place | Feet |
 |---|---|
-| Fire hydrant | 15 feet |
-| Crosswalk at an intersection | 20 feet |
-| Fire station driveway | 20 feet |
-| Stop sign, yield sign or signal at the roadside | 30 feet |
-| Nearest rail of a railroad crossing | 50 feet |
+| Fire hydrant | 15 |
+| Intersection crosswalk | 20 |
+| Fire station driveway | 20 |
+| Roadside stop sign, yield sign or signal | 30 |
+| Nearest railroad crossing rail | 50 |
 
-Also never park on a sidewalk, crosswalk, bridge, in a tunnel, inside an intersection, across a driveway, or double parked. When you park at a curb, your wheels must be **no more than 12 inches** from it. Parking in a disability space without the right plate or placard brings a $50 to $200 fine, and the car may be towed.
+Never park on a sidewalk, crosswalk, bridge, in a tunnel or intersection, across a driveway, or double parked. Curb parking: wheels **within 12 inches**. Disability space without plate or placard: $50 to $200 and possible towing.
 
 ## bicycle_passing
 
@@ -72,7 +68,7 @@ In {{STATE}} you must leave at least **4 feet** between your car and a bicycle w
 
 ## crash_reporting
 
-In {{STATE}}, if you are in a crash, stop at or near the scene and move out of traffic if you can. Phone the police when there is an injury or a death, or when a car cannot be driven away and needs a tow. Exchange names, addresses, phone numbers, registration numbers and insurance details. If you hit an unattended car or property, try to find the owner; if you cannot, leave a note with your name, phone number, date and time, and call police. If police do not investigate a crash with an injury, a death or a towed vehicle, you must send PennDOT a **Driver's Accident Report (form AA-600) within 5 days**.
+After a {{STATE}} crash, stop at or near the scene, out of traffic if you can. Call police if anyone is injured or killed, or a car needs a tow. Exchange names, addresses, phone numbers, registration numbers and insurance details. Hit an unattended car or property and cannot find the owner? Leave a note with your name, phone number, date and time, and call police. If police do not investigate an injury, death or tow crash, send PennDOT **form AA-600 (Driver's Accident Report) within 5 days**.
 
 ## bac_limits
 
@@ -92,21 +88,19 @@ By driving in {{STATE}}, you have agreed to a breath or blood test if police sus
 
 ## dui_penalties
 
-{{STATE}} grades DUI by blood alcohol level. First offense penalties:
-
-| Tier | Jail | License |
+| First DUI, BAC | Jail | License |
 |---|---|---|
 | 0.08 to 0.099 | 6 months probation | No suspension |
 | 0.10 to 0.159 | 2 days to 6 months | 12 months |
-| 0.16 and up, or refusal | 3 days to 6 months | 12 months |
+| 0.16+ or refusal | 3 days to 6 months | 12 months |
 
-Fines run from $300 to $5,000, and every tier requires Alcohol Highway Safety School. A driver **under 21** at 0.02 or more falls under the middle tier for a first offense: at least 2 days and up to 6 months of jail, $500 to $5,000 in fines, and a one-year suspension.
+All tiers: $300 to $5,000 fines, Alcohol Highway Safety School. **Under 21** at 0.02+: middle tier, fined $500 to $5,000.
 
-**Open container:** No driver **or passenger** may drink alcohol or have an **open container** of alcohol in a vehicle on a {{STATE}} road. Passengers in buses, taxis and limousines are the main exception.
+No driver **or passenger** may drink or have an **open container** on the road (main exception: bus, taxi and limousine passengers).
 
 ## phone_laws
 
-{{STATE}} has two phone laws for every driver. **Texting** (sending, reading or writing a text, email or message) is banned while the car is moving. Under **Paul Miller's Law**, you may not **hold or support** a phone or other device while driving, even when stopped at a red light or in traffic. You may use hands-free features such as voice calls, GPS and music, and you may call 911 in an emergency. Each law carries a **$50 fine** plus court costs. To use your phone in your hand, pull off the road and stop where it is safe to stay.
+{{STATE}} bans **texting** (sending, reading or writing a text, email or message) while the car moves. **Paul Miller's Law** bans **holding or supporting** a phone or device while driving, even stopped in traffic or at a red light. Hands-free calls, GPS and music are allowed, and you may call 911 in an emergency. Each law carries a **$50 fine** plus court costs. To use a phone in hand, pull off the road and stop somewhere safe.
 
 ## seat_belts
 
@@ -127,15 +121,15 @@ The fine for a child restraint violation is $75.
 
 ## vehicle_rules
 
-Every {{STATE}} car needs a **safety inspection every 12 months**, and many counties also require an **emissions inspection**. You may have it done up to 90 days before the sticker expires. You must carry proof of **liability insurance** at all times; if a registered car goes uninsured for 31 days or more, the registration is suspended for 3 months, and so is your license if you drove the car or let someone else drive it. You must turn on your **headlights whenever your wipers are on** because of weather, as well as in work zones. Report a name or address change to PennDOT within **15 days**.
+{{STATE}} cars need a **safety inspection every 12 months**, and many counties also require an **emissions inspection**, which you may do up to 90 days before the sticker expires. Always carry proof of **liability insurance**. A registered car uninsured for 31 days or more loses its registration for 3 months, and you lose your license too if you drove it or let someone drive it. Turn on **headlights whenever weather requires wipers**, and in work zones. Report name or address changes to PennDOT within **15 days**.
 
 ## road_test
 
-The {{STATE}} road test begins with a car check and a vehicle controls check, then **parallel parking** between upright poles, in a box **24 by 8 feet**. You get one attempt and up to three adjustments; touching a pole, crossing the line or going up onto the curb is a fail. The examiner is your only passenger, and any self-parking feature must be turned off. If you pass at a PennDOT Driver License Center, you get your license that day. If you are under 18 and fail, you must wait **7 days** to retest. You get **three tries** per permit.
+The {{STATE}} road test starts with car and controls checks, then **parallel parking** between upright poles in a **24 by 8 foot** box: one attempt, up to three adjustments. Touching a pole, crossing the line or mounting the curb fails you. The examiner is your only passenger, and self-parking features must be off. Pass at a PennDOT Driver License Center and you get your license that day. Under 18, wait **7 days** after a fail. You get **three tries** per permit.
 
 ## supervised_hours
 
-{{STATE}} requires drivers under 18 to complete supervised practice before the road test:
+{{STATE}} drivers under 18 must complete supervised practice before the road test:
 
 | Category | Hours |
 |---|---|
@@ -143,7 +137,7 @@ The {{STATE}} road test begins with a car check and a vehicle controls check, th
 | At night | At least 10 |
 | In bad weather | At least 5 |
 
-Night and bad weather hours count toward the 65. A parent or guardian signs form DL-180C to certify the hours. The supervisor must be a licensed driver 21 or older, or a licensed parent, guardian or adult spouse, riding in the front passenger seat. You must also hold the permit for six months.
+Night and bad weather hours count toward the 65. A parent or guardian certifies them on form DL-180C. The supervisor, in the front passenger seat, must be a licensed driver 21 or older, or a licensed parent, guardian or adult spouse. You must also hold the permit six months.
 
 ## signal_distance
 
