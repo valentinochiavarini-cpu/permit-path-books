@@ -5012,7 +5012,8 @@
   "d": "It only matters if you drive afterward",
   "correct": "A",
   "exp": "Using a false or borrowed ID to buy alcohol under 21 is a crime, and it can cost you your license even when no car is involved.",
-  "src": "23 U.S.C. 158 (minimum drinking age); state driver manuals, underage drinking"
+  "src": "23 U.S.C. 158 (minimum drinking age); state driver manuals, underage drinking",
+  "app_only": true
  },
  {
   "id": "C11-034",

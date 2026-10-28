@@ -40,9 +40,9 @@ Never follow a fire truck answering an alarm closer than **500 feet**, or stop w
 
 In {{STATE}}, stop for a school bus with its **red lights flashing** and **stop arm out**, from **either direction**. This applies on any road, private road or school parking lot. Go again when the bus moves, the lights stop, or the bus driver signals you on.
 
-The one exception: on a road with **four or more lanes**, two each way, oncoming traffic does not stop, with or without a median.
+Exception: oncoming traffic on a road with **four or more lanes**, two each way, need not stop, median or not.
 
-The law sets no distance, but the State Board of Education says stop **at least 20 feet** away. Passing a stopped bus: **3-month suspension** and a **$300** fine.
+Stop **at least 20 feet** away, as the State Board of Education advises. Passing a stopped bus: **3-month suspension** and a **$300** fine.
 
 ## u_turn
 
@@ -93,7 +93,7 @@ In {{STATE}}, pass a bicyclist slowly, with at least **3 feet** between the bike
 
 In a no-passing zone, you may pass a bicycle only if it is going **less than half** the speed limit, you stay within the limit, and the left side is clear.
 
-Never drive, park or stop in a bike lane. Open your car door with your right hand (the **Dutch Reach**) so you look back for bikes.
+Never drive, park or stop in a bike lane. Open your door with your right hand (the **Dutch Reach**).
 
 ## crash_reporting
 
@@ -123,19 +123,19 @@ The officer takes your license and gives you a receipt that lets you drive for 4
 
 ## dui_penalties
 
-In {{STATE}}, a first DUI is a **Class A misdemeanor**. It **revokes** your license for at least **1 year**. A second DUI within 20 years: at least **5 years**.
+In {{STATE}}, a first DUI is a **Class A misdemeanor** and **revokes** your license for at least **1 year**. A second within 20 years: at least **5 years**.
 
-With a BAC of **0.16** or more, a first DUI also brings a fine of at least **$500** and **100 hours** of community service. With a passenger under 16 in the car, add a fine of at least **$1,000**.
+At a BAC of **0.16** or more, a first DUI adds a fine of at least **$500** and **100 hours** of community service. A passenger under 16 adds at least **$1,000** more.
 
-**Open container:** no one may drink in a vehicle, and no opened alcohol may be in the passenger area. Passengers in a limousine, chartered bus or motor home are the exception.
+**Open container:** no one may drink in a vehicle, and no opened alcohol may be in the passenger area. Passengers in a limousine, chartered bus or motor home are exempt.
 
 ## underage_alcohol
 
-In {{STATE}}, a driver **under 21** with **any trace** of alcohol loses the license for at least **3 months**. A DUI conviction under 21 revokes it for at least **2 years**.
+In {{STATE}}, driving under 21 with **any trace** of alcohol costs your license for at least **3 months**. A DUI under 21 revokes it for at least **2 years**.
 
-Off the road, buying, accepting, holding or drinking alcohol under 21 is a **Class A misdemeanor**. So is carrying a **fake ID** or using someone else's. If you were in a vehicle at the time, court supervision means a **3-month** suspension, and a conviction at least **6 months**.
+Buying, accepting, holding or drinking alcohol under 21 is a **Class A misdemeanor**, even off the road. So is using a **fake ID** or someone else's. If you were in a vehicle, even as a passenger, court supervision means a **3-month** suspension, and a conviction at least **6 months**.
 
-Adults who give alcohol to anyone under 21 can be fined, jailed and suspended.
+Adults who give alcohol to minors face fines, jail and suspension.
 
 ## phone_laws
 
@@ -173,11 +173,11 @@ A sound system that can be heard **75 feet** away is illegal. Report a new addre
 
 ## police_stop
 
-The {{STATE}} manual adds a few points. Do not stop on a bridge, a curve or next to a wall or guardrail; find the next safe spot. The officer may come to either side of the car.
+The {{STATE}} manual adds a few points. Do not stop on a bridge, a curve or next to a wall or guardrail; find the next safe spot.
 
 If your license or insurance card is in the glove box or on your phone, tell the officer before you reach for it.
 
-If you cannot tell whether an unmarked car is the police, drive slowly to a well lit, busy place or a police station, or call 911. Turn on your hazard lights to show you will stop.
+If you cannot tell whether an unmarked car is the police, drive slowly to a well lit, busy place or a police station, or call 911.
 
 Sign a ticket if you get one: signing does not admit guilt.
 
