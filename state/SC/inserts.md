@@ -198,7 +198,7 @@ In {{STATE}}, police cars use **blue** lights. When one signals you with lights 
 
 Have your license, registration and insurance card ready to show. Every driver must carry all three.
 
-Failing to stop for a police signal is a crime: at least a **$500** fine and a license suspension of at least **30 days** for a first offense, and a felony after that.
+Failing to stop for a police signal is a crime: at least a **$500** fine and a license suspension of at least **30 days** for a first offense. A repeat offense, or leading police on a high-speed chase, is a felony.
 
 ## headlight_use
 
@@ -229,7 +229,7 @@ The {{STATE}} road test may include parallel parking, parking on a hill, backing
 
 Not wearing your seat belt fails you at once. Parking assist and cruise control are not allowed.
 
-After a failure, wait **2 business days**, then **7** days after a second failure, and **30** days after a third. Chapter 1 has the full rules.
+After a failure, wait **2 business days**, then **7** days after a second failure, and **30** days after a third. Even after you pass, the SCDMV may pick you at random to retest. Chapter 1 has the full rules.
 
 ## supervised_hours
 
@@ -244,7 +244,7 @@ The supervisor must be a qualified licensed adult (see Chapter 1). Teens also fi
 
 ## signal_distance
 
-{{STATE}} law requires you to signal continuously for at least the last **100 feet** before you turn. Signal at least 100 feet before you change lanes or pass, too, and cancel the signal when you finish.
+{{STATE}} law requires you to signal continuously for at least the last **100 feet** before you turn. Signal before every lane change, signal at least 100 feet before you pass, and cancel the signal when you finish.
 
 You may use a hand and arm signal instead of the signal lights.
 

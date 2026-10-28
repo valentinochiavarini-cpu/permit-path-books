@@ -948,7 +948,7 @@
   "d": "Six seconds",
   "correct": "C",
   "exp": "The manual teaches at least four seconds behind the vehicle ahead, and more in bad conditions.",
-  "src": "South Carolina Driver's Manual, earlier SCDMV edition (scdps.sc.gov copy), Sec. 8"
+  "src": "South Carolina Driver's Manual (SCDMV, current edition, dmv.sc.gov), Sec. 8, p. 8-6"
  },
  {
   "id": "SC-074",
@@ -1065,7 +1065,7 @@
   "d": "No more than 24 inches",
   "correct": "B",
   "exp": "Park with your wheels no more than 18 inches from the curb.",
-  "src": "S.C. Code § 56-5-2560 (2025 code, law.justia.com); South Carolina Driver's Manual, earlier SCDMV edition (scdps.sc.gov copy), Sec. 8"
+  "src": "S.C. Code § 56-5-2560 (2025 code, law.justia.com); South Carolina Driver's Manual (SCDMV, current edition, dmv.sc.gov), Sec. 7, pp. 7-11 to 7-12"
  },
  {
   "id": "SC-083",
