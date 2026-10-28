@@ -6,7 +6,7 @@ The {{STATE}} school zone limit is **20 mph** at most during the times posted or
 
 ## work_zone
 
-In a {{STATE}} construction zone, speeding fines are **doubled**, with civil penalties up to $1,000. Holding a phone while driving is banned when construction workers are present or operating equipment on or next to the road: a moving violation with **3 points**. Obey flaggers and the lane closures shown by cones, drums and arrow panels. The Move Over law also protects road and bridge crews stopped with warning lights on.
+In a {{STATE}} construction zone with workers present, speeding fines are **doubled**, with civil penalties up to $1,000. Holding a phone while driving is banned when construction workers are present or operating equipment on or next to the road: a moving violation with **3 points**. Obey flaggers and the lane closures shown by cones, drums and arrow panels. The Move Over law also protects road and bridge crews stopped with warning lights on.
 
 ## turn_on_red
 
@@ -47,7 +47,7 @@ The {{STATE}} handbook teaches at least a **four-second** following distance in 
 
 ## hov
 
-On some {{STATE}} highways the **left lane** is an HOV lane, marked by signs and white diamond symbols and separated from other lanes by a striped buffer. It is reserved for vehicles with **two or more occupants**, or for hybrid and low emission vehicles with an FLHSMV decal (application form 83027). Enter and leave only at the designated openings, never across the buffer.
+{{STATE}} no longer has HOV lane rules: the state law that created them was repealed, and FLHSMV no longer issues HOV decals for hybrid or low emission vehicles. The former HOV lanes, mostly in South Florida, now run as **express lanes**, where you pay a toll that can change with traffic; signs before each entrance show the price. A buffer, often with flexible plastic posts, separates them from the regular lanes. Enter and leave only at the **marked openings**, never across the buffer.
 
 ## parking_rules
 
@@ -84,7 +84,7 @@ Under 21 at **0.02 or higher**: license suspended **six months**. At **0.05 or h
 
 ## implied_consent
 
-By driving in {{STATE}}, you have agreed to a breath, urine or blood test when an officer has reason to believe you are impaired. A first refusal suspends your license for **one year**. A second refusal brings an **18-month** suspension and is a first-degree misdemeanor. In a crash causing death or serious injury, blood may be drawn without consent. You have **10 days** from the arrest to request a review of the suspension.
+By driving in {{STATE}}, you have agreed to a breath, urine or blood test when an officer has reason to believe you are impaired. A first refusal suspends your license for **one year** and is a second-degree misdemeanor. A second refusal brings an **18-month** suspension and is a first-degree misdemeanor. In a crash causing death or serious injury, blood may be drawn without consent. You have **10 days** from the arrest to request a review of the suspension.
 
 ## dui_penalties
 First {{STATE}} DUI: **$500 to $1,000** fine and up to **6 months** in jail (0.15+ or a minor aboard: $1,000 to $2,000, up to 9 months). License **revoked at least 180 days**, 50 hours community service, up to 1 year probation, 12-hour DUI school. The conviction stays on your record **75 years**.
