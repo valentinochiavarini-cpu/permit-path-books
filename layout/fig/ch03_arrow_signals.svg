@@ -62,7 +62,7 @@
   <circle cx="396" cy="142" r="15" fill="#333"/>
   <polygon points="385,142 394,133 394,138 406,138 406,146 394,146 394,151" fill="#4a4a4a"/>
   <text class="lbl" x="396" y="182">Red arrow</text>
-  <text class="sub" x="396" y="195">Do not make</text>
+  <text class="sub" x="396" y="195">Stop for</text>
   <text class="sub" x="396" y="208">this turn</text>
   <text class="sub" x="230" y="248">Lit lamp circled. Order top to bottom: red, yellow, flashing yellow, green arrow</text>
 </svg>

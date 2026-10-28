@@ -110,6 +110,9 @@ def mocks_md():
     used_quiz = [r["id"] for s in sets for r in s if r.get("quiz")]
     if mock_cfg and used_quiz:
         errors.append(f"mocks reuse chapter quiz questions: {used_quiz[:5]}")
+    used_app = [r["id"] for s in sets for r in s if r.get("app_only")]
+    if mock_cfg and used_app:
+        errors.append(f"mocks print app_only questions (rerun make_mocks): {used_app[:5]}")
     return "\n\n".join(out)
 
 # ---------- assemble ----------
