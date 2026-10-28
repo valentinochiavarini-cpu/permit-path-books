@@ -18,7 +18,7 @@ You are about to take two tests: a written knowledge test, usually on a screen a
 - **Chapters 2 to 12** teach the rules of the road. Boxes marked **{{STATE}} rule** give you the exact {{STATE}} figure where states differ.
 - **Every chapter ends with a 10-question quiz.** The answers, each with a short explanation, are in the Answer Key at the back of the book.
 - **Chapter 13** is about test day: how to study the last week, and what the road test examiner is watching for.
-- **Two full mock exams** with the same number of questions as the real {{STATE}} test. Take them only after you finish the chapters, and time yourself.
+- **Two full mock exams** built like the real {{STATE}} test (the page before Mock Exam 1 explains how they are sized). Take them only after you finish the chapters, and time yourself.
 - **A supervised driving log** at the back, to record the practice hours a learner needs.
 
 ## How to study

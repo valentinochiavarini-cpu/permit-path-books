@@ -14,7 +14,7 @@ In a {{STATE}} work zone, obey the orange signs and every **flagger**. Expect lo
 
 **Speeding or passing** in a work zone on a state road costs at least **$250** the first time and at least **$300** after that. These fines come on top of any other fine.
 
-Using a phone in your hand in a work zone can cost up to **$500**.
+Using a phone in your hand in a work zone with workers present can cost up to **$500**.
 
 In a moving work zone, a truck's flashing arrow panel shows which lane to use.
 
@@ -52,7 +52,7 @@ Going the **opposite way**, you need not stop on a **divided highway** or a road
 
 Wait until the bus moves or its driver signals.
 
-Passing illegally: **5 points**, a fine up to **$1,000** and a **90-day** suspension.
+Passing illegally: **5 points**, a fine of **$500 to $1,000** and a possible suspension. Repeats within five years: a **90-day**, then **180-day**, suspension.
 
 ## u_turn
 
@@ -137,9 +137,9 @@ To get it back, you pay a **$45** fee and finish a Substance Awareness Traffic O
 
 | Offense | Jail | Fine | License |
 |---|---|---|---|
-| First | Up to 6 months | Up to $500 | 90-day suspension |
-| Second | Up to 1 year | Up to $1,000 | 1-year revocation; 5-year denial if within 5 years |
-| Third | Up to 4 years | Up to $5,000 | 10-year denial |
+| First | Up to 6 months | Up to $1,000 | 90-day suspension |
+| Second | Up to 1 year | Up to $2,000 | 1-year revocation; 5-year denial if within 5 years |
+| Third | Up to 4 years | Up to $10,000 | 10-year denial |
 
 A first conviction adds **8 points**.
 
@@ -236,7 +236,7 @@ To reinstate, file proof of insurance (an SR-22) and pay a **$20** fee.
 
 On the {{STATE}} driving test, losing **more than 30 points** fails you. So does a crash that is your fault, hitting a pedestrian, dangerous driving or any traffic violation.
 
-You **parallel park** in a space **25 by 7 feet**, within **18 inches** of the curb, in **two minutes**. You also park on a hill, back up and turn.
+You **parallel park** in a space **25 by 7 feet**, within **18 inches** of the curb, in **two minutes**. You also park on a hill, back up, and make at least **two right and two left turns**.
 
 Only the examiner rides with you. You get **one test a day**; after **three** failures, you need more training and DOR approval.
 

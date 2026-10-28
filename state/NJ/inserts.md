@@ -12,9 +12,9 @@ In {{STATE}}, fines **double** for speeding and many other moving violations in 
 
 In {{STATE}}, you may turn **right on a red light** unless a sign forbids it. Stop completely first, look in every direction, and yield to traffic and to pedestrians in the crosswalk you are turning across.
 
-**Left on red is never allowed** in {{STATE}}, not even from a one-way street onto another one-way street. Wait for the green.
+**Left on red is never allowed** in {{STATE}}, not even from a one-way street onto another one-way street.
 
-A **steady red arrow** means stop and stay stopped for that turn until the signal changes.
+A **steady red arrow** is a stop signal too: after a full stop you may turn right on it unless a sign forbids it. Never turn left on one.
 
 ## move_over
 
@@ -208,7 +208,7 @@ Minimum standard insurance: **$35,000** per person and **$70,000** per crash for
 
 The {{STATE}} road test lasts about **10 to 15 minutes**, on an off-road course or a public road. The Safety Specialist scores reverse driving, stops, corners, posture, steering, turning around, **parallel parking** and yielding.
 
-Under 21, both **GDL decals** must be on the test car. Self-parking cars and tinted windows are turned away; backup cameras are allowed. Fail, and you wait **14 days** to retest.
+Bring a {{STATE}} licensed driver at least **21** with three years of driving experience; only the examiner rides along. Under 21, both **GDL decals** must be on the car. Self-parking cars and tinted windows are turned away; backup cameras are allowed. Pass, and the examiner endorses your permit; fail, and you wait **14 days**.
 
 ## supervised_hours
 

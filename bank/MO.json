@@ -790,7 +790,7 @@
   "id": "MO-061",
   "ch": 2,
   "quiz": false,
-  "q": "A yellow diamond shows an arrow bending sharply right, then sharply left. What does it warn of?",
+  "q": "A yellow diamond shows an arrow bending sharply left, then sharply right. What does it warn of?",
   "a": "A road that splits in two",
   "b": "A lane that ends",
   "c": "Two sharp turns in opposite directions",
@@ -1009,7 +1009,7 @@
   "id": "MO-077",
   "ch": 2,
   "quiz": false,
-  "q": "A yellow diamond shows a person holding a flag or paddle. What is ahead?",
+  "q": "An orange diamond shows a person holding a flag or paddle. What is ahead?",
   "a": "A school crossing guard",
   "b": "A parade route",
   "c": "A flagger who may tell you to stop or go slowly",
@@ -1144,10 +1144,10 @@
   "a": "2 points and a $100 fine",
   "b": "A warning letter only",
   "c": "8 points and a one-year revocation",
-  "d": "5 points, a fine up to $1,000 and a 90-day suspension",
+  "d": "5 points, a fine of $500 to $1,000 and a possible license suspension",
   "correct": "D",
-  "exp": "A first offense brings five points and a court-ordered 90-day suspension; fines can reach $1,000.",
-  "src": "MO Driver Guide (rev. Aug 2026), Ch. 3, p. 24; Missourinet, Aug. 24, 2026"
+  "exp": "A first offense brings five points and a fine of $500 to $1,000, and the court may suspend the license. A second offense within five years brings a 90-day suspension, a third 180 days.",
+  "src": "MO Driver Guide (rev. Aug 2026), Ch. 3, p. 24; RSMo 302.302 and 304.070 as amended effective Aug. 28, 2026 (HB 2742 / SB 1421)"
  },
  {
   "id": "MO-088",
