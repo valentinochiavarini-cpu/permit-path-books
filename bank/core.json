@@ -1246,7 +1246,7 @@
   "q": "A steady yellow X is lit over your lane. What should you do?",
   "a": "Speed up to clear the lane",
   "b": "Stop in the lane until it turns green",
-  "c": "Move out of the lane safely, because it is about to close",
+  "c": "Get ready to move out of the lane safely, because it is about to close",
   "d": "Stay in the lane, it is now reserved for you",
   "correct": "C",
   "exp": "A steady yellow X warns that the lane is about to close and will change to a red X.",
