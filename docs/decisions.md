@@ -65,6 +65,11 @@ Skipped on purpose (Daniel Hart already leads, a new brand would cannibalize it)
 - Routes: `/ch/:n` (chapter practice, the book QR codes), `/chapters`, `/ebook` (EPUB from public bucket `ebooks/XX.epub`, uploaded by the owner), `/flashcards`, the timed exam and practice mode.
 - App URL (final, set 2026-10-27): https://permit-path-practice.lovable.app (`layout/config.json`, `app_url_final: true`). Published from the Lovable project with slug `permit-path-practice`. Every QR code and link in the books points here.
 
+## Quality upgrade (2026-10-28, owner approved all five changes)
+- Independent QA of PA found sign gaps, untaught manual topics, multi-state hedging and weak quizzes. Fixed: about 37 more signs (75 of the PA manual's 95 as figures), 5 new insert keys (emergency_vehicles, headlight_use, police_stop, underage_alcohol, driver_record), hedges as `[[generic]]` (dropped in state editions), chapter quizzes = 7 core + 3 state questions, sign-picture questions (`img`), believable wrong answers only, test-irrelevant trivia `app_only`.
+- Re-audit (PA): 98 percent of Daniel Hart's PA questions and 94 percent of PUB 95 review questions answerable from the book (was 91 and 84).
+- Page counts after the upgrade: PA 190, FL 203, TX 196, CA 202, NY 190, IL 199 (about 13 pages more each).
+
 ## Open items for the owner
 - REMINDER when all state editions are finished: upload every EPUB (`out/XX/Permit_Path_NAME.epub` saved as `XX.epub`) to the app's public `ebooks` storage bucket. The /ebook page shows "coming soon" until then.
 - Next Lovable batch (small, not urgent): sitemap.xml still uses the preview host instead of permit-path-practice.lovable.app; the page title contains an em dash.

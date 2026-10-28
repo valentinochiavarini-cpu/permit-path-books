@@ -18,8 +18,13 @@ Use when the owner asks to build, rebuild or update a Permit Path state edition 
 - Test format, new-resident rule and status column in `docs/states.md` are leads; the writer verifies them.
 - Add the state name to `layout/config.json` `state_names` if missing.
 
+## Core conventions (since the 2026-10-28 upgrade)
+- 28 insert keys (23 + emergency_vehicles, headlight_use, police_stop, underage_alcohol, driver_record), 90 words max each, teen prose (`briefs/STATE_UPGRADE_BRIEF.md` describes the five new ones and the box style).
+- State bank: exactly 10 `quiz` questions for ch 1 and up to 3 `quiz` questions for each of ch 2 to 13, taught in that chapter's state box (the chapter quiz prints 7 core + 3 state). Mark state trivia the test does not ask `app_only`.
+- Believable wrong answers only. `[[generic]]` text in the core is dropped from state editions.
+
 ## 2. Write (one agent per state)
-Launch a general-purpose agent: "Read `briefs/STATE_BRIEF.md` and follow it exactly. State: NAME (XX). Manual Drive file ID: ID. Write only state/XX/ch01.md, state/XX/inserts.md, state/XX/sources.md and bank/XX.json. Keep your own scripts under unique names in the scratchpad. Do not commit." For 3+ states run up to 3 writers in parallel; files never overlap.
+Launch a general-purpose agent: "Read `briefs/STATE_BRIEF.md` and `briefs/STATE_UPGRADE_BRIEF.md` (sections 1 to 3 apply to a new state too) and follow them exactly. State: NAME (XX). Manual Drive file ID: ID. Write only state/XX/ch01.md, state/XX/inserts.md, state/XX/sources.md and bank/XX.json. Keep your own scripts under unique names in the scratchpad. Do not commit." For 3+ states run up to 3 writers in parallel; files never overlap.
 
 ## 3. Fact check (two agents per state, in parallel, after the writer)
 - A: "Read `briefs/FACTCHECK_BRIEF.md`. Scope: state/XX/ch01.md and the ch 1 questions in bank/XX.json. Write state/XX/factcheck_A.md."
