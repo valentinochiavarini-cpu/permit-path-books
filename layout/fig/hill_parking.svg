@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 256" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: original drawing, labels in Inter, B&W safe -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="hill_parking_arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+  </defs>
+  <rect x="7" y="12" width="112" height="194" fill="#d9d9d9"/>
+  <rect x="119" y="12" width="8" height="194" fill="#f2f2f2" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="127" y="12" width="20" height="194" fill="#ececec"/>
+  <text x="123" y="176" font-size="9" font-weight="600" fill="#1c1c1c" text-anchor="middle" transform="rotate(-90,123,176)" dy="3">CURB</text>
+  <path d="M19,142 L19,42" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#hill_parking_arr)"/>
+  <text x="30" y="162" font-size="9" font-weight="600" fill="#1c1c1c" transform="rotate(-90,30,162)">DOWNHILL</text>
+  <g transform="translate(87.7,112)">
+    <rect x="-27.5" y="-40" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(25,-23.0,-30)"/>
+    <rect x="18.5" y="-40" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(25,23.0,-30)"/>
+    <rect x="-27.5" y="20" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(0,-23.0,30)"/>
+    <rect x="18.5" y="20" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(0,23.0,30)"/>
+    <rect x="-21.0" y="-48.0" width="42" height="96" rx="9" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-17.0" y="-28.0" width="34" height="9" rx="2" fill="#1c1c1c"/>
+    <rect x="-16.0" y="33.0" width="32" height="5" rx="1.5" fill="#1c1c1c" opacity="0.55"/>
+    <text x="0" y="12" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">You</text>
+  </g>
+  <text x="87.7" y="58" font-size="9" font-weight="600" fill="#1c1c1c" text-anchor="middle">FRONT</text>
+  <path d="M116.6,69.3 L123.4,54.8" stroke="#1c1c1c" stroke-width="2" marker-end="url(#hill_parking_arr)"/>
+  <text class="lbl" x="77.0" y="224.0">Downhill, with curb</text>
+  <text class="sub" x="77.0" y="237.0">Wheels toward the curb</text>
+  <text class="sub" x="77.0" y="249.0">Rolls forward into the curb</text>
+  <rect x="160" y="12" width="112" height="194" fill="#d9d9d9"/>
+  <rect x="272" y="12" width="8" height="194" fill="#f2f2f2" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="280" y="12" width="20" height="194" fill="#ececec"/>
+  <text x="276" y="176" font-size="9" font-weight="600" fill="#1c1c1c" text-anchor="middle" transform="rotate(-90,276,176)" dy="3">CURB</text>
+  <path d="M172,72 L172,172" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#hill_parking_arr)"/>
+  <text x="183" y="177" font-size="9" font-weight="600" fill="#1c1c1c" transform="rotate(-90,183,177)">DOWNHILL</text>
+  <g transform="translate(240.7,112)">
+    <rect x="-27.5" y="-40" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(-25,-23.0,-30)"/>
+    <rect x="18.5" y="-40" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(-25,23.0,-30)"/>
+    <rect x="-27.5" y="20" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(0,-23.0,30)"/>
+    <rect x="18.5" y="20" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(0,23.0,30)"/>
+    <rect x="-21.0" y="-48.0" width="42" height="96" rx="9" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-17.0" y="-28.0" width="34" height="9" rx="2" fill="#1c1c1c"/>
+    <rect x="-16.0" y="33.0" width="32" height="5" rx="1.5" fill="#1c1c1c" opacity="0.55"/>
+    <text x="0" y="12" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">You</text>
+  </g>
+  <text x="240.7" y="58" font-size="9" font-weight="600" fill="#1c1c1c" text-anchor="middle">FRONT</text>
+  <path d="M211.8,69.3 L205.0,54.8" stroke="#1c1c1c" stroke-width="2" marker-end="url(#hill_parking_arr)"/>
+  <text class="lbl" x="230.0" y="224.0">Uphill, with curb</text>
+  <text class="sub" x="230.0" y="237.0">Wheels away from the curb</text>
+  <text class="sub" x="230.0" y="249.0">Rolls back into the curb</text>
+  <rect x="313" y="12" width="112" height="194" fill="#d9d9d9"/>
+  <line x1="421" y1="12" x2="421" y2="206" stroke="#888" stroke-width="4"/>
+  <line x1="421" y1="12" x2="421" y2="206" stroke="#fff" stroke-width="2"/>
+  <rect x="424" y="12" width="29" height="194" fill="#b9b9b9"/>
+  <circle cx="431" cy="20" r="1.6" fill="#6f6f6f"/>
+  <circle cx="445" cy="26" r="1.4" fill="#6f6f6f"/>
+  <circle cx="437" cy="34" r="1.6" fill="#6f6f6f"/>
+  <circle cx="440" cy="40" r="1.4" fill="#6f6f6f"/>
+  <circle cx="443" cy="48" r="1.6" fill="#6f6f6f"/>
+  <circle cx="445" cy="54" r="1.4" fill="#6f6f6f"/>
+  <circle cx="431" cy="62" r="1.6" fill="#6f6f6f"/>
+  <circle cx="440" cy="68" r="1.4" fill="#6f6f6f"/>
+  <circle cx="437" cy="76" r="1.6" fill="#6f6f6f"/>
+  <circle cx="445" cy="82" r="1.4" fill="#6f6f6f"/>
+  <circle cx="443" cy="90" r="1.6" fill="#6f6f6f"/>
+  <circle cx="440" cy="96" r="1.4" fill="#6f6f6f"/>
+  <circle cx="431" cy="104" r="1.6" fill="#6f6f6f"/>
+  <circle cx="445" cy="110" r="1.4" fill="#6f6f6f"/>
+  <circle cx="437" cy="118" r="1.6" fill="#6f6f6f"/>
+  <circle cx="440" cy="124" r="1.4" fill="#6f6f6f"/>
+  <circle cx="443" cy="132" r="1.6" fill="#6f6f6f"/>
+  <circle cx="445" cy="138" r="1.4" fill="#6f6f6f"/>
+  <circle cx="431" cy="146" r="1.6" fill="#6f6f6f"/>
+  <circle cx="440" cy="152" r="1.4" fill="#6f6f6f"/>
+  <circle cx="437" cy="160" r="1.6" fill="#6f6f6f"/>
+  <circle cx="445" cy="166" r="1.4" fill="#6f6f6f"/>
+  <circle cx="443" cy="174" r="1.6" fill="#6f6f6f"/>
+  <circle cx="440" cy="180" r="1.4" fill="#6f6f6f"/>
+  <circle cx="431" cy="188" r="1.6" fill="#6f6f6f"/>
+  <circle cx="445" cy="194" r="1.4" fill="#6f6f6f"/>
+  <circle cx="437" cy="202" r="1.6" fill="#6f6f6f"/>
+  <circle cx="440" cy="208" r="1.4" fill="#6f6f6f"/>
+  <text x="439" y="198" font-size="9" font-weight="600" fill="#1c1c1c" text-anchor="start" transform="rotate(-90,439,198)" dy="3">SHOULDER</text>
+  <g transform="translate(387,112)">
+    <rect x="-27.5" y="-40" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(25,-23.0,-30)"/>
+    <rect x="18.5" y="-40" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(25,23.0,-30)"/>
+    <rect x="-27.5" y="20" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(0,-23.0,30)"/>
+    <rect x="18.5" y="20" width="9" height="20" rx="2.5" fill="#1c1c1c" transform="rotate(0,23.0,30)"/>
+    <rect x="-21.0" y="-48.0" width="42" height="96" rx="9" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-17.0" y="-28.0" width="34" height="9" rx="2" fill="#1c1c1c"/>
+    <rect x="-16.0" y="33.0" width="32" height="5" rx="1.5" fill="#1c1c1c" opacity="0.55"/>
+    <text x="0" y="12" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">You</text>
+  </g>
+  <text x="387" y="58" font-size="9" font-weight="600" fill="#1c1c1c" text-anchor="middle">FRONT</text>
+  <path d="M415.9,69.3 L422.7,54.8" stroke="#1c1c1c" stroke-width="2" marker-end="url(#hill_parking_arr)"/>
+  <text class="lbl" x="383.0" y="224.0">Uphill or downhill, no curb</text>
+  <text class="sub" x="383.0" y="237.0">Wheels toward the road edge</text>
+  <text class="sub" x="383.0" y="249.0">Rolls off the road, not into traffic</text>
+</svg>

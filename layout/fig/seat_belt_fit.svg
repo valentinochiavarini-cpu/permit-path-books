@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 252" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: original drawing, labels in Inter, B&W safe -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="seat_belt_fit_arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+  </defs>
+  <rect x="60" y="38" width="104" height="128" rx="14" fill="#bdbdbd" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="86" y="8" width="52" height="30" rx="8" fill="#bdbdbd" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="72" y="136" width="36" height="44" rx="8" fill="#5a5a5a" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="116" y="136" width="36" height="44" rx="8" fill="#5a5a5a" stroke="#1c1c1c" stroke-width="1"/>
+  <path d="M74,68 Q72,58 84,56 L140,56 Q152,58 150,68 L152,144 L72,144 Z" fill="#7d9cc4" stroke="#1c1c1c" stroke-width="1"/>
+  <path d="M74,64 L64,126 L74,128 L81,78 Z" fill="#7d9cc4" stroke="#1c1c1c" stroke-width="1"/>
+  <path d="M150,64 L160,126 L150,128 L143,78 Z" fill="#7d9cc4" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="105" y="44" width="14" height="14" fill="#e9c9a8" stroke="#1c1c1c" stroke-width="1"/>
+  <ellipse cx="112" cy="30" rx="16" ry="19" fill="#e9c9a8" stroke="#1c1c1c" stroke-width="1"/>
+  <path d="M134,56 L78,132" stroke="#1c1c1c" stroke-width="9" stroke-linecap="butt"/>
+  <path d="M134,56 L78,132" stroke="#fff" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M68,138 Q112,146 156,138" fill="none" stroke="#1c1c1c" stroke-width="9"/>
+  <rect x="72" y="130" width="14" height="16" rx="2" fill="#bbb" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="280" y="38" width="104" height="128" rx="14" fill="#bdbdbd" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="306" y="8" width="52" height="30" rx="8" fill="#bdbdbd" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="292" y="136" width="36" height="44" rx="8" fill="#5a5a5a" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="336" y="136" width="36" height="44" rx="8" fill="#5a5a5a" stroke="#1c1c1c" stroke-width="1"/>
+  <path d="M294,68 Q292,58 304,56 L360,56 Q372,58 370,68 L372,144 L292,144 Z" fill="#7d9cc4" stroke="#1c1c1c" stroke-width="1"/>
+  <path d="M294,64 L284,126 L294,128 L301,78 Z" fill="#7d9cc4" stroke="#1c1c1c" stroke-width="1"/>
+  <path d="M370,64 L380,126 L370,128 L363,78 Z" fill="#7d9cc4" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="325" y="44" width="14" height="14" fill="#e9c9a8" stroke="#1c1c1c" stroke-width="1"/>
+  <ellipse cx="332" cy="30" rx="16" ry="19" fill="#e9c9a8" stroke="#1c1c1c" stroke-width="1"/>
+  <path d="M288,108 Q332,116 376,108" fill="none" stroke="#1c1c1c" stroke-width="9"/>
+  <path d="M366,84 L302,110" stroke="#1c1c1c" stroke-width="9"/>
+  <rect x="292" y="102" width="14" height="16" rx="2" fill="#bbb" stroke="#1c1c1c" stroke-width="1"/>
+  <line x1="116" y1="90" x2="174" y2="74" stroke="#1c1c1c" stroke-width="1"/>
+  <circle cx="116" cy="90" r="2.2" fill="#1c1c1c"/>
+  <text x="178" y="77.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="start">Across the</text>
+  <text x="178" y="88.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="start">chest, off</text>
+  <text x="178" y="99.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="start">the neck</text>
+  <line x1="82" y1="142" x2="52" y2="158" stroke="#1c1c1c" stroke-width="1"/>
+  <circle cx="82" cy="142" r="2.2" fill="#1c1c1c"/>
+  <text x="48" y="161.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="end">Low on</text>
+  <text x="48" y="172.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="end">the hips</text>
+  <line x1="340" y1="112" x2="392" y2="126" stroke="#1c1c1c" stroke-width="1"/>
+  <circle cx="340" cy="112" r="2.2" fill="#1c1c1c"/>
+  <text x="396" y="129.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="start">On the</text>
+  <text x="396" y="140.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="start">stomach</text>
+  <line x1="362" y1="88" x2="392" y2="70" stroke="#1c1c1c" stroke-width="1"/>
+  <circle cx="362" cy="88" r="2.2" fill="#1c1c1c"/>
+  <text x="396" y="73.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="start">Under</text>
+  <text x="396" y="84.5" font-size="9.5" font-weight="600" fill="#1c1c1c" text-anchor="start">the arm</text>
+  <circle cx="112" cy="202" r="10" fill="#fff" stroke="#006B3F" stroke-width="2"/>
+  <path d="M107.5,202 L111,205.8 L117,198" fill="none" stroke="#006B3F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="332" cy="202" r="10" fill="#fff" stroke="#C8102E" stroke-width="2"/>
+  <path d="M327.5,197.5 L336.5,206.5 M336.5,197.5 L327.5,206.5" stroke="#C8102E" stroke-width="2.4" stroke-linecap="round"/>
+  <text class="lbl" x="112.0" y="230.0">Right</text>
+  <text class="sub" x="112.0" y="243.0">Lap belt low on hips, shoulder belt across chest</text>
+  <text class="lbl" x="332.0" y="230.0">Wrong</text>
+  <text class="sub" x="332.0" y="243.0">Can cause serious internal injuries</text>
+</svg>

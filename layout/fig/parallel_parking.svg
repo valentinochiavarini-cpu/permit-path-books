@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 254" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: original drawing, labels in Inter, B&W safe -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="parallel_parking_arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+  </defs>
+  <rect x="0" y="8" width="460" height="134" fill="#d9d9d9"/>
+  <line x1="0" y1="58" x2="460" y2="58" stroke="#888" stroke-width="4" stroke-dasharray="14 10"/>
+  <line x1="0" y1="58" x2="460" y2="58" stroke="#fff" stroke-width="2" stroke-dasharray="14 10"/>
+  <rect x="0" y="142" width="460" height="6" fill="#f2f2f2" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="0" y="148" width="460" height="16" fill="#ececec"/>
+  <text x="452" y="158" font-size="9" font-weight="600" fill="#1c1c1c" text-anchor="end">CURB</text>
+  <path d="M14,30 L60,30" fill="none" stroke="#1c1c1c" stroke-width="2" marker-end="url(#parallel_parking_arr)"/>
+  <text x="68" y="34" font-size="9" font-weight="600" fill="#1c1c1c">TRAFFIC</text>
+  <g transform="translate(380.0,124.0) rotate(0.0)">
+    <rect x="-35.0" y="-15.0" width="70" height="30" rx="6" fill="#c4c4c4" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="16.0" y="-12.0" width="7" height="24" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-29.0" y="-11.0" width="4" height="22" rx="1" fill="#1c1c1c" opacity="0.55"/>
+  </g>
+  <g transform="translate(120.0,124.0) rotate(0.0)">
+    <rect x="-35.0" y="-15.0" width="70" height="30" rx="6" fill="#c4c4c4" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="16.0" y="-12.0" width="7" height="24" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-29.0" y="-11.0" width="4" height="22" rx="1" fill="#1c1c1c" opacity="0.55"/>
+  </g>
+  <text class="sub" x="380.0" y="159.0">Car ahead</text>
+  <text class="sub" x="120.0" y="159.0">Car behind</text>
+  <g transform="translate(380.0,86.0) rotate(0.0)" opacity="0.5">
+    <rect x="-35.0" y="-15.0" width="70" height="30" rx="6" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1" stroke-dasharray="4 3"/>
+    <rect x="16.0" y="-12.0" width="7" height="24" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-29.0" y="-11.0" width="4" height="22" rx="1" fill="#1c1c1c" opacity="0.55"/>
+  </g>
+  <line x1="345" y1="68" x2="345" y2="141" stroke="#1c1c1c" stroke-width="1" stroke-dasharray="3 3"/>
+  <g transform="translate(296.0,100.0) rotate(-45.0)" opacity="0.5">
+    <rect x="-35.0" y="-15.0" width="70" height="30" rx="6" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1" stroke-dasharray="4 3"/>
+    <rect x="16.0" y="-12.0" width="7" height="24" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-29.0" y="-11.0" width="4" height="22" rx="1" fill="#1c1c1c" opacity="0.55"/>
+  </g>
+  <g transform="translate(250.0,124.0) rotate(0.0)">
+    <rect x="-35.0" y="-15.0" width="70" height="30" rx="6" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="16.0" y="-12.0" width="7" height="24" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-29.0" y="-11.0" width="4" height="22" rx="1" fill="#1c1c1c" opacity="0.55"/>
+    <text x="-6" y="3.5" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">You</text>
+  </g>
+  <path d="M343,76 C322,76 306,80 290,92" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-dasharray="5 3" marker-end="url(#parallel_parking_arr)"/>
+  <path d="M268,118 C258,128 246,134 230,134" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-dasharray="5 3" marker-end="url(#parallel_parking_arr)"/>
+  <circle cx="392.0" cy="64.0" r="8" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="392.0" y="67.6" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+  <circle cx="322.0" cy="68.0" r="8" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="322.0" y="71.6" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+  <circle cx="258.0" cy="76.0" r="8" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="258.0" y="79.6" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+  <circle cx="304.0" cy="132.0" r="8" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="304.0" y="135.6" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+  <circle cx="204.0" cy="104.0" r="8" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="204.0" y="107.6" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+  <circle cx="16.0" cy="182.5" r="7" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="16.0" y="186.1" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+  <text x="30" y="186" font-size="10" font-weight="700" fill="#1c1c1c">Even: <tspan font-weight="500" fill="#444">stop beside the car ahead, rear bumpers even, 2 to 3 feet out</tspan></text>
+  <circle cx="16.0" cy="197.5" r="7" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="16.0" y="201.1" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+  <text x="30" y="201" font-size="10" font-weight="700" fill="#1c1c1c">Angle: <tspan font-weight="500" fill="#444">back slowly, turning toward the curb, to about 45 degrees</tspan></text>
+  <circle cx="16.0" cy="212.5" r="7" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="16.0" y="216.1" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+  <text x="30" y="216" font-size="10" font-weight="700" fill="#1c1c1c">Straight: <tspan font-weight="500" fill="#444">straighten the wheel and back until you clear the car ahead</tspan></text>
+  <circle cx="16.0" cy="227.5" r="7" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="16.0" y="231.1" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+  <text x="30" y="231" font-size="10" font-weight="700" fill="#1c1c1c">Swing: <tspan font-weight="500" fill="#444">turn the wheel away from the curb and keep backing slowly</tspan></text>
+  <circle cx="16.0" cy="242.5" r="7" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="16.0" y="246.1" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+  <text x="30" y="246" font-size="10" font-weight="700" fill="#1c1c1c">Center: <tspan font-weight="500" fill="#444">pull forward to leave room in front and behind</tspan></text>
+</svg>

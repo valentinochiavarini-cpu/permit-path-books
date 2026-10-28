@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 224" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: original drawing, labels in Inter, B&W safe -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="hydroplaning_arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+  </defs>
+  <rect x="0" y="128" width="224" height="26" fill="#9a9a9a" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="8" y="145" font-size="9" font-weight="600" fill="#fff">ROAD</text>
+  <rect x="0" y="124" width="224" height="4" fill="#7fb2e5" stroke="#555" stroke-width="0.6"/>
+  <circle cx="112" cy="82" r="46" fill="#2b2b2b" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(0,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(15,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(30,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(45,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(60,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(75,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(90,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(105,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(120,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(135,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(150,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(165,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(180,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(195,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(210,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(225,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(240,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(255,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(270,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(285,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(300,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(315,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(330,112,82)"/>
+  <rect x="109" y="36" width="6" height="7" fill="#555" transform="rotate(345,112,82)"/>
+  <circle cx="112" cy="82" r="25.3" fill="#bdbdbd" stroke="#1c1c1c" stroke-width="1"/>
+  <circle cx="112" cy="82" r="6.8999999999999995" fill="#777"/>
+  <path d="M78,124 q-14,-16 -34,-20" fill="none" stroke="#7fb2e5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M72,126 q-12,-8 -28,-8" fill="none" stroke="#7fb2e5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M146,124 q14,-16 34,-20" fill="none" stroke="#7fb2e5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M152,126 q12,-8 28,-8" fill="none" stroke="#7fb2e5" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="112" y="176" class="lbl">Tires grip</text>
+  <path d="M16,16 L66,16" fill="none" stroke="#1c1c1c" stroke-width="2" marker-end="url(#hydroplaning_arr)"/>
+  <text x="72" y="20" font-size="9" font-weight="600" fill="#1c1c1c">TRAVEL</text>
+  <text class="sub" x="112.0" y="189.0">Tread pushes water out, rubber touches the road</text>
+  <rect x="236" y="128" width="224" height="26" fill="#9a9a9a" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="244" y="145" font-size="9" font-weight="600" fill="#fff">ROAD</text>
+  <path d="M236,128 L236,122 Q288,120 318,114 L408,114 L460,122 L460,128 Z" fill="#7fb2e5" stroke="#555" stroke-width="0.8"/>
+  <text x="244" y="108" font-size="9" font-weight="700" fill="#1c1c1c">WATER LAYER</text>
+  <path d="M276,111 L324,120" fill="none" stroke="#1c1c1c" stroke-width="1.5" marker-end="url(#hydroplaning_arr)"/>
+  <circle cx="348" cy="68" r="46" fill="#2b2b2b" stroke="#1c1c1c" stroke-width="1"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(0,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(15,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(30,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(45,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(60,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(75,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(90,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(105,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(120,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(135,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(150,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(165,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(180,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(195,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(210,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(225,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(240,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(255,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(270,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(285,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(300,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(315,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(330,348,68)"/>
+  <rect x="345" y="22" width="6" height="7" fill="#555" transform="rotate(345,348,68)"/>
+  <circle cx="348" cy="68" r="25.3" fill="#bdbdbd" stroke="#1c1c1c" stroke-width="1"/>
+  <circle cx="348" cy="68" r="6.8999999999999995" fill="#777"/>
+  <path d="M388,114 Q406,94 424,114 Z" fill="#7fb2e5" stroke="#555" stroke-width="0.8"/>
+  <text x="438" y="94" font-size="9" font-weight="700" fill="#1c1c1c" text-anchor="middle">WATER</text>
+  <text x="438" y="104" font-size="9" font-weight="700" fill="#1c1c1c" text-anchor="middle">WEDGE</text>
+  <text x="348" y="176" class="lbl">Hydroplaning</text>
+  <path d="M252,16 L302,16" fill="none" stroke="#1c1c1c" stroke-width="2" marker-end="url(#hydroplaning_arr)"/>
+  <text x="308" y="20" font-size="9" font-weight="600" fill="#1c1c1c">TRAVEL</text>
+  <text class="sub" x="348.0" y="189.0">A layer of water lifts the tire off the road</text>
+  <text class="sub" x="230.0" y="214.0" font-weight="600" fill="#1c1c1c">If it happens: ease off the gas, do not brake hard, hold the wheel straight.</text>
+</svg>

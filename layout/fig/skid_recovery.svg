@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 222" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: original drawing, labels in Inter, B&W safe -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="skid_recovery_arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+  </defs>
+  <rect x="0" y="6" width="224" height="176" fill="#d9d9d9"/>
+  <line x1="8" y1="6" x2="8" y2="182" stroke="#888" stroke-width="4"/>
+  <line x1="8" y1="6" x2="8" y2="182" stroke="#fff" stroke-width="2"/>
+  <line x1="216" y1="6" x2="216" y2="182" stroke="#888" stroke-width="4"/>
+  <line x1="216" y1="6" x2="216" y2="182" stroke="#fff" stroke-width="2"/>
+  <rect x="236" y="6" width="224" height="176" fill="#d9d9d9"/>
+  <line x1="244" y1="6" x2="244" y2="182" stroke="#888" stroke-width="4"/>
+  <line x1="244" y1="6" x2="244" y2="182" stroke="#fff" stroke-width="2"/>
+  <line x1="452" y1="6" x2="452" y2="182" stroke="#888" stroke-width="4"/>
+  <line x1="452" y1="6" x2="452" y2="182" stroke="#fff" stroke-width="2"/>
+  <g transform="translate(118.0,110.0) rotate(-118.0)">
+    <rect x="-32.0" y="-15.0" width="64" height="30" rx="6" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="13.0" y="-12.0" width="7" height="24" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-26.0" y="-11.0" width="4" height="22" rx="1" fill="#1c1c1c" opacity="0.55"/>
+    <text x="-6" y="3.5" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" transform="rotate(180,-6,0)">You</text>
+  </g>
+  <path d="M140,140 L178,140" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#skid_recovery_arr)"/>
+  <text x="182" y="130" font-size="9" font-weight="700" fill="#1c1c1c">REAR</text>
+  <text x="182" y="140" font-size="9" font-weight="700" fill="#1c1c1c">SLIDES</text>
+  <text x="182" y="150" font-size="9" font-weight="700" fill="#1c1c1c">RIGHT</text>
+  <circle cx="30.0" cy="24.0" r="8" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="30.0" y="27.6" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+  <g transform="translate(340.0,120.0) rotate(-118.0)">
+    <rect x="-32.0" y="-15.0" width="64" height="30" rx="6" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="13.0" y="-12.0" width="7" height="24" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-26.0" y="-11.0" width="4" height="22" rx="1" fill="#1c1c1c" opacity="0.55"/>
+    <text x="-6" y="3.5" font-size="10" font-weight="700" fill="#fff" text-anchor="middle" transform="rotate(180,-6,0)">You</text>
+  </g>
+  <path d="M334,90 L344,28" stroke="#1c1c1c" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <circle cx="344" cy="24" r="6" fill="#fff" stroke="#1c1c1c" stroke-width="2"/>
+  <circle cx="344" cy="24" r="2" fill="#1c1c1c"/>
+  <text x="354" y="22" font-size="9" font-weight="700" fill="#1c1c1c">LOOK HERE,</text>
+  <text x="354" y="32" font-size="9" font-weight="700" fill="#1c1c1c">where you</text>
+  <text x="354" y="42" font-size="9" font-weight="700" fill="#1c1c1c">want to go</text>
+  <path d="M370,84 q14,10 12,30" fill="none" stroke="#1c1c1c" stroke-width="2.5" marker-end="url(#skid_recovery_arr)"/>
+  <text x="388" y="118" font-size="9" font-weight="700" fill="#1c1c1c">STEER</text>
+  <text x="388" y="128" font-size="9" font-weight="700" fill="#1c1c1c">GENTLY</text>
+  <text x="388" y="138" font-size="9" font-weight="700" fill="#1c1c1c">RIGHT</text>
+  <circle cx="254.0" cy="24.0" r="8" fill="#1c1c1c" stroke="#fff" stroke-width="1"/>
+  <text x="254.0" y="27.6" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+  <text class="lbl" x="118.0" y="200.0">The back of the car slides right</text>
+  <text class="sub" x="118.0" y="213.0">Take your foot off the gas; do not slam the brakes</text>
+  <text class="lbl" x="345.0" y="200.0">Look and steer where you want to go</text>
+  <text class="sub" x="345.0" y="213.0">Steer gently right; be ready to steer back</text>
+</svg>

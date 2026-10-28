@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 218" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: original drawing, labels in Inter, B&W safe -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="standard_drink_arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+  </defs>
+  <path d="M51,30 L99,30 L94,142 L56,142 Z" fill="#f4f8fb" stroke="#1c1c1c" stroke-width="1.5"/>
+  <path d="M52.4,42 L97.6,42 L94,141 L56,141 Z" fill="#FFCD00" opacity="0.85"/>
+  <path d="M51.6,34 L98.4,34 L97.6,42 L52.4,42 Z" fill="#fff" stroke="#bbb" stroke-width="0.6"/>
+  <path d="M204,30 C202,72 216,86 230,86 C244,86 258,72 256,30 Z" fill="#f4f8fb" stroke="#1c1c1c" stroke-width="1.5"/>
+  <path d="M205,56 C208,78 218,84 230,84 C242,84 252,78 255,56 Z" fill="#8c1d3c" opacity="0.85"/>
+  <rect x="228" y="86" width="4" height="52" fill="#f4f8fb" stroke="#1c1c1c" stroke-width="1.2"/>
+  <ellipse cx="230" cy="139" rx="22" ry="4" fill="#f4f8fb" stroke="#1c1c1c" stroke-width="1.5"/>
+  <path d="M368,98 L402,98 L398,142 L372,142 Z" fill="#f4f8fb" stroke="#1c1c1c" stroke-width="1.5"/>
+  <path d="M369.2,112 L400.8,112 L398,136 L372,136 Z" fill="#b5651d" opacity="0.85"/>
+  <rect x="372" y="136" width="26" height="6" fill="#d8e2ea" stroke="#1c1c1c" stroke-width="1"/>
+  <text x="152" y="102" font-size="30" font-weight="700" fill="#1c1c1c" text-anchor="middle">=</text>
+  <text x="308" y="102" font-size="30" font-weight="700" fill="#1c1c1c" text-anchor="middle">=</text>
+  <text class="lbl" x="75.0" y="162.0">Regular beer</text>
+  <text class="sub" x="75.0" y="175.0">12 ounces</text>
+  <text class="sub" x="75.0" y="187.0">about 5 percent alcohol</text>
+  <text class="lbl" x="230.0" y="162.0">Wine</text>
+  <text class="sub" x="230.0" y="175.0">5 ounces</text>
+  <text class="sub" x="230.0" y="187.0">about 12 percent alcohol</text>
+  <text class="lbl" x="385.0" y="162.0">80 proof liquor</text>
+  <text class="sub" x="385.0" y="175.0">1.5 ounces (one shot)</text>
+  <text class="sub" x="385.0" y="187.0">about 40 percent alcohol</text>
+  <text class="lbl" x="230.0" y="210.0">Each one is one standard drink: about the same amount of pure alcohol.</text>
+</svg>

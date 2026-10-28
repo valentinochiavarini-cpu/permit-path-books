@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 216" font-family="Inter, Arial, sans-serif">
+  <!-- Permit Path figure: original drawing, labels in Inter, B&W safe -->
+  <style>
+    .lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="truck_no_zones_arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1c1c1c"/></marker>
+    <pattern id="truck_no_zones_h" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="7" height="7" fill="#C8102E" fill-opacity="0.22"/><line x1="0" y1="0" x2="0" y2="7" stroke="#C8102E" stroke-width="2"/></pattern>
+  </defs>
+  <rect x="0" y="8" width="460" height="160" fill="#d9d9d9"/>
+  <line x1="0" y1="48" x2="460" y2="48" stroke="#888" stroke-width="4" stroke-dasharray="14 10"/>
+  <line x1="0" y1="48" x2="460" y2="48" stroke="#fff" stroke-width="2" stroke-dasharray="14 10"/>
+  <line x1="0" y1="88" x2="460" y2="88" stroke="#888" stroke-width="4" stroke-dasharray="14 10"/>
+  <line x1="0" y1="88" x2="460" y2="88" stroke="#fff" stroke-width="2" stroke-dasharray="14 10"/>
+  <line x1="0" y1="128" x2="460" y2="128" stroke="#888" stroke-width="4" stroke-dasharray="14 10"/>
+  <line x1="0" y1="128" x2="460" y2="128" stroke="#fff" stroke-width="2" stroke-dasharray="14 10"/>
+  <line x1="0" y1="9" x2="460" y2="9" stroke="#888" stroke-width="4"/>
+  <line x1="0" y1="9" x2="460" y2="9" stroke="#fff" stroke-width="2"/>
+  <line x1="0" y1="167" x2="460" y2="167" stroke="#888" stroke-width="4"/>
+  <line x1="0" y1="167" x2="460" y2="167" stroke="#fff" stroke-width="2"/>
+  <rect x="364" y="51" width="70" height="34" fill="url(#truck_no_zones_h)" stroke="#C8102E" stroke-width="1.2"/>
+  <rect x="10" y="51" width="148" height="34" fill="url(#truck_no_zones_h)" stroke="#C8102E" stroke-width="1.2"/>
+  <rect x="300" y="11" width="66" height="34" fill="url(#truck_no_zones_h)" stroke="#C8102E" stroke-width="1.2"/>
+  <polygon points="350,89 350,165 190,165 170,89" fill="url(#truck_no_zones_h)" stroke="#C8102E" stroke-width="1.2"/>
+  <rect x="160" y="54.0" width="156" height="28" rx="2" fill="#efefef" stroke="#1c1c1c" stroke-width="1.2"/>
+  <rect x="320" y="55.0" width="42" height="26" rx="5" fill="#9a9a9a" stroke="#1c1c1c" stroke-width="1.2"/>
+  <rect x="350" y="58.0" width="6" height="20" rx="1.5" fill="#1c1c1c"/>
+  <rect x="328" y="51.0" width="6" height="4" fill="#1c1c1c"/>
+  <rect x="328" y="81.0" width="6" height="4" fill="#1c1c1c"/>
+  <text x="238.0" y="72.0" font-size="10" font-weight="700" fill="#1c1c1c" text-anchor="middle">TRUCK</text>
+  <text x="399" y="72.0" font-size="9.5" font-weight="700" fill="#1c1c1c" text-anchor="middle" stroke="#fff" stroke-width="3" paint-order="stroke">FRONT</text>
+  <text x="84" y="72.0" font-size="9.5" font-weight="700" fill="#1c1c1c" text-anchor="middle" stroke="#fff" stroke-width="3" paint-order="stroke">REAR</text>
+  <text x="333" y="32.0" font-size="9.5" font-weight="700" fill="#1c1c1c" text-anchor="middle" stroke="#fff" stroke-width="3" paint-order="stroke">LEFT</text>
+  <text x="270" y="132" font-size="9.5" font-weight="700" fill="#1c1c1c" text-anchor="middle" stroke="#fff" stroke-width="3" paint-order="stroke">RIGHT SIDE (largest)</text>
+  <path d="M396,28.0 L446,28.0" fill="none" stroke="#1c1c1c" stroke-width="2" marker-end="url(#truck_no_zones_arr)"/>
+  <g transform="translate(200.0,28.0) rotate(0.0)">
+    <rect x="-25.0" y="-12.0" width="50" height="24" rx="6" fill="#4a78b5" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="6.0" y="-9.0" width="7" height="18" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-19.0" y="-8.0" width="4" height="16" rx="1" fill="#1c1c1c" opacity="0.55"/>
+    <text x="-6" y="3.5" font-size="10" font-weight="700" fill="#fff" text-anchor="middle">You</text>
+  </g>
+  <circle cx="234" cy="16.0" r="7" fill="#fff" stroke="#006B3F" stroke-width="2"/>
+  <path d="M229.5,16.0 L233,19.8 L239,12.0" fill="none" stroke="#006B3F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(300.0,108.0) rotate(0.0)">
+    <rect x="-25.0" y="-12.0" width="50" height="24" rx="6" fill="#c4c4c4" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="6.0" y="-9.0" width="7" height="18" rx="1.5" fill="#1c1c1c"/>
+    <rect x="-19.0" y="-8.0" width="4" height="16" rx="1" fill="#1c1c1c" opacity="0.55"/>
+  </g>
+  <circle cx="332" cy="96.0" r="7" fill="#fff" stroke="#C8102E" stroke-width="2"/>
+  <path d="M327.5,91.5 L336.5,100.5 M336.5,91.5 L327.5,100.5" stroke="#C8102E" stroke-width="2.4" stroke-linecap="round"/>
+  <text class="lbl" x="230.0" y="184.0">Shaded areas are no-zones: the truck driver cannot see a car there.</text>
+  <text class="sub" x="230.0" y="198.0">Mirror check: if you can see the driver's face in the truck's side mirror,</text>
+  <text class="sub" x="230.0" y="210.0">the driver can see you. No face in the mirror means you are in a no-zone.</text>
+</svg>
