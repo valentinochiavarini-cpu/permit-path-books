@@ -41,6 +41,17 @@ for path in sys.argv[1:]:
             warns.append(f"{path} ch{ch}: answer letters unbalanced {dict(letters)}")
     letters = collections.Counter(r["correct"] for r in rows)
     print(f"{path}: {len(rows)} questions, chapters {sorted(per_ch)}, letters {dict(sorted(letters.items()))}")
+# Originality: every bank question can be printed in some state's mocks, so check each one as the book prints it.
+import subprocess, tempfile, pathlib as _pl
+_root = _pl.Path(__file__).resolve().parent.parent
+for path in sys.argv[1:]:
+    md = "\n\n".join(f"**1. {r['q']}**\n\nA) {r['a']}  \nB) {r['b']}  \nC) {r['c']}  \nD) {r['d']}\n\n**1. {r['correct']}.** {r['exp']}\n\n<!-- {r['id']} -->"
+                     for r in json.load(open(path)))
+    with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False) as f:
+        f.write(md)
+    res = subprocess.run([sys.executable, str(_root / "tools/originality_check.py"), "check", f.name], capture_output=True, text=True)
+    if res.returncode:
+        errors.append(f"{path}: originality check failed\n" + res.stdout.strip()[-1500:])
 for w in warns:
     print("WARN", w)
 if errors:

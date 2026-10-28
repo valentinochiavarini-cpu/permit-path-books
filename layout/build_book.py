@@ -91,7 +91,14 @@ def mocks_md():
     for k, s in enumerate(sets, 1):
         if mock_cfg and len(s) != size:
             errors.append(f"Mock {k}: {len(s)} questions, expected {size}")
-        out.append(f"# Mock Exam {k}\n\n::: quiz\n" + "\n".join(q_md(i + 1, r) for i, r in enumerate(s)) + "\n:::")
+        parts = mock_cfg.get("parts") or [{"name": "", "size": len(s), "pass": ""}]
+        body, start = [], 0
+        for p in parts:
+            chunk = s[start:start + p["size"]]
+            head = f"## {p['name']}\n\n{p['size']} questions. To pass: {p['pass']}.\n\n" if p["name"] else ""
+            body.append(head + "::: quiz\n" + "\n".join(q_md(start + i + 1, r) for i, r in enumerate(chunk)) + "\n:::")
+            start += p["size"]
+        out.append(f"# Mock Exam {k}\n\n" + "\n\n".join(body))
     out.append("# Answer Key\n\nEach answer has a short explanation. Mock exam answers also show the chapter to review.\n\n" + "\n\n".join(
         f"## Chapter {ch} Quiz\n\n::: answers\n{a}\n:::" for ch, a in sorted(QUIZ_ANS)) + "\n\n" + "\n\n".join(
         f"## Mock Exam {k}\n\n::: answers\n" + "\n".join(a_md(i + 1, r).rstrip() + f" (Chapter {r['ch']})\n" for i, r in enumerate(s)) + "\n:::" for k, s in enumerate(sets, 1)))

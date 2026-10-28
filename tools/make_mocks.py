@@ -1,12 +1,29 @@
-"""Pick the two mock exams for a state. Usage: make_mocks.py XX SIZE "PASS TEXT" [seed]
-About 60 percent core, 40 percent state questions; never a chapter-quiz question; no repeats; spread across chapters.
-Writes state/XX/mocks.json."""
-import json, sys, random, pathlib, collections
+"""Pick the two mock exams for a state.
+
+One-part test:  make_mocks.py XX SIZE "PASS TEXT" [--seed N]
+Split test:     make_mocks.py XX --part "Road Signs|10|all 10 correct|2" --part "Rules of the Road|30|24 of 30 correct" [--seed N]
+  A part is NAME|SIZE|PASS TEXT|CHAPTERS. CHAPTERS (comma list) limits the pool, e.g. 2 for road signs;
+  leave it out for "any chapter except the restricted ones of other parts".
+About 60 percent core, 40 percent state questions (a part limited to chapters uses whatever the pool holds,
+state first); never a chapter-quiz question; no repeats; spread across chapters. Writes state/XX/mocks.json."""
+import json, sys, random, pathlib, collections, argparse
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-code, size, pass_text = sys.argv[1].upper(), int(sys.argv[2]), sys.argv[3]
-rng = random.Random(int(sys.argv[4]) if len(sys.argv) > 4 else 2027)
+ap = argparse.ArgumentParser()
+ap.add_argument("code"); ap.add_argument("size", nargs="?", type=int); ap.add_argument("pass_text", nargs="?")
+ap.add_argument("--part", action="append", default=[]); ap.add_argument("--seed", type=int, default=2027)
+a = ap.parse_args()
+code = a.code.upper()
+rng = random.Random(a.seed)
 core = [r for r in json.loads((ROOT / "bank/core.json").read_text()) if not r.get("quiz")]
 st = [r for r in json.loads((ROOT / f"bank/{code}.json").read_text()) if not r.get("quiz")]
+
+parts = []
+for p in a.part:
+    f = p.split("|")
+    parts.append({"name": f[0], "size": int(f[1]), "pass": f[2], "chapters": [int(x) for x in f[3].split(",")] if len(f) > 3 and f[3] else []})
+if not parts:
+    parts = [{"name": "", "size": a.size, "pass": a.pass_text, "chapters": []}]
+restricted = {c for p in parts for c in p["chapters"]}
 
 def spread(pool, n):
     by = collections.defaultdict(list)
@@ -21,14 +38,30 @@ def spread(pool, n):
                 out.append(by[c].pop())
     return out
 
-n_state = round(size * 0.4)
-picks = []
-for _ in range(2):
-    s = spread([r for r in st if r not in picks], n_state) + spread([r for r in core if r not in picks], size - n_state)
-    rng.shuffle(s)
-    picks += s
-m1, m2 = picks[:size], picks[size:2 * size]
-out = {"size": size, "pass": pass_text, "mock1": [r["id"] for r in m1], "mock2": [r["id"] for r in m2]}
+used, mocks = set(), [[], []]
+for p in parts:
+    ok = (lambda r: r["ch"] in p["chapters"]) if p["chapters"] else (lambda r: r["ch"] not in restricted)
+    for k in range(2):
+        sp = [r for r in st if ok(r) and r["id"] not in used]
+        cp = [r for r in core if ok(r) and r["id"] not in used]
+        n_state = round(p["size"] * 0.4)
+        if p["chapters"]:  # small pool: split it evenly between the two mocks
+            n_state = min(len(sp) // (2 - k), p["size"])
+        s = spread(sp, n_state)
+        s += spread(cp, p["size"] - len(s))
+        if len(s) < p["size"]:
+            s += spread([r for r in sp if r not in s], p["size"] - len(s))
+        if len(s) < p["size"]:
+            sys.exit(f"Not enough questions for part '{p['name']}' mock {k + 1}: {len(s)} of {p['size']}. Add state questions in chapters {p['chapters']}.")
+        rng.shuffle(s)
+        used.update(r["id"] for r in s)
+        mocks[k] += s
+
+total = sum(p["size"] for p in parts)
+out = {"size": total, "pass": parts[0]["pass"] if len(parts) == 1 else "; ".join(f"for {p['name']}, {p['pass']}" for p in parts),
+       "mock1": [r["id"] for r in mocks[0]], "mock2": [r["id"] for r in mocks[1]]}
+if len(parts) > 1:
+    out["parts"] = [{"name": p["name"], "size": p["size"], "pass": p["pass"]} for p in parts]
 (ROOT / f"state/{code}/mocks.json").write_text(json.dumps(out, indent=1))
-for k, m in (("mock1", m1), ("mock2", m2)):
-    print(k, len(m), "letters", dict(collections.Counter(r["correct"] for r in m)))
+for k, m in enumerate(mocks, 1):
+    print(f"mock{k}", len(m), "state", sum(not r["id"].startswith("C") for r in m), "letters", dict(collections.Counter(r["correct"] for r in m)))

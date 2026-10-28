@@ -5,7 +5,7 @@ description: Build one or more Permit Path state editions (KDP DMV drivers ed se
 
 # Permit Path: build a state edition
 
-Use when the owner asks to build, rebuild or update a Permit Path state edition ("build Florida", "do TX, NY and OH", "update PA for the new manual"). Each edition = state Chapter 1 + the universal core (Ch 2 to 13) filled with that state's 23 inserts + 10-question chapter quizzes + 2 mock exams sized to the real test + supervised driving log, built to a 6 x 9 B&W paperback PDF and an EPUB. The core is written once; a state run never edits core chapters unless a fact check proves a core error.
+Use when the owner asks to build, rebuild or update a Permit Path state edition ("build Florida", "do TX, NY and OH", "update PA for the new manual"). Each edition = state Chapter 1 + the universal core (Ch 2 to 13) filled with that state's 23 inserts + 10-question chapter quizzes + 2 mock exams sized to the real test + supervised driving log, built to a 6 x 9 B&W paperback PDF and an EPUB. About 87 percent of each book is the shared core, including all 35 color figures (state runs add none). Target 160 to 180 pages. The core is written once; a state run never edits core chapters unless a fact check proves a core error.
 
 ## 0. Setup (every session)
 1. `add_repo` owner `valentinochiavarini-cpu`, repo `permit-path-books`, access `push`; clone to `/home/claude/permit-path-books` (long timeout); `register_repo_root`.
@@ -27,10 +27,11 @@ Launch a general-purpose agent: "Read `briefs/STATE_BRIEF.md` and follow it exac
 Tell both: re-read bank/XX.json right before each write and change only their IDs. Give them statute access tips that worked (for example PA: palegis.us view-statute URLs through WebFetch). Then resolve their open items yourself: delete questions that contradict the core, retag questions to the chapter that teaches them, and fix any core contradiction in core/chNN.md only with a source (it affects every state).
 
 ## 4. Mocks
-`python3 tools/make_mocks.py XX SIZE "PASS TEXT"` where SIZE is the real test's question count (25 if the state publishes none; for split tests such as GA or VA, size to the total and say so in Ch 1). It never reuses quiz questions and draws about 40 percent state, 60 percent core.
+`python3 tools/make_mocks.py XX SIZE "PASS TEXT"` where SIZE is the real test's question count (25 if the state publishes none). It never reuses quiz questions and draws about 40 percent state, 60 percent core.
+Split tests (a separate road sign part, for example GA, VA, NC): `python3 tools/make_mocks.py XX --part "Road Signs|10|all 10 correct|2" --part "Rules of the Road|30|24 of 30 correct"` (NAME|SIZE|PASS|CHAPTERS; chapter 2 is road signs). The book then prints each mock in parts with their own pass marks. The core has 20 non-quiz sign questions, so a sign part of more than 10 per mock needs state `ch: 2` questions (the writer adds 25+).
 
 ## 5. Build and QA
-`python3 layout/build_book.py --state "NAME" --code XX`. It must print QA PASSED and ORIGINALITY PASSED. It runs the originality check on the whole book: fix any 12-word run it reports (usually stock phrases in question explanations) by rewording in the bank or text, then rebuild. Render and look at 4 pages (contents, Ch 1 opener, a page with a state rule box, a quiz page). Check the page count stays under 300 (KDP margins are set for 151 to 300 pages).
+First `python3 tools/check_bank.py bank/core.json bank/XX.json` (schema plus originality of every question; must print BANK PASSED). Then `python3 layout/build_book.py --state "NAME" --code XX`. It must print QA PASSED and ORIGINALITY PASSED. It runs the originality check on the whole book: fix any 12-word run it reports (usually stock phrases in question explanations) by rewording in the bank or text, then rebuild. Render and look at 4 pages (contents, Ch 1 opener, a page with a state rule box, a quiz page). Check the page count: target 160 to 180 (KDP margins are set for 151 to 300 pages). Over 180, trim Chapter 1 and the inserts first, never the core.
 
 ## 6. App load (no Lovable credits)
 Permit Path app: Lovable project `5aba30bf-4b8e-4041-b0c3-080168980b32` (never the old The Driving School project `c427a0c1-...`, which is read-only for us).

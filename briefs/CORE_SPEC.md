@@ -35,8 +35,11 @@ After Chapter 13: `core/90_mocks.md` (assembled: Mock Exam 1, Mock Exam 2, Mock 
 Length: 2,200 to 3,500 words per chapter before the quiz (the 6 x 9 page holds about 300 words).
 
 ## Insert file format (`state/XX/inserts.md`)
-One section per key: `## key` followed by 1 to 4 short paragraphs or a small table, written as a callout-ready block (the build wraps it in a "{{STATE}} rule" box). Use `OMIT` as the whole body if the state has no special rule; the build then removes the marker. Every key in this list must exist in every state file; the build fails otherwise:
+One section per key: `## key` followed by 90 words or fewer (1 to 3 short paragraphs or a small table), written as a callout-ready block (the build wraps it in a "{{STATE}} rule" box). Use `OMIT` as the whole body if the state has no special rule; the build then removes the marker. Every key in this list must exist in every state file; the build fails otherwise:
 school_zone, work_zone, turn_on_red, move_over, school_bus, u_turn, speed_limits, following_distance, hov, parking_rules, bicycle_passing, crash_reporting, bac_limits, implied_consent, dui_penalties, phone_laws, seat_belts, child_restraints, vehicle_rules, road_test, supervised_hours, signal_distance, headlight_dimming.
+
+## Figures
+All 35 figures are part of the core (`layout/fig/*.svg`, rules in `briefs/FIGURES_BRIEF.md`), placed with `![Caption.](fig/name.svg)` lines in core chapters. They print in full MUTCD color (Amazon converts the paperback to B&W), so every meaningful color is named in a label or caption. State editions add no figures.
 
 ## Question bank (`bank/`)
 - `bank/core.json`: universal questions. `bank/XX.json`: state questions (chapter 1 topics and every insert topic).

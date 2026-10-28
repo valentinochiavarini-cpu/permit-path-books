@@ -737,7 +737,7 @@
     "c": "$250",
     "d": "$1,000",
     "correct": "A",
-    "exp": "The statute sets fines up to $500 for a first offense, $1,000 for a second and $2,000 for a third or later.",
+    "exp": "A first violation can cost up to $500. Repeat violations cost more: up to $1,000 the second time and $2,000 after that.",
     "src": "75 Pa.C.S. 3327(b)"
   },
   {
@@ -1257,7 +1257,7 @@
     "c": "Wait one hour, then leave",
     "d": "Report it to your insurer only",
     "correct": "B",
-    "exp": "Leave a note with the date, time, your name and a phone number, and notify police.",
+    "exp": "Pennsylvania law says to put a note on the car with your name, phone number, the date and the time, then report the crash to police.",
     "src": "PA online Driver's Manual, Ch. 4, Pennsylvania's Point System, Crashes"
   },
   {
@@ -1400,7 +1400,7 @@
     "c": "A new road test",
     "d": "A motorcycle safety course",
     "correct": "A",
-    "exp": "Alcohol Highway Safety School is required for first or second offenses at every level.",
+    "exp": "Every first and second DUI, whatever the BAC, includes Alcohol Highway Safety School.",
     "src": "PA online Driver's Manual, Ch. 4, DUI penalty tables"
   },
   {
@@ -1837,11 +1837,11 @@
     "ch": 10,
     "quiz": false,
     "q": "You are following another vehicle at night in Pennsylvania. Within what distance of it must you use low beams?",
-    "a": "100 feet",
-    "b": "300 feet",
+    "a": "300 feet",
+    "b": "100 feet",
     "c": "500 feet",
     "d": "1,000 feet",
-    "correct": "B",
+    "correct": "A",
     "exp": "Pennsylvania requires low beams within 300 feet of a vehicle you are following.",
     "src": "75 Pa.C.S. 4306(b)"
   }
