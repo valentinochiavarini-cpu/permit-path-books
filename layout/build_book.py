@@ -124,7 +124,12 @@ for p in parts:
 mds.append(mocks_md())
 mds.append((ROOT / "core" / "95_driving_log.md").read_text())
 full = "\n\n".join(mds)
-full = fill_inserts(full).replace("{{STATE}}", state)
+full = fill_inserts(full)
+if state[:1] in "AEIOU":  # "a {{STATE}}" -> "an Illinois", "an Ohio"
+    full = re.sub(r"\b([Aa]) \{\{STATE\}\}", lambda m: m.group(1) + "n " + state, full)
+full = full.replace("{{STATE}}", state)
+if state[:1] in "AEIOU" and re.search(rf"\b[Aa] {state}\b", full):
+    errors.append(f"article: 'a {state}' should be 'an {state}'")
 full = re.sub(r"\[APP-LINK:(\d+)\]", rf"{SHORT}/ch/\1", full)
 (OUT / f"{stem}.md").write_text(full)
 

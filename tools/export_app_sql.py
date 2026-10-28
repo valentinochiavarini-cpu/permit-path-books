@@ -28,7 +28,7 @@ if a.state:
     if "{{STATE}}" in ch1:
         if not name:
             sys.exit("add the state name to layout/config.json state_names")
-        ch1 = ch1.replace("{{STATE}}", name)
+        ch1 = re.sub(r"\b([Aa]) \{\{STATE\}\}", lambda m: m.group(1) + ("n " if name[:1] in "AEIOU" else " ") + name, ch1).replace("{{STATE}}", name)
     titles[1] = ch1.strip()
     src, st = ROOT / f"bank/{code}.json", code
 else:
