@@ -777,7 +777,7 @@
   "d": "Diagonally only",
   "correct": "A",
   "exp": "Odd numbered Interstates run mostly north and south.",
-  "src": "core Chapter 2; FHWA MUTCD 11th ed. 2D; core Chapter 2"
+  "src": "core Chapter 2; FHWA MUTCD 11th ed. 2D"
  },
  {
   "id": "IL-061",
@@ -1206,7 +1206,7 @@
   "d": "Enter only where signs show they are open in your direction",
   "correct": "D",
   "exp": "Reversible lanes carry traffic one way at a time, so use them only when signs show they are open your way.",
-  "src": "Illinois DOT Kennedy Expressway project news (timeout.com, 2024-12-17)"
+  "src": "IDOT, reported by WTTW News, 2024-12-17 and 2025-01-09 (news.wttw.com)"
  },
  {
   "id": "IL-094",

@@ -18,7 +18,7 @@ In {{STATE}}, after a complete stop, you may turn **right on a steady red light*
 
 ## school_bus
 
-In {{STATE}}, stop for a school bus with red lights flashing and stop arm out, from **either direction**, on any road, private road or school parking lot. Stay stopped until the arm folds and the lights stop, or the driver waves you on. Exception: on a highway with **four or more lanes** (two each way), oncoming traffic need not stop. The law sets no stopping distance; the State Board of Education says stop **at least 20 feet** away. Passing: **3-month suspension** and a **$300** fine.
+In {{STATE}}, stop for a school bus with red lights flashing and stop arm out, from **either direction**, on any road, private road or school parking lot. Stay stopped until the arm folds and the lights stop, or the driver waves you on. Exception: on a highway with **four or more lanes** (two each way, divided or not), oncoming traffic need not stop. The law sets no stopping distance; the State Board of Education says stop **at least 20 feet** away. Passing: **3-month suspension** and a **$300** fine.
 
 ## u_turn
 
@@ -66,7 +66,7 @@ In {{STATE}}, pass a bicyclist slowly with at least **3 feet** between the bike 
 
 ## crash_reporting
 
-After a {{STATE}} crash, stop in a safe place, help the injured and call 911. Report the crash to police right away (the official manual says within **30 minutes**) if anyone is hurt or killed, or damage is over **$1,500** (over **$500** if any vehicle is uninsured). Failing to report can bring a fine up to **$2,500** and up to one year in jail. If you hit an unattended car, leave your name, address, phone and plate number.
+After a {{STATE}} crash, stop safely, help the injured and call 911. Report the crash to police right away (the official manual says within **30 minutes**) if anyone is hurt or killed, or damage is over **$1,500** (over **$500** if any vehicle is uninsured). Within **10 days**, also send a written crash report to the {{STATE}} Department of Transportation. Not reporting: up to **$2,500** and one year in jail. If you hit an unattended car, leave your name, address, phone and plate number.
 
 ## bac_limits
 
@@ -86,7 +86,7 @@ By driving in {{STATE}}, you consent to breath, blood, urine or other tests for 
 
 ## dui_penalties
 
-A first {{STATE}} DUI is a **Class A misdemeanor**, and the conviction revokes your license for at least **1 year** (under 21: at least **2 years**). A second DUI within 20 years: at least **5 years**. At 0.16 or more: minimum **$500** fine and **100 hours** of community service. With a passenger under 16: an extra **$1,000** fine minimum.
+A first {{STATE}} DUI is a **Class A misdemeanor** and revokes your license for at least **1 year** (under 21: at least **2 years**). A second DUI within 20 years: at least **5 years**. At 0.16 or more: minimum **$500** fine and **100 hours** of community service. With a passenger under 16: an extra **$1,000** fine minimum.
 
 **Open container:** no one may drink in a vehicle, and no opened alcohol may be in the passenger area. Passengers in a limousine, chartered bus or motor home are exempt.
 
@@ -116,7 +116,7 @@ A booster seat needs a lap and shoulder belt. If the back seat has only lap belt
 
 ## road_test
 
-The {{STATE}} driving exam scores: checking controls and adjusting seat, belts and mirrors before moving; backing about **50 feet** straight and slowly, looking back over your right shoulder; a **turnabout** using an alley on the left; parking uphill and downhill and starting from each; and obeying signs, signals, right of way and lane markings. Only the examiner rides along. You may lose up to **36 points**. Any traffic violation or dangerous action is an **automatic fail**.
+The {{STATE}} driving exam scores: checking controls and adjusting seat, belts and mirrors before moving; backing about **50 feet** straight and slowly, looking back over your right shoulder; a **turnabout** using an alley on the left; parking uphill and downhill and starting from each; and obeying signs, signals, right of way and lane markings. Only the examiner rides along. You can lose up to **36 points** and still pass. Any traffic violation or dangerous action is an **automatic fail**.
 
 ## supervised_hours
 

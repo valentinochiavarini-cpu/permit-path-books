@@ -10,7 +10,7 @@ import json, sys, random, pathlib, collections, argparse, re
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ap = argparse.ArgumentParser()
 ap.add_argument("code"); ap.add_argument("size", nargs="?", type=int); ap.add_argument("pass_text", nargs="?")
-ap.add_argument("--part", action="append", default=[]); ap.add_argument("--seed", type=int, default=2027)
+ap.add_argument("--part", action="append", default=[]); ap.add_argument("--pass", dest="overall", default=""); ap.add_argument("--seed", type=int, default=2027)
 a = ap.parse_args()
 code = a.code.upper()
 rng = random.Random(a.seed)
@@ -71,7 +71,7 @@ for tries in range(500):
 print('seed', a.seed + tries, '(balanced)' if balanced(mocks) else '(no balanced seed found)')
 
 total = sum(p["size"] for p in parts)
-out = {"size": total, "pass": parts[0]["pass"] if len(parts) == 1 else "; ".join(f"for {p['name']}, {p['pass']}" for p in parts),
+out = {"size": total, "pass": a.overall or parts[0]["pass"] if len(parts) == 1 else a.overall or "; ".join(f"for {p['name']}, {p['pass']}" for p in parts),
        "mock1": [r["id"] for r in mocks[0]], "mock2": [r["id"] for r in mocks[1]]}
 if len(parts) > 1:
     out["parts"] = [{"name": p["name"], "size": p["size"], "pass": p["pass"]} for p in parts]

@@ -1,6 +1,6 @@
 {
  "size": 20,
- "pass": "for Road Signs, at least 2 of 4 correct; for Rules of the Road, 14 of all 20 questions correct overall",
+ "pass": "14 of 20 correct, including at least 2 of the 4 road sign questions",
  "mock1": [
   "NY-064",
   "C02-012",
