@@ -143,3 +143,25 @@ Every question cites its RR page, statute or rule in `src`. Chapter 2 sign quest
 - Country-specific driving test waivers for foreign licenses (ISU page lists Canada, England, France, Germany, but it is outdated).
 - RR pages 78 to 106 (following distance seconds, weather, required equipment, insurance page, ID chart).
 - Work zone speeding fine amounts (11-605.1 text read only in P.A. 99-280).
+
+## State upgrade (2026-10-28)
+
+| Key | Claim | Source | Checked |
+|---|---|---|---|
+| emergency_vehicles | Pull to the right-hand edge or curb, clear of any intersection; stop if needed; no one-way street exception in the statute | ILCS 11-907(a) (www.ilga.gov/Documents/legislation/ilcs/documents/062500050K11-907.htm, source note P.A. 104-417) | 2026-10-28 |
+| emergency_vehicles | Stopped at an intersection with two-way traffic: remain stopped until the emergency vehicle passes through; no driving over fire hoses | RR p. 25 | 2026-10-28 |
+| emergency_vehicles | Do not follow fire apparatus on an alarm closer than 500 ft, or stop within 500 ft of one stopped at an alarm | ILCS 11-1411 (lig.ilga.gov, P.A. 79-1069) | 2026-10-28 |
+| headlight_use | Headlights sunset to sunrise; when rain, snow, fog require wipers; when persons and vehicles are not clearly discernible at 1,000 ft. No DRL rule or fine in the section | ILCS 12-201(b) (www.ilga.gov, P.A. 103-706) | 2026-10-28 |
+| police_stop | Pull onto right shoulder or next safe spot; not on bridges, curves, by guardrails or walls; hands on wheel; stay in car; tell officer before reaching into glove box or phone; unmarked car: drive slowly to a well lit populated place or police station, or call 911; signing a ticket is not an admission of guilt | RR pp. 21 to 22 | 2026-10-28 |
+| underage_alcohol | Any trace of alcohol under 21 while driving: at least 3 months; under 21 DUI: at least 2-year revocation | RR p. 52 | 2026-10-28 |
+| underage_alcohol | Under 21 purchase, gift, possession, consumption; using another's ID or a false ID: Class A misdemeanor | 235 ILCS 5/6-20(a), (c), (e), (f) (www.ilga.gov, P.A. 100-1087) | 2026-10-28 |
+| underage_alcohol | License suspension when an occupant of a motor vehicle: supervision 3 months, conviction at least 6 months | RR p. 19; ILCS 6-206(a)(38), (a)(43) (ilga.gov, P.A. 104-400). RR p. 52 says "regardless of whether or not they are operating", consistent with the occupant rule (a passenger counts) | 2026-10-28 |
+| underage_alcohol | Adults providing alcohol to under 21: fine, jail, suspension | RR p. 52 | 2026-10-28 |
+| driver_record | Points: 1 to 10 over 5; 11 to 14 over 15; 15 to 25 over 20; 26+ over 50; stop sign and red light 20 | 92 Ill. Adm. Code 1040.20 (law.cornell.edu) | 2026-10-28 |
+| driver_record | 3 or more point offenses within 12 months: suspension by points; 15 to 44 points 2 months; 110+ revocation (no prior suspension in 7 years) | 92 Ill. Adm. Code 1040.30(a) (law.cornell.edu, 33 Ill. Reg. 2603); ILCS 6-206(a)(2) | 2026-10-28 |
+| driver_record | Under 21: two convictions in 24 months, at least 30 days | RR p. 19 (Chapter 1) | 2026-10-28 |
+| vehicle_rules | Uninsured conviction: at least 3 months, $100 reinstatement | RR p. 55 | 2026-10-28 |
+| hov | Passing off the pavement not allowed | RR p. 28 | 2026-10-28 |
+| bank | App only: IL-060 (Interstate numbering), IL-093 (Kennedy reversible lanes), IL-094 (Pace bus shoulder) | | 2026-10-28 |
+
+Not verified, left out: point removal over time (no primary source read); a headlight fine; a daytime running light rule; a one-way street exception for emergency vehicles (none in 11-907).

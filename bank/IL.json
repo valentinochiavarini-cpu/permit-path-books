@@ -2049,10 +2049,10 @@
     "quiz": false,
     "q": "How many moving violation convictions within 12 months put an Illinois driver up for a points-based suspension?",
     "a": "Two",
-    "b": "Three or more",
+    "b": "Ten or more",
     "c": "Five or more",
-    "d": "Ten or more",
-    "correct": "B",
+    "d": "Three or more",
+    "correct": "D",
     "exp": "Three or more convictions for point-assigned offenses within 12 months lead to a suspension or revocation based on the point total.",
     "src": "92 Ill. Adm. Code 1040.30; 625 ILCS 5/6-206(a)(2)"
   },
@@ -2088,10 +2088,10 @@
     "quiz": false,
     "q": "Under Illinois's point table, what happens at 110 points or more after three or more convictions in 12 months?",
     "a": "A 3-month suspension",
-    "b": "Revocation of the license",
-    "c": "A warning letter",
+    "b": "A warning letter",
+    "c": "Revocation of the license",
     "d": "A driving course only",
-    "correct": "B",
+    "correct": "C",
     "exp": "110 or more points brings revocation.",
     "src": "92 Ill. Adm. Code 1040.30"
   }
