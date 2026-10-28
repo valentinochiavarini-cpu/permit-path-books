@@ -32,15 +32,15 @@ Breaking this rule is **reckless driving**. Stopped cars with **hazard lights, f
 
 ## emergency_vehicles
 
-In {{STATE}}, yield to any police car, fire truck or ambulance using a siren and flashing lights. Clear the intersection, then pull to the **nearest edge** of the road and stop. On an undivided road, do this for one coming toward you as well. Stay stopped until it passes, unless an officer directs you.
+In {{STATE}}, yield to any emergency vehicle using a siren and flashing lights. Clear the intersection, then pull to the **nearest edge** of the road and stop. On an undivided road, do this for one coming toward you as well. Stay stopped until it passes, unless an officer directs you.
 
-Then follow no closer than **500 feet** behind it. Do not park within **500 feet** of fire trucks stopped at an alarm.
+Then follow no closer than **500 feet** behind it.
 
 Passing a moving emergency vehicle that has its siren and lights on is **reckless driving**.
 
 ## school_bus
 
-In {{STATE}}, stop for a school bus that is stopped to load or unload, from **any direction**. This applies on a highway, private road or school driveway. Stay stopped until everyone is clear and the bus moves again. Stop even if the lights are off while children get on or off.
+In {{STATE}}, stop for a school bus stopped to load or unload, from **any direction**, on a highway, private road or school driveway. Stay stopped until everyone is clear and the bus moves again. Stop even if the lights are off while children get on or off.
 
 {{STATE}} law sets no exact stopping distance. Stop far enough back for children to cross safely.
 
@@ -50,7 +50,7 @@ On a **divided highway**, traffic on the far side of a median or barrier need no
 
 In {{STATE}} cities, towns and county business districts, make a U-turn **only at an intersection**. Never make one on a curve or near the top of a hill where drivers coming from any direction cannot see you within **500 feet**.
 
-A U-turn counts as two left turns. A **No Left Turn** sign also bans U-turns. Never make one on an interstate.
+{{STATE}} treats a U-turn as two left turns, so a **No Left Turn** sign also bans U-turns.
 
 ## speed_limits
 
@@ -146,15 +146,15 @@ First DUI in {{STATE}}:
 
 With a passenger 17 or younger: **5 more days** in jail and **$500 to $1,000** more.
 
-**Open container:** with an opened container of alcohol in the passenger area, part of it gone, and signs you have been drinking, you can be charged with drinking while driving.
+**Open container:** with an opened container of alcohol in the passenger area, part of it gone, and signs you have been drinking, you can be charged with drinking while driving, a misdemeanor.
 
 ## underage_alcohol
 
 {{STATE}} has **zero tolerance**. A driver **under 21** with a BAC of **0.02** to under **0.08** loses the license for **one year**. The court also orders a fine of at least **$500** or at least **50 hours** of community service.
 
-Under 21, you may not buy, possess or drink alcohol. Using a **fake ID** to buy it brings a fine of at least **$500**, at least 50 hours of community service, and a license suspension of **6 months to 1 year**.
+Using a **fake ID** to buy alcohol brings a fine of at least **$500**, at least 50 hours of community service, and a license suspension of **6 months to 1 year**.
 
-Adults who give alcohol to minors face up to **$2,500** and a one-year license suspension.
+Adults who supply alcohol to minors face fines up to **$2,500**.
 
 ## phone_laws
 
@@ -192,13 +192,13 @@ Show plates on the **front and rear**, and carry the registration card. New resi
 
 ## police_stop
 
-The {{STATE}} manual adds a few steps. Turn on your flashers. Keep your seat belt on and ask passengers to keep theirs on and their hands in view. The officer may come to either side of the car.
+The {{STATE}} manual adds: turn on your flashers. Keep your seat belt on and ask passengers to keep theirs on and their hands in view. The officer may come to either side of the car.
 
 If the officer is in an unmarked car or not in uniform, you may ask for identification.
 
 You will be asked to **sign the ticket**. Signing does not admit guilt, but refusing can lead to arrest.
 
-Fleeing police who then die in the pursuit is a felony.
+Eluding police costs your license. If an officer chasing you is killed, it is a felony.
 
 ## headlight_use
 
@@ -212,13 +212,13 @@ The wiper rule carries no points, and police cannot stop you for it alone.
 
 ## driver_record
 
-{{STATE}} assigns **3, 4 or 6** demerit points per conviction. They count for **two years**.
+{{STATE}} gives **3, 4 or 6** demerit points per conviction, for **two years**.
 
-At 18 or older, **12 points in 12 months** or **18 in 24 months** means a driver improvement clinic. **18 points in 12 months** or **24 in 24 months** means a **90-day suspension** and the clinic.
+At 18 or older, **12 points in 12 months** or **18 in 24 months** means a driver improvement clinic. **18 in 12 months** or **24 in 24 months** means a **90-day suspension** too.
 
-Earn **1 safe driving point** for each full calendar year with no violations or suspensions, up to **5**. A voluntary clinic earns **5**.
+Each clean calendar year earns **1 safe driving point**, up to **5**. A voluntary clinic earns **5**.
 
-Insurance: you need the minimum liability coverage. Driving uninsured costs a **$600** fee and your license until your insurer files proof for **three years**.
+Driving uninsured: your license is suspended until you pay a **$600** fee and your insurer files proof of coverage for **three years**.
 
 ## road_test
 
