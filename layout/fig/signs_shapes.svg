@@ -36,11 +36,11 @@
   <text class="sub" x="230" y="115">Yellow</text>
   <!-- Pennant: No Passing Zone -->
   <g transform="translate(322,40)">
-    <polygon points="-42,-27 42,0 -42,27" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
-    <polygon points="-38.5,-21.5 30,0 -38.5,21.5" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linejoin="round"/>
-    <text x="-17" y="-6" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">NO</text>
-    <text x="-17" y="4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">PASSING</text>
-    <text x="-17" y="14" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ZONE</text>
+    <polygon points="-45,-31 45,0 -45,31" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="-41.5,-26 34,0 -41.5,26" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linejoin="round"/>
+    <text x="-19" y="-7" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">NO</text>
+    <text x="-19" y="3" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">PASSING</text>
+    <text x="-19" y="13" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ZONE</text>
   </g>
   <text class="lbl" x="322" y="90">Pennant</text>
   <text class="sub" x="322" y="103">No passing zone</text>
@@ -67,8 +67,8 @@
   <text class="sub" x="414" y="115">Yellow-green</text>
   <!-- Crossbuck: white X, black letters -->
   <g transform="translate(57.5,160)">
-    <g transform="rotate(35)"><rect x="-40" y="-7.5" width="80" height="15" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/><text x="0" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">CROSSING</text></g>
-    <g transform="rotate(-35)"><rect x="-40" y="-7.5" width="80" height="15" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/><text x="0" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">RAILROAD</text></g>
+    <g transform="rotate(35)"><rect x="-44" y="-7.5" width="88" height="15" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/><text x="-26" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">CROSS</text><text x="26" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ING</text></g>
+    <g transform="rotate(-35)"><rect x="-44" y="-7.5" width="88" height="15" fill="#fff" stroke="#1c1c1c" stroke-width="1.6"/><text x="-26" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">RAIL</text><text x="26" y="3.4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ROAD</text></g>
   </g>
   <text class="lbl" x="57.5" y="210">Crossbuck</text>
   <text class="sub" x="57.5" y="223">Railroad crossing</text>

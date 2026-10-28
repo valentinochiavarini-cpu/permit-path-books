@@ -14,7 +14,7 @@
     <line x1="-18.4" y1="-18.4" x2="18.4" y2="18.4" stroke="#C8102E" stroke-width="5"/>
   </g>
   <text class="lbl" x="77" y="100">No Left Turn</text>
-  <text class="sub" x="77" y="113">White square, red circle and slash</text>
+  <text class="sub" x="77" y="113">Red circle and slash</text>
   <!-- No U-Turn -->
   <g transform="translate(230,46)">
     <rect x="-34" y="-34" width="68" height="68" rx="4" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
@@ -25,7 +25,7 @@
     <line x1="-18.4" y1="-18.4" x2="18.4" y2="18.4" stroke="#C8102E" stroke-width="5"/>
   </g>
   <text class="lbl" x="230" y="100">No U-Turn</text>
-  <text class="sub" x="230" y="113">White square, red circle and slash</text>
+  <text class="sub" x="230" y="113">Red circle and slash</text>
   <!-- Keep Right: arrow passes to the right of an island -->
   <g transform="translate(383,46)">
     <rect x="-26.0" y="-35.0" width="52" height="70" rx="4" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
@@ -58,11 +58,11 @@
   <text class="sub" x="230" y="237">White rectangle, right side</text>
   <!-- No Passing Zone pennant: left side of road -->
   <g transform="translate(383,170)">
-    <polygon points="-48,-31 48,0 -48,31" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
-    <polygon points="-44,-25 36,0 -44,25" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linejoin="round"/>
-    <text x="-20" y="-8" font-size="10" font-weight="800" fill="#1c1c1c" text-anchor="middle">NO</text>
-    <text x="-20" y="4" font-size="10" font-weight="800" fill="#1c1c1c" text-anchor="middle">PASSING</text>
-    <text x="-20" y="16" font-size="10" font-weight="800" fill="#1c1c1c" text-anchor="middle">ZONE</text>
+    <polygon points="-56,-34 56,0 -56,34" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="-52,-28 43,0 -52,28" fill="none" stroke="#1c1c1c" stroke-width="2" stroke-linejoin="round"/>
+    <text x="-26" y="-7" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">NO</text>
+    <text x="-26" y="4" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">PASSING</text>
+    <text x="-26" y="15" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">ZONE</text>
   </g>
   <text class="lbl" x="383" y="224">No Passing Zone</text>
   <text class="sub" x="383" y="237">Yellow pennant, left side</text>

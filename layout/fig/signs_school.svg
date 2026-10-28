@@ -22,7 +22,7 @@
     <path d="M9.0,5.0 L14.1,10.1" fill="none" stroke="#1c1c1c" stroke-width="2.38"/>
   </g>
   <text class="lbl" x="57.5" y="136">School Zone</text>
-  <text class="sub" x="57.5" y="149">Yellow-green pentagon</text>
+  <text class="sub" x="57.5" y="149">Yellow-green</text>
   <!-- School crossing: pentagon with downward arrow plaque -->
   <g transform="translate(172.5,50)">
     <polygon points="0,-32.0 29.0,-6.399999999999999 29.0,32.0 -29.0,32.0 -29.0,-6.399999999999999" fill="#C6D52B" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/>
@@ -47,7 +47,7 @@
     </g>
   </g>
   <text class="lbl" x="172.5" y="136">School Crossing</text>
-  <text class="sub" x="172.5" y="149">Arrow plaque points down</text>
+  <text class="sub" x="172.5" y="149">Down arrow plaque</text>
   <!-- School speed limit assembly -->
   <g transform="translate(287.5,60)">
     <rect x="-27" y="-58" width="54" height="18" rx="2" fill="#C6D52B" stroke="#1c1c1c" stroke-width="1.6"/>
@@ -61,14 +61,14 @@
     <text x="0" y="51" font-size="9.5" font-weight="800" fill="#1c1c1c" text-anchor="middle">FLASHING</text>
   </g>
   <text class="lbl" x="287.5" y="136">School Speed Limit</text>
-  <text class="sub" x="287.5" y="149">White; number varies by state</text>
+  <text class="sub" x="287.5" y="149">White, with plaques</text>
   <!-- End School Zone (S5-2) -->
   <g transform="translate(402.5,62)">
-    <rect x="-27.0" y="-35.0" width="54" height="70" rx="4" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
-    <rect x="-24.0" y="-32.0" width="48" height="64" rx="2" fill="none" stroke="#1c1c1c" stroke-width="2"/>
-    <text x="0" y="-10" font-size="12" font-weight="800" fill="#1c1c1c" text-anchor="middle">END</text>
-    <text x="0" y="5" font-size="12" font-weight="800" fill="#1c1c1c" text-anchor="middle">SCHOOL</text>
-    <text x="0" y="20" font-size="12" font-weight="800" fill="#1c1c1c" text-anchor="middle">ZONE</text>
+    <rect x="-28.0" y="-35.0" width="56" height="70" rx="4" fill="#fff" stroke="#1c1c1c" stroke-width="1"/>
+    <rect x="-25.0" y="-32.0" width="50" height="64" rx="2" fill="none" stroke="#1c1c1c" stroke-width="2"/>
+    <text x="0" y="-10" font-size="11" font-weight="800" fill="#1c1c1c" text-anchor="middle">END</text>
+    <text x="0" y="5" font-size="11" font-weight="800" fill="#1c1c1c" text-anchor="middle">SCHOOL</text>
+    <text x="0" y="20" font-size="11" font-weight="800" fill="#1c1c1c" text-anchor="middle">ZONE</text>
   </g>
   <text class="lbl" x="402.5" y="136">End School Zone</text>
   <text class="sub" x="402.5" y="149">White rectangle</text>
