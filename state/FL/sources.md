@@ -78,7 +78,7 @@ Short names:
 | speed_limits | 20 / 30 / 55 / 70; max 70; min 50 on 70 roads; no buffer; points 3 and 4 | HB pp. 28, 30, 68 | 2026-10-28 |
 | speed_limits | Dangerous excessive speeding: 50+ over or 100+ mph dangerously; first: up to 30 days, $500 | SPEED | 2026-10-28 |
 | following_distance | Four seconds minimum; counting method; increase in rain, night, motorcycles, being passed; fire truck 500 ft | HB pp. 61 to 62; EXAM | 2026-10-28 |
-| hov | Left lane, 2+ occupants or hybrid/LEV with decal, form 83027, diamonds, striped buffer, designated entry points | HB p. 69 | 2026-10-28 |
+| hov | HOV statute s. 316.0741 repealed July 1, 2025 (SB 1662); no hybrid HOV decals (FLHSMV INFO 25-010); former HOV lanes run as tolled express lanes, enter and exit at marked openings | SB 1662 (ch. 2025), FLHSMV bulletin, Local10 and WUSF July 2025 | 2026-10-28 |
 | parking_rules | 15 / 20 / 20 / 30 / 50 ft; banned places; 12 inches; remove keys | HB pp. 65 to 66 | 2026-10-28 |
 | bicycle_passing | 3 ft passing and in bike lane; stay behind if not possible | STAT 316.083(2), (3) (2024) | 2026-10-28 |
 | bicycle_passing | May briefly go left of center, incl. double yellow, to pass a cyclist; yield at bike lanes | HB pp. 43 to 45, 70 | 2026-10-28 |

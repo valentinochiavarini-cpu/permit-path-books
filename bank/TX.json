@@ -1004,7 +1004,7 @@
     "id": "TX-078",
     "ch": 2,
     "quiz": false,
-    "q": "In a Texas school crossing zone with the reduced limit in effect, a driver over 18 may:",
+    "q": "In a Texas school crossing zone with the reduced limit in effect, a driver 18 or older may:",
     "a": "Hold a phone to talk",
     "b": "Use a phone only with a hands-free device, or when stopped",
     "c": "Text at low speed",
@@ -1075,7 +1075,7 @@
     "c": "Stop and wait for a green arrow or green light before making that turn",
     "d": "Treat it as a yield sign",
     "correct": "C",
-    "exp": "Texas law allows turns after a stop only on a steady red light, not on a red arrow.",
+    "exp": "The Texas turn on red law covers only a steady red light; a red arrow means do not make that turn.",
     "src": "Tex. Transp. Code 544.007"
   },
   {
@@ -1096,13 +1096,13 @@
     "ch": 4,
     "quiz": false,
     "q": "A Texas police car is stopped on the shoulder with lights flashing, on a road with two lanes in your direction. What does the law require?",
-    "a": "Leave the lane next to it, if you can do so safely",
+    "a": "Leave the lane next to it, or slow to 20 mph below the limit",
     "b": "Speed up to pass quickly",
     "c": "Stop in your lane",
     "d": "Honk to warn the officer",
     "correct": "A",
-    "exp": "On a road with two or more lanes your way, you must vacate the lane closest to the stopped vehicle.",
-    "src": "TX Driver Handbook (DL-7, rev. Jan 2026), Ch. 4, p. 23; Ch. 8, p. 46"
+    "exp": "On a road with two or more lanes your way, you must either vacate the lane closest to the stopped vehicle or slow to 20 mph below the limit.",
+    "src": "TX Driver Handbook (DL-7, rev. Jan 2026), Ch. 4, p. 23; Ch. 8, p. 46; Tex. Transp. Code 545.157(b)"
   },
   {
     "id": "TX-086",
@@ -1719,13 +1719,13 @@
     "id": "TX-133",
     "ch": 12,
     "quiz": false,
-    "q": "A Texas driver carries a 15-year-old passenger who is not belted. Who can be fined, and how much?",
+    "q": "A Texas driver carries a 14-year-old passenger who is not belted. Who can be fined, and how much?",
     "a": "The driver, $100 to $200",
     "b": "The passenger only, $25",
     "c": "No one, the passenger is a minor",
     "d": "The parent, $500",
     "correct": "A",
-    "exp": "The fine for a passenger under 17 riding unbelted is assessed to the driver.",
+    "exp": "The fine for a passenger under 17 riding unbelted is assessed to the driver; passengers are fined themselves only from age 15.",
     "src": "TX Driver Handbook (DL-7, rev. Jan 2026), Ch. 14, p. 64"
   },
   {

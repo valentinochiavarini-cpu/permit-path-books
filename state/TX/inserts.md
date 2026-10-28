@@ -12,11 +12,11 @@ In a {{STATE}} construction or maintenance work zone, traffic **fines double** w
 
 In {{STATE}}, after a full stop at a **steady red light**, you may turn **right**, and you may turn **left only from a one-way street onto another one-way street**. Yield first to pedestrians and to traffic with the green. A posted sign can forbid either turn.
 
-{{STATE}} law grants these turns only on a steady red light, not on a **red arrow**. Facing a red arrow, stop and wait for a green arrow or a green light.
+The law that grants these turns speaks only of a steady red light and says nothing about a **red arrow**. Treat a red arrow as no turn: stop and wait for a green arrow or a green light.
 
 ## move_over
 
-{{STATE}}'s Slow Down or Move Over law covers stopped police, fire and ambulance vehicles, tow trucks, utility vehicles, and TxDOT or other road work vehicles with lights on. On a road with two or more lanes your way, **leave the lane next to them**. Otherwise **slow to 20 mph below the limit**, or to 5 mph if the limit is under 25 mph. Fine: **$500 to $1,250**; a repeat within five years, $1,000 to $2,000 and possible suspension. Causing bodily injury is a Class A misdemeanor.
+{{STATE}}'s Slow Down or Move Over law covers stopped police, fire and ambulance vehicles, tow trucks, utility vehicles, and TxDOT or other road work vehicles with lights on. You must either **leave the lane next to them** (on a road with two or more lanes your way) or **slow to 20 mph below the limit**, or to 5 mph if the limit is under 25 mph. Fine: **$500 to $1,250**; a repeat within five years, $1,000 to $2,000 and possible suspension. Causing bodily injury is a Class A misdemeanor.
 
 ## school_bus
 
@@ -24,7 +24,7 @@ In {{STATE}}, stop **before reaching** a school bus showing flashing red lights,
 
 ## u_turn
 
-{{STATE}} prohibits a U-turn wherever a NO U-TURN sign is posted. State law also bars turning around on a curve or near the top of a hill where drivers coming from either direction could not see you in time.
+{{STATE}} prohibits a U-turn wherever a NO U-TURN sign is posted. State law also bars turning around on a curve or near the top of a hill where drivers coming from either direction cannot see your car from **500 feet** away.
 
 ## speed_limits
 
@@ -69,7 +69,7 @@ Park within **18 inches** of the curb. Disability space without plate or placard
 
 ## crash_reporting
 
-After a {{STATE}} crash, stop at or near the scene. If no one is hurt and the cars can be driven, move them off the main lanes to the shoulder, a frontage road or the nearest cross street. Call police if anyone is hurt or killed, a car cannot be moved, a driver leaves, or someone seems impaired. Exchange names, addresses, registration and insurance, and show your license if asked. Hit an unattended car? Find the owner or leave a written note with your name and address.
+Stop at or near the scene of a {{STATE}} crash. If no one is hurt and the cars are drivable, move them off the main lanes to a shoulder, frontage road or cross street. Call police if anyone is hurt or killed, a car cannot be moved, a driver leaves or someone seems impaired. Exchange names, addresses, insurance and registration; show your license if asked. Hit an unattended car? Find the owner or leave a note with your name and address. TxDOT keeps no driver reports; keep your own.
 
 ## bac_limits
 
@@ -98,7 +98,7 @@ An **open container** in the passenger area on a public road is illegal: up to $
 
 ## phone_laws
 
-{{STATE}} bans every driver from **reading, writing or sending electronic messages** on a handheld device while driving: up to $99 the first time, up to $200 after. Texting is allowed only while stopped or to report an emergency. In a **school crossing zone**, no handheld phone use at all. Drivers **under 18** may not use any wireless device, even hands-free, except in an emergency. Bus drivers may not use a phone with children on board.
+{{STATE}} bans every driver from **reading, writing or sending electronic messages** on a handheld device while driving: up to $99 the first time, up to $200 after. The ban does not apply while you are stopped, and hands-free (voice) use, navigation and emergency calls are allowed. In a **school crossing zone**, no handheld phone use at all. Drivers **under 18** may not use any wireless device, even hands-free, except in an emergency. Bus drivers carrying children may not use a phone unless stopped.
 
 ## seat_belts
 
@@ -110,11 +110,11 @@ In {{STATE}}, a child **under 8** must ride in a child passenger safety seat sys
 
 ## vehicle_rules
 
-{{STATE}} no longer requires a yearly safety inspection for non-commercial cars; you pay a **$7.50** inspection program fee at registration instead. **Emissions testing** is still required in 17 counties around Houston, Dallas and Fort Worth, Austin and El Paso, with Bexar County (San Antonio) being added. Carry proof of liability insurance of at least **$30,000/$60,000/$25,000**. Register a newly bought car within **30 days**. Report an address change to DPS within **30 days**. Tires need at least **2/32 inch** of tread.
+{{STATE}} no longer requires a yearly safety inspection for non-commercial cars; you pay a **$7.50** inspection program fee at registration instead. **Emissions testing** is still required in 18 counties around Houston, Dallas and Fort Worth, Austin, El Paso and San Antonio. Carry proof of liability insurance of at least **$30,000/$60,000/$25,000**. Register a newly bought car within **30 days**. Report an address change to DPS within **30 days**. Tires need at least **2/32 inch** of tread.
 
 ## road_test
 
-The {{STATE}} road test is given at a DPS office or an approved driver education school. You are graded on control, observation, lane positioning and signaling, and may be asked to parallel park (camera allowed, self-parking not), make a quick stop from about 20 mph and back about 60 feet. You fail for breaking a traffic law, refusing an instruction, dangerous driving or a crash, or losing **more than 30 points**. Bring a printed ITTD or ITAD certificate dated within **90 days**.
+Take the {{STATE}} road test at a DPS office or an approved school. You are graded on control, observation, lane positioning and signaling, and may have to parallel park (camera allowed, self-parking not), stop quickly from about 20 mph and back about 60 feet. You fail for breaking a law, refusing an instruction, dangerous driving or a crash, or losing **more than 30 points**. Only you and the examiner (plus an interpreter if needed) ride in the car. Bring a printed ITTD or ITAD certificate dated within **90 days**.
 
 ## supervised_hours
 
