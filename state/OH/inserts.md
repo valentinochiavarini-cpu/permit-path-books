@@ -18,13 +18,13 @@ In {{STATE}}, you may turn **right on a steady red light** unless a sign forbids
 
 **Left on red** is allowed only from the far left lane of a one-way street onto another one-way street, after a full stop, unless a sign forbids it.
 
-On a **steady red arrow**, do not turn. The one exception is a sign that allows a turn on the red arrow; then stop first and turn only the way the arrow points.
+On a **steady red arrow**, do not turn unless a sign allows a turn on the red arrow; then stop first and turn only the way the arrow points.
 
 ## move_over
 
 {{STATE}}'s Move Over law covers stopped vehicles with warning lights flashing: police, fire and other emergency vehicles, road service vehicles such as tow trucks, highway maintenance vehicles and snowplows, waste collection trucks, and public utility commission vehicles.
 
-On a road with two or more lanes your way, move into a lane that is not next to them if it is safe. If you cannot, slow down and pass with caution.
+On a road with two or more lanes your way, move into a lane that is not next to them if it is safe. If you cannot, slow to a safe speed and pass with caution; the law sets no number.
 
 A Move Over ticket costs **double** the usual fine.
 
@@ -40,7 +40,7 @@ Never follow a responding emergency vehicle closer than **500 feet**. Do not dri
 
 When a {{STATE}} school bus stops with **red lights** flashing, stop at least **10 feet** from its front or rear, even if it has no stop arm. Stay stopped until the bus moves or the driver signals you on.
 
-On a road with **fewer than four lanes**, traffic from both directions stops. On a road with **four or more lanes**, only traffic going the same direction as the bus stops.
+With **fewer than four lanes**, traffic from both directions stops. With **four or more lanes**, only traffic going the bus's direction stops.
 
 Passing a stopped bus: up to **$500**, a court appearance and a possible suspension of up to **one year**.
 
@@ -135,7 +135,7 @@ Testing 0.08 or higher brings a **90-day** suspension the first time. Reinstatem
 
 A first OVI in {{STATE}} brings:
 
-- **3 days** in jail, or a 72-hour driver intervention program, at minimum. At a BAC of 0.17 or more: 3 days in jail **plus** the program.
+- At least **3 days** in jail or a 72-hour driver intervention program. At a BAC of 0.17 or more: 3 days in jail **plus** the program.
 - A fine of **$565 to $1,075**.
 - A license suspension of **1 to 3 years**, with limited driving or an ignition interlock possible.
 
@@ -143,21 +143,21 @@ No driver or passenger may have an **opened container** of beer or liquor in a v
 
 ## underage_alcohol
 
-A {{STATE}} driver **under 21** with a BAC of **0.02** up to 0.08 commits **OVUAC**, operating after underage alcohol consumption: a suspension of **3 months to 2 years**, a remedial driving course, a new license exam and possibly jail.
+A driver **under 21** with a BAC from **0.02** to under 0.08 commits **OVUAC**, operating after underage alcohol consumption: a suspension of **3 months to 2 years**, a remedial driving course, a new license exam and possibly jail.
 
-Under 21, buying, holding or drinking alcohol is a crime. Under 18 and in a vehicle, you also lose your permit or license for **6 months to 1 year**. Using a false ID to buy alcohol: **$250 to $1,000**. Adults who furnish alcohol to minors: **$500 to $1,000**.
+Under 21, buying, holding or drinking alcohol is a crime. Under 18 and in a vehicle, you also lose your permit or license for **6 months to 1 year**. A false ID to buy alcohol: **$250 to $1,000**. Furnishing alcohol to anyone under 21: **$500 to $1,000**.
 
 ## phone_laws
 
-In {{STATE}}, drivers 18 and older may not hold, support or type on a phone or other device while driving. Hands-free calls, navigation and music are fine if you only tap or swipe once to start or stop them. You may always call 911 in an emergency.
+In {{STATE}}, drivers 18 and older may not hold, support or type on a phone or other device while driving. Hands-free calls, navigation and music are fine, and you may hold a phone to your ear for a call, if one tap or swipe starts and ends it. You may always call 911.
 
-| Offense within 2 years | Fine | Points |
+| Offense in 2 years | Fine | Points |
 |---|---|---|
 | First | Up to $150 | 2 |
 | Second | Up to $250 | 3 |
 | Third or more | Up to $500 | 4 |
 
-A third offense may also bring a 90-day suspension. Fines double in work zones.
+A first offender may take a distracted driving course instead of the fine and points. A third offense may bring a 90-day suspension. Fines double in work zones.
 
 ## seat_belts
 
@@ -213,19 +213,19 @@ In fog, use low beams, not high beams.
 | 6 | Warning letter |
 | 12 | **6-month** suspension |
 
-To get your license back after a 12-point suspension, you finish a remedial driving course, file proof of high-risk insurance (an **SR-22**) and pay fees.
+To get your license back after a 12-point suspension, finish a remedial driving course, pay fees and file an **SR-22**: not insurance, but a form proving your insurance meets the minimum.
 
-Most moving violations cost **2** points. Reckless driving or going 30 mph or more over costs **4**. OVI, fleeing police or leaving a crash scene costs **6**.
+Most moving violations cost **2** points. Reckless driving or going 30 mph or more over: **4**. OVI, fleeing police or leaving a crash scene: **6**.
 
 With 2 to 11 points, a remedial driving course earns a **2-point credit**, once every three years.
 
 ## road_test
 
-The {{STATE}} driving test has two parts. In the **maneuverability test**, you drive forward through a **9 by 20 foot** box of markers, stop beside the center marker, then back out through it. Knocking down, running over or moving a marker fails you at once.
+Schedule the test online or at a Driver Exam Station. Both front doors must open from inside and outside.
 
-Then comes the **on-road test**. You may lose up to **25 points** on each part and still pass.
+**Maneuverability:** drive forward through a **9 by 20 foot** box of markers. Stop with your rear bumper even with the center marker, then back up until your front bumper is even with the two rear markers. Knocking down, running over or moving a marker fails you at once.
 
-Under 21, you wait **two days** to retest. At 21 or older, a first failure means an Abbreviated Adult Driver Training Course before the second try.
+Then comes the **on-road test**. Lose no more than **25 points** on each part to pass. Chapter 1 gives the retest rules.
 
 ## supervised_hours
 

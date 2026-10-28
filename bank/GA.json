@@ -917,8 +917,7 @@
     "d": "There are two sets of tracks to cross",
     "correct": "D",
     "exp": "A sign below the crossbuck shows the number of tracks, so look for a second train.",
-    "src": "GA DDS Drivers' Manual, Section 7, Guide Signs, p. 32",
-    "img": "sq_crossbuck"
+    "src": "GA DDS Drivers' Manual, Section 7, Guide Signs, p. 32"
   },
   {
     "id": "GA-071",

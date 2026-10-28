@@ -4365,7 +4365,7 @@
   "c": "Daytime running lights are not enough, because they may leave your taillights off",
   "d": "Using low beams in daytime rain is illegal",
   "correct": "C",
-  "exp": "Daytime running lights often light only the front of the car. Use your headlights from sunset to sunrise and whenever it is hard to see.",
+  "exp": "Daytime running lights often light only the front of the car. Use your headlights at night and whenever it is hard to see.",
   "src": "Uniform Vehicle Code 12-201; state driver manuals, headlight use"
  },
  {
