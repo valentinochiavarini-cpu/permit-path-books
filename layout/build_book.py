@@ -237,17 +237,18 @@ missing_figs = [f for f in used if not (HERE / "fig" / f"{f}.svg").exists()]
 if missing_figs:
     errors.append(f"missing figure files: {missing_figs}")
 used = [f for f in used if f not in missing_figs]
+FIGOUT = OUT / "fig"; FIGOUT.mkdir(exist_ok=True)
 if used:
     for f in used:
-        (HERE / f"_fig_{f}.html").write_text(f'<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="book.css"></head><body style="margin:0;background:#fff">{(HERE / "fig" / f"{f}.svg").read_text()}</body></html>')
-    shots = "".join(f"await p.goto('file://{HERE}/_fig_{f}.html'); await p.evaluate(() => document.fonts.ready); await p.locator('svg').first().screenshot({{ path: '{HERE}/fig/{f}.png' }});" for f in used)
+        (HERE / f"_fig_{stem}_{f}.html").write_text(f'<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="book.css"></head><body style="margin:0;background:#fff">{(HERE / "fig" / f"{f}.svg").read_text()}</body></html>')
+    shots = "".join(f"await p.goto('file://{HERE}/_fig_{stem}_{f}.html'); await p.evaluate(() => document.fonts.ready); await p.locator('svg').first().screenshot({{ path: '{FIGOUT}/{f}.png' }});" for f in used)
     js = f"""const {{ chromium }} = require('playwright');
 (async () => {{ const b = await chromium.launch({{ executablePath: '/opt/pw-browsers/chromium' }});
 const p = await b.newPage({{ deviceScaleFactor: 2 }}); {shots} await b.close(); }})();"""
     subprocess.run(["node", "-e", js], check=True, cwd=HERE)
     for f in used:
-        (HERE / f"_fig_{f}.html").unlink(missing_ok=True)
-emd = re.sub(r"\]\(fig/([a-z0-9_]+)\.svg\)", lambda m: f"]({HERE}/fig/{m.group(1)}.png)", emd)
+        (HERE / f"_fig_{stem}_{f}.html").unlink(missing_ok=True)
+emd = re.sub(r"\]\(fig/([a-z0-9_]+)\.svg\)", lambda m: f"]({FIGOUT}/{m.group(1)}.png)", emd)
 (OUT / f"{stem}_ebook.md").write_text(emd)
 meta = ["--metadata", f"title={state} Drivers Ed Book", "--metadata", "subtitle=Driver's License Handbook and Permit Practice Test Book for Teens and First-Time Drivers",
         "--metadata", "author=Permit Path", "--metadata", "publisher=Permit Path", "--metadata", "lang=en-US"]
