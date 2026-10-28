@@ -27,7 +27,7 @@ Short names for URLs:
 | Level 1 permit hold: nine months (was 12 until January 1, 2024) | GS 20-11(d)(1); SL2023-13; L2 | 2026-10-28 |
 | Level 1: first 6 months 5 a.m. to 9 p.m. supervised, then any hour supervised | GS 20-11(c); L1 | 2026-10-28 |
 | Supervisor: parent, grandparent, guardian or approved adult, licensed 5 years, beside driver; no one else in front seat | GS 20-11(k); HB Ch. 1; L1 | 2026-10-28 |
-| Driving log: 60 hours, 10 at night, max 10 per week, falsified log means new log and 6 month wait; printed log | GS 20-11(d)(5); L2 | 2026-10-28 |
+| Driving log: 60 hours, 10 at night, max 10 per week, signed by supervisor, falsified log means new log and 6 month wait; printed or digital copy accepted | GS 20-11(d)(5); L2 ("digital and printed copies accepted", rechecked 2026-10-28) | 2026-10-28 |
 | Night driving defined as after sunset when daylight is gone | HB Ch. 1 | 2026-10-28 |
 | No moving, seat belt or phone violation in prior 6 months (Level 2 and 3) | GS 20-11(d)(2), (f)(2) | 2026-10-28 |
 | Level 2: unsupervised 5 a.m. to 9 p.m.; work and volunteer fire, rescue, EMS exceptions | GS 20-11(e); L2 | 2026-10-28 |

@@ -38,7 +38,7 @@ After they pass, stay at least **200 feet** behind a fire truck or other emergen
 
 In {{STATE}}, when a school bus shows **flashing red lights** and its stop arm, traffic from **both directions** must stop before reaching it. This includes multi-lane roads and roads with a center turn lane.
 
-The only exception: on a highway split by a **grass median, unpaved area or barrier**, traffic on the other side need not stop. The law sets no exact distance; stop well back.
+The main exception: on a highway split by a **grass median, unpaved area or barrier**, traffic on the other side need not stop. The law sets no exact distance; stop well back.
 
 Stay stopped until the bus moves or turns off its lights. Penalty: a fine of at least **$1,000** and **6 points**.
 
@@ -117,18 +117,18 @@ You can also be convicted below these numbers if alcohol or drugs make you unsaf
 
 By driving in {{STATE}}, you agree to state tests of your blood, breath, urine or other bodily substances when police suspect DUI.
 
-Refuse, and your license is suspended for at least **one year**. Your refusal can be used as evidence at trial.
+Refuse, and your license is suspended for at least **one year**. Refusing a blood or urine test can be used as evidence at trial.
 
 After you take the state's test, you may get your **own test** from qualified people you choose, at your own cost.
 
 ## dui_penalties
 
-A first DUI conviction in {{STATE}}:
+A first DUI conviction in {{STATE}}, age 21 or older:
 
 | Penalty | Amount |
 |---|---|
 | Fine | $300 to $1,000 |
-| Jail | 10 days to 12 months (all but 24 hours may be suspended) |
+| Jail | 10 days to 12 months (at 0.08 or more, at least 24 hours served) |
 | Community service | At least 40 hours |
 | License | 12 months suspended; early reinstatement possible after 120 days |
 

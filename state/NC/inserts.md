@@ -53,7 +53,7 @@ When a {{STATE}} school bus shows **flashing red lights** or its **stop arm**:
 
 The law sets no distance. Stay stopped until the arm folds, the lights stop and the bus moves.
 
-Passing a stopped bus: **5 points** and at least **$500**. Twice within three years: **one-year** revocation.
+Passing a stopped bus: **5 points**, at least **$500**. Twice within three years: **one-year** revocation.
 
 ## u_turn
 
@@ -76,7 +76,7 @@ In a single-lane roundabout, a U-turn means going all the way around the circle.
 
 Speeding **over 55 mph** adds **3 points**; most other speeding adds **2**.
 
-Going **more than 15 mph over** the limit, or **over 80 mph**, is a crime. At a speed above 55, going more than 15 over also costs your license for at least **30 days**.
+Going **more than 15 mph over** the limit, or **over 80 mph**, is a crime. Either one, at a speed above 55, also costs your license for at least **30 days**.
 
 ## following_distance
 
@@ -160,7 +160,7 @@ Before the test you may call a lawyer and pick a witness, but the test will not 
 
 A first conviction also revokes your license for **one year**. A BAC of **0.15** or more means an ignition interlock.
 
-**Open containers:** no one may hold or drink from an open container of alcohol in the passenger area, glove box included, on the road. Paid transport passengers are exempt.
+**Open containers:** no one may keep or drink from an open container of alcohol in the passenger area, glove box included, on the road. Paid transport passengers are exempt.
 
 ## underage_alcohol
 
@@ -250,9 +250,9 @@ Insurance companies keep a separate point system, which can raise your rates.
 
 ## road_test
 
-The {{STATE}} road test includes a **quick stop**, **backing** and a **three-point turnabout**, plus turns, lanes, signals and yielding.
+The {{STATE}} road test includes a **quick stop** (stopping as fast as you safely can when told), **backing** and a **three-point turnabout**, plus turns, lanes, signals and yielding.
 
-Bring your own car with its registration card and printed proof of insurance. The car must pass a pre-trip safety check first. Under 18, a parent or guardian must be present, and you may test at an NCDMV office or a certified driving school.
+Bring your own car, its registration and printed proof of insurance. The car must pass a pre-trip safety check first. Under 18, a parent or guardian must be present, and you may test at an NCDMV office or a certified driving school.
 
 If you do not pass, you may retest after **seven calendar days**.
 
@@ -266,7 +266,7 @@ If you do not pass, you may retest after **seven calendar days**.
 | At night | At least 10 |
 | Most that count in one week | 10 |
 
-Night hours count toward the 60. Your supervisor signs the log, and you hand in a printed copy. The supervisor must be your parent, grandparent, guardian or an approved adult, licensed at least **five years**, seated beside you. You must also hold the permit **nine months**.
+Night hours count toward the 60. Your supervisor signs the log; NCDMV takes a printed or digital copy. The supervisor must be your parent, grandparent, guardian or an approved adult, licensed at least **five years**, seated beside you. You must also hold the permit **nine months**.
 
 ## signal_distance
 

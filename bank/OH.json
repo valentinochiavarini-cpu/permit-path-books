@@ -159,14 +159,14 @@
   "id": "OH-013",
   "ch": 1,
   "quiz": false,
-  "q": "Which form does your supervising adult sign to certify your 50 practice hours?",
+  "q": "Which form does your parent or guardian sign to certify your 50 practice hours?",
   "a": "BMV 5789, the Twenty-Four Hour Affidavit",
   "b": "BMV 5791, the Fifty-Hour Affidavit",
   "c": "BMV 2825, the employer statement",
   "d": "BMV 3303, the Crash Report",
   "correct": "B",
   "exp": "The notarized BMV 5791 certifies the 50 hours and goes to the driving test and the license purchase.",
-  "src": "Ohio Driver Manual (HSY 7607 10/25), Sec. 12, p. 45; BMV, Driver License and ID Cards (ohiobmv.gov/dl-gdl.aspx)"
+  "src": "Ohio Driver Manual (HSY 7607 10/25), Sec. 12, p. 45; Ohio Revised Code 4507.21(B)(2), (I) (codes.ohio.gov); BMV, Driver License and ID Cards (ohiobmv.gov/dl-gdl.aspx)"
  },
  {
   "id": "OH-014",

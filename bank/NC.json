@@ -587,7 +587,7 @@
  {
   "id": "NC-046",
   "ch": 2,
-  "quiz": true,
+  "quiz": false,
   "q": "On the sign test you see a red, eight-sided sign. What does it mean?",
   "a": "Slow down and yield",
   "b": "Do not enter",
@@ -746,7 +746,7 @@
   "d": "A truck route",
   "correct": "C",
   "exp": "Brown signs mark recreation and cultural sites.",
-  "src": "MUTCD 11th ed., Sec. 2A.10"
+  "src": "MUTCD 11th ed., Sec. 2A.06, Table 2A-2"
  },
  {
   "id": "NC-058",
@@ -759,7 +759,7 @@
   "d": "A crash or incident scene ahead",
   "correct": "D",
   "exp": "Fluorescent pink is used for temporary incident management.",
-  "src": "MUTCD 11th ed., Sec. 2A.10"
+  "src": "MUTCD 11th ed., Sec. 2A.06, Table 2A-2; Sec. 6H.01"
  },
  {
   "id": "NC-059",
@@ -944,7 +944,7 @@
  {
   "id": "NC-072",
   "ch": 2,
-  "quiz": false,
+  "quiz": true,
   "q": "A stop sign has a white plaque below it reading EXCEPT RIGHT TURN. What does it mean?",
   "a": "Only drivers turning right must stop",
   "b": "Drivers turning right need not stop; all others must stop",
@@ -1382,14 +1382,14 @@
   "id": "NC-105",
   "ch": 6,
   "quiz": false,
-  "q": "A driver going faster than 55 mph is convicted of going more than 15 mph over the limit. The license is revoked for at least:",
+  "q": "A driver going faster than 55 mph is convicted of going more than 15 mph over the limit. The license is taken for at least:",
   "a": "7 days",
   "b": "90 days",
   "c": "One year",
   "d": "30 days",
   "correct": "D",
   "exp": "That conviction brings a revocation of at least 30 days.",
-  "src": "NC Driver Handbook (rev. May 2025), Ch. 3, Suspensions"
+  "src": "G.S. 20-16.1(a); NC Driver Handbook (rev. May 2025), Ch. 3, Suspensions"
  },
  {
   "id": "NC-106",
@@ -1402,7 +1402,7 @@
   "d": "45 mph",
   "correct": "A",
   "exp": "S.L. 2026-46 sets 25 mph on unpaved roads and roads without a center line.",
-  "src": "S.L. 2026-46, s. 17; G.S. 20-141(b)(3)",
+  "src": "S.L. 2026-46, s. 17 (amends G.S. 20-141(b), effective December 1, 2026)",
   "app_only": true
  },
  {

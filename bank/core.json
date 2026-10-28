@@ -2882,13 +2882,13 @@
   "id": "C07-031",
   "ch": 7,
   "quiz": true,
-  "q": "On a two-lane road, within what distance of an intersection or a railroad crossing should you never pass?",
+  "q": "In most states, within what distance of an intersection or a railroad crossing may you not pass on a two-lane road?",
   "a": "25 feet",
   "b": "50 feet",
   "c": "100 feet",
-  "d": "500 feet",
+  "d": "200 feet",
   "correct": "C",
-  "exp": "Do not pass within 100 feet of an intersection, a railroad crossing, a bridge, a viaduct or a tunnel.",
+  "exp": "Most states ban passing within 100 feet of an intersection, a railroad crossing, a bridge, a viaduct or a tunnel.",
   "src": "Uniform Vehicle Code (NCUTLO) 11-306; PennDOT Driver's Manual, Chapter 3, https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/turning-merging-and-passing; New York State Driver's Manual, Chapter 6 Passing, https://dmv.ny.gov/about-dmv/chapter-6-passing"
  },
  {

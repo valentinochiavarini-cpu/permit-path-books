@@ -737,14 +737,14 @@
     "id": "GA-057",
     "ch": 2,
     "quiz": false,
-    "q": "A white rectangle shows a black arrow and the words ONE WAY. What does it mean?",
+    "q": "A black rectangle shows a white arrow with the words ONE WAY. What does it mean?",
     "a": "Traffic may travel only in the direction of the arrow",
     "b": "The road narrows to one lane",
     "c": "You must turn in the direction of the arrow now",
     "d": "Only one car at a time may pass",
     "correct": "A",
     "exp": "A One Way sign means you may travel only in the direction the arrow points.",
-    "src": "GA DDS Drivers' Manual, Section 7, Regulatory Signs, p. 29",
+    "src": "GA DDS Drivers' Manual, Section 7, Regulatory Signs, p. 29; MUTCD One Way sign R6-1",
     "img": "sq_one_way"
   },
   {
@@ -1793,8 +1793,8 @@
     "c": "Your license is suspended for at least one year",
     "d": "You get a warning for a first refusal",
     "correct": "C",
-    "exp": "Refusal brings a license suspension of at least one year, and it can be used as evidence at trial.",
-    "src": "O.C.G.A. 40-5-67.1; GA DDS Drivers' Manual, Section 10, Implied Consent, p. 47"
+    "exp": "Refusal brings a license suspension of at least one year, and refusing a blood or urine test can be used as evidence at trial.",
+    "src": "O.C.G.A. 40-5-67.1; GA DDS Drivers' Manual, Section 10, Implied Consent, p. 47; Elliott v. State (Ga. Supreme Court): breath test refusal not admissible"
   },
   {
     "id": "GA-138",
