@@ -21,8 +21,14 @@ parts = []
 for p in a.part:
     f = p.split("|")
     parts.append({"name": f[0], "size": int(f[1]), "pass": f[2], "chapters": [int(x) for x in f[3].split(",")] if len(f) > 3 and f[3] else []})
-if not parts:
-    parts = [{"name": "", "size": a.size, "pass": a.pass_text, "chapters": []}]
+single = not parts
+if single:  # one scored test: still reserve about 20 percent road sign questions (chapter 2), mixed in
+    n_sign = max(3, round(a.size * 0.2))
+    out_parts = [{"name": "", "size": a.size, "pass": a.pass_text, "chapters": []}]
+    parts = [{"name": "signs", "size": n_sign, "pass": "", "chapters": [2]},
+             {"name": "", "size": a.size - n_sign, "pass": a.pass_text, "chapters": []}]
+else:
+    out_parts = parts
 restricted = {c for p in parts for c in p["chapters"]}
 
 def spread(pool, n):
@@ -57,6 +63,9 @@ def build():
             rng.shuffle(s)
             used.update(r["id"] for r in s)
             mocks[k] += s
+    if single:
+        for m in mocks:
+            rng.shuffle(m)
     return mocks
 
 def balanced(ms):
@@ -70,6 +79,7 @@ for tries in range(500):
         break
 print('seed', a.seed + tries, '(balanced)' if balanced(mocks) else '(no balanced seed found)')
 
+parts = out_parts
 total = sum(p["size"] for p in parts)
 out = {"size": total, "pass": a.overall or parts[0]["pass"] if len(parts) == 1 else a.overall or "; ".join(f"for {p['name']}, {p['pass']}" for p in parts),
        "mock1": [r["id"] for r in mocks[0]], "mock2": [r["id"] for r in mocks[1]]}

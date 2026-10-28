@@ -41,7 +41,8 @@ bank = load(ROOT / "bank" / "core.json") + (load(ROOT / "bank" / f"{code}.json")
 byid = {r["id"]: r for r in bank}
 
 def q_md(n, r):
-    return f"**{n}. {r['q']}**\n\nA) {r['a']}  \nB) {r['b']}  \nC) {r['c']}  \nD) {r['d']}\n"
+    img = f"![](fig/{r['img']}.svg)\n\n" if r.get("img") else ""
+    return f"**{n}. {r['q']}**\n\n{img}A) {r['a']}  \nB) {r['b']}  \nC) {r['c']}  \nD) {r['d']}\n"
 
 def a_md(n, r):
     return f"**{n}. {r['correct']}.** {r['exp'].strip()}\n"
@@ -49,7 +50,11 @@ def a_md(n, r):
 QUIZ_ANS = []
 
 def quiz(ch):
-    rows = [r for r in bank if r["ch"] == ch and r.get("quiz")]
+    # Chapter quiz = up to 3 state questions flagged quiz for this chapter + core quiz questions in bank order (10 total).
+    is_core = lambda r: re.match(r"C\d", r["id"])
+    st_rows = [r for r in bank if r["ch"] == ch and r.get("quiz") and not is_core(r)][: (10 if ch == 1 else 3)]
+    core_rows = [r for r in bank if r["ch"] == ch and r.get("quiz") and is_core(r)]
+    rows = core_rows[: 10 - len(st_rows)] + st_rows
     if len(rows) != 10:
         errors.append(f"Chapter {ch}: {len(rows)} quiz questions in the bank, expected 10")
     qs = "\n".join(q_md(i + 1, r) for i, r in enumerate(rows))
@@ -125,6 +130,13 @@ mds.append(mocks_md())
 mds.append((ROOT / "core" / "95_driving_log.md").read_text())
 full = "\n\n".join(mds)
 full = fill_inserts(full)
+# Generic hedges: [[generic]]...[[/generic]] is text for the multi-state core preview only; a state edition drops it.
+if code:
+    full = re.sub(r"[ \t]?\[\[generic\]\].*?\[\[/generic\]\]", "", full, flags=re.S)
+else:
+    full = re.sub(r"\[\[/?generic\]\]", "", full)
+if "[[" in full and re.search(r"\[\[/?generic", full):
+    errors.append("unbalanced [[generic]] marker")
 if state[:1] in "AEIOU":  # "a {{STATE}}" -> "an Illinois", "an Ohio"
     full = re.sub(r"\b([Aa]) \{\{STATE\}\}", lambda m: m.group(1) + "n " + state, full)
 full = full.replace("{{STATE}}", state)
@@ -205,6 +217,11 @@ pages = render(assemble({}))
 pages2 = render(assemble(pages))
 if pages != pages2:
     errors.append("contents page numbers shifted between passes")
+# Final pass without the invisible page markers, so they do not appear in the PDF text layer
+MARK = re.compile(r'<span class="tocm">@@TOC:k\d+@@</span>')
+_final = MARK.sub("", assemble(pages2))
+html_parts[:] = [MARK.sub("", h) for h in html_parts]
+render(_final)
 
 # ---------- EPUB ----------
 emd = full.replace("{{APP_BOX}}", APP_MD)

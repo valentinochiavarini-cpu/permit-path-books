@@ -5,6 +5,8 @@ import json, sys, re, collections
 KEYS = {"id", "ch", "quiz", "q", "a", "b", "c", "d", "correct", "exp", "src"}
 BANNED = [r"\ball of the above\b", r"\bnone of the above\b", r"\bboth [abcd] and [abcd]\b", "—", "–", r"\bInkwise\b", r"\bDaniel Hart\b"]
 errors, warns = [], []
+import pathlib
+_IMG = pathlib.Path(__file__).resolve().parent.parent / 'layout' / 'fig'
 for path in sys.argv[1:]:
     rows = json.load(open(path))
     core = path.endswith("core.json")
@@ -35,6 +37,15 @@ for path in sys.argv[1:]:
         q = sum(1 for r in rs if r["quiz"])
         if core and (len(rs) < 30 or q != 10):
             errors.append(f"{path} ch{ch}: {len(rs)} questions, {q} quiz (need 30+ and exactly 10 quiz)")
+        if not core and ch == 1 and q != 10:
+            errors.append(f"{path} ch1: {q} quiz questions (need exactly 10)")
+        if not core and ch >= 2 and q > 3:
+            errors.append(f"{path} ch{ch}: {q} quiz questions (at most 3 state questions per chapter quiz)")
+        for r in rs:
+            if r.get("img") and not (_IMG / f"{r['img']}.svg").exists():
+                errors.append(f"{r['id']}: image layout/fig/{r['img']}.svg not found")
+            if r.get("quiz") and r.get("app_only"):
+                errors.append(f"{r['id']}: a quiz question cannot be app_only")
         letters = collections.Counter(r["correct"] for r in rs)
         top = max(letters.values()) / len(rs)
         if len(rs) >= 20 and top > 0.35:

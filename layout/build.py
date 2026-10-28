@@ -39,7 +39,8 @@ def md_to_html(md):
     def fig(m):
         cap = m.group(2) if m.lastindex and m.lastindex >= 2 and m.group(2) else ""
         cap_html = f'<div class="fig-cap">{cap}</div>' if cap.strip() else ""
-        return f'<div class="fig">{scope_svg(m.group(1))}{cap_html}</div>'
+        cls = "fig sq" if m.group(1).startswith("sq_") else "fig"
+        return f'<div class="{cls}">{scope_svg(m.group(1))}{cap_html}</div>'
     out = re.sub(r'<figure>\s*<img src="fig/([a-z0-9_]+\.svg)"[^>]*>\s*<figcaption[^>]*>(.*?)</figcaption>\s*</figure>', fig, out, flags=re.S)
     out = re.sub(r'<p>\s*<img src="fig/([a-z0-9_]+\.svg)"[^>]*>\s*</p>', fig, out)
 

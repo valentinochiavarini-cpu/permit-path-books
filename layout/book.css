@@ -111,3 +111,7 @@ section.part h1 { font-family: "Inter"; font-weight: 800; font-size: 19pt; line-
 .log tbody td { height: 0.28in; }
 section.part { page: back; }
 @page back:right { @top-right { content: "PERMIT PATH"; letter-spacing: 0.16em; } }
+
+/* sign picture inside a quiz or mock question */
+.fig.sq { margin: 2pt 0 4pt 0; text-align: left; }
+.fig.sq svg { width: 0.85in; height: auto; display: inline-block; }

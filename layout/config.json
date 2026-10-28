@@ -41,7 +41,12 @@
     "road_test",
     "supervised_hours",
     "signal_distance",
-    "headlight_dimming"
+    "headlight_dimming",
+    "emergency_vehicles",
+    "headlight_use",
+    "police_stop",
+    "underage_alcohol",
+    "driver_record"
   ],
   "state_names": {
     "AL": "Alabama",

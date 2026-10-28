@@ -36,7 +36,13 @@ Length: 2,200 to 3,500 words per chapter before the quiz (the 6 x 9 page holds a
 
 ## Insert file format (`state/XX/inserts.md`)
 One section per key: `## key` followed by 90 words or fewer (1 to 3 short paragraphs or a small table), written as a callout-ready block (the build wraps it in a "{{STATE}} rule" box). Use `OMIT` as the whole body if the state has no special rule; the build then removes the marker. Every key in this list must exist in every state file; the build fails otherwise:
-school_zone, work_zone, turn_on_red, move_over, school_bus, u_turn, speed_limits, following_distance, hov, parking_rules, bicycle_passing, crash_reporting, bac_limits, implied_consent, dui_penalties, phone_laws, seat_belts, child_restraints, vehicle_rules, road_test, supervised_hours, signal_distance, headlight_dimming.
+school_zone, work_zone, turn_on_red, move_over, school_bus, u_turn, speed_limits, following_distance, hov, parking_rules, bicycle_passing, crash_reporting, bac_limits, implied_consent, dui_penalties, phone_laws, seat_belts, child_restraints, vehicle_rules, road_test, supervised_hours, signal_distance, headlight_dimming, emergency_vehicles, headlight_use, police_stop, underage_alcohol, driver_record.
+
+## Generic hedges
+Text wrapped in `[[generic]]...[[/generic]]` prints only in the multi-state core preview; state editions drop it (see `briefs/UPGRADE_BRIEF.md`).
+
+## Chapter quizzes
+A state edition's chapter quiz = the first 7 core questions flagged `quiz` for that chapter (bank order) + up to 3 state questions flagged `quiz` for that chapter (state banks: exactly 10 for ch 1, at most 3 for each of ch 2 to 13). With fewer state questions, more core questions fill the 10. Questions may carry `"img": "sq_name"` to print a single-sign picture (`layout/fig/sq_name.svg`) above the options.
 
 ## Figures
 All 35 figures are part of the core (`layout/fig/*.svg`, rules in `briefs/FIGURES_BRIEF.md`), placed with `![Caption.](fig/name.svg)` lines in core chapters. They print in full MUTCD color (Amazon converts the paperback to B&W), so every meaningful color is named in a label or caption. State editions add no figures.
