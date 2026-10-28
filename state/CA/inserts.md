@@ -66,7 +66,7 @@ Park within **18 inches** of the curb. Curb colors: red, no stopping; yellow, lo
 
 ## bicycle_passing
 
-In {{STATE}}, if another lane in your direction is open, **change lanes** to pass a bicyclist when it is safe. If you stay in the same lane, give at least **3 feet** of space. If you cannot give 3 feet, slow down and wait. Before a right turn, you may enter a bike lane no more than **200 feet** before the corner, after checking for cyclists.
+In {{STATE}}, if another lane in your direction is open, **change lanes** to pass a bicyclist when it is safe. If you stay in the same lane, give at least **3 feet** of space. If you cannot give 3 feet, slow down and wait. Before a right turn, you may enter a bike lane no more than **200 feet** before the corner, after checking for cyclists. Motorcyclists may also legally ride between lanes of traffic (**lane splitting**). Check your mirrors for them and never drift over to block one.
 
 ## crash_reporting
 

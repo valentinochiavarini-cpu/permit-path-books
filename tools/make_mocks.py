@@ -6,7 +6,7 @@ Split test:     make_mocks.py XX --part "Road Signs|10|all 10 correct|2" --part 
   leave it out for "any chapter except the restricted ones of other parts".
 About 60 percent core, 40 percent state questions (a part limited to chapters uses whatever the pool holds,
 state first); never a chapter-quiz question; no repeats; spread across chapters. Writes state/XX/mocks.json."""
-import json, sys, random, pathlib, collections, argparse
+import json, sys, random, pathlib, collections, argparse, re
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ap = argparse.ArgumentParser()
 ap.add_argument("code"); ap.add_argument("size", nargs="?", type=int); ap.add_argument("pass_text", nargs="?")
@@ -38,24 +38,37 @@ def spread(pool, n):
                 out.append(by[c].pop())
     return out
 
-used, mocks = set(), [[], []]
-for p in parts:
-    ok = (lambda r: r["ch"] in p["chapters"]) if p["chapters"] else (lambda r: r["ch"] not in restricted)
-    for k in range(2):
-        sp = [r for r in st if ok(r) and r["id"] not in used]
-        cp = [r for r in core if ok(r) and r["id"] not in used]
-        n_state = round(p["size"] * 0.4)
-        if p["chapters"]:  # small core pool: use state questions only for what the core cannot cover
-            n_state = min(max(n_state, p["size"] - len(cp) // (2 - k)), len(sp), p["size"])
-        s = spread(sp, n_state)
-        s += spread(cp, p["size"] - len(s))
-        if len(s) < p["size"]:
-            s += spread([r for r in sp if r not in s], p["size"] - len(s))
-        if len(s) < p["size"]:
-            sys.exit(f"Not enough questions for part '{p['name']}' mock {k + 1}: {len(s)} of {p['size']}. Add state questions in chapters {p['chapters']}.")
-        rng.shuffle(s)
-        used.update(r["id"] for r in s)
-        mocks[k] += s
+def build():
+    used, mocks = set(), [[], []]
+    for p in parts:
+        ok = (lambda r: r["ch"] in p["chapters"]) if p["chapters"] else (lambda r: r["ch"] not in restricted)
+        for k in range(2):
+            sp = [r for r in st if ok(r) and r["id"] not in used]
+            cp = [r for r in core if ok(r) and r["id"] not in used]
+            n_state = round(p["size"] * 0.4)
+            if p["chapters"]:  # small core pool: use state questions only for what the core cannot cover
+                n_state = min(max(n_state, p["size"] - len(cp) // (2 - k)), len(sp), p["size"])
+            s = spread(sp, n_state)
+            s += spread(cp, p["size"] - len(s))
+            if len(s) < p["size"]:
+                s += spread([r for r in sp if r not in s], p["size"] - len(s))
+            if len(s) < p["size"]:
+                sys.exit(f"Not enough questions for part '{p['name']}' mock {k + 1}: {len(s)} of {p['size']}. Add state questions in chapters {p['chapters']}.")
+            rng.shuffle(s)
+            used.update(r["id"] for r in s)
+            mocks[k] += s
+    return mocks
+
+def balanced(ms):
+    # every answer letter at least 15 percent of each mock
+    return all(min(collections.Counter(r['correct'] for r in m).get(L, 0) for L in 'ABCD') >= 0.15 * len(m) for m in ms)
+
+for tries in range(500):
+    rng = random.Random(a.seed + tries)
+    mocks = build()
+    if balanced(mocks):
+        break
+print('seed', a.seed + tries, '(balanced)' if balanced(mocks) else '(no balanced seed found)')
 
 total = sum(p["size"] for p in parts)
 out = {"size": total, "pass": parts[0]["pass"] if len(parts) == 1 else "; ".join(f"for {p['name']}, {p['pass']}" for p in parts),
@@ -64,4 +77,4 @@ if len(parts) > 1:
     out["parts"] = [{"name": p["name"], "size": p["size"], "pass": p["pass"]} for p in parts]
 (ROOT / f"state/{code}/mocks.json").write_text(json.dumps(out, indent=1))
 for k, m in enumerate(mocks, 1):
-    print(f"mock{k}", len(m), "state", sum(not r["id"].startswith("C") for r in m), "letters", dict(collections.Counter(r["correct"] for r in m)))
+    print(f"mock{k}", len(m), "state", sum(not re.match(r"C\d", r["id"]) for r in m), "letters", dict(collections.Counter(r["correct"] for r in m)))

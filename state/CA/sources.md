@@ -108,3 +108,4 @@ Short names:
 - New residents' drive test: DL page lists none for a valid out-of-state license but does not state a waiver in words.
 - Vehicle registration deadline for new residents: not verified, left out.
 - **Question count (mocks)**: DMV research report RSS-06-221 (dmv.ca.gov, Dec 2006): 46 questions under 18 (8 errors allowed), 36 for 18+ (6 errors), 18 renewal. FFDL 19 (rev. 7/2019): minors may miss no more than 8. Current pages give no count. Mocks use 46, 38 to pass (owner audience is teens). Checked 2026-10-28.
+| bicycle_passing (lane splitting) | Lane splitting by motorcycles is legal | VC 21658.1; DL 600 handbook, Sharing the Road | 2026-10-28 |
