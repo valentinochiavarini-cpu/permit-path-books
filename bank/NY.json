@@ -699,7 +699,7 @@
   "d": "Circle",
   "correct": "B",
   "exp": "Only the stop sign uses the eight-sided octagon.",
-  "src": "NY Driver's Manual (MV-21), Ch. 4, Signs; MUTCD 11th ed., Sec. 2A.11"
+  "src": "NY Driver's Manual (MV-21), Ch. 4, Signs; MUTCD 11th ed., Sections 2A.05 and 2B.04"
  },
  {
   "id": "NY-055",
@@ -711,8 +711,8 @@
   "c": "A no passing zone",
   "d": "A hospital",
   "correct": "B",
-  "exp": "The five-sided pentagon is reserved for school signs.",
-  "src": "MUTCD 11th ed., Sec. 2C.50; core Chapter 2"
+  "exp": "Among warning signs, the five-sided pentagon in fluorescent yellow-green means a school zone or school crossing.",
+  "src": "MUTCD 11th ed., Sections 2A.05, 7B.01 and 7B.02; core Chapter 2"
  },
  {
   "id": "NY-056",
@@ -738,7 +738,7 @@
   "d": "A one-way street",
   "correct": "C",
   "exp": "The pennant is reserved for no passing zones and faces drivers on the left side.",
-  "src": "MUTCD 11th ed., Sec. 2C.45; core Chapter 2"
+  "src": "MUTCD 11th ed., Sec. 2C.53; core Chapter 2"
  },
  {
   "id": "NY-058",
@@ -764,7 +764,7 @@
   "d": "A red and blue shield",
   "correct": "D",
   "exp": "Interstate markers are red and blue shields.",
-  "src": "MUTCD 11th ed., Sec. 2D.10; core Chapter 2"
+  "src": "MUTCD 11th ed., Sec. 2D.11; core Chapter 2"
  },
  {
   "id": "NY-060",
@@ -777,7 +777,7 @@
   "d": "A hospital",
   "correct": "C",
   "exp": "Brown signs guide drivers to parks, recreation and historic sites.",
-  "src": "MUTCD 11th ed., Sec. 2A.10; core Chapter 2"
+  "src": "MUTCD 11th ed., Section 2A.06 and Table 2A-2; core Chapter 2"
  },
  {
   "id": "NY-061",
@@ -790,7 +790,7 @@
   "d": "A parking area for parents",
   "correct": "A",
   "exp": "The downward arrow plaque marks the school crossing location itself.",
-  "src": "MUTCD 11th ed., Sec. 7B.12; core Chapter 2"
+  "src": "MUTCD 11th ed., Sections 7B.02 and 7B.03; core Chapter 2"
  },
  {
   "id": "NY-062",
@@ -803,7 +803,7 @@
   "d": "You may not change lanes anywhere",
   "correct": "C",
   "exp": "ONLY under an arrow means drivers in that lane must go in that direction.",
-  "src": "NY Driver's Manual (MV-21), Ch. 4, Pavement Markings (Arrows); core Chapter 2"
+  "src": "NY Driver's Manual (MV-21), Ch. 4, Pavement Markings (Arrows); MUTCD 11th ed., Sec. 2B.28; core Chapter 2"
  },
  {
   "id": "NY-063",
@@ -815,7 +815,7 @@
   "c": "Only during summer school",
   "d": "On school days during the posted hours or when the beacons flash",
   "correct": "D",
-  "exp": "School speed limits apply on school days, generally 7 a.m. to 6 p.m., or while the beacons flash.",
+  "exp": "School speed limits apply on school days at the times on the sign, which fall between 7 a.m. and 6 p.m., or while the beacons flash.",
   "src": "NY VTL 1180(c)"
  },
  {
@@ -1305,7 +1305,7 @@
   "quiz": false,
   "q": "When may a car that does not meet the occupancy rule use an HOV lane?",
   "a": "Never at any hour",
-  "b": "Only when the signs show the restriction is not in effect",
+  "b": "When the signs show the restriction is not in effect",
   "c": "Any time it stays under the speed limit",
   "d": "Any time traffic is heavy",
   "correct": "B",
@@ -1720,7 +1720,7 @@
   "ch": 11,
   "quiz": false,
   "q": "Who may have an open container of alcohol in a car on a New York road?",
-  "a": "No driver or passenger, except in vehicles such as licensed limousines",
+  "a": "No driver, and no passenger except in vehicles such as licensed limousines",
   "b": "Anyone, if the car is moving slowly",
   "c": "The driver, if it stays closed in the cup holder",
   "d": "Any passenger 21 or older",

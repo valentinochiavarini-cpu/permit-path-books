@@ -2,7 +2,7 @@
 
 ## school_zone
 
-{{STATE}} school speed limits are set locally and posted. They apply on school days during the posted hours, generally 7 a.m. to 6 p.m., or whenever the school zone beacons flash. A **U-turn is never allowed in a school zone**. Obey every school crossing guard as you would a traffic officer.
+{{STATE}} school speed limits are set locally and posted. They apply on school days at the times on the sign, which fall between 7 a.m. and 6 p.m., or whenever the school zone beacons flash. A **U-turn is never allowed in a school zone**. Obey every school crossing guard as you would a traffic officer.
 
 ## work_zone
 
@@ -112,6 +112,8 @@ By driving in {{STATE}} you consent to a chemical test. Refuse after an arrest a
 | DWAI | $300 to $500, up to 15 days | 90-day suspension |
 | DWI | $500 to $1,000, up to 1 year | Revoked 6+ months |
 | Aggravated DWI | $1,000 to $2,500, up to 1 year | Revoked 1+ year |
+
+Under 21, any alcohol or drug driving conviction revokes your license for at least one year.
 
 DWI adds an **ignition interlock**, normally 12 months; a child under 16 aboard makes it a felony.
 
