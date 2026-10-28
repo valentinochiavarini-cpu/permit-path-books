@@ -595,7 +595,7 @@
   "d": "At all times",
   "correct": "C",
   "exp": "Local 20 mph school zone limits apply under the condition shown on the sign, such as when the beacons flash.",
-  "src": "Cal. Veh. Code 22358.4 (AB 382)"
+  "src": "Cal. Veh. Code 22352.5 (AB 382)"
  },
  {
   "id": "CA-047",
@@ -1271,7 +1271,7 @@
   "d": "No closer than 50 feet",
   "correct": "B",
   "exp": "Do not park within 15 feet of a fire station driveway.",
-  "src": "Cal. Veh. Code 22500(c); California Driver's Handbook (DL 600, 2025), Section 6"
+  "src": "Cal. Veh. Code 22500(d); California Driver's Handbook (DL 600, 2025), Section 6"
  },
  {
   "id": "CA-099",
@@ -1681,13 +1681,13 @@
   "ch": 12,
   "quiz": false,
   "q": "When may a California child use a regular safety belt instead of a car seat or booster?",
-  "a": "At age 8 or older, or at least 4 feet 9 inches tall",
+  "a": "At age 8 or older, or 4 feet 9 inches tall, if the belt fits correctly",
   "b": "At age 6",
   "c": "At 40 pounds",
   "d": "At age 10 only",
   "correct": "A",
-  "exp": "Children 8 or older, or at least 4 feet 9 inches tall, may use a properly fitted safety belt.",
-  "src": "California Driver's Handbook (DL 600, 2025), Section 8"
+  "exp": "Children 8 or older, or at least 4 feet 9 inches tall, may use a safety belt; the belt must fit correctly (back against the seat, knees bent at the edge, shoulder belt across the chest, lap belt low on the thighs).",
+  "src": "Cal. Veh. Code 27363, 27360.5 (AB 435, operative January 1, 2027); California Driver's Handbook (DL 600, 2025), Section 8"
  },
  {
   "id": "CA-131",

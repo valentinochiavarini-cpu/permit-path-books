@@ -110,7 +110,7 @@ In {{STATE}}, adults may not hold a phone while driving. A phone may be **mounte
 |---|---|
 | Under 2 | Rear-facing seat, unless 40 pounds or 40 inches |
 | Under 8 | Car seat or booster in a rear seat |
-| 8 or older, or 4 feet 9 inches | Safety belt |
+| 8 or older, or 4 feet 9 inches | Safety belt, only if it fits as described above; if not, a booster |
 
 Never put a rear-facing seat in front of an active airbag. Never leave a child **6 or younger** alone in a car without someone **12 or older**.
 
@@ -120,7 +120,7 @@ Never put a rear-facing seat in front of an active airbag. Never leave a child *
 
 ## road_test
 
-The {{STATE}} drive test starts with a pre-drive check of the car and controls. The examiner then scores parking lot driving, backing, intersections, turns, lane changes and street driving. **Critical driving errors** fail you at once: examiner intervention, hitting an object, running a sign or signal, unsafe moves, or 10 mph over or under the limit. Driver assistance features must be off. Minors wait **14 days** to retest; each retest costs **$9**.
+The {{STATE}} drive test starts with a pre-drive check of the car and controls. Only the examiner rides with you. The examiner scores parking lot driving, backing, intersections, turns, lane changes and street driving. **Critical driving errors** fail you at once: examiner intervention, hitting an object, running a sign or signal, unsafe moves, or 10 mph over or under the limit. Driver assistance features must be off. Minors wait **14 days** to retest; each retest costs **$9**.
 
 ## supervised_hours
 
