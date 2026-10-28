@@ -14,22 +14,22 @@ Ignoring construction or maintenance zone markers adds **3 points** to your reco
 
 ## turn_on_red
 
-In {{STATE}}, after a **complete stop** you may turn **right on a steady red** unless a sign forbids it. You may also turn **left on red** from a one-way street onto another one-way street whose traffic moves to the left.
+In {{STATE}}, after a **complete stop** you may turn **right on a steady red** unless a sign forbids it. From a one-way street, a **left on red** is legal only into a one-way street whose traffic flows to your left.
 
-The law allows these turns at **any steady red signal**, so the same rule applies at a red arrow: stop fully, then turn only if no sign forbids it.
+The law allows these turns at **any steady red signal**, so a red arrow follows the same rule: full stop, then turn unless a sign forbids it.
 
-Before any turn on red, yield to pedestrians and to traffic already in the intersection. If a signal is dark, treat the intersection as a four-way stop.
+Yield to pedestrians and to traffic in the intersection. Treat a dark signal as a four-way stop.
 
 ## move_over
 
-{{STATE}}'s Move Over law covers stopped police and emergency vehicles with lights flashing, tow trucks with amber lights, utility and road work vehicles with flashing lights, and garbage trucks collecting on the roadside.
+{{STATE}}'s Move Over law covers stopped emergency vehicles with lights flashing, tow trucks with amber lights, utility and road work vehicles with flashing lights, and garbage trucks at work.
 
 | Road | What you do |
 |---|---|
 | Two or more lanes your way | Leave the lane next to them; if you cannot, slow to **15 mph below** the limit |
 | Two-lane road | Move away within your lane and slow to **15 mph below** the limit (limit 20 mph or less: drive **10 mph**) |
 
-Fines: **$200**, then **$250**, then **$300** plus a suspension of at least **90 days**.
+Fines: **$200**, **$250**, then **$300** plus at least a **90-day** suspension.
 
 ## emergency_vehicles
 
@@ -41,7 +41,7 @@ In a roundabout, finish to your exit first, then pull over.
 
 ## school_bus
 
-In {{STATE}}, stop at least **20 feet** from a school bus or church bus that has stopped with its stop arm out and **red lights** flashing. Stay stopped until the arm folds and the lights go off.
+In {{STATE}}, stop at least **20 feet** from a school bus or church bus that has stopped with its stop arm out and **red lights** flashing. Wait until the arm folds and the lights stop.
 
 Traffic from **both directions** stops on two-lane roads and on undivided highways of four to six lanes. On a **divided highway of four or more lanes**, oncoming traffic need not stop.
 
@@ -97,7 +97,7 @@ In bad weather or on poor roads, stretch the gap to **four or five seconds**, an
 | Flashing beacon, stop sign or signal | Within 30 feet |
 | Nearest rail of a railroad crossing | Within 50 feet |
 
-Never park in an intersection, on a crosswalk or sidewalk, in front of a driveway, on a bridge or in a tunnel, beside another parked car, or at a **yellow curb**. On a rural highway, move a stopped car off the pavement.
+Never park in an intersection, on a crosswalk or sidewalk, blocking a driveway, on any bridge, inside a tunnel, double-parked, or at a **yellow curb**. On a rural highway, move a stopped car off the pavement.
 
 ## bicycle_passing
 

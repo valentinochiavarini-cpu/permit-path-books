@@ -473,7 +473,7 @@
   "quiz": false,
   "q": "In how many languages does the Highway Patrol offer the Class F written test?",
   "a": "English only",
-  "b": "20, plus a sign language video version",
+  "b": "20, including a sign language video version",
   "c": "English and Spanish only",
   "d": "5, by appointment",
   "correct": "B",
