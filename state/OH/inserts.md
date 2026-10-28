@@ -77,7 +77,7 @@ Leave more room at night, in fog, rain or snow, on slippery roads, behind trucks
 
 ## hov
 
-The {{STATE}} Driver Manual does not cover HOV lanes. In Columbus, eastbound I-670 has a **SmartLane**: the left shoulder opens as a travel lane at busy times. A **green arrow** above it means open to every vehicle; a **red X** means closed, so stay out. At any special lane, read the overhead signs before you enter.
+The {{STATE}} Driver Manual does not cover HOV lanes. Where a shoulder or lane opens only at busy times, a **green arrow** above it means open and a **red X** means closed, so stay out. At any special lane, read the overhead signs before you enter.
 
 ## parking_rules
 
