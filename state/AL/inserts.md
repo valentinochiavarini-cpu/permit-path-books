@@ -16,7 +16,7 @@ Ignoring construction or maintenance zone markers adds **3 points** to your reco
 
 In {{STATE}}, after a **complete stop** you may turn **right on a steady red** unless a sign forbids it. From a one-way street, a **left on red** is legal only into a one-way street whose traffic flows to your left.
 
-The law allows these turns facing **any steady red signal** but has no separate rule for a **red arrow**, so it does not clearly allow a turn on one. When a red arrow is lit, wait for the green.
+The law has no separate rule for a **red arrow** and does not clearly allow a turn on one. When a red arrow is lit, wait for the green.
 
 Yield to pedestrians and to traffic in the intersection. Treat a dark signal as a four-way stop.
 

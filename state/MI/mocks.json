@@ -1,0 +1,71 @@
+{
+ "size": 25,
+ "pass": "about 70 percent on each part",
+ "mock1": [
+  "MI-032",
+  "MI-087",
+  "MI-105",
+  "C11-005",
+  "C10-029",
+  "C12-030",
+  "MI-115",
+  "MI-073",
+  "C06-037",
+  "C07-019",
+  "C05-035",
+  "C09-012",
+  "C04-004",
+  "MI-094",
+  "MI-079",
+  "C08-030",
+  "C13-011",
+  "C03-012",
+  "MI-057",
+  "C02-022",
+  "MI-046",
+  "C02-038",
+  "C02-060",
+  "MI-041",
+  "C02-030"
+ ],
+ "mock2": [
+  "C04-030",
+  "MI-083",
+  "MI-053",
+  "C12-033",
+  "C13-001",
+  "MI-120",
+  "MI-107",
+  "MI-071",
+  "C06-014",
+  "C11-021",
+  "C09-030",
+  "C10-002",
+  "C07-032",
+  "MI-110",
+  "C08-016",
+  "C05-024",
+  "MI-026",
+  "C03-022",
+  "MI-064",
+  "MI-059",
+  "C02-003",
+  "MI-047",
+  "C02-013",
+  "C02-045",
+  "C02-027"
+ ],
+ "size_note": "a practice size only: Michigan does not publish its knowledge test count, so each mock has 18 rules and 7 sign questions scored at about 70 percent, like the driver education exams",
+ "parts": [
+  {
+   "name": "Road Rules",
+   "size": 18,
+   "pass": "13 of 18 correct"
+  },
+  {
+   "name": "Road Signs",
+   "size": 7,
+   "pass": "5 of 7 correct"
+  }
+ ]
+}

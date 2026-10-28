@@ -2429,10 +2429,10 @@
   "q": "About how far ahead should you look when you drive?",
   "a": "About 2 to 3 seconds ahead",
   "b": "About 4 seconds ahead, the same as your following distance",
-  "c": "About 30 to 40 seconds ahead",
-  "d": "About 12 to 15 seconds ahead",
+  "c": "About 6 to 8 seconds ahead",
+  "d": "At least 12 to 15 seconds ahead",
   "correct": "D",
-  "exp": "Looking 12 to 15 seconds ahead, about a block or more in the city or a quarter mile on the highway, lets you find problems early.",
+  "exp": "Look at least 12 to 15 seconds ahead, about a block or more in the city or a quarter mile on the highway, so you find problems early.",
   "src": "PennDOT Driver's Manual, Managing Space, https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-space; California Driver Handbook, Safe Driving, https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/safe-driving/"
  },
  {
@@ -4704,7 +4704,8 @@
   "d": "Stop in your lane until the car passes",
   "correct": "A",
   "exp": "A quick flash reminds the other driver to dim. If the glare stays, look down and to the right at the edge line and slow down.",
-  "src": "PennDOT Driver's Manual (PUB 95), Chapter 3 (night driving); New York State Driver's Manual, Chapter 9"
+  "src": "PennDOT Driver's Manual (PUB 95), Chapter 3 (night driving); New York State Driver's Manual, Chapter 9",
+  "app_only": true
  },
  {
   "id": "C10-041",
@@ -5700,12 +5701,12 @@
   "ch": 13,
   "quiz": true,
   "q": "You stop at a stop sign, but your wheels are still slowly rolling. On a road test, this is called:",
-  "a": "A rolling stop, and it is a common automatic fail",
+  "a": "A rolling stop, one of the most common reasons to lose points or fail",
   "b": "A coasting stop, which costs only a point or two",
   "c": "A legal stop if no one is coming",
   "d": "A safe stop if you are below 5 mph",
   "correct": "A",
-  "exp": "A stop means the wheels are not moving. Rolling through a stop sign is a serious error on road tests.",
+  "exp": "A rolling stop means the wheels never stopped. Examiners mark it often, and many states fail it outright.",
   "src": "California DMV, Driving Test Criteria (DL 955); PennDOT Driver's Manual, Testing (pa.gov/agencies/dmv)"
  },
  {
