@@ -4196,7 +4196,7 @@
   "c": "Switch to low beams well before it gets close",
   "d": "Switch to low beams once it has passed you",
   "correct": "C",
-  "exp": "Low beams keep from blinding the other driver. Your state sets the exact distance; see the box in Chapter 10.",
+  "exp": "Low beams keep from blinding the other driver. Most states set exact distances; see the box in Chapter 10.",
   "src": "State driver manuals, headlight use; state headlight laws"
  },
  {
