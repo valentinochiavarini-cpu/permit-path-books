@@ -37,7 +37,7 @@ First `python3 tools/check_bank.py bank/core.json bank/XX.json` (schema plus ori
 Permit Path app: Lovable project `5aba30bf-4b8e-4041-b0c3-080168980b32` (never the old The Driving School project `c427a0c1-...`, which is read-only for us).
 1. If the state is not in the `states` table, insert it (code, name, mock_exam_question_count = SIZE, mock_exam_time_limit, pass_score from the verified test).
 2. `python3 tools/export_app_sql.py --state XX OUT_DIR`, then delegate to an agent: run `delete from questions where state = 'XX'` (only on a rebuild) and each SQL file verbatim with `mcp__Lovable__query_database`, then verify counts by state and category.
-3. If core questions changed during the run, reload the core the same way (`--core`, after `delete from questions where state is null`).
+3. If core questions changed during the run, reload the core the same way (`--core`, after `delete from questions where state is null`). If you reword a few questions already in the app (for example to pass the originality check), update those rows in place with `update questions set ... where state = 'XX' and question_text = '...'` and check they match the bank.
 4. Ebook: the EPUB upload is batched at the end of all states (see App URL and owner reminders); the upload host is blocked from this workspace, so the owner does it.
 No code changes are needed per state; only send a Lovable message for real app bugs or features, batched, with the owner's OK.
 
