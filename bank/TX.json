@@ -716,7 +716,7 @@
   },
   {
     "id": "TX-056",
-    "ch": 2,
+    "ch": 3,
     "quiz": false,
     "q": "A center lane marked for left turns in both directions may be used to:",
     "a": "Pass slower vehicles",
@@ -729,7 +729,7 @@
   },
   {
     "id": "TX-057",
-    "ch": 2,
+    "ch": 5,
     "quiz": false,
     "q": "A sign with arrows over two left lanes says both may turn left. Traffic in the far left lane:",
     "a": "Must turn left",

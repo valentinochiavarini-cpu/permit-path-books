@@ -45,8 +45,8 @@ for p in parts:
         sp = [r for r in st if ok(r) and r["id"] not in used]
         cp = [r for r in core if ok(r) and r["id"] not in used]
         n_state = round(p["size"] * 0.4)
-        if p["chapters"]:  # small pool: split it evenly between the two mocks
-            n_state = min(len(sp) // (2 - k), p["size"])
+        if p["chapters"]:  # small core pool: use state questions only for what the core cannot cover
+            n_state = min(max(n_state, p["size"] - len(cp) // (2 - k)), len(sp), p["size"])
         s = spread(sp, n_state)
         s += spread(cp, p["size"] - len(s))
         if len(s) < p["size"]:

@@ -138,3 +138,4 @@ Every question cites its source in `src`. Sign questions (`ch: 2`) are from DL-7
 - **Driving retest waiting period**: DL-7 gives none beyond the 90 day, three attempt application rule.
 - **Statutes site** (statutes.capitol.texas.gov) and some direct URLs (TDLR driver rules page, texas.public.law sections not surfaced by search) were blocked from this environment.
 - **Mock size**: DPS and TDLR publish no question count. Approved course providers (I Drive Safely, Adult Drivers Ed Texas, Aceable) give 30 questions, 15 road signs and 15 road rules, 70 percent each (checked 2026-10-27, factcheck_A.md). The book's mocks use that format and Chapter 1 says the count comes from course exams.
+- Fact check B citations (move over 545.157, phone 545.4251/545.425, turn on red 544.007, U-turn 545.102 500 ft, ride-along 37 TAC 15.54, Bexar emissions Nov 1 2026): see factcheck_B.md.

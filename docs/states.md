@@ -4,9 +4,9 @@ Knowledge test facts below were checked on official sources on 2026-10-27 (one r
 
 | Code | State | Agency | Knowledge test (official) | New residents (valid out-of-state license) | Licenses regardless of status | Handbook (Drive file ID) | Status |
 |---|---|---|---|---|---|---|---|
-| PA | Pennsylvania | PennDOT | 18 questions, 15 to pass (verified PUB 95 p. 5) | No test, vision only (verified) | not checked | 1MZi7_SLlRizXTi9Fzi_KXhzv4dk9RkyU | **Done** (draft 2026-10-27, 259 pp; fact-checked; 142 PA questions in app; EPUB upload pending) |
-| FL | Florida | FLHSMV | 50 questions, 40 to pass | Test may be waived, vision test | No | 1bDRChO0h4R1B1OfBvwqpp-wG5eRvamPX | To do |
-| TX | Texas | DPS | 70 percent to pass, count not published | No test | No | 1QFLw84NB77SFOD1HjAsHI5no5CaC8h40 | To do |
+| PA | Pennsylvania | PennDOT | 18 questions, 15 to pass (verified PUB 95 p. 5) | No test, vision only (verified) | not checked | 1MZi7_SLlRizXTi9Fzi_KXhzv4dk9RkyU | **Done** (2026-10-28, 177 pp; fact-checked; 142 PA questions in app; EPUB upload pending) |
+| FL | Florida | FLHSMV | 50 questions, 40 to pass, English only (verified FLHSMV) | Test may be waived, vision test | No | 1bDRChO0h4R1B1OfBvwqpp-wG5eRvamPX | **Done** (2026-10-28, 193 pp, 50-question mocks; fact-checked; 142 FL questions in app) |
+| TX | Texas | DPS | 70 percent; count not published by DPS; course exams: 15 signs + 15 rules, 70 percent each (providers) | No test | No | 1QFLw84NB77SFOD1HjAsHI5no5CaC8h40 | **Done** (2026-10-28, 183 pp, mocks 15 signs + 15 rules; fact-checked; 144 TX questions in app) |
 | CA | California | DMV | count not published on DMV pages | **Test required** | Yes (AB 60) | 1qT23zBRVYqr3VH6228kwmf7OSUMlBWCF | To do |
 | NY | New York | DMV | 20 questions, 14 to pass, incl. 2 of 4 sign questions (verify in manual) | No test | Yes | 1ltO6DCUT3mMDRSa7gG2yLBbuOIvKKNkD | To do |
 | IL | Illinois | Secretary of State | 35+ questions, 80 percent | unverified (agency site blocked) | Yes | 1LeXtD-Oamm4hMi150EIXYUXOTtLaNo8H | To do |
