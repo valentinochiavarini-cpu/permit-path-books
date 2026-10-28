@@ -149,15 +149,15 @@ Under 21, buying, holding or drinking alcohol is a crime. Under 18 and in a vehi
 
 ## phone_laws
 
-In {{STATE}}, drivers 18 and older may not hold, support or type on a phone or other device while driving. Hands-free calls, navigation and music are fine, and you may hold a phone to your ear for a call, if one tap or swipe starts and ends it. You may always call 911.
+{{STATE}} drivers 18 and older may not hold, support or type on a phone while driving. Hands-free use, or holding the phone to your ear for a call, is legal if one tap or swipe starts and ends it. You may always call 911.
 
-| Offense in 2 years | Fine | Points |
+| Within 2 years | Fine | Points |
 |---|---|---|
 | First | Up to $150 | 2 |
 | Second | Up to $250 | 3 |
 | Third or more | Up to $500 | 4 |
 
-A first offender may take a distracted driving course instead of the fine and points. A third offense may bring a 90-day suspension. Fines double in work zones.
+A distracted driving course can replace a first fine and points. A third can also bring a 90-day suspension. Fines double in work zones.
 
 ## seat_belts
 
@@ -213,9 +213,9 @@ In fog, use low beams, not high beams.
 | 6 | Warning letter |
 | 12 | **6-month** suspension |
 
-To get your license back after a 12-point suspension, finish a remedial driving course, pay fees and file an **SR-22**: not insurance, but a form proving your insurance meets the minimum.
+To get your license back after a 12-point suspension, finish a remedial driving course, pay fees and file an **SR-22**, a form (not insurance) proving your coverage meets the minimum.
 
-Most moving violations cost **2** points. Reckless driving or going 30 mph or more over: **4**. OVI, fleeing police or leaving a crash scene: **6**.
+Most moving violations cost **2** points. Reckless driving or 30 mph or more over: **4**. OVI, fleeing police or leaving a crash scene: **6**.
 
 With 2 to 11 points, a remedial driving course earns a **2-point credit**, once every three years.
 
