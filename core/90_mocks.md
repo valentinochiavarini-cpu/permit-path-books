@@ -1,6 +1,6 @@
 # Mock Exams: Before You Start
 
-You have finished the chapters. Now find out where you stand. Each mock exam has {{MOCK_SIZE}} questions, the same number as the {{STATE}} knowledge test, and none of them repeat the chapter quizzes.
+You have finished the chapters. Now find out where you stand. Each mock exam has {{MOCK_SIZE}} questions, {{MOCK_SIZE_NOTE}}, and none of them repeat the chapter quizzes.
 
 - Sit somewhere quiet, put your phone away and give yourself the same conditions you will have at the licensing office.
 - Answer every question. A blank is always wrong; a guess sometimes is not.

@@ -91,7 +91,7 @@ def mocks_md():
         pool = [r for r in bank if not r.get("quiz")]
         random.Random(7).shuffle(pool)
         sets = [pool[:size], pool[size:2 * size]]
-    intro = (ROOT / "core" / "90_mocks.md").read_text().replace("{{MOCK_SIZE}}", str(size)).replace("{{MOCK_PASS}}", mock_cfg.get("pass", "80 percent"))
+    intro = (ROOT / "core" / "90_mocks.md").read_text().replace("{{MOCK_SIZE}}", str(size)).replace("{{MOCK_PASS}}", mock_cfg.get("pass", "80 percent")).replace("{{MOCK_SIZE_NOTE}}", mock_cfg.get("size_note", "the same number as the {{STATE}} knowledge test"))
     out = [intro]
     for k, s in enumerate(sets, 1):
         if mock_cfg and len(s) != size:
