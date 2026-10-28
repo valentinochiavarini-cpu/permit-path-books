@@ -26,7 +26,7 @@ A **steady red arrow** allows the same two turns, with the same full stop first,
 
 Move into a lane that is not next to them. If you cannot, slow to **20 mph or more under the limit**.
 
-Fines: up to **$500**, then $1,000, then $2,000, plus **2 points**. Injuring or killing someone brings a suspension of 90 days to one year.
+Fines: up to **$500**, then $1,000, then $2,000, plus **2 points**. Seriously injuring or killing someone brings a suspension of 90 days to one year.
 
 ## emergency_vehicles
 
@@ -182,9 +182,9 @@ Breaking this law costs a **$75** fine.
 
 In {{STATE}}, your car needs a **safety inspection every 12 months**. Many counties also require an **emissions inspection**. Either may be done up to 90 days early.
 
-Every car needs insurance of at least **$15,000** per person and **$30,000** per crash for injuries, **$5,000** for property damage and $5,000 in medical benefits. Keep proof in the car. Uninsured **31 days** or more: the registration is suspended for 3 months, and your license too if you drove the car.
+Minimum insurance: **$15,000** per person and **$30,000** per crash for injuries, **$5,000** for property damage and $5,000 in medical benefits. Keep proof in the car. Uninsured **31 days** or more: the registration is suspended for 3 months, and your license too if you drove it or let someone else drive it.
 
-If you change your name or address, tell PennDOT within **15 days**.
+Report a name or address change to PennDOT within **15 days**.
 
 ## police_stop
 

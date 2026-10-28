@@ -2073,7 +2073,7 @@
     "id": "IL-160",
     "ch": 12,
     "quiz": false,
-    "q": "An Illinois driver with no recent suspensions has three convictions in 12 months totaling 40 points. What is the suspension?",
+    "q": "An Illinois driver with no suspension in the past seven years has three convictions in 12 months totaling 40 points. What is the suspension?",
     "a": "2 months",
     "b": "6 months",
     "c": "12 months",

@@ -34,7 +34,7 @@ A first offense costs **$250 to $10,000**. Damage or injury also brings a licens
 
 {{STATE}} law names the **right-hand edge or curb**, clear of any intersection, with no exception for one-way streets. Stop if that is needed to let the vehicle pass. If you are already stopped at an intersection with two-way traffic, stay stopped until the emergency vehicle has gone through it.
 
-Never follow a fire truck answering an alarm closer than **500 feet**, or stop within 500 feet of one at a fire. Never drive over a fire hose.
+Never follow a fire truck answering an alarm closer than **500 feet**, or stop within 500 feet of one at a fire. Never drive over a fire hose unless a fire official allows it.
 
 ## school_bus
 
@@ -71,7 +71,7 @@ The official manual asks for at least **three to four seconds** behind a motorcy
 
 ## hov
 
-{{STATE}} has no carpool (HOV) lanes in general use. Near Chicago you may meet **reversible express lanes**, which carry traffic one way at a time: enter only where signs show they are open in your direction. On some expressways, Pace buses may use the shoulder when traffic is slow. You may never drive or pass on the shoulder.
+{{STATE}} has no carpool (HOV) lanes in general use. Near Chicago you may meet **reversible express lanes**, which carry traffic one way at a time: enter only where signs show they are open in your direction. On some expressways, Pace buses may use the shoulder when traffic is slow. Never use the shoulder as a travel lane or to pass.
 
 ## parking_rules
 
@@ -93,7 +93,7 @@ In {{STATE}}, pass a bicyclist slowly, with at least **3 feet** between the bike
 
 In a no-passing zone, you may pass a bicycle only if it is going **less than half** the speed limit, you stay within the limit, and the left side is clear.
 
-Never drive, park or stop in a bike lane. Open your door with your right hand (the **Dutch Reach**).
+Never drive, park or stop in a bike lane. Open your door with your right hand to turn and check for bikes (the **Dutch Reach**).
 
 ## crash_reporting
 
@@ -192,9 +192,9 @@ Besides sunset to sunrise, {{STATE}} law requires headlights:
 
 {{STATE}} gives each moving violation **points**: for example, **5** for speeding 1 to 10 mph over, **15** for 11 to 14 over, **20** for 15 to 25 over, **50** for 26 or more over, and **20** for running a red light or stop sign.
 
-**Three or more** convictions within **12 months** bring a suspension sized by your points: **15 to 44** points means 2 months, and **110** or more means revocation.
+**Three or more** convictions within **12 months** bring a suspension sized by your points: **15 to 44** points means 2 months with no suspension in seven years, and **110** or more means revocation.
 
-Drivers under 21 face a suspension after just two convictions in 24 months (Chapter 1).
+Under 21, two convictions in 24 months bring a suspension (Chapter 1).
 
 ## road_test
 

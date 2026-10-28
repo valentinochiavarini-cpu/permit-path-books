@@ -1820,7 +1820,7 @@
     "c": "200 feet",
     "d": "500 feet",
     "correct": "A",
-    "exp": "Above 35 mph, Pennsylvania requires the signal for at least the last 300 feet before the turn.",
+    "exp": "At 35 mph or more, Pennsylvania requires the signal for at least the last 300 feet before the turn.",
     "src": "75 Pa.C.S. 3334(b)"
   },
   {
@@ -2081,7 +2081,7 @@
     "d": "3",
     "correct": "D",
     "exp": "Three points are removed for every 12 consecutive months with no violation and no suspension.",
-    "src": "PA online Driver's Manual, Ch. 4, Pennsylvania's Point System; 75 Pa.C.S. 1545"
+    "src": "PA online Driver's Manual, Ch. 4, Pennsylvania's Point System; 75 Pa.C.S. 1537(a)"
   },
   {
     "id": "PA-162",
