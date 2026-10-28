@@ -137,3 +137,4 @@ Every question cites its source in `src`. Sign questions (`ch: 2`) are from DL-7
 - **HOV occupancy and toll rules** vary by lane and agency; only the handbook's example sign is given.
 - **Driving retest waiting period**: DL-7 gives none beyond the 90 day, three attempt application rule.
 - **Statutes site** (statutes.capitol.texas.gov) and some direct URLs (TDLR driver rules page, texas.public.law sections not surfaced by search) were blocked from this environment.
+- **Mock size**: DPS and TDLR publish no question count. Approved course providers (I Drive Safely, Adult Drivers Ed Texas, Aceable) give 30 questions, 15 road signs and 15 road rules, 70 percent each (checked 2026-10-27, factcheck_A.md). The book's mocks use that format and Chapter 1 says the count comes from course exams.
