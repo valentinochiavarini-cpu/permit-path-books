@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 238" font-family="Inter, Arial, sans-serif">
+  <!-- More warning signs: people and animals, road shape, lanes, clearance, yield ahead and exit advisory speed -->
+  <style>
+    .signs_warning_more_lbl { font-size: 11px; font-weight: 600; fill: #1c1c1c; text-anchor: middle; }
+    .signs_warning_more_sub { font-size: 9.5px; font-weight: 500; fill: #555; text-anchor: middle; }
+  </style>
+  <!-- Pedestrians -->
+  <g transform="translate(46,34)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#C6D52B" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><circle cx="-2" cy="-17" r="4.2" fill="#1c1c1c"/><path d="M-1,-11 L1,4" stroke="#1c1c1c" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M1,3 L-7,19 M1,3 L8,19" stroke="#1c1c1c" stroke-width="4.2" stroke-linecap="round" fill="none"/><path d="M-1,-8 L-9,1 M-1,-8 L7,-1" stroke="#1c1c1c" stroke-width="3.4" stroke-linecap="round" fill="none"/></g></g>
+  <text class="signs_warning_more_lbl" x="46" y="74">Pedestrians</text>
+  <text class="signs_warning_more_sub" x="46" y="87">Yellow-green</text>
+  <text class="signs_warning_more_sub" x="46" y="99">or yellow</text>
+  <!-- Bicycles -->
+  <g transform="translate(138,34)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><circle cx="-11" cy="8" r="7.5" fill="none" stroke="#1c1c1c" stroke-width="2.8"/><circle cx="12" cy="8" r="7.5" fill="none" stroke="#1c1c1c" stroke-width="2.8"/><path d="M-11,8 L-4,-5 L8,-5 L12,8 M-4,-5 L1,8 L8,-5 M1,8 L-11,8 M-6,-9 L-2,-9 M-4,-9 L-4,-5 M8,-5 L7,-11 L11,-11" stroke="#1c1c1c" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g></g>
+  <text class="signs_warning_more_lbl" x="138" y="74">Bicycles</text>
+  <text class="signs_warning_more_sub" x="138" y="87">Yellow or</text>
+  <text class="signs_warning_more_sub" x="138" y="99">yellow-green</text>
+  <!-- Deer Crossing -->
+  <g transform="translate(230,34)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M-12,-2 C-8,-7 6,-7 13,-3 C16,-1 17,2 15,4 L19,13 L16,14 L11,6 C6,7 0,7 -5,6 L-12,15 L-15,13 L-10,4 C-13,2 -14,-1 -12,-2 Z" fill="#1c1c1c"/><path d="M-11,-1 L-15,-10 L-19,-11 L-20,-8 L-17,-7 L-14,0 Z" fill="#1c1c1c"/><path d="M-16,-10 L-14,-17 M-15,-14 L-11,-16 M-17,-10 L-22,-16 M-20,-14 L-23,-12" stroke="#1c1c1c" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M14,-2 L18,-5" stroke="#1c1c1c" stroke-width="2" stroke-linecap="round"/></g></g>
+  <text class="signs_warning_more_lbl" x="230" y="74">Deer Crossing</text>
+  <text class="signs_warning_more_sub" x="230" y="87">Yellow diamond</text>
+  <text class="signs_warning_more_sub" x="230" y="99">Deer may cross</text>
+  <!-- Winding Road -->
+  <g transform="translate(322,34)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M-6,24 L-6,14 C-6,8 6,8 6,2 C6,-4 -6,-4 -6,-10 C-6,-14 0,-15 0,-17" fill="none" stroke="#1c1c1c" stroke-width="4.5"/><polygon points="0.0,-26.0 6.2,-16.0 -6.2,-16.0" fill="#1c1c1c"/></g></g>
+  <text class="signs_warning_more_lbl" x="322" y="74">Winding Road</text>
+  <text class="signs_warning_more_sub" x="322" y="87">Yellow diamond</text>
+  <text class="signs_warning_more_sub" x="322" y="99">Series of curves</text>
+  <!-- Sharp Turn -->
+  <g transform="translate(414,34)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M-6,22 L-6,-8 L8,-8" fill="none" stroke="#1c1c1c" stroke-width="5"/><polygon points="19.0,-8.0 8.0,-1.2 8.0,-14.8" fill="#1c1c1c"/></g></g>
+  <text class="signs_warning_more_lbl" x="414" y="74">Sharp Turn</text>
+  <text class="signs_warning_more_sub" x="414" y="87">Yellow diamond</text>
+  <text class="signs_warning_more_sub" x="414" y="99">Slow way down</text>
+  <!-- Steep Hill -->
+  <g transform="translate(46,152)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><polygon points="-22,14 22,14 22,-6" fill="#1c1c1c"/><g transform="translate(0,1.5) rotate(-24.4)"><rect x="-3" y="-13" width="15" height="10" fill="#1c1c1c"/><rect x="-11" y="-9" width="7" height="6" rx="1" fill="#1c1c1c"/><circle cx="-6" cy="-1.5" r="2.8" fill="#1c1c1c"/><circle cx="8" cy="-1.5" r="2.8" fill="#1c1c1c"/></g></g></g>
+  <text class="signs_warning_more_lbl" x="46" y="192">Steep Hill</text>
+  <text class="signs_warning_more_sub" x="46" y="205">Yellow diamond</text>
+  <text class="signs_warning_more_sub" x="46" y="217">Steep downgrade</text>
+  <!-- Added Lane -->
+  <g transform="translate(138,152)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M-9,23 L-9,-14" fill="none" stroke="#1c1c1c" stroke-width="4.5"/><polygon points="-9.0,-24.0 -2.8,-14.0 -15.2,-14.0" fill="#1c1c1c"/><path d="M17,20 C17,8 9,6 9,-6 L9,-14" fill="none" stroke="#1c1c1c" stroke-width="4.5"/><polygon points="9.0,-24.0 15.2,-14.0 2.8,-14.0" fill="#1c1c1c"/><line x1="0" y1="20" x2="0" y2="4" stroke="#1c1c1c" stroke-width="2"/><line x1="0" y1="1" x2="0" y2="-22" stroke="#1c1c1c" stroke-width="2" stroke-dasharray="3 3"/></g></g>
+  <text class="signs_warning_more_lbl" x="138" y="192">Added Lane</text>
+  <text class="signs_warning_more_sub" x="138" y="205">Yellow diamond</text>
+  <text class="signs_warning_more_sub" x="138" y="217">No merge needed</text>
+  <!-- Low Clearance -->
+  <g transform="translate(230,152)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M0,-12 L0,-20" stroke="#1c1c1c" stroke-width="3.5"/><polygon points="0.0,-26.0 4.3,-19.0 -4.3,-19.0" fill="#1c1c1c"/><text x="0" y="5" font-size="14" font-weight="800" fill="#1c1c1c" text-anchor="middle">12&#8217;-6&#8221;</text><path d="M0,12 L0,20" stroke="#1c1c1c" stroke-width="3.5"/><polygon points="0.0,26.0 -4.3,19.0 4.3,19.0" fill="#1c1c1c"/></g></g>
+  <text class="signs_warning_more_lbl" x="230" y="192">Low Clearance</text>
+  <text class="signs_warning_more_sub" x="230" y="205">Yellow diamond</text>
+  <text class="signs_warning_more_sub" x="230" y="217">12 ft 6 in clearance</text>
+  <!-- Yield Ahead -->
+  <g transform="translate(322,152)"><g transform="scale(0.7)"><polygon points="0,-34 34,0 0,34 -34,0" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1" stroke-linejoin="round"/><polygon points="0,-30 30,0 0,30 -30,0" fill="none" stroke="#1c1c1c" stroke-width="2.2" stroke-linejoin="round"/><path d="M0,22 L0,13" stroke="#1c1c1c" stroke-width="4.5"/><polygon points="0.0,6.0 5.0,14.0 -5.0,14.0" fill="#1c1c1c"/><g transform="translate(0,-9)"><polygon points="-14,-9 14,-9 0,14" fill="#C8102E" stroke="#1c1c1c" stroke-width="0.8"/><polygon points="-8,-5.5 8,-5.5 0,7.5" fill="#fff"/></g></g></g>
+  <text class="signs_warning_more_lbl" x="322" y="192">Yield Ahead</text>
+  <text class="signs_warning_more_sub" x="322" y="205">Red and white</text>
+  <text class="signs_warning_more_sub" x="322" y="217">triangle symbol</text>
+  <!-- Exit Speed (W13-2) -->
+  <g transform="translate(414,152)"><rect x="-18" y="-25" width="36" height="50" rx="3" fill="#FFCD00" stroke="#1c1c1c" stroke-width="1"/><rect x="-15.5" y="-22.5" width="31" height="45" rx="2" fill="none" stroke="#1c1c1c" stroke-width="1.6"/><text x="0" y="-10" font-size="10" font-weight="800" fill="#1c1c1c" text-anchor="middle">EXIT</text><line x1="-15.5" y1="-6" x2="15.5" y2="-6" stroke="#1c1c1c" stroke-width="1.6"/><text x="0" y="11" font-size="16" font-weight="800" fill="#1c1c1c" text-anchor="middle">25</text><text x="0" y="20.5" font-size="9" font-weight="800" fill="#1c1c1c" text-anchor="middle">MPH</text></g>
+  <text class="signs_warning_more_lbl" x="414" y="192">Exit Speed</text>
+  <text class="signs_warning_more_sub" x="414" y="205">Yellow rectangle</text>
+  <text class="signs_warning_more_sub" x="414" y="217">Advice for the ramp</text>
+</svg>
