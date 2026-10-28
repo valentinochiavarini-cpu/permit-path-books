@@ -22,7 +22,7 @@ Yield to pedestrians and to traffic in the intersection. Treat a dark signal as 
 
 ## move_over
 
-{{STATE}}'s Move Over law covers stopped emergency vehicles with lights flashing, tow trucks with amber lights, utility and road work vehicles with flashing lights, and garbage trucks at work.
+{{STATE}}'s Move Over law covers stopped emergency vehicles with lights flashing, tow trucks with amber lights, utility and road crews with flashing lights, and working garbage trucks.
 
 | Road | What you do |
 |---|---|
