@@ -70,6 +70,10 @@ Skipped on purpose (Daniel Hart already leads, a new brand would cannibalize it)
 - Re-audit (PA): 98 percent of Daniel Hart's PA questions and 94 percent of PUB 95 review questions answerable from the book (was 91 and 84).
 - Page counts after the upgrade: PA 190, FL 203, TX 196, CA 202, NY 190, IL 199 (about 13 pages more each).
 
+## All 15 states built (2026-10-28)
+- Page counts: PA 190, NY 190, SC 194, MI 195, TX 196, MO 198, IL 199, AL 199, CA 202, NC 202, VA 202, FL 203, GA 204, OH 204, NJ 207.
+- Mocks follow the real test format where published; where a state publishes no count (TX, CA, NC rules part, AL, MI, SC) the mock intro says so (`size_note` in mocks.json). `tools/regen_mocks.py XX` redraws mocks in the stored format after bank changes.
+
 ## Open items for the owner
 - REMINDER when all state editions are finished: upload every EPUB (`out/XX/Permit_Path_NAME.epub` saved as `XX.epub`) to the app's public `ebooks` storage bucket. The /ebook page shows "coming soon" until then.
 - Next Lovable batch (small, not urgent): sitemap.xml still uses the preview host instead of permit-path-practice.lovable.app; the page title contains an em dash.
