@@ -1584,13 +1584,13 @@
   "ch": 11,
   "quiz": false,
   "q": "An Alabama 19-year-old uses a fake ID to buy beer. Besides a fine, what can happen to their license?",
-  "a": "A suspension of 90 days to 6 months",
+  "a": "A suspension of 3 to 6 months",
   "b": "Nothing, since no car was involved",
   "c": "A 30-day suspension",
   "d": "A permanent revocation",
   "correct": "A",
-  "exp": "Using a false ID or possessing alcohol under 21 carries a mandatory 90-day to 6-month suspension.",
-  "src": "Code of Ala. 28-3A-25 (University of Alabama, State and City Alcohol Penalties)"
+  "exp": "Using a false ID or possessing alcohol under 21 carries a mandatory license suspension of 3 to 6 months.",
+  "src": "Code of Ala. 28-3A-25 (University of Alabama, State and City Alcohol Penalties); Code of Ala. 28-3A-25(a)(18), (a)(21), (b)(2), (c) (law.justia.com/codes/alabama/title-28/chapter-3a/section-28-3a-25/)"
  },
  {
   "id": "AL-123",
@@ -1622,14 +1622,14 @@
   "id": "AL-125",
   "ch": 11,
   "quiz": false,
-  "q": "Can an Alabama officer stop you only for holding your phone while driving?",
-  "a": "No, only after another violation",
-  "b": "Only in a school zone",
-  "c": "Only if you are under 18",
-  "d": "Yes, it is a primary offense",
+  "q": "Under Alabama's hands-free law, when is holding a phone while driving a violation?",
+  "a": "Only in a school zone",
+  "b": "Only for drivers under 18",
+  "c": "Only after dark",
+  "d": "When an officer also sees you swerve, cross lanes without a signal or otherwise drive improperly",
   "correct": "D",
-  "exp": "The hands-free law is enforced as a primary offense.",
-  "src": "Wetumpka Herald, Alabama enforces amendment to hands-free driving law"
+  "exp": "Holding a phone is a violation when the driver is also seen crossing lanes without a signal, swerving or otherwise driving improperly.",
+  "src": "Alabama Driver Manual (ALEA, November 2024), p. 16; Code of Ala. 32-5A-350.1 as quoted in Cullman Tribune, June 6, 2024 (cullmantribune.com/?p=108709)"
  },
  {
   "id": "AL-126",
@@ -1693,7 +1693,7 @@
   "c": "Only passengers under 16",
   "d": "Every occupant, front and back",
   "correct": "D",
-  "exp": "Since 2019, all occupants must be buckled; a back seat violation is secondary.",
+  "exp": "All occupants must be buckled; a back seat violation is secondary.",
   "src": "ALEA news release, Three Traffic Laws Effective Sunday, Sept. 1 (Act 2019-386); Alabama Driver Manual (ALEA, November 2024), p. 30"
  },
  {

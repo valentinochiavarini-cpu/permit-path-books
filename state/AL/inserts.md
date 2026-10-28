@@ -16,7 +16,7 @@ Ignoring construction or maintenance zone markers adds **3 points** to your reco
 
 In {{STATE}}, after a **complete stop** you may turn **right on a steady red** unless a sign forbids it. From a one-way street, a **left on red** is legal only into a one-way street whose traffic flows to your left.
 
-The law allows these turns at **any steady red signal**, so a red arrow follows the same rule: full stop, then turn unless a sign forbids it.
+The law allows these turns facing **any steady red signal** but has no separate rule for a **red arrow**, so it does not clearly allow a turn on one. When a red arrow is lit, wait for the green.
 
 Yield to pedestrians and to traffic in the intersection. Treat a dark signal as a four-way stop.
 
@@ -63,8 +63,8 @@ If you miss a freeway exit, do not stop, back up or turn around. Go to the next 
 | Unpaved road | 35 mph |
 | Paved county road | 45 mph |
 | Other roads | 55 mph |
-| Where posted | 65 mph |
-| Interstate, where posted | 70 mph |
+| Highway with four or more lanes | 65 mph |
+| Interstate | 70 mph |
 
 | Over the limit by | Points |
 |---|---|
@@ -84,7 +84,7 @@ In bad weather or on poor roads, stretch the gap to **four or five seconds**, an
 {{STATE}} has no carpool lane rules in its manual. Two lane rules matter more here:
 
 - On an interstate, do not stay in the **left lane** for more than **1.5 miles** in a row unless you pass at least one vehicle, or traffic or weather make it necessary.
-- Over a lane, a **red X** means do not drive in it, a **yellow X** means use it with caution, and a **green arrow** means it is open.
+- Over a lane, a **red X** means do not drive in it, a **yellow X** means you may use it only with caution, ready to leave it, and a **green arrow** means it is open.
 
 ## parking_rules
 
@@ -128,14 +128,14 @@ You can also be convicted below these numbers if alcohol or drugs make you unabl
 
 By driving in {{STATE}}, you agree to a breath, blood or urine test when an officer arrests you for DUI. Refuse, and ALEA suspends your license for at least **90 days**, apart from any DUI case.
 
-A test result of **0.08** or more also brings an ALEA suspension: **90 days** the first time, longer with a prior offense in the past **five years**. A first DUI with a refusal also requires an ignition interlock for **one year**.
+A test result of **0.08** or more also brings an ALEA suspension: **90 days** the first time, longer with a prior offense in the past **10 years**. A first DUI with a refusal also requires an ignition interlock for **one year**.
 
 ## dui_penalties
 
 | DUI conviction | Fine | Jail | License |
 |---|---|---|---|
 | First | $600 to $2,100 | Up to 1 year | 90-day suspension |
-| Second in 10 years | $1,100 to $5,100 | 48 hours or 20 days community service, up to 1 year | 1-year revocation |
+| Second in 10 years | $1,100 to $5,100 | At least 5 days, or 30 days community service; up to 1 year | 1-year revocation |
 | Third | $2,100 to $10,100 | 60 days to 1 year | 3-year revocation |
 
 A fourth is a felony. A child under 14 in the car doubles the minimum punishment.
@@ -146,11 +146,11 @@ A fourth is a felony. A child under 14 in the car doubles the minimum punishment
 
 Under 21 in {{STATE}}, a BAC of **0.02** up to 0.08 is DUI. A first offense brings a **30-day** suspension and a required DUI or substance abuse program. At 0.08 or more, adult penalties apply.
 
-Buying or having alcohol under 21, or using a **fake ID** to get it, is a crime: up to **3 months** in jail, a **$50 to $500** fine and a **90-day to 6-month** license suspension, even with no car involved.
+Buying or having alcohol under 21, or using a **fake ID** to get it, is a crime: up to **3 months** in jail, a **$50 to $500** fine and a **3 to 6 month** license suspension, even with no car involved.
 
 ## phone_laws
 
-{{STATE}}'s **hands-free law** bars every driver from holding or supporting a phone, and from texting, watching or recording video. You may use voice or Bluetooth, and one tap or swipe to start or end a call. Emergency calls are allowed. Police can stop you for this alone.
+Under {{STATE}}'s **hands-free law**, holding or supporting a phone, or watching or recording video, is a violation when an officer also sees you cross lanes without a signal, swerve or otherwise drive improperly. Voice, Bluetooth, one tap or swipe to start or end a call, and emergency calls are allowed. Never text while you drive.
 
 | Within 24 months | Fine | Points |
 |---|---|---|
@@ -227,7 +227,7 @@ You may be asked to back up about **50 feet**, make a **three-point turn**, park
 
 | Option | Requirement |
 |---|---|
-| Practice | At least **50 hours** behind the wheel, certified on ALEA form DL-31 by a parent, guardian, grandparent or licensed driving instructor |
+| Practice | At least **50 hours** behind the wheel, certified on ALEA form DL-31 by a parent, guardian, grandparent or certified driving instructor |
 | Driver education | A course approved by the State Department of Education |
 
 {{STATE}} sets no separate night-hour count. You must also hold your learner license at least **six months** if you are under 18.

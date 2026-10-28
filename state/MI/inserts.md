@@ -24,9 +24,9 @@ Hurting or killing someone in a work zone can mean up to **15 years** in prison.
 
 In {{STATE}}, after a full stop you may turn **right on a steady red light** unless a sign forbids it. Yield to pedestrians, bicycles and cross traffic first.
 
-You may also turn **left on red** onto a **one-way street** after a full stop, both from another one-way street and from a two-way street. Turning from a two-way street, also yield to oncoming drivers turning right.
+You may also turn **left on red** onto a **one-way street**, from a one-way or a two-way street, after a full stop. From a two-way street, also yield to oncoming drivers turning right.
 
-A **steady red arrow** means stop, and you may not turn until the signal changes.
+A **steady red arrow** follows the same rules for its turn. Facing one for a left onto a two-way street, wait for the signal to change.
 
 ## move_over
 
@@ -67,7 +67,7 @@ Treat an unmarked crossover as one lane. Never use a freeway median crossover; s
 | Subdivisions and condominium complexes | 25 mph |
 | Posted work zones | 45 mph |
 | Other highways and streets | 55 mph |
-| Freeways | 70 mph (minimum 55) |
+| Freeways | 70 mph (minimum 55); 75 where posted |
 
 | Over the limit | Points |
 |---|---|
@@ -125,7 +125,7 @@ In {{STATE}}, driving with these BAC levels is a crime:
 | Driver | Limit |
 |---|---|
 | 21 or older | 0.08 |
-| Under 21 | 0.02 |
+| Under 21 | 0.02, or any alcohol from drinking |
 
 A BAC of **0.17** or more is a **high BAC**, with tougher penalties. You can be arrested at any BAC if you show signs of impairment. Driving high on marijuana carries the same penalties as alcohol, and no one in the car may smoke it.
 
@@ -156,13 +156,13 @@ Up to **360 hours** of community service and **6 points** may also apply. A high
 
 A {{STATE}} driver under 21 with a BAC of **0.02** up to 0.08 faces a fine up to **$250**, up to **360 hours** of community service, a **30-day** license suspension or restriction and **4 points**.
 
-Buying, drinking or having alcohol under 21: up to **$100** the first time, more for repeat offenses. A fake ID to buy alcohol: up to **93 days** in jail. Any drug conviction, even off the road, suspends your license for **6 months**.
+Buying, drinking or having alcohol under 21: up to **$100** the first time, more for repeat offenses. A fake ID to buy alcohol: up to **93 days** in jail. A first drug conviction, even off the road, suspends your license for **6 months**.
 
 ## phone_laws
 
 In {{STATE}}, no driver may hold or use a phone or other mobile device while driving: no calls, texts, videos or social media in your hand.
 
-Drivers with a Level 3 or regular license may use one tap or swipe, voice control, a car's built-in screen or a mounted device. Level 1 and Level 2 drivers may not use a phone at all (Kelsey's Law).
+Drivers with a Level 3 or regular license may use one tap or swipe, voice control, a car's built-in screen or a mounted device. Level 1 and Level 2 drivers may not use a phone at all, except to report an emergency (Kelsey's Law).
 
 | Offense | Fine | Points |
 |---|---|---|
@@ -175,7 +175,7 @@ Fines double if you cause a crash.
 
 In {{STATE}}, the driver and every front seat passenger must wear a seat belt. Passengers under **16** must be buckled in every seat.
 
-Enforcement is **primary**: an officer may stop you only for a missing belt. A belt ticket adds no points. If a medical condition keeps you from wearing a belt, carry a doctor's statement.
+Enforcement is **primary**: an officer may stop you just for a missing belt. A belt ticket adds no points. If a medical condition keeps you from wearing a belt, carry a doctor's statement.
 
 ## child_restraints
 
@@ -188,13 +188,13 @@ Enforcement is **primary**: an officer may stop you only for a missing belt. A b
 | Under 8 and under 4 feet 9 inches | Booster seat |
 | 8 to under 16 | Seat belt |
 
-A child in a car seat rides in the back if the car has one. A rear-facing seat goes in front only with the airbag off. Never take a child out of a car seat in a moving car.
+A child under **13** rides in the back seat if the car has one. A rear-facing seat goes in front only with the airbag off. Never take a child out of a car seat in a moving car.
 
 ## vehicle_rules
 
-{{STATE}} car tires need at least **2/32 inch** of tread. Tint or film may cover only the top **4 inches** of the windshield and none of the front side windows.
+{{STATE}} car tires need at least **2/32 inch** of tread. Tint or film may cover only the top **4 inches** of the windshield and the front side windows.
 
-Every car must carry no-fault insurance. Liability limits start at **$250,000** per person and **$500,000** per crash for injury, unless you choose lower limits of at least $50,000 and $100,000, plus **$10,000** for property damage. Under 18, no one may ride in an open pickup bed above **15 mph**.
+Every car must carry no-fault insurance. Injury liability is **$250,000** per person and **$500,000** per crash unless you choose lower limits, at least $50,000 and $100,000. Property damage liability is **$10,000**. Under 18, no one may ride in an open pickup bed above **15 mph**.
 
 ## police_stop
 
@@ -254,4 +254,4 @@ When multiple turn lanes are marked, finish your turn in the lane that matches t
 
 In {{STATE}}, it is illegal to use or even flash high beams within **500 feet** of an oncoming vehicle. Also dim them for pedestrians and bicyclists.
 
-The {{STATE}} manual sets no distance for following, but says never use high beams behind another vehicle. If an oncoming driver keeps high beams on, look toward the right edge of the road.
+The {{STATE}} manual sets no distance for following, but says never use high beams behind another vehicle. If an oncoming driver keeps high beams on, do not flash yours; look toward the right edge of the road.

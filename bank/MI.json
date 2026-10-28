@@ -905,14 +905,14 @@
   "id": "MI-069",
   "ch": 3,
   "quiz": true,
-  "q": "You are stopped at a steady red arrow pointing right. What may you do?",
-  "a": "Turn right after a full stop",
-  "b": "Turn right without stopping if clear",
+  "q": "At a left turn signal, you face a steady red arrow pointing left. The cross street is a two-way street. What may you do?",
+  "a": "Turn left after a full stop",
+  "b": "Turn left without stopping if the way is clear",
   "c": "Wait; do not turn until the signal changes",
-  "d": "Turn right only if a sign says Right Turn Only",
+  "d": "Turn left after yielding to oncoming traffic",
   "correct": "C",
-  "exp": "The Michigan manual says a solid red arrow means stop, and you cannot turn until the signal changes.",
-  "src": "What Every Driver Must Know (Michigan SOS, Oct. 2025), Ch. 5, Flashing yellow arrow left-turn signal head"
+  "exp": "A red arrow follows the red light rules for its turn, and Michigan allows a left on red only onto a one-way street. Onto a two-way street, wait for the signal to change.",
+  "src": "MCL 257.612(1) and (1)(c)(ii) (legislature.mi.gov); What Every Driver Must Know (Michigan SOS, Oct. 2025), Ch. 5, Flashing yellow arrow left-turn signal head"
  },
  {
   "id": "MI-070",
@@ -1588,12 +1588,12 @@
   "ch": 11,
   "quiz": true,
   "q": "What is the BAC level at which a Michigan driver under 21 breaks the law?",
-  "a": "0.00",
+  "a": "0.10",
   "b": "0.05",
   "c": "0.08",
   "d": "0.02",
   "correct": "D",
-  "exp": "Drivers under 21 may not drive with a BAC of 0.02 or more.",
+  "exp": "Drivers under 21 may not drive with a BAC of 0.02 or more, or with any alcohol in the body from drinking.",
   "src": "MCL 257.625(6) (legislature.mi.gov); Michigan State Police, Impaired driving law"
  },
  {
@@ -1915,7 +1915,7 @@
   "ch": 12,
   "quiz": false,
   "q": "How is Michigan's seat belt law enforced for front seat occupants?",
-  "a": "Primary: an officer can stop you only for not wearing a belt",
+  "a": "Primary: an officer can stop you just for not wearing a belt",
   "b": "Secondary: only after a stop for something else",
   "c": "Only on freeways",
   "d": "Only for drivers under 18",
@@ -1973,7 +1973,7 @@
   "c": "8 inches",
   "d": "None is allowed",
   "correct": "A",
-  "exp": "Tinted film may cover only the top 4 inches of the windshield; none is allowed on the front side windows.",
+  "exp": "Tinted film may cover only the top 4 inches of the windshield and of the front side windows.",
   "src": "MCL 257.709 (legislature.mi.gov)",
   "app_only": true
  },
