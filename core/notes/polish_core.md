@@ -26,7 +26,7 @@ Input: `qa/coverage_PA_v2.md` (sections 4 to 7). Scope: core/*.md, bank/core.jso
 | Long horn blast when you have lost control of your car | 5.8 | PennDOT PUB 95 Ch 3; UVC 12-401 |
 | Left turn with a blocked view: wait until you can see every lane you must cross | 4.2 Turning Left | PennDOT PUB 95 Ch 3 |
 | Smoking added to the distraction list; no headphones or earbuds | 11.7 | NHTSA distracted driving; PUB 95 Ch 3 |
-| BAC 0.02 to 0.05 (about 0.04): about 2 to 5 times the fatal crash risk, highest for young drivers | 11.1 | Zador, Krawchuk and Voas (2000), NHTSA DOT HS 809 050, Tables 6.1 to 6.6 (RR 1.7 to 4.6 at BAC 0.020 to 0.049) |
+| BAC 0.02 to 0.05 (about 0.04): about 2 to 3 times the fatal crash risk, highest for young drivers | 11.1 | Zador, Krawchuk and Voas (2000), NHTSA DOT HS 809 050, Tables 6.1 to 6.6 (RR 1.7 to 4.6 at BAC 0.020 to 0.049) |
 | Phone use: about 4 times the crash risk, and hands-free is no safer | 11.7 | McEvoy et al., BMJ 331:428 (2005), IIHS |
 | Warm up the engine so the defroster works; on packed snow, about half your normal speed | 10.4 | PennDOT PUB 95 Ch 3 (winter driving) |
 
