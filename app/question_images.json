@@ -1,0 +1,23 @@
+{
+ "_note": "Sign pictures shown with app questions (image_url). Files live in the old project's public flashcards bucket. Owner spot-check pending.",
+ "sq_stop": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Stop.avif",
+ "sq_yield": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Yield.avif",
+ "sq_do_not_enter": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Do%20Not%20Enter.avif",
+ "sq_one_way": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/One%20Way.avif",
+ "sq_no_u_turn": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/U-Turn%20Not%20Allowed.avif",
+ "sq_no_bicycles": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Bicycles%20Not%20Allowed.avif",
+ "sq_rr_advance": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Railroad%20Crossing%20Ahead.avif",
+ "sq_circular_intersection": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Circular%20Intersection%20Ahead.avif",
+ "sq_divided_highway_ends": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Divided%20highway%20ends%20ahead.avif",
+ "sq_flagger_ahead": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Flag%20Person%20Ahead.avif",
+ "sq_merge": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Traffic%20Merging%20Ahead.avif",
+ "sq_narrow_bridge": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Narrow%20Bridge%20Ahead.avif",
+ "sq_object_marker": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Object%20Marker%20Sign.avif",
+ "sq_side_road": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Upcoming%20Side%20Road.avif",
+ "sq_signal_ahead": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Traffic%20Control%20Signal%20Ahead.avif",
+ "sq_slippery": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Slippery%20Road%20Ahead.avif",
+ "sq_two_way_traffic": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Two-Way%20Traffic%20Ahead.avif",
+ "sq_y_intersection": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Y-Intersection%20Ahead.avif",
+ "sq_school": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/School%20Zone%20Ahead.avif",
+ "sq_workers": "https://ksiqvvoqlzdihjubaxbm.supabase.co/storage/v1/object/public/flashcards/Road%20Crew%20at%20Work%20Ahead.avif"
+}

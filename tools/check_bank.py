@@ -44,6 +44,10 @@ for path in sys.argv[1:]:
         for r in rs:
             if r.get("img") and not (_IMG / f"{r['img']}.svg").exists():
                 errors.append(f"{r['id']}: image layout/fig/{r['img']}.svg not found")
+            _L = [len(r[k]) for k in "abcd"]; _ci = "ABCD".index(r["correct"]) if r["correct"] in "ABCD" else 0
+            _o = max(_L[i] for i in range(4) if i != _ci)
+            if _L[_ci] >= 1.5 * _o and _L[_ci] - _o >= 15 and not r.get("app_only"):
+                warns.append(f"{r['id']}: correct answer much longer than the others (answer-length cue)")
             if r.get("quiz") and r.get("app_only"):
                 errors.append(f"{r['id']}: a quiz question cannot be app_only")
         letters = collections.Counter(r["correct"] for r in rs)

@@ -34,15 +34,16 @@ if a.state:
 else:
     src, st = ROOT / "bank/core.json", None
 
-rows = [{"question_text": r["q"], "answers": {"A": r["a"], "B": r["b"], "C": r["c"], "D": r["d"]},
+IMG = json.loads((ROOT / "app/question_images.json").read_text()) if (ROOT / "app/question_images.json").exists() else {}
+rows = [{"question_text": r["q"], "image_url": IMG.get(r.get("img") or ""), "answers": {"A": r["a"], "B": r["b"], "C": r["c"], "D": r["d"]},
          "correct_answer": r["correct"], "explanation": r["exp"], "category": f"Chapter {r['ch']}: {titles[r['ch']]}",
          "state": st} for r in json.loads(src.read_text())]
 tag = st or "core"
 for i in range(0, len(rows), 100):
     body = json.dumps(rows[i:i + 100], ensure_ascii=False, separators=(",", ":"))
     assert "$j$" not in body
-    sql = ("insert into questions (question_text,answers,correct_answer,explanation,category,state) "
-           "select question_text,answers,correct_answer,explanation,category,state from jsonb_to_recordset($j$" + body +
-           "$j$::jsonb) as x(question_text text,answers jsonb,correct_answer text,explanation text,category text,state text) returning 1")
+    sql = ("insert into questions (question_text,image_url,answers,correct_answer,explanation,category,state) "
+           "select question_text,image_url,answers,correct_answer,explanation,category,state from jsonb_to_recordset($j$" + body +
+           "$j$::jsonb) as x(question_text text,image_url text,answers jsonb,correct_answer text,explanation text,category text,state text) returning 1")
     (out / f"{tag}_{i // 100}.sql").write_text(sql)
 print(f"{len(rows)} {tag} questions -> {out}")
