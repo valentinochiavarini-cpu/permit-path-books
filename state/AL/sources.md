@@ -112,3 +112,5 @@ Short names:
 - HB33 (2026 session), which would change the school-enrollment age rule: passed the House 2026-02-05, last action placed on Senate calendar; outcome not confirmed (legiscan). Book keeps the current under-19 rule.
 - Resolved in factcheck_A: the book follows the codified 32-6-7.2 (Deputy Hart Act) rather than the manual; confirm (h) against the official code when alison.legislature.state.al.us is reachable.
 - alison.legislature.state.al.us and law.justia.com (current version) could not be fetched in this session.
+
+- 2026-10-29: Stage II license fee set to $36.25 per ALEA GDL page ("Stage II license fee is $36.25"; counties may charge more): https://www.alea.gov/dps/driver-license/license-and-id-cards/graduated-driver-license . The manual line saying no extra cost was dropped.
