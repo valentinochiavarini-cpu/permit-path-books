@@ -79,3 +79,5 @@ Skipped on purpose (Daniel Hart already leads, a new brand would cannibalize it)
 - Next Lovable batch (small, not urgent): sitemap.xml still uses the preview host instead of permit-path-practice.lovable.app; the page title contains an em dash.
 - Spot-check flashcard images whose names look mislabeled (Railroad Crossing, Roundabout, Right Turn, duplicate pairs).
 - Cover design.
+
+- 2026-10-29: Bank pass 2 done on all 16 banks (believable distractors, correct answer longest in 23 percent of 2,833 questions). All 15 books rebuilt (189 to 207 pp), app reloaded from the same bank (counts verified), states table mock sizes and pass scores aligned. 16 core and most state sign questions carry app images; the other sign questions describe the sign in words, so they work without one. EPUBs handed to the owner for the ebooks bucket.
