@@ -17,11 +17,12 @@ Everything here was agreed with the owner. Change it only with the owner's appro
 
 ## Title (KDP)
 Standard (max 200 characters; the longest state name gives 192):
-`[State] Drivers Ed Book: Driver's License Handbook and Permit Practice Test Book for Teens and First-Time Drivers | Chapter Quizzes, 2 Full Mock Exams and 500+ Online Practice Questions`
+`[State] Drivers Ed Book: Driver's License Handbook and Permit Practice Test Book for Teens and First-Time Drivers | Chapter Quizzes, Full Mock Exams and 500+ Online Practice Questions`
 
 California only (new residents must take the knowledge test there):
-`California Drivers Ed Book: Driver's License Handbook and Permit Practice Test Book for Teens, First-Time Drivers and New Residents | Chapter Quizzes, 2 Mock Exams and 500+ Online Practice Questions`
+`California Drivers Ed Book: Driver's License Handbook and Permit Practice Test Book for Teens, First-Time Drivers and New Residents | Chapter Quizzes, Mock Exams and 500+ Online Practice Questions`
 
+- 2026-11-01: owner dropped the "2" before "Full Mock Exams" in the title.
 - Do not put "flashcards" in the subtitle (KDP issues in the past).
 - Year phrases ("[state] drivers handbook 2026") go only in the 7 backend keyword slots; refresh every January.
 - Price: $17.99 to $18.99 paperback (market leader Easy Route Test Prep: $18.99).
