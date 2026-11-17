@@ -3,12 +3,16 @@ import re, subprocess, pathlib, html, json
 
 HERE = pathlib.Path(__file__).parent
 CFG = json.loads((HERE / "config.json").read_text())
+FIG_OVERRIDE = None   # set by build_book.py --color to layout/fig_official
 LABELS = {"on the test": "tests", "test trap": "trap", "road tip": "tip", "remember it": "memory"}
 
 
 def scope_svg(fname):
     """Inline SVGs share one stylesheet, so prefix every class name with the figure name."""
-    svg = (HERE / "fig" / fname).read_text()
+    src = HERE / "fig" / fname
+    if FIG_OVERRIDE and (FIG_OVERRIDE / fname).exists():   # color edition: official FHWA sign artwork
+        src = FIG_OVERRIDE / fname
+    svg = src.read_text()
     pre = re.sub(r"[^a-z0-9]", "", fname.rsplit(".", 1)[0].lower())
     svg = re.sub(r'class="([^"]+)"', lambda m: 'class="' + " ".join(f"{pre}-{c}" for c in m.group(1).split()) + '"', svg)
     svg = re.sub(r"(<style[^>]*>)(.*?)(</style>)", lambda m: m.group(1) + re.sub(r"\.([A-Za-z_][\w-]*)", lambda n: f".{pre}-{n.group(1)}", m.group(2)) + m.group(3), svg, flags=re.S)
@@ -39,7 +43,7 @@ def md_to_html(md):
     def fig(m):
         cap = m.group(2) if m.lastindex and m.lastindex >= 2 and m.group(2) else ""
         cap_html = f'<div class="fig-cap">{cap}</div>' if cap.strip() else ""
-        cls = "fig sq" if m.group(1).startswith("sq_") else "fig"
+        cls = "fig sq" if m.group(1).startswith("sq_") else ("fig signs" if m.group(1).startswith("signs_") else "fig")
         return f'<div class="{cls}">{scope_svg(m.group(1))}{cap_html}</div>'
     out = re.sub(r'<figure>\s*<img src="fig/([a-z0-9_]+\.svg)"[^>]*>\s*<figcaption[^>]*>(.*?)</figcaption>\s*</figure>', fig, out, flags=re.S)
     out = re.sub(r'<p>\s*<img src="fig/([a-z0-9_]+\.svg)"[^>]*>\s*</p>', fig, out)

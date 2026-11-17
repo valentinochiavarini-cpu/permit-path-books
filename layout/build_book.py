@@ -6,6 +6,7 @@ Usage (from the repo root):
 """
 import sys, pathlib, subprocess, re, argparse, json, random
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import build
 from build import md_to_html, HERE, CFG
 ROOT = HERE.parent
 
@@ -13,6 +14,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--state")
 ap.add_argument("--code")
 ap.add_argument("--core-only", action="store_true")
+ap.add_argument("--color", action="store_true", help="compact layout for the standard color paperback (fewer pages); output gets a _Color suffix")
 args = ap.parse_args()
 if args.core_only:
     state, code, sdir = "Sample State", None, ROOT / "core" / "sample"
@@ -22,6 +24,11 @@ else:
     state, code, sdir = args.state, args.code.upper(), ROOT / "state" / args.code.upper()
 OUT = ROOT / "out" / (code or "core"); OUT.mkdir(parents=True, exist_ok=True)
 stem = f"Permit_Path_{state.replace(' ', '_')}" if code else "Core_preview"
+if args.color:
+    stem += "_Color"
+if args.color:
+    build.FIG_OVERRIDE = HERE / "fig_official"
+CSS_LINKS = '<link rel="stylesheet" href="book.css">' + ('<link rel="stylesheet" href="book_color.css">' if args.color else "")
 BASE, SHORT = CFG["app_base"], CFG["app_short"]
 errors = []
 
@@ -146,6 +153,17 @@ full = full.replace("{{STATE}}", state)
 if state[:1] in "AEIOU" and re.search(rf"\b[Aa] {state}\b", full):
     errors.append(f"article: 'a {state}' should be 'an {state}'")
 full = re.sub(r"\[APP-LINK:(\d+)\]", rf"{SHORT}/ch/\1", full)
+if args.color:  # the color edition prints the signs in color: swap the two B&W notes
+    COLOR_TEXT = [
+        ("The book is printed in black and white to keep it affordable. Road signs are learned partly by color, so every color is named in the text, and the online flashcards show every sign in full color.",
+         "Road signs are learned partly by color. This book prints every sign in full color and names each color in the text, and the online flashcards let you drill them."),
+        ("The print in this book is black and white, so colors are named in words.",
+         "The signs in this book are printed in color, and each color is also named in words."),
+    ]
+    for a, b in COLOR_TEXT:
+        if a not in full:
+            errors.append(f"color edition: B&W note not found: {a[:50]}")
+        full = full.replace(a, b)
 (OUT / f"{stem}.md").write_text(full)
 
 APP_BOX = (f'<div class="app-box"><img src="qr/home.svg"><div><div class="app-kicker">Free with this book</div>'
@@ -200,10 +218,65 @@ def assemble(pages):
     i = body.rfind('<section', 0, i)
     body = body[:i] + toc_html(pages) + body[i:]
     body = body.replace('<section class="part"><h1 id="supervised', '<section class="part log"><h1 id="supervised')
+    if args.color:  # a log a learner can total: day hours, night hours and a running total
+        i = body.find('<section class="part log">')
+        j = body.rfind("<table", i)
+        k = body.find("</table>", j) + len("</table>")
+        head = "<thead><tr><th>Date</th><th>Day hours</th><th>Night hours</th><th>Total so far</th><th>What you practiced</th><th>Initials</th></tr></thead>"
+        cols = '<colgroup><col style="width:15%"><col style="width:11%"><col style="width:11%"><col style="width:12%"><col style="width:40%"><col style="width:11%"></colgroup>'
+        rows = "<tr>" + "<td></td>" * 6 + "</tr>"
+        body = body[:j] + f'<table class="logtable">{cols}{head}<tbody>{rows * LOG_ROWS}</tbody></table>' + body[k:]
+    if args.color:  # keep each question with its picture and options in one column
+        body = re.sub(r'(<p><strong>\d+\. (?:(?!</p>).)*?</strong></p>)((?:\s*<div class="fig sq">.*?</div>)?\s*<ol type="A">.*?</ol>)',
+                      r'<div class="q">\1\2</div>', body, flags=re.S)
+    if args.color and APP_BOX in body:   # the app box sits on the half-empty copyright page, not alone on page 5
+        c = body.find('<section class="part copyright">')
+        e = body.find("</section>", c)
+        if c >= 0:
+            body = body.replace(APP_BOX, "", 1)
+            e = body.find("</section>", c)
+            body = body[:e] + APP_BOX + body[e:]
+    for n in CARD_FIRST:   # the practice card moves above the quiz so it is not left alone on the last page
+        h = body.find(f'<h2 id="chapter-{n}-quiz"')
+        c = body.find('<div class="practice-card">', h)
+        e = body.find("</section>", c)
+        if h > 0 and c > 0:
+            body = body[:h] + body[c:e] + body[h:c] + body[e:]
+    for n in QUIZ_NEWPAGE:
+        body = body.replace(f'<h2 id="chapter-{n}-quiz">', f'<h2 id="chapter-{n}-quiz" class="newpage">')
+    for n, lvl in SNUG.items():
+        body = body.replace(f'<section class="chapter" style="page: ch{n}">', f'<section class="chapter snug{lvl}" style="page: ch{n}">')
     return TITLE_HTML + body
 
+QUIZ_NEWPAGE, SNUG, CARD_FIRST = set(), {}, set()   # color edition page fitting, filled in after the first render
+
+def page_texts():
+    return subprocess.run(["pdftotext", str(OUT / f"{stem}.pdf"), "-"], capture_output=True, text=True).stdout.split("\f")
+
+def cramped_quizzes():
+    """Chapters whose quiz heading lands so low that fewer than two questions fit under it."""
+    out = []
+    for i, pg in enumerate(page_texts()):
+        if "Answer Key" in pg and "Each answer has a short explanation" in pg:
+            break
+        m = re.search(r"Chapter (\d+) Quiz", pg)
+        if m and int(m.group(1)) not in QUIZ_NEWPAGE:
+            if len(re.findall(r"(?m)^\d{1,2}\. \S", pg[m.end():])) < 2:
+                out.append(int(m.group(1)))
+    return out
+
+def card_alone(pages):
+    """Chapters whose last page holds under 90 words (the practice card alone)."""
+    txt, out = page_texts(), []
+    for j, (key, _part, n, _title) in enumerate(entries):
+        if n and j + 1 < len(entries) and key in pages and entries[j + 1][0] in pages:
+            if len(txt[pages[entries[j + 1][0]] - 2].split()) < 90:
+                out.append(int(n))
+    return out
+
+LOG_ROWS = 64   # color edition: the intro page plus three full pages
 def render(body):
-    (HERE / f"{stem}.html").write_text(f'<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="book.css"></head><body>{body}</body></html>')
+    (HERE / f"{stem}.html").write_text(f'<!doctype html><html><head><meta charset="utf-8">{CSS_LINKS}</head><body>{body}</body></html>')
     js = f"""const {{ chromium }} = require('playwright');
 (async () => {{ const b = await chromium.launch({{ executablePath: '/opt/pw-browsers/chromium' }});
 const p = await b.newPage(); await p.goto('file://{HERE}/{stem}.html'); await p.evaluate(() => document.fonts.ready);
@@ -217,6 +290,26 @@ await p.pdf({{ path: '{OUT}/{stem}.pdf', preferCSSPageSize: true, printBackgroun
     return pages
 
 pages = render(assemble({}))
+if args.color:
+    QUIZ_NEWPAGE.update(cramped_quizzes())
+    pages = render(assemble(pages))
+    for lvl in (1, 2):
+        alone = card_alone(pages)
+        if not alone:
+            break
+        for n in alone:
+            SNUG[n] = lvl
+        pages = render(assemble(pages))
+    for n in card_alone(pages):
+        SNUG.pop(n, None); CARD_FIRST.add(n)
+    if CARD_FIRST:
+        pages = render(assemble(pages))
+        left = card_alone(pages)      # a lone last question: close the spacing as well
+        if left:
+            for n in left:
+                SNUG[n] = 2
+            pages = render(assemble(pages))
+    print("quiz on a new page:", sorted(QUIZ_NEWPAGE), "| closer question spacing:", SNUG, "| card above the quiz:", sorted(CARD_FIRST), "| card still alone:", card_alone(pages))
 pages2 = render(assemble(pages))
 if pages != pages2:
     errors.append("contents page numbers shifted between passes")
@@ -253,7 +346,9 @@ emd = re.sub(r"\]\(fig/([a-z0-9_]+)\.svg\)", lambda m: f"]({FIGOUT}/{m.group(1)}
 meta = ["--metadata", f"title={state} Drivers Ed Book", "--metadata", "subtitle=Driver's License Handbook and Permit Practice Test Book for Teens and First-Time Drivers",
         "--metadata", "author=Permit Path", "--metadata", "publisher=Permit Path", "--metadata", "lang=en-US"]
 subprocess.run(["pandoc", str(OUT / f"{stem}_ebook.md"), "-o", str(OUT / f"{stem}.epub"), "--css", str(HERE / "epub.css"), "--toc", "--toc-depth=1", "--split-level=1"] + meta, check=True)
-(HERE / f"{stem}.html").unlink(missing_ok=True)
+import os
+if not os.environ.get("KEEP_HTML"):
+    (HERE / f"{stem}.html").unlink(missing_ok=True)
 print("built", OUT / f"{stem}.pdf", "| words", len(full.split()))
 
 if errors:

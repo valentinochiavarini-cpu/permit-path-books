@@ -1,0 +1,88 @@
+/* Permit Path: color paperback (loaded after book.css by --color).
+   One text size for the whole book, roomier quizzes that start on their own page, official FHWA sign artwork,
+   one accent color. KDP: inside margin at least 0.5 in from 151 pages; we use 0.6 in. */
+:root { --accent: #1b4f8f; --accent-tint: #eaf1f9; --warn: #b3261e; --ok: #1e7a46; --ok-tint: #eef7f1; --amber: #a86200; --amber-tint: #fff7e6; }
+
+@page { margin: 0.52in 0.45in 0.58in 0.45in; }
+@page :left  { margin-left: 0.45in; margin-right: 0.6in; }
+@page :right { margin-left: 0.6in; margin-right: 0.45in; }
+
+html { font-size: 10pt; line-height: 1.42; }
+p { margin-bottom: 0.6em; }
+.chapter-head { margin: 0.22in 0 0.22in; }
+.chapter-head .num { background: var(--accent); }
+.chapter-head h1 { font-size: 20pt; padding-bottom: 0.13in; border-bottom-color: var(--accent); }
+h2 { font-size: 12.5pt; margin: 1.25em 0 0.42em; }
+h3 { font-size: 10.4pt; margin: 1em 0 0.25em; }
+ul, ol { margin-bottom: 0.65em; }
+li { margin-bottom: 0.2em; }
+section.part h1, section.toc h1 { border-bottom-color: var(--accent); }
+.tp-brand { border-bottom-color: var(--accent); }
+
+/* tables stay whole: no row left alone on the next page */
+table { margin: 0.75em 0 0.85em; font-size: 8.6pt; line-height: 1.34; break-inside: avoid; border-top-color: var(--accent); border-bottom-color: var(--accent); }
+thead th { background: var(--accent-tint); border-bottom-color: var(--accent); }
+thead th, tbody td { padding: 4px 6px; }
+
+.callout { padding: 0.55em 0.8em 0.5em; margin: 0.8em 0 0.9em; font-size: 9.7pt; line-height: 1.42; }
+.callout:has(table) { break-inside: auto; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.callout.tests { background: var(--accent-tint); border-top-color: var(--accent); }
+.callout.tests .label { color: var(--accent); }
+.callout.trap { border-color: var(--warn); }
+.callout.trap .label { color: var(--warn); }
+.callout.tip { border-left-color: var(--ok); background: var(--ok-tint); }
+.callout.tip .label { color: var(--ok); }
+.callout.memory { border-color: var(--amber); background: var(--amber-tint); }
+.callout.memory .label { color: var(--amber); }
+.callout.state { border-color: var(--accent); background: var(--accent-tint); }
+.callout.state .label { background: var(--accent); }
+
+.fig { margin: 0.8em auto; }
+.fig svg { max-width: 4.5in; }
+.fig.signs svg { max-width: 4.95in; }
+.fig-cap { font-size: 8.5pt; }
+
+.practice-card, .app-box { margin: 1.1em 0 0.3em; border-color: var(--accent); }
+.pc-band { background: var(--accent); }
+.app-kicker { background: var(--accent); }
+.pc-main { padding: 8px 10px; }
+.pc-qr img { width: 0.82in; height: 0.82in; }
+/* the app box sits at the foot of the copyright page */
+section.copyright .app-box { margin-top: 0.45in; }
+/* How to Use This Book stays on one page */
+section.part:has(#how-to-use-this-book) p, section.part:has(#how-to-use-this-book) li { font-size: 9.5pt; line-height: 1.36; }
+section.part:has(#how-to-use-this-book) h2 { margin: 0.9em 0 0.3em; }
+
+/* Quizzes and mock exams: a fresh page, two roomy columns, each question kept whole */
+/* a quiz opens a fresh page when fewer than two questions would fit under its heading (set by the build) */
+section.chapter h2.newpage { break-before: page; margin-top: 0; }
+section.snug1 .quiz .q { margin-bottom: 0.75em; }
+section.snug1 .practice-card { margin-top: 0.7em; }
+section.snug2 .quiz .q { margin-bottom: 0.5em; }
+section.snug2 .quiz ol li { margin-bottom: 0.06em; }
+section.snug2 .practice-card { margin-top: 0.5em; }
+.quiz { columns: 2; column-gap: 0.34in; column-rule: 0.5pt solid #c9d3e0; margin-top: 0.7em; }
+.quiz p, .quiz ol { font-size: 9.7pt; line-height: 1.38; }
+.quiz .q { break-inside: avoid; margin: 0 0 1.05em; }
+.quiz .q > p { margin: 0 0 0.3em; }
+.quiz p:has(strong) { margin-top: 0; }
+.quiz ol { margin: 0; }
+.quiz ol li { margin-bottom: 0.14em; }
+.fig.sq { margin: 3pt 0 5pt; }
+.fig.sq svg { width: 0.95in; }
+.quiz .fig.sq { break-before: avoid; break-after: avoid; }
+section.part h2 + p { break-after: avoid; }
+.answers p { font-size: 8.6pt; line-height: 1.34; margin-bottom: 0.4em; }
+
+/* Supervised driving log */
+table.logtable { font-size: 8pt; break-inside: auto; margin-top: 0.9em; }
+table.logtable thead { display: table-header-group; }
+table.logtable th { font-size: 7.2pt; padding: 5px 5px; }
+table.logtable td { height: 0.285in; border-right: 0.5pt solid var(--rule); border-bottom: 0.5pt solid #9aa7b8; }
+table.logtable td:last-child { border-right: none; }
+table.logtable tbody td:first-child { font-weight: 500; }
+section.snug2 h2[id^="quick-review"], section.snug2 h2[id$="-quiz"] { margin-top: 0.8em; }
+section.snug2 .pc-list { display: none; }
+section.snug2 .pc-qr img { width: 0.6in; height: 0.6in; }
+section.snug2 .pc-main { padding: 5px 10px; }
+section.snug2 .quiz { margin-top: 0.45em; }
