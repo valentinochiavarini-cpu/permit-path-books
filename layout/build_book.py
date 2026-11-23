@@ -137,7 +137,6 @@ for p in parts:
         t = t.replace("{{QUIZ}}", quiz(int(m.group(1))))
     mds.append(t)
 mds.append(mocks_md())
-mds.append((ROOT / "core" / "95_driving_log.md").read_text())
 full = "\n\n".join(mds)
 full = fill_inserts(full)
 # Generic hedges: [[generic]]...[[/generic]] is text for the multi-state core preview only; a state edition drops it.
@@ -217,15 +216,6 @@ def assemble(pages):
     i = body.find('<h1 id="how-to-use-this-book"')
     i = body.rfind('<section', 0, i)
     body = body[:i] + toc_html(pages) + body[i:]
-    body = body.replace('<section class="part"><h1 id="supervised', '<section class="part log"><h1 id="supervised')
-    if args.color:  # a log a learner can total: day hours, night hours and a running total
-        i = body.find('<section class="part log">')
-        j = body.rfind("<table", i)
-        k = body.find("</table>", j) + len("</table>")
-        head = "<thead><tr><th>Date</th><th>Day hours</th><th>Night hours</th><th>Total so far</th><th>What you practiced</th><th>Initials</th></tr></thead>"
-        cols = '<colgroup><col style="width:15%"><col style="width:11%"><col style="width:11%"><col style="width:12%"><col style="width:40%"><col style="width:11%"></colgroup>'
-        rows = "<tr>" + "<td></td>" * 6 + "</tr>"
-        body = body[:j] + f'<table class="logtable">{cols}{head}<tbody>{rows * LOG_ROWS}</tbody></table>' + body[k:]
     if args.color:  # keep each question with its picture and options in one column
         body = re.sub(r'(<p><strong>\d+\. (?:(?!</p>).)*?</strong></p>)((?:\s*<div class="fig sq">.*?</div>)?\s*<ol type="A">.*?</ol>)',
                       r'<div class="q">\1\2</div>', body, flags=re.S)
@@ -274,7 +264,6 @@ def card_alone(pages):
                 out.append(int(n))
     return out
 
-LOG_ROWS = 64   # color edition: the intro page plus three full pages
 def render(body):
     (HERE / f"{stem}.html").write_text(f'<!doctype html><html><head><meta charset="utf-8">{CSS_LINKS}</head><body>{body}</body></html>')
     js = f"""const {{ chromium }} = require('playwright');

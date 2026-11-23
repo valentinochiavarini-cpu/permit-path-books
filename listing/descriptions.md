@@ -15,7 +15,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real Pennsylvania test: 18 questions, 15 correct to pass.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -41,7 +40,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real Florida test: 50 questions, 40 correct to pass.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -67,7 +65,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> in the two-part format Texas driver education courses use: 15 road signs and 15 road rules, 70 percent to pass each part.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -93,7 +90,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the California test for applicants under 18: 46 questions, 38 correct to pass.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -119,7 +115,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real New York test: 20 questions, 14 correct to pass, including at least 2 of the 4 road sign questions.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -145,7 +140,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real Illinois test: 35 questions, 28 correct to pass.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -171,7 +165,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real Ohio test: 40 questions, 30 correct to pass.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -197,7 +190,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real Missouri exams: a 6-sign test and a 25-question written test.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -223,7 +215,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the North Carolina exams: a 12-question sign test plus 25 rules of the road questions.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -249,7 +240,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> with 25 questions each, scored at 80 percent (the SCDMV does not publish the test length).</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -275,7 +265,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real two-part Georgia test: 20 road signs and 20 road rules, 15 correct to pass each part.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -301,7 +290,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real New Jersey test: 50 questions, 40 correct to pass.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -327,7 +315,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> built like the real two-part Virginia test: 10 road signs (all 10 to pass), then 30 general questions (24 to pass).</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -353,7 +340,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> with 30 questions each, scored at 80 percent (ALEA does not publish the test length).</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
@@ -379,7 +365,6 @@ Paste the HTML block into the KDP Description field (KDP accepts these tags). Ge
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> in two parts, road rules and road signs, scored at about 70 percent like the Michigan driver education exams.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>

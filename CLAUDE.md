@@ -3,7 +3,7 @@
 Source, briefs and build pipeline for the **Permit Path** state drivers ed books (KDP, 6 x 9 B&W paperback + EPUB). Read `docs/decisions.md` before changing anything: it records what the owner approved. `docs/states.md` holds per-state test facts and status.
 
 ## Layout of this repo
-- `core/`: universal core shared by every state: `00_front.md`, `ch02.md` to `ch13.md`, `90_mocks.md`, `95_driving_log.md`. `core/notes/` holds writing and fact-check logs.
+- `core/`: universal core shared by every state: `00_front.md`, `ch02.md` to `ch13.md`, `90_mocks.md`. `core/notes/` holds writing and fact-check logs.
 - `state/XX/`: per state: `ch01.md` (state chapter), `inserts.md` (state values for the core's `{{INSERT:key}}` markers), `mocks.json` (mock exam question IDs), `sources.md`, fact-check logs. `handbook.pdf` is gitignored.
 - `bank/`: question bank, the single source of truth for every printed and app question (`core.json`, `XX.json`).
 - `layout/`: build pipeline (`build_book.py`, `build.py`, CSS, `config.json` with the app URL).
