@@ -130,7 +130,6 @@ for p in parts:
         t = t.replace("{{QUIZ}}", quiz(int(m.group(1))))
     mds.append(t)
 mds.append(mocks_md())
-mds.append((ROOT / "core" / "95_driving_log.md").read_text())
 full = "\n\n".join(mds)
 full = fill_inserts(full)
 # Generic hedges: [[generic]]...[[/generic]] is text for the multi-state core preview only; a state edition drops it.
@@ -199,7 +198,6 @@ def assemble(pages):
     i = body.find('<h1 id="how-to-use-this-book"')
     i = body.rfind('<section', 0, i)
     body = body[:i] + toc_html(pages) + body[i:]
-    body = body.replace('<section class="part"><h1 id="supervised', '<section class="part log"><h1 id="supervised')
     return TITLE_HTML + body
 
 def render(body):

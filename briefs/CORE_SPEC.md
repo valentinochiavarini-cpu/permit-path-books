@@ -18,7 +18,7 @@ The book is a state edition: Chapter 1 is written per state; Chapters 2 to 13 ar
 | 12 | core/ch12.md | Your Car, Seat Belts and Passengers | pre-drive checks, dashboard warning lights, tires, lights, mirrors, seat belts, airbags, child seats, unattended children, insurance and registration basics, equipment rules | seat_belts, child_restraints, vehicle_rules |
 | 13 | core/ch13.md | Test Day: Knowledge Test and Road Test | how to study the last week, test-taking tactics, what to bring, the road test route and what examiners score, common fails, after you pass | road_test |
 
-After Chapter 13: `core/90_mocks.md` (assembled: Mock Exam 1, Mock Exam 2, Mock Answer Key) and `core/95_driving_log.md` (supervised driving log; the state's hour requirement comes from the `supervised_hours` insert).
+After Chapter 13: `core/90_mocks.md` (assembled: Mock Exam 1, Mock Exam 2, Mock Answer Key).
 
 ## Chapter template
 1. `# Chapter N: Title`

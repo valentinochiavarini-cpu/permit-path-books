@@ -36,7 +36,6 @@ TEMPLATE = """<p><b>Get ready for the {S} permit test with a study guide written
 <li><b>Chapter quizzes:</b> 10 questions after every chapter, with answers and explanations.</li>
 <li><b>2 full mock exams</b> {T}.</li>
 <li><b>Test traps and memory tips</b> that flag the questions people miss most.</li>
-<li><b>Supervised driving log</b> to record practice hours with your parent or guardian.</li>
 </ul>
 <h4>Free with your book</h4>
 <ul>
