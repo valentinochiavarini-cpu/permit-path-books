@@ -1,0 +1,92 @@
+{
+ "FL": {
+  "title": "Florida Permit Test Prep",
+  "subtitle": "Study Guide to Pass the Written Exam | Driver's License Handbook and Permit Practice Test Book for Teens and First-Time Drivers with 500+ Online Practice Questions",
+  "group": "A",
+  "dmv": false
+ },
+ "NY": {
+  "title": "New York Permit Test Prep",
+  "subtitle": "Study Guide to Pass the Written Exam | Driver's License Handbook and DMV Permit Practice Test Book for Teens and First-Time Drivers with 500+ Online Practice Questions",
+  "group": "A",
+  "dmv": true
+ },
+ "IL": {
+  "title": "Illinois Permit Test Prep",
+  "subtitle": "Study Guide to Pass the Written Exam | Driver's License Handbook and Permit Practice Test Book for Teens and First-Time Drivers with 500+ Online Practice Questions",
+  "group": "A",
+  "dmv": false
+ },
+ "NC": {
+  "title": "North Carolina Permit Test Prep",
+  "subtitle": "Study Guide to Pass the Written Exam | Driver's License Handbook and DMV Permit Practice Test Book for Teens and First-Time Drivers with 500+ Online Practice Questions",
+  "group": "A",
+  "dmv": true
+ },
+ "VA": {
+  "title": "Virginia Permit Test Prep",
+  "subtitle": "Study Guide to Pass the Written Exam | Driver's License Handbook and DMV Permit Practice Test Book for Teens and First-Time Drivers with 500+ Online Practice Questions",
+  "group": "A",
+  "dmv": true
+ },
+ "TX": {
+  "title": "Texas Permit Test Prep",
+  "subtitle": "Drivers Ed Book and Driver's Handbook | Permit Practice Test Book for Teens and First-Time Drivers with Chapter Quizzes, Full Mock Exams and 500+ Online Practice Questions",
+  "group": "B",
+  "dmv": false
+ },
+ "CA": {
+  "title": "California Permit Test Prep",
+  "subtitle": "Drivers Ed Book and DMV Handbook | Permit Practice Test Book for Teens and First-Time Drivers with Chapter Quizzes, Full Mock Exams and 500+ Online Practice Questions",
+  "group": "B",
+  "dmv": true
+ },
+ "GA": {
+  "title": "Georgia Permit Test Prep",
+  "subtitle": "Drivers Ed Book and Driver's Handbook | Permit Practice Test Book for Teens and First-Time Drivers with Chapter Quizzes, Full Mock Exams and 500+ Online Practice Questions",
+  "group": "B",
+  "dmv": false
+ },
+ "NJ": {
+  "title": "New Jersey Permit Test Prep",
+  "subtitle": "Drivers Ed Book and Driver's Handbook | Permit Practice Test Book for Teens and First-Time Drivers with Chapter Quizzes, Full Mock Exams and 500+ Online Practice Questions",
+  "group": "B",
+  "dmv": false
+ },
+ "AL": {
+  "title": "Alabama Permit Test Prep",
+  "subtitle": "Drivers Ed Book and Driver's Handbook | Permit Practice Test Book for Teens and First-Time Drivers with Chapter Quizzes, Full Mock Exams and 500+ Online Practice Questions",
+  "group": "B",
+  "dmv": false
+ },
+ "PA": {
+  "title": "Pennsylvania Permit Test Prep",
+  "subtitle": "Drivers Manual and Learners Permit Study Book | Practice Tests for Teens and First-Time Drivers with Chapter Quizzes, Mock Exams and 500+ Online Practice Questions",
+  "group": "C",
+  "dmv": false
+ },
+ "OH": {
+  "title": "Ohio Permit Test Prep",
+  "subtitle": "Drivers Manual and Learners Permit Study Book | Practice Tests for Teens and First-Time Drivers with Chapter Quizzes, Mock Exams and 500+ Online Practice Questions",
+  "group": "C",
+  "dmv": false
+ },
+ "MO": {
+  "title": "Missouri Permit Test Prep",
+  "subtitle": "Drivers Manual and Learners Permit Study Book | Practice Tests for Teens and First-Time Drivers with Chapter Quizzes, Mock Exams and 500+ Online Practice Questions",
+  "group": "C",
+  "dmv": false
+ },
+ "SC": {
+  "title": "South Carolina Permit Test Prep",
+  "subtitle": "Drivers Manual and Learners Permit Study Book | DMV Practice Tests for Teens and First-Time Drivers with Chapter Quizzes, Mock Exams and 500+ Online Practice Questions",
+  "group": "C",
+  "dmv": true
+ },
+ "MI": {
+  "title": "Michigan Permit Test Prep",
+  "subtitle": "Drivers Manual and Learners Permit Study Book | Practice Tests for Teens and First-Time Drivers with Chapter Quizzes, Mock Exams and 500+ Online Practice Questions",
+  "group": "C",
+  "dmv": false
+ }
+}

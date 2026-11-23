@@ -157,8 +157,8 @@ APP_MD = (f"**Free with this book: Permit Path online practice**\n\n- 500+ {stat
           f"Go to [{SHORT}]({BASE}).")
 
 TITLE_HTML = (f'<section class="titlepage"><div class="tp-brand">Permit Path</div><div class="tp-main">'
-              f'<div class="tp-state">{state}</div><div class="tp-title">Drivers Ed Book</div>'
-              f'<div class="tp-sub">Driver\'s License Handbook and Permit Practice Test Book for Teens and First-Time Drivers</div>'
+              f'<div class="tp-state">{state}</div><div class="tp-title">Permit Test Prep</div>'
+              f'<div class="tp-sub">Study Guide to Pass the Written Exam</div>'
               f'<div class="tp-tag">Chapter quizzes, two full mock exams and 500+ free online practice questions, plus full-color road sign flashcards and a free ebook download.</div></div>'
               f'<div class="tp-foot"><span>Permit Path</span><span>{SHORT}</span></div></section>')
 
@@ -259,7 +259,8 @@ const p = await b.newPage({{ deviceScaleFactor: 2 }}); {shots} await b.close(); 
         (HERE / f"_fig_{stem}_{f}.html").unlink(missing_ok=True)
 emd = re.sub(r"\]\(fig/([a-z0-9_]+)\.svg\)", lambda m: f"]({FIGOUT}/{m.group(1)}.png)", emd)
 (OUT / f"{stem}_ebook.md").write_text(emd)
-meta = ["--metadata", f"title={state} Drivers Ed Book", "--metadata", "subtitle=Driver's License Handbook and Permit Practice Test Book for Teens and First-Time Drivers",
+_tt = json.loads((ROOT / "listing" / "titles.json").read_text()).get(code, {})
+meta = ["--metadata", f"title={state} Permit Test Prep", "--metadata", f"subtitle={_tt.get('subtitle', 'Study Guide to Pass the Written Exam')}",
         "--metadata", "author=Permit Path", "--metadata", "publisher=Permit Path", "--metadata", "lang=en-US"]
 subprocess.run(["pandoc", str(OUT / f"{stem}_ebook.md"), "-o", str(OUT / f"{stem}.epub"), "--css", str(HERE / "epub.css"), "--toc", "--toc-depth=1", "--split-level=1"] + meta, check=True)
 (HERE / f"{stem}.html").unlink(missing_ok=True)

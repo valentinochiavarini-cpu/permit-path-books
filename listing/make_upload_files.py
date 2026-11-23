@@ -4,6 +4,11 @@ Rules: no em or en dashes; no dollar amounts or years in the description; 'flash
 import json, glob, pathlib, subprocess, html
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 NAMES = json.loads((ROOT / "layout/config.json").read_text())["state_names"]
+TITLES = json.loads((ROOT / "listing/titles.json").read_text())
+DESC = json.loads((ROOT / "listing/descriptions_v2.json").read_text())
+FILL = {"A": ["drivers ed book for teens and first time drivers", "drivers manual book learners permit study book", "adult drivers license test prep book"],
+        "B": ["drivers license handbook for teens and adults", "drivers manual book learners permit study book", "first time driver book road signs and rules"],
+        "C": ["drivers ed book for teens and first time drivers", "drivers license handbook dmv handbook", "adult drivers license test prep book"]}
 CORE = len(json.loads((ROOT / "bank/core.json").read_text()))
 
 # agency, test sentence (hook), mock phrase, simulator wording real (True) or practice size (False)
@@ -89,16 +94,20 @@ def doc(c):
     st = len(json.loads((ROOT / f"bank/{c}.json").read_text())); app = CORE + st
     pg = pages(c); cost = 1.00 + 0.012 * pg; roy = 0.6 * 18.99 - cost
     sub = CA_TITLE if c == "CA" else STD_TITLE
-    sim = "with the real test's length and passing score" if real else "scored like the real test"
-    kw = [f"{nl} drivers handbook 2026 2027", KW[c][0], f"how to pass the {nl} permit test", KW[c][1],
-          "drivers ed book for teens and first time drivers", "adult drivers license test prep book", "permit practice book road signs and rules"]
+    sim = "with the real test's length and passing score" if real else "at a full practice length"
+    hook, miss, ch1, dmock = DESC[c]; dmock = dmock[0].upper() + dmock[1:]
+    art = "An" if n[0] in "AEIOU" else "A"
+    tt = TITLES[c]
+    kw = [f"{nl} drivers handbook 2026 2027", KW[c][0], KW[c][1],
+          f"how to pass the {nl} permit test" if tt["dmv"] else f"{nl} dmv test book"] + FILL[tt["group"]]
     for k in kw:
         assert len(k) <= 50, (c, k, len(k))
     fmt, srcs = FORMAT[c]
-    title = f"{n} Drivers Ed Book"
-    assert len(title + ": " + sub) <= 200, (c, len(title + ": " + sub))
+    title, sub = tt["title"], tt["subtitle"]
+    assert len(title) + len(sub) < 200, (c, len(title) + len(sub))
     open_items = [f"The 500+ claim holds: {app} questions in the app ({CORE} core plus {st} {n}).",
-                  "Cover title and subtitle must match the KDP fields word for word.",
+                  "Title on the cover and on the interior title page: " + title + ". Same in the KDP title field.",
+                  f"Paperback cover: the folder holds the front cover only (fine for Kindle). KDP paperback needs a full wrap cover (back, spine, front) for {pg} pages on white paper.",
                   "KDP AI content question: answer it for the text as written for this edition.",
                   "Kindle manuscript: upload the EPUB from this folder. Paperback interior: the PDF (6 x 9)."]
     if c in OPEN:
@@ -115,17 +124,16 @@ def doc(c):
 <h2>7 keywords</h2>
 <p>{'<br>'.join(kw)}</p>
 <h2>Product Description</h2>
-<h4>You can study the handbook and still fail the {n} permit test.</h4>
-<p>{test} Plenty of smart people fail it. Not because the rules are hard, but because the handbook never quizzes you, and the exam wants exact answers: how many feet, which hours, what limit.</p>
-<h4>This book teaches you, then tests you, until you're ready.</h4>
-<p>Most permit books are question dumps. This one teaches each topic in plain words, then quizzes you on it right away, with every answer explained. {n} rules are checked against {ag} and {n} law. You get 80+ road signs and diagrams, 130 quiz questions, {mock} and a road test chapter.</p>
-<p><b>Ready in two weeks:</b> one chapter a day, then the mock exams.</p>
-<h4>Plus a free practice app</h4>
-<p>The book teaches you. The app drills you until the answers are automatic. It opens in any browser, with no download, no sign-up and no access code.</p>
-<ul><li><b>600+ {n} questions</b> by chapter, in a new order every time, each answer explained</li><li><b>A timed exam simulator</b> {sim}</li><li><b>115 road signs in full color</b> as flip cards</li><li><b>The full ebook</b> on your phone, every picture in color</li></ul>
+<h4>{hook}</h4>
+<p>Most people who fail don't fail for lack of effort. They read the {n} manual once, then get caught on the exact numbers: {miss}. This book is built so that doesn't happen to you.</p>
+<p><b>Learn a topic, then prove it.</b> Each of the 13 chapters teaches one topic in plain English and ends with a 10-question quiz, every answer explained. Every {n} rule is checked against {ag} and {n} law, and boxed wherever {n} differs from other states.</p>
+<h4>Inside the book</h4>
+<ul><li>{art} {n} chapter on the whole path: {ch1}</li><li>80+ road signs and diagrams, with every color named</li><li>130 chapter quiz questions with explanations</li><li>{dmock}</li><li>A road test chapter: what the examiner scores and the mistakes that fail people</li></ul>
+<h4>Plus the free Permit Path practice app</h4>
+<p>The book teaches you. The app drills you until the answers are automatic. It opens in any browser: no download, no sign-up, no access code.</p>
+<ul><li><b>600+ {n} questions</b> by chapter, shuffled every time, each answer explained</li><li><b>A timed exam simulator</b> {sim}</li><li><b>115 road signs in full color</b> as flashcards</li><li><b>The full ebook</b> on your phone, every sign in color</li></ul>
 <p>{WHO.get(c, WHO_DEFAULT)}</p>
-<p>Pass the mock exams and a few timed runs in the app, and you'll walk in knowing you're ready.</p>
-<p><b>Scroll up and get your copy today.</b></p>
+<p><b>Read a chapter a day, pass both mock exams, and walk in knowing you're ready.</b></p>
 <h2>Editorial Reviews</h2>
 <p><i>Left empty on purpose. Add only reviews from real, named reviewers who agreed to be quoted, such as a driving instructor or a parent beta reader.</i></p>
 <h2>From the Author</h2>
@@ -144,15 +152,13 @@ def doc(c):
 ])}
 <h2>Before Upload</h2>
 {li(open_items)}
-<h2>Alternative Subtitle</h2>
-<p>{sub.split(' | ')[0]} | 13 Chapter Quizzes and Full Mock Exams<br><i>Lower review risk: the main subtitle promises 500+ online questions that are not printed in the book. Keep this one ready in case KDP pushes back.</i></p>
 """
     for bad in ("—", "–"):
         assert bad not in body, (c, bad)
     desc = body.split("<h2>Product Description</h2>")[1].split("<h2>Editorial Reviews</h2>")[0]
     for bad in ("$", "202"):
         assert bad not in desc, (c, bad)
-    assert "flashcard" not in sub.lower()
+    assert "flashcard" not in sub.lower() and "free" not in sub.lower()
     return body, pg, app
 
 out = ROOT / "listing/upload"; out.mkdir(exist_ok=True)
