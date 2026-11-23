@@ -228,6 +228,17 @@ render(_final)
 emd = full.replace("{{APP_BOX}}", APP_MD)
 emd = re.sub(r"\*\*Practice this chapter online:\*\* scan the code or go to (\S+/ch/\d+)", rf"**Practice this chapter online:** go to [\1](https://\1)", emd)
 emd = emd.replace(f"https://{SHORT}", BASE)
+# Ebook wording: the print edition is black and white, the ebook is not
+EBOOK_SWAPS = [
+    ("The book is printed in black and white to keep it affordable. Road signs are learned partly by color, so every color is named in the text, and the online flashcards show every sign in full color.",
+     "Road signs are learned partly by color. Every color is also named in the text, so this ebook works on any e-reader, including black and white screens, and the online flashcards show every sign in full color."),
+    ("The print in this book is black and white, so colors are named in words.",
+     "Each color is also named in words, so you can learn it on any screen."),
+]
+for a, b in EBOOK_SWAPS:
+    if a not in emd:
+        errors.append(f"ebook wording swap not found: {a[:40]}")
+    emd = emd.replace(a, b)
 assert "<div" not in emd and "<img" not in emd, "raw HTML left in ebook source"
 # Figures for EPUB: render each referenced layout/fig/*.svg to a 2x PNG with the book fonts
 used = sorted(set(re.findall(r"\]\(fig/([a-z0-9_]+)\.svg\)", emd)))
